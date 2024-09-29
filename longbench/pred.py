@@ -19,9 +19,9 @@ def set_global_path(path):
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-yarn-32k')
-    parser.add_argument('--dataset_name', type=str, default="passage_retrieval_en")
+    parser.add_argument('--dataset_name', type=str, default="multi_news")
     # \ 'multi_news'   \
-    #     "passage_retrieval_en" "lcc" "repobench-p" "narrativeqa"
+    #     "passage_retrieval_en" 
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
 
