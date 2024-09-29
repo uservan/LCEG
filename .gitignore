@@ -10,4 +10,3 @@
 /continuous_finetuning/models/phi_clex/phi2/__pycache__
 models/llama_selfextend/self_extend_patch/__pycache__/
 longbench/pred
-analysis
