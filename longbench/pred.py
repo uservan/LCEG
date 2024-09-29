@@ -19,7 +19,7 @@ def set_global_path(path):
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-yarn-32k')
-    parser.add_argument('--dataset_name', type=str, default="multi_news")
+    parser.add_argument('--dataset_name', type=str, default="narrativeqa")
     # \ 'multi_news'   \
     #     "passage_retrieval_en" 
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
@@ -27,13 +27,17 @@ def parse_args(args=None):
 
 def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds=[] ,out_path=''):
     data = data['test']
-    if len(preds) == len(data): return
+    # if len(preds) == len(data): return
     i = 0
     for json_obj in tqdm(data):
-        if i < len(preds):
+        # if i < len(preds):
+        #     i = i+1
+        #     continue
+        # else: i = i+1
+        pred = preds[i]
+        if len(pred['answers']) != 0:
             i = i+1
             continue
-        else: i = i+1
         try:
             prompt = prompt_format.format(**json_obj)
             # length = json_obj['length']
@@ -74,12 +78,14 @@ def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset
                     **kwargs,
                 )[0]
             pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
-            preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"]})
+            preds[i] = {"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"]}
+            # preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"]})
         except:
-            preds.append({"answers":'', "length": json_obj["length"]})
-        with open(out_path, "a", encoding="utf-8") as f:
-            json.dump(preds[-1], f, ensure_ascii=False)
-            f.write('\n')
+            preds[i] = {"answers":'', "length": json_obj["length"]}
+            # preds.append({"answers":'', "length": json_obj["length"]})
+        # with open(out_path, "a", encoding="utf-8") as f:
+        #     json.dump(preds[-1], f, ensure_ascii=False)
+        #     f.write('\n')
     return preds
 
 def seed_everything(seed):
@@ -299,3 +305,7 @@ if __name__ == '__main__':
                 l = json.loads(line)
                 preds.append(l)
     preds = get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds, out_path)
+    with open(out_path, "w", encoding="utf-8") as f:
+        for pred in preds:
+            json.dump(pred, f, ensure_ascii=False)
+            f.write('\n')
