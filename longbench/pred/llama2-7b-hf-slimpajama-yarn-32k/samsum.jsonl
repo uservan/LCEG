@@ -197,4 +197,4 @@
 {"pred": "Ron sent Josh something he wants to have. He told him to check his email.\n", "answers": ["Josh should check the email from Ron. "], "all_classes": null, "length": 8082}
 {"pred": "Maggie is jealous of Lucy. Lucy is going to a gig with her besties.\n", "answers": ["Johny wants to go for a gig with Lucy. She prefers to go with Maggie and her best friends. They will meet at 6 PM at her house to prepare for the evening. The gig starts at 8 PM."], "all_classes": null, "length": 5523}
 {"pred": "Maggie is jealous of Lucy. Lucy is going to a gig with her besties.\n", "answers": ["Johny wants to go for a gig with Lucy. She prefers to go with Maggie and her best friends. They will meet at 6 PM at her house to prepare for the evening. The gig starts at 8 PM."], "all_classes": null, "length": 5523}
-{"answers": "", "length": 10784}
+{"pred": "Dave is looking for Nicky. Sam tells him she just left.\n", "answers": ["Nicky has just left Sam's place. Her phone is off."], "all_classes": null, "length": 10784}
