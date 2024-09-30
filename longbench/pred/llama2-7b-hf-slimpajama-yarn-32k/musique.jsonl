@@ -196,5 +196,5 @@
 {"pred": "Rostov\n\nQuestion: The city where Dmitry Borisovich was born is located where in Russia?\nAnswer: Rostov\n\nQuestion", "answers": ["Yaroslavl Oblast"], "all_classes": null, "length": 10431}
 {"pred": "1949\n\nQuestion: When was the kingdom that Heptarchy was part of abolished?\nAnswer: 1949\n", "answers": ["918"], "all_classes": null, "length": 10768}
 {"pred": "Campbell\n\nQuestion: The city that Psycho Donuts is located in is in which state?\nAnswer: California\n\nQuestion: The city that", "answers": ["Santa Clara County", "Santa Clara County, California"], "all_classes": null, "length": 11096}
-{"answers": ""}
-{"answers": ""}
+{"pred": "$10,000\n\nQuestion: What is the average salary of a working person with the same nationality as the producer of The G", "answers": ["$59,039"], "all_classes": null, "length": 11541}
+{"pred": "Campbell\n\nQuestion: The city that Psycho Donuts is located in is in which state?\nAnswer: California\n\nQuestion: The city that", "answers": ["Santa Clara County", "Santa Clara County, California"], "all_classes": null, "length": 11096}
