@@ -1,0 +1,500 @@
+{"answers": "", "length": 6425}
+{"answers": "", "length": 8194}
+{"answers": "", "length": 5302}
+{"answers": "", "length": 8166}
+{"answers": "", "length": 6872}
+{"answers": "", "length": 5298}
+{"pred": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t", "answers": ["\t\t\tprint(\"Scanning vault structure may take some time. Be patient...\");"], "all_classes": null, "length": 924}
+{"answers": "", "length": 5741}
+{"answers": "", "length": 2959}
+{"answers": "", "length": 7126}
+{"pred": "   def __init__(self, uri):\n        super(self.__class__, self).__init__()\n        self.uri = uri\n\n\nclass FlagList(Signature):\nNext line of code:\n    def __init__(self, flags):\n        super(self.__class", "answers": ["    @sdproperty"], "all_classes": null, "length": 1318}
+{"pred": "   if ast_node.has_children() and cstr_node.terminal:\n      return\n\n    if not cstr_node.terminal:\n      if cstr_node.kind == Expr.COMPARATOR and cstr_node.cmp_id in (C", "answers": ["            cstr_node.rhs = Undef(data=None)"], "all_classes": null, "length": 1751}
+{"pred": "               intent.setDataAndType(Uri.parse(url), \"video/x-flv\");\n                activity.startActivity(intent);\n            }\n        }\n    }\n\n    private static boolean useInternPlayer(TDActivity activity) {\n        return activity != null && activity.", "answers": ["                intent.setDataAndType(Uri.parse(url), TDConfig.MIME_FLV);"], "all_classes": null, "length": 3615}
+{"pred": "       LocationData locationData = new LocationData(latitude, longitude);\n        // Post location to ForkMe backend.\n        ForkMeBackendApi backendApi = Retrofit.Builder()\n                .baseUrl(BaseUrls.forkMeBackendApi)\n                .add", "answers": ["        PostLocationDataBody dataBody = new PostLocationDataBody("], "all_classes": null, "length": 2035}
+{"answers": "", "length": 9020}
+{"pred": "   def __init__(self, *args, **kwargs):\n        init_called = True\n\n    class User(BaseModel):\n        id = Column(String, hash_key=True)\n        email = Column(String)\n        name = Column(String)\n        age = Column", "answers": ["    class Blob(BaseModel):"], "all_classes": null, "length": 2045}
+{"answers": "", "length": 6293}
+{"answers": "", "length": 5849}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    private DelegateToActivity<Movie> delegateListener;"], "all_classes": null, "length": 1661}
+{"pred": "               writeResponse(SUCCESS, correlationId);\n\n                log.tracef(\"[%d] CreateMBean - Success Response Sent\", correlationId);\n            } catch (InstanceAlreadyExistsException e) {\n                writeResponse(e, CREATE_MBEAN, correlationId);\n               ", "answers": ["                writeResponse(instance, OBJECT_INSTANCE, CREATE_MBEAN, correlationId);"], "all_classes": null, "length": 953}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        await wild_report.add_reaction(MyEmojis.DESPAWNED)"], "all_classes": null, "length": 2162}
+{"answers": "", "length": 5411}
+{"answers": "", "length": 6517}
+{"answers": "", "length": 6652}
+{"pred": "\n\n\n\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value of that variable in another function.\nI tried this:\nfunction getValue(value) {\n    return value;\n}\n\n", "answers": ["        with self.assertRaises(TooManyExtensions):"], "all_classes": null, "length": 2794}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        return ConeSettings(self._ptr, self.__class__.__name__)"], "all_classes": null, "length": 2866}
+{"answers": "", "length": 5356}
+{"pred": "   cellSize = findCellSize(imgshape, detectCellShapeParameter = detectCellShapeParameter, verbose = verbose, out = out, **parameter);\n    \n    #cell intensity\n    findCellIntensityParameter = getParameter(detectSpotsParameter, \"findCellIntensityParameter", "answers": ["        csize = findCellSize(imgshape, maxLabel = centers.shape[0], out = out, **parameter);"], "all_classes": null, "length": 3561}
+{"answers": "", "length": 4505}
+{"pred": "           transactionIterator.next();\r\n            transactionIterator.next();\r\n            transactionIterator.next();\r\n            transactionIterator.next();\r\n            transactionIterator.next();\r\n            transactionIterator.next();\r\n            transactionIterator.next();\r\n            transactionIterator.next();\r\n            transactionIterator.next();\r\n           ", "answers": ["            while (transactionIterator.nextTransactionState() == TransactionState.OK) {\r"], "all_classes": null, "length": 2594}
+{"answers": "", "length": 4029}
+{"pred": "   encryption_algorithm=EncryptionAlgorithm(\n                    UsageEncryption.OSY,\n                    OperationMode.CBC,\n                    EncryptionAlgorithmCoded.TWOKEY3DES,\n                    AlgorithmParameterName.KYE,\n                    AlgorithmParameterIV", "answers": ["                    UsageEncryption.OSY,"], "all_classes": null, "length": 1428}
+{"answers": "", "length": 5421}
+{"answers": "", "length": 5212}
+{"answers": "", "length": 11715}
+{"pred": "   self._append(FIELD_STRING, storage_type)\n\n\n#\n# DB OPEN\n#\n# Opens a database in the OrientDB Server instance.\n#\n# Request: (database-name:string) <-- before 1.0rc1 this was empty (", "answers": ["        if storage_type in STORAGE_TYPES:"], "all_classes": null, "length": 2885}
+{"pred": "   public <$Argument3> WhenApplyingThreeArguments<$SystemUnderTest, $Argument, $Argument3> andArgument(\n            CheckedSupplier<$Argument3> givenStep) {\n        preparation.recordGivenStep(givenStep);\n        return new WhenApplying", "answers": ["    public ThenWithoutResult<$SystemUnderTest> when(CheckedBiConsumer<$SystemUnderTest, $Argument> whenStep) {"], "all_classes": null, "length": 1226}
+{"answers": "", "length": 7530}
+{"answers": "", "length": 4819}
+{"pred": "\t\tMessage message = XmlUtil.toXml(xml);\n\t\tif (message instanceof ReceivedTextMessage) {\n\t\t\treturn talk(((ReceivedTextMessage) message).FromUserName, ((ReceivedTextMessage) message).Content);\n\t\t} else if (message instanceof ReceivedImage", "answers": ["\t\tMessage msg = XmlUtil.fromXml(Message.class, xml);"], "all_classes": null, "length": 2116}
+{"pred": "   if os.path.exists(os.path.join(file_path, 'dynamic_info_')):\n        return\n    print \"[INFO] Running APK\"\n    # 获取 APK 文件的 MD5 值\n    md5_value = genMD5", "answers": ["    file_md5 = genMD5(file_path)"], "all_classes": null, "length": 1714}
+{"answers": "", "length": 4185}
+{"pred": "       self.assertTrue(date_string_to_date(\"25/11/2015\") == datetime(2015, 11, 25, 0, 0, 0))\n        self.assertTrue(date_string_to_date", "answers": ["        self.assertEqual(date_string_to_date(\"25/11/2015\"), datetime(2015, 11, 25, 0, 0).date())"], "all_classes": null, "length": 1248}
+{"answers": "", "length": 4341}
+{"pred": "                           ShareUtil.sharePicture(mActivity, picUrl);\n                            break;\n                        case 1:\n                            IntentHelper.toFreshDetailActivity(mActivity, mPictures, position);\n                            break;\n                        case 2:\n                            IntentHelper", "answers": ["                            ShareUtil.sharePicture(mActivity, picture"], "all_classes": null, "length": 2796}
+{"answers": "", "length": 4046}
+{"answers": "", "length": 10623}
+{"answers": "", "length": 5424}
+{"answers": "", "length": 5575}
+{"pred": "     'no_members': Counter,\n      'penalty': Counter,\n      'penalty_rate': Rate,\n      'penalty_rate_avg': AverageRate,\n      'penalty_rate_avg_max': AverageRate,\n      '", "answers": ["      'no_members': Counter"], "all_classes": null, "length": 1853}
+{"pred": "   def test_send_message_with_protocol(self):\n        \"\"\"\n        Ensures that the message is translated into a dictionary and passed\n        into the protocol object in the expected way.\n        \"\"\"\n        nc = NetstringConnector(self.event_loop)\n        protocol", "answers": ["        msg = OK('uuid', 'recipient', 'sender', 9999, 'version', 'seal')"], "all_classes": null, "length": 3673}
+{"pred": "       assertEquals(\"query\", qe.getQuery());\n        assertEquals(\"statement\", qe.getClass());\n        assertEquals(1, qe.getParamIndexes().size());\n        assertEquals(1, qe.getParamNames().size());\n        assertEquals(1", "answers": ["        assertTrue(\"is batch statement\", qe instanceof StatementBatchExecution);"], "all_classes": null, "length": 1159}
+{"pred": "       Assert.assertThat(ds, executions(0, failure()));\n        Assert.assertThat(ds, executions(0, is(failure())));\n    }\n\n    @Test\n    public void testBatchSuccess() {\n        StatementBatchExecution se = new StatementBatch", "answers": ["        Assert.assertThat(ds, executions(0, failure()));"], "all_classes": null, "length": 1584}
+{"answers": "", "length": 5972}
+{"answers": "", "length": 5354}
+{"answers": "", "length": 7885}
+{"answers": "", "length": 4792}
+{"pred": "   parameter = DataElementGroupField(type=ParameterTwostepTAN6)\n\n\nclass HITANS7(HITANSBase):\n    parameter = DataElementGroupField(type=ParameterTwostepTAN7)\n\n\nclass HITANS8(H", "answers": ["    parameter = DataElementGroupField(type=ParameterTwostepTAN6)"], "all_classes": null, "length": 1364}
+{"answers": "", "length": 7066}
+{"answers": "", "length": 11122}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        self.MyBingoCardManager = BingoCardManager(bot.dbi)"], "all_classes": null, "length": 2756}
+{"answers": "", "length": 3779}
+{"answers": "", "length": 9739}
+{"pred": "                   deviceGcmToken = MiPushClient.getInstance().getToken();\n                    stopGCM();\n                    Log.e(MYTAG, \"使用MiPush推送\");\n                }\n                break;\n            default:\n                deviceGcmToken = null;", "answers": ["                    MiPushClient.registerPush(this, mi_APP_ID, mi_APP_KEY);"], "all_classes": null, "length": 810}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        registry.put((byte) (QUERY_NAMES ^ RESPONSE_MASK), new MarshalledResponseHandler<Set<ObjectName>>(SET_OBJECT_NAME));"], "all_classes": null, "length": 874}
+{"answers": "", "length": 6412}
+{"pred": "\n    /**\n     * It adds a new metric chart panel to the tabbed pane set.\n     *\n     * @param metric The metric that will be shown in the chart.\n     * @param datasetGenerator The generator that will produce the datasetGenerator\n     * for this chart.\n    ", "answers": ["    synchronized public void gcTraceAdded(GCTrace gcTrace) {"], "all_classes": null, "length": 3894}
+{"pred": "       if (packet.getType() == PacketType.ACK) {\n            AckRequest ackRequest = new AckRequest(packet, client);\n            ackManager.onAck(client, ackRequest);\n        } else if (packet.getType()", "answers": ["        final AckRequest ackRequest = new AckRequest(packet, client);"], "all_classes": null, "length": 3313}
+{"answers": "", "length": 4567}
+{"pred": "       contentValues.put(JobStorage.COLUMN_BACKOFF_MS, -1L);\n\n        contentValues.put(JobStorage.COLUMN_REQUIREMENTS_ENFORCED, false);\n        contentValues.put(JobStorage.COLUMN_RE", "answers": ["            contentValues.put(JobStorage.COLUMN_BACKOFF_MS, JobRequest.DEFAULT_BACKOFF_MS);"], "all_classes": null, "length": 1101}
+{"answers": "", "length": 10487}
+{"pred": "   return obj\n\n\ndef init_snapshot_manager(basedir=None):\n    # create a snapshot manager instance\n    if not basedir:\n        basedir = fileutils.obj_to_dir_name(obj)\n\n    # convert some string to a valid directory name", "answers": ["    journal = DiskJournal(basedir, system_data_path)"], "all_classes": null, "length": 1503}
+{"pred": "   docker_config.add_environment_variables({\n        'CLICK_EXEC': '{}'.format(docker_config.execute),\n        'CLICK_EXEC_PARAMS': '{}'.format(docker_config.exec_args),\n    })\n\n", "answers": ["            WebappSupport(self.config.install_files.find_package_name()).update(docker_config)"], "all_classes": null, "length": 1474}
+{"answers": "", "length": 6174}
+{"pred": "       super.onStart();\n        Log.d(\"SearchContactFragment\", \"onStart\");\n        //bgTasksRunning.incrementAndGet();\n        //Log.d(\"SearchContactFragment\", \"bgTasksRunning: \" + bgTasksRunning.get());\n    }\n\n    @Override\n", "answers": ["        FragmentObservable<SearchContactFragment, DataClass> obs"], "all_classes": null, "length": 2473}
+{"answers": "", "length": 12855}
+{"pred": "   self.assertTrue(simulator_data_matcher.SimulatorDataMatcher(simulator_data))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        simulator_data_client = SimulatorDataClient()"], "all_classes": null, "length": 2438}
+{"answers": "", "length": 7725}
+{"pred": "   assert simple_table_status(description) == expected_status\n\n\n@pytest.mark.parametrize(\"table_status, gsi_status, expected_status\", [\n    (\"ACTIVE\", \"ACTIVE\", ready),\n    (\"ACTIVE\", None, ready),", "answers": ["    assert simple_table_status(description) == expected_status"], "all_classes": null, "length": 2942}
+{"pred": "   def load(self, filething, known_frames=None, translate=True, v2_version=4,\n             load_v1=True):\n        \"\"\"Load tags from a filename.\n\n        Args:\n            filename (filething): filename or file object to load tag", "answers": ["    @loadfile(writable=True)"], "all_classes": null, "length": 1671}
+{"answers": "", "length": 6338}
+{"answers": "", "length": 5909}
+{"pred": "   def _decode_field(self, field):\n        \"\"\"\n        Decode a field from the header\n        :param field: field to decode\n        :return: decoded field\n        \"\"\"\n        if field[0] == 1:\n            # Parse the error\n            exception_", "answers": ["            more = self._decode_field( FIELD_BOOLEAN )"], "all_classes": null, "length": 1697}
+{"pred": "   api = DERBMDATA(args.apikey)\n\n    params = {\n        'FromSettlementDate': args.fromdate or date.today() - timedelta(days=1),\n        'ToSettlementDate': args.todate or args.from", "answers": ["    bd = BalancingData(args.apikey)"], "all_classes": null, "length": 1327}
+{"answers": "", "length": 6615}
+{"pred": "   assert dump_key(engine, user) == user_key\n\n\ndef test_index_for():\n    \"\"\"Index by each object's value for an attribute\"\"\"\n    class Person:\n        def __init__(self, name):\n            self.name = name\n\n   ", "answers": ["    assert dump_key(engine, user) == user_key"], "all_classes": null, "length": 3387}
+{"pred": "       new Percentage(),\n        new StaticString(\"\"),\n        new Spinner(Spinner.SPINNER_SLASHES),\n        new StaticString(\"\"),\n        new Status(),\n        new StringWrapper(\"[\", new ProgressBar(50, BAR_EQU", "answers": ["          StringWrapper.wrap(\"[\", new ProgressBar(10, new char[]{'C', '<', 'o'}), \"]\")),"], "all_classes": null, "length": 3034}
+{"answers": "", "length": 7830}
+{"pred": "   return IPAddress(data, self)\n\n\nA: I'm not sure if this is the right way to do it, but I've been able to get it to work by using the following:\nclass IPAddress(object):\n    def __init__(self, data, manager):", "answers": ["            events.append(Event(e))"], "all_classes": null, "length": 2406}
+{"pred": "   Matcher<? super ParameterHolder> parameterHolderMatcher) {\n        return BatchParameterHolderAssertions.batch(index, parameterHolderMatcher);\n    }\n\n    /**\n     * Matcher to check the given index in batch matches with given parameter matcher.\n     *\n    ", "answers": ["            Matcher<? super ParameterHolder> parameterHolderMatcher) {"], "all_classes": null, "length": 1222}
+{"answers": "", "length": 7636}
+{"answers": "", "length": 4297}
+{"answers": "", "length": 5218}
+{"pred": "       self.beginning_datetime = filenameToDatetime(self.vid_file.name())\n\n        # If the beginning time is not found, try to read it from the first frame\n        if self.beginning_datetime is None:\n            self.beginning_datetime = self.", "answers": ["        self.beginning_datetime = unixTime2Date(self.vidinfo.ts, self.vidinfo.tu, dt_obj=True)"], "all_classes": null, "length": 2177}
+{"answers": "", "length": 4405}
+{"pred": "\t\tFoodHistory.get(player).sync();\n\t\tFoodGroupRegistry.sync(player);\n\t\tPacketDispatcher.get().sendTo(new PacketConfigSync(), player);\n\t}\n\n\tpublic static void setInStone()\n\t{\n\t\t", "answers": ["\t\tPacketDispatcher.get().sendTo(new PacketConfigSync(), player);"], "all_classes": null, "length": 2242}
+{"pred": "class CommentView(generic.DetailView):\n\n    template_name = 'ploghubapp/comment.html'\n    form_class = CommentEditForm\n\n    def get(self, request, pk, username, slug):\n        comment = get_object_or_", "answers": ["        nodes = Comment.objects.filter(post=post).filter(deleted=False)"], "all_classes": null, "length": 1352}
+{"answers": "", "length": 6895}
+{"pred": "   def __bytearray__(self):\n        return super(RevocationKey, self).__bytearray__()\n\n    def parse(self, packet):\n        super(RevocationKey, self).parse(packet)\n        self.keyclass = packet[:(self.header", "answers": ["    @keyclass.register(RevocationKeyClass)"], "all_classes": null, "length": 1803}
+{"pred": "       if item is None:\n            yield context.root\n        elif is_processing_instruction_node(item):\n            yield item\n\n\n@method(function('processing-instruction', nargs=(0, 1), bp=79, label='kind test'))\ndef", "answers": ["        if is_processing_instruction_node(item):"], "all_classes": null, "length": 3927}
+{"pred": "def getAS2PuffleString(client, puffles):\r\n    puffles_as2_str = list()\r\n    for puffle in puffles:\r\n        p_id, p_type, p_sub_type, p_name, p_adopt", "answers": ["@PacketEventHandler.onXT_AS2('s', 'p#pg', WORLD_SERVER)\r"], "all_classes": null, "length": 1190}
+{"pred": "   I.set_image(im)\n\n\ndef make_image_1():\n    P = objs.PlatonicSpheresCollection(pos, rad)\n    H = psfs.AnisotropicGaussian()\n    I = ilms.BarnesSt", "answers": ["    B = GlobalScalar('bkg', 0.0)"], "all_classes": null, "length": 1870}
+{"pred": "           for job in jobs:\n                job.run()\n        else:\n            for job in jobs:\n                job.run()\n\n        compile_info_end = time.time()\n        self.logger.debug(f\"Compiling information took {compile_info_end - compile", "answers": ["            alignment_info = run_mp("], "all_classes": null, "length": 3045}
+{"answers": "", "length": 7224}
+{"pred": "       contentValues.put(JobStorage.COLUMN_END_MS, 60_000L);\n        contentValues.put(JobStorage.COLUMN_FLEX_MS, 60_000L);\n        contentValues.put(JobStorage.COL", "answers": ["        contentValues.put(JobStorage.COLUMN_END_MS, 120_000L);"], "all_classes": null, "length": 1089}
+{"pred": "       super.onStart();\n    }\n\n    @Override\n    public void onStop() {\n        super.onStop();\n    }\n\n    @Override\n    public void onDestroy() {\n        super.onDestroy();\n    }\n\n    @Override\n   ", "answers": ["        Log.d(this.getClass().getSimpleName(), \"onStart\");"], "all_classes": null, "length": 3957}
+{"pred": "   def save(self, *args, **kwargs):\n        if not self.slug:\n            self.slug = self.get_slug()\n        if self.target:\n            self.extras['target_code'] = self.target.code\n            self.extras['target", "answers": ["        model = Progress"], "all_classes": null, "length": 2383}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["            subcategoryFilter.setVisibility(presenter.getProduceData().getCategory().equals(Constants.VEGETABLE) ? VISIBLE : GONE);"], "all_classes": null, "length": 2147}
+{"pred": "\n            @Override\n            protected void onSuccess(final Channel channel) {\n                LOGGER.debug(\"Reconnected transport...\");\n\n                reconnecting.setSuccess(null);\n            }\n        }).then(new OnComplete<Void>() {\n            @Override\n            protected void", "answers": ["        }).then(new ExecuteOn<Channel>(context.getExecutor())).then(new Accept<Channel>() {"], "all_classes": null, "length": 2841}
+{"pred": "               new RegistrationParam(success, email, password, message));\n    }\n}\nyasme/src/main/java/de/fau/cs/mad/yasme/android/asyncTasks/server/GetInfoTask.java\npublic class GetInfoTask extends AsyncTask", "answers": ["                new RegisterFragment.RegistrationParam(success, email, password, message));"], "all_classes": null, "length": 3197}
+{"pred": "   private final RoadMap map;\n    private final Router<Road, RoadPoint> router;\n    private final Cost<Road> cost;\n    private final TimePriority timePriority;\n    private final KState<MatcherCandidate, MatcherTransition, Matcher", "answers": ["    private final Router<Road, RoadPoint> router;"], "all_classes": null, "length": 4427}
+{"pred": "   private List<FilterType> filterTypes;\n    private List<String> filterUrls;\n    private List<String> filterUrls2;\n    private List<String> filterUrls3;\n    private List<String> filterUrls4;\n    private List<String>", "answers": ["    private List<FilterType> list;"], "all_classes": null, "length": 1155}
+{"answers": "", "length": 6443}
+{"pred": "   self.svg.n_tris += len(tris) / 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        graphics.draw_colored_triangles("], "all_classes": null, "length": 2917}
+{"answers": "", "length": 5932}
+{"answers": "", "length": 6107}
+{"pred": "       self.beg_alt = self.beg_vect[1]\n        self.end_alt = self.end_vect[1]\n\n        # Compute the duration of the shower\n        self.duration = self.end_alt - self.beg_alt\n\n", "answers": ["        self.beg_azim, self.beg_alt = raDec2AltAz(self.ra_array[0], self.dec_array[0], self.jd_array[0], \\"], "all_classes": null, "length": 2354}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["\t\tFunctionSymbol s = (FunctionSymbol)currentScope.resolve(fhead.ID().getText());"], "all_classes": null, "length": 1508}
+{"pred": "\n    /**\n     * Called when the visitor first reaches a node with children.\n     * @return Determines whether the node's children will be visited.\n     */\n    boolean enter(Node node);\n\n    /**\n     * Called when the visitor reaches a leaf node.", "answers": ["    boolean enter(ArgumentsNode node);"], "all_classes": null, "length": 2820}
+{"pred": "\n    public static void main(String[] args) {\n        // TODO Auto-generated method stub\n        System.out.println(\"Hello World!\");\n    }\n\n    @Override\n    public Set<String> getSupportedAnnotationTypes() {\n        Set<String> supportedAnnotationTypes =", "answers": ["    private CodeGeneratorFactory codeGeneratorFactory;"], "all_classes": null, "length": 946}
+{"answers": "", "length": 4727}
+{"pred": "                   if (getZxidFromName(snapshots.get(i).getName()).longValue() >= zxidLong) {\r\n                        snapFile = snapshots.get(i);\r\n                        break;\r\n                    } else {\r\n                        i--;\r\n", "answers": ["                    long snapZxid = getZxidFromName(snapshots.get(i).getName());\r"], "all_classes": null, "length": 3597}
+{"pred": "   self.panes[self.current_pane_index].view.refresh_panes()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["            entries = [e for e in entries if txn_matches(e.transaction, query)]"], "all_classes": null, "length": 2342}
+{"answers": "", "length": 8539}
+{"answers": "", "length": 6890}
+{"answers": "", "length": 4378}
+{"pred": "       result, index = apply_fast_and(left.values, right.values,\n                                      left.index, right.index)\n        return Column(result, index)\n\n    else:\n        return Column(operator.and(left.values, right), left.index)", "answers": ["        result, index = apply_fast_and(left.values, right.values,"], "all_classes": null, "length": 1868}
+{"answers": "", "length": 7302}
+{"pred": "   return isinstance(instance, (int, float, Decimal, AbstractDateTime, Duration))\n\n    def __subclasscheck__(cls, subclass: type) -> bool:\n        if issubclass(subclass, bool):\n            return False\n        return issubclass(subclass", "answers": ["            instance, (int, float, Decimal, AbstractDateTime, Duration, UntypedAtomic)"], "all_classes": null, "length": 3159}
+{"pred": "   return SearchMenuPage(self._createSearchHistory(context))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["            return SearchMenuPage()"], "all_classes": null, "length": 1886}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["                exist = checkFileExistence(pattern.get(\"Datafile\"))"], "all_classes": null, "length": 4337}
+{"answers": "", "length": 2928}
+{"answers": "", "length": 5578}
+{"pred": "\t\tGenerationService generationService = new GenerationService(preprocessors, ddi2fo, postprocessors);\n\t\tFile generatedForm = generationService.generateQuestionnaire(new File(basePathDDI2FO + \"/dummy.dif\"), \"dummy\");\n\t\tFile", "answers": ["\t\tGenerationService genServiceDDI2PDF = new GenerationService(preprocessors, ddi2fo, postprocessors);"], "all_classes": null, "length": 2790}
+{"answers": "", "length": 4167}
+{"answers": "", "length": 5288}
+{"pred": "   assert isinstance(encoder, TwoBandsBitEncoder)\n\n\ndef test_GPSL1L2BitEncoder_addSamples0():\n  '''\n  Test GPS L1/L2 single bit dual band encoder samples adding and conversion\n  '''\n ", "answers": ["  encoder = GPSL1L2BitEncoder(NormalRateConfig)"], "all_classes": null, "length": 2343}
+{"pred": "   return tgAsDict[\"tierList\"][0][\"entryList\"]\n\n\ndef test_textgrid_save_load(tmpdir):\n    \"\"\"\n    Test that a textgrid can be saved and loaded\n    \"\"\"\n    fn = join(tmpdir.mkdir(\"", "answers": ["    savedTg = textgrid._dictionaryToTg(tgAsDict, constants.ErrorReportingMode.ERROR)"], "all_classes": null, "length": 1462}
+{"answers": "", "length": 7044}
+{"answers": "", "length": 4283}
+{"answers": "", "length": 7571}
+{"pred": "   return self._create_split(components, traces_f, thresholds, keep_bounds, s_start,\n                             groups, samples, waveforms, masks)\n\n    def _create_split(self, components, traces_f, thresholds, keep_bounds,", "answers": ["            yield Bunch(bounds=bounds,"], "all_classes": null, "length": 2181}
+{"answers": "", "length": 4505}
+{"answers": "", "length": 4484}
+{"pred": "       registry.put((byte) (ADD_NOTIFICATION_LISTENER ^ RESPONSE_MASK), new MarshalledResponseHandler<Void>(VOID));\n        registry.put((byte) (QUERY_EXP ^ RESPONSE_MASK), new", "answers": ["        registry.put((byte) (CREATE_MBEAN ^ RESPONSE_MASK), new MarshalledResponseHandler<ObjectInstance>(OBJECT_INSTANCE));"], "all_classes": null, "length": 1054}
+{"pred": "                       FileSaver fileSaver = new FileSaver(content, lang, \"twitter\", url, \"twitter\");\n                        fileSaver.save(logDb);\n                        map.put(tweet.getText(), true);\n                    }\n                } catch (Exception e)", "answers": ["                        Result res = lp.detectLanguage(content, this.lang);"], "all_classes": null, "length": 3960}
+{"pred": "   return '\\n'.join(lines)\n\n\nclass HierarchicalTextRenderer(Renderer):\n    \"\"\"\n    This renderer converts the given object by recursively traversing all its\n    sub-structures.\n    \"\"\"\n\n    def _render_bufr_message(self,", "answers": ["        elif isinstance(descriptor, OperatorDescriptor):"], "all_classes": null, "length": 2830}
+{"pred": "   group.add_argument(\n        \"--delay-distro\",\n        dest=\"latency_distro_time\",\n        help=\"network delay distribution.\n        valid values are: {}.\n        e.g. tcset eth0 --delay-distro normal\n       ", "answers": ["        default=Tc.ValueRange.LatencyTime.MIN,"], "all_classes": null, "length": 2806}
+{"pred": "   self.contacts = Contact.objects.filter(phone_number=self.phone_number)\n\n\n    def get_contact(self, contact_id):\n        return Contact.objects.get(id=contact_id)\n\n    def get_contacts_by_group", "answers": ["        self.contacts = Contact.objects.filter(phone_number=self.phone_number)"], "all_classes": null, "length": 1001}
+{"pred": "   PCollection<KV<GCPResource, KV<StateSource, GCPResourceState>>> liveStates =\n        pipeline.apply(\"Read live data\", Read.from(new LiveProjectSource(org)));\n\n    // Convert live projects to GCPResourceState objects.\n   ", "answers": ["        pipeline.apply(\"Read live projects\", Read.from(new LiveProjectSource(org)));"], "all_classes": null, "length": 4274}
+{"pred": "       self.rule = ContentSimhashSampling()\n        self.rule.set_engine(self.engine)\n        self.rule.set_kb(self.kb)\n        self.rule.set_child_heuristics(self.child_heuristics)\n        self", "answers": ["        self.pg = SimilarPathGenerator()"], "all_classes": null, "length": 1909}
+{"answers": "", "length": 4340}
+{"pred": "       conditions.append(Condition(operation, column, value))\n    elif \"or\" in operations:\n        conditions.append(Condition(operation, column, value))\n    elif \"not\" in operations:\n        conditions.append(Condition(operation, column, value))\n    elif \"between", "answers": ["        left = ComparisonCondition(\"==\", column, value)"], "all_classes": null, "length": 2410}
+{"pred": "   assert get_square_idx(0, 0) == 0\n\n\nclass TestDutchNationalFlag(object):\n    \"\"\"\n    Question 6.1\n    \"\"\"\n\n    def test_book_solution(self):\n        dutch_national_flag =", "answers": ["        assert 0 == get_square_idx(1, 1)"], "all_classes": null, "length": 1895}
+{"answers": "", "length": 13158}
+{"pred": "   self.next_sink.SetVarz(self.varz)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["      Source(service=global_properties[SinkProperties.Label]))"], "all_classes": null, "length": 1650}
+{"answers": "", "length": 3820}
+{"answers": "", "length": 6061}
+{"answers": "", "length": 4505}
+{"pred": "       registerCallAction(new ToggleRingerAction(this), ToggleRingerAction.TOGGLE_RINGER_ACTION_ID);\n        registerCallAction(new ToggleMicrophoneAction(this), ToggleMicrophoneAction.TOGGLE_MICROPHONE", "answers": ["        registerCallAction(new ToggleRingerAction(this), ToggleRingerAction.TOGGLE_RINGER_ACTION_ID);"], "all_classes": null, "length": 1543}
+{"pred": "   if gopts.event_log:\n      git_trace2_event_log.Write(gopts.event_log)\n\n    # If we're running in a pager, we need to run the command in a subprocess.\n    if gopts.pager:\n", "answers": ["    outer_client = RepoClient(self.repodir)"], "all_classes": null, "length": 2030}
+{"answers": "", "length": 10673}
+{"pred": "       Assert.assertThat(ds, totalQueryCount(4));\n\n        verify(ds).getQueryExecutions();\n    }\n\n    @Test\n    public void testBatchCount() {\n        List<QueryExecution> queryExecutions = new ArrayList<>();\n        queryExecutions.add", "answers": ["        Assert.assertThat(ds, totalQueryCount(5));"], "all_classes": null, "length": 1701}
+{"answers": "", "length": 4425}
+{"answers": "", "length": 7065}
+{"answers": "", "length": 4173}
+{"pred": "   DrupalUser getUser()\n\n\n    /**\n     * Returns a list of users (via user.get)\n     *\n     * @return a list of DrupalUser objects\n     * @throws DrupalFetchException if there's an error during the request.\n     */", "answers": ["    DrupalUser login(String username, String password) throws DrupalLoginException, DrupalFetchException;"], "all_classes": null, "length": 2018}
+{"pred": "       self.history.next(text)\n\n\nA: I'm not sure what you're trying to do, but I think you're trying to use the history to get the next message.\nIf so, you can do this:\ndef next(self):\n    self.history", "answers": ["        lexmsg = lexMessage(text)"], "all_classes": null, "length": 2662}
+{"answers": "", "length": 5045}
+{"answers": "", "length": 4265}
+{"answers": "", "length": 11285}
+{"pred": "   return Pair(ty1, ty2)\n\n\n@with_info(st_term)\ndef fst(expr):\n    \"\"\"Turn a simply typed argument into a Fst.\n    \n    Arguments:\n    - `expr`: an expression or int or float\n   ", "answers": ["    return Pair(e1, e2, typ_mul(ty1, ty2))"], "all_classes": null, "length": 1720}
+{"answers": "", "length": 6897}
+{"answers": "", "length": 4279}
+{"pred": "   response = Response('', content_type='text/plain')\n    response.body = 'foo'\n    response.status_code = 200\n    response.headers['Content-Type'] = 'application/json'\n    response.headers['Content-Length'] = '1", "answers": ["    with pytest.raises(ResponseValidationError) as excinfo:"], "all_classes": null, "length": 1725}
+{"answers": "", "length": 3498}
+{"pred": "   except TextGridParseError as e:\n        self.return_dict[\"parse_error_files\"].append(e)\n\n\nclass Job(object):\n    \"\"\"\n    Multiprocessing job for loading corpus\n\n    Parameters\n    ----------\n    name:", "answers": ["            except TextGridParseError as e:"], "all_classes": null, "length": 3765}
+{"pred": "   api.add_resource(PitotTubeResource, \"/aircraft/sensors/pitot_tube\",\n                     resource_class_args=(sensors.pitot_tube,))\n\n\ndef _add_engine_resources(api, engine):\n    api.", "answers": ["        AccelerometerResource,"], "all_classes": null, "length": 2660}
+{"pred": "def convert_jsbsim_velocity(velocity):\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        self.assertAlmostEqual(gps.airspeed, convert_jsbsim_velocity(fdmexec.GetAuxiliary().GetVtrueFPS()))"], "all_classes": null, "length": 1236}
+{"pred": "   CMD_OPTION_HELP_HELP_LINE,\n    '--summary Show only a summary (count) of the objects.',\n    '--no, --names-only Retrieve only the object paths (names).',\n    '--iq, --include", "answers": ["    CMD_OPTION_SUMMARY_HELP_LINE,"], "all_classes": null, "length": 2584}
+{"answers": "", "length": 11113}
+{"pred": "                           logError(t.getMessage());\n                        } else if(exceptionClass.equals(InvalidOperationException.class)){\n                            logError(t.getMessage());\n                        } else if(exceptionClass.equals(SdkClientException.class)){\n                            logError(t.getMessage", "answers": ["                            MessageHelper.showError(project, t.getMessage());"], "all_classes": null, "length": 1171}
+{"answers": "", "length": 2615}
+{"answers": "", "length": 4714}
+{"pred": "def get_static_info(file_path, file_md5):\n\n    unzip_dir = os.path.join(UPLOAD_DIR, file_md5)\n    unzip_result = Unzip(file_path, unzip_dir)\n    print 'len", "answers": ["        refresh_avd(adb, SETTINGS.AVD_PATH, SETTINGS.AVD_REFERENCE_NAME,"], "all_classes": null, "length": 1590}
+{"answers": "", "length": 8631}
+{"answers": "", "length": 4409}
+{"pred": "     result.append(\" = \");\n    } else {\n      result.append(\" \").append(exp.getOperator().getValue());\n      acceptOrVisitValue(exp.getRhsValue(), baseVariableName);\n    }\n    result.append(CLOSE_BRACKET", "answers": ["        throw new QueryGrammarException(\"Cannot use NULL value with operator \""], "all_classes": null, "length": 3055}
+{"pred": "     cacheService.storeCacheList(new CacheList(listName));\n      }\n    }\n  }\n\n  @FXML\n  public void deleteList(ActionEvent actionEvent) {\n    final Optional<String> listNameOption = Dialogs.\n        create().\n        title", "answers": ["        CacheList list = new CacheList();"], "all_classes": null, "length": 2003}
+{"answers": "", "length": 8734}
+{"pred": "                       TimeEntryOvertimeAggregation.class));\n\n        timeEntriesTable.getColumn(\"status\").setAggregation(\n                ScreensHelper.createAggregationInfo(\n                        projectsService.getEntityMetaPropertyPath(TimeEntry.class, \"status\"),\n", "answers": ["                        new TimeEntryOvertimeAggregation()));"], "all_classes": null, "length": 2419}
+{"answers": "", "length": 5246}
+{"answers": "", "length": 6792}
+{"pred": "aaf2/utils.py\ndef read_u16le(f):\n    (result, ) = unpack(b\"<H\", f.read(2))\n    return result\naaf2/utils.py\ndef read_u32le(f):\n   ", "answers": ["        self.key_size = read_u8(f)"], "all_classes": null, "length": 1591}
+{"pred": "           user = create_inactive_user(email, full_name)\n\n            # Send email to invite user\n            send_connect_email(\n                subject=_('Invitation to join %s') % site.name,\n                template='connect/accounts/emails/", "answers": ["            new_user = create_inactive_user(email, full_name)"], "all_classes": null, "length": 1644}
+{"answers": "", "length": 3326}
+{"pred": "           ex = Hitbtc('bccbtc')\n        elif name == \"%s_ETC_BTC\" % constant.EX_HITBITC:\n            ex = Hitbtc('etcbtc')\n        elif name == \"%s_ETC_USD\" % constant", "answers": ["            ex = Hitbtc('bccbtc')"], "all_classes": null, "length": 2020}
+{"answers": "", "length": 5565}
+{"answers": "", "length": 6301}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["\t\t\ttextExpander = new IndexBasedTextExpander(expanderIndexReader);"], "all_classes": null, "length": 3001}
+{"pred": "                   MiPushClient.getInstance().init(this);\n                }\n                //stopGCM();\n                //Log.e(MYTAG, \"使用MiPush推送\");\n                break;\n            default:\n                break;\n        }\n\n        currentUserListView", "answers": ["                    MiPushClient.registerPush(this, mi_APP_ID, mi_APP_KEY);"], "all_classes": null, "length": 875}
+{"pred": "   public static void main(String[] args) {\n        // TODO Auto-generated method stub\n\n    }\n\n    private final KadConfiguration config;\n\n    private int connectAttempts = 0;\n\n    public ConnectOperation(KadServer server, KademliaNode", "answers": ["    private final KadConfiguration config;"], "all_classes": null, "length": 3540}
+{"answers": "", "length": 4956}
+{"pred": "from web.routes.api_search import search_api\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        return words_api(wordnik_api, token)"], "all_classes": null, "length": 1410}
+{"pred": "\t@Inject\n\tprivate Connector connector;\n\t@Inject\n\tprivate ConnectorIssues connectorIssues;\n\t@Inject\n\tprivate ConnectorProjects connectorProjects;\n\t@Inject\n\tprivate ConnectorComments connectorComments;\n", "answers": ["\tprivate Connector connector;"], "all_classes": null, "length": 3500}
+{"pred": "       self.assertIsInstance(handle, HANDLE)\n\n    def test_create_event_invalid_handle(self):\n        handle = CreateEvent(bManualReset=False, bInitialState=False)\n        self.assertIsInstance(handle, HANDLE)\n", "answers": ["        CloseHandle(handle)  # will raise exception if the handle is invalid"], "all_classes": null, "length": 2225}
+{"pred": "\n    public static void main(String[] args) {\n        SpringDirectorClient client = new SpringDirectorClient(URI.create(\"http://localhost:8080\"), new RestTemplate());\n        client.info();\n    }\n\n}\n\n\n\n\n\n\n\n\n", "answers": ["        this.deployments = new SpringDeployments(restTemplate, root, tasks);"], "all_classes": null, "length": 1287}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["                    PathParser pathParser = parserHolder.getPathParser();"], "all_classes": null, "length": 1100}
+{"pred": "   protected PageParser pageParser;\n\n    protected CrawlerRequest currentRequest;\n\n    protected List<CrawlerRequest> requests = new ArrayList<>();\n\n    protected List<CrawlerRequest> duplicateRequests = new ArrayList<>();\n\n    protected List<CrawlerRequest> follow", "answers": ["    protected PageParser pageParser;"], "all_classes": null, "length": 1611}
+{"answers": "", "length": 3892}
+{"answers": "", "length": 6380}
+{"pred": "               return new BtnQuickNotice();\n            case ConstantStr.FUNC_SCREEN_OFF_CODE:\n                return new BtnScreenOff();\n            case ConstantStr.FUNC_CLEAR_NOTIFICATION_CODE:\n                return new BtnClear", "answers": ["                return new BtnQuickNotice();"], "all_classes": null, "length": 2550}
+{"pred": "       form.setLayout(new GridLayout(1, false));\n        form.setHeaderVisible(true);\n        form.setBodyBorderVisible(false);\n        form.setFooterVisible(true);\n        form.setHeaderVisible(true);\n        form.setFooterVisible", "answers": ["        form.setText(Messages.configurationEditorWebModulesPageTitle);\r"], "all_classes": null, "length": 2214}
+{"pred": "\n    def test_type_get_sample__return_default_sample(self):\nNext line of code:\n\n    def test_type_get_sample__return_default_sample(self):\nNext line of code:\n\n    def test_type_get_sample__return", "answers": ["        type = Type()"], "all_classes": null, "length": 1190}
+{"answers": "", "length": 7099}
+{"pred": "       self._cluster_type = _cluster_type\n        return self\n\n    def set_cluster_location(self, _cluster_location):\n        self._cluster_location = _cluster_location\n        return self\n\n    def set_datasegment_name(self, _datas", "answers": ["        if _cluster_type in CLUSTER_TYPES:"], "all_classes": null, "length": 1837}
+{"pred": "   query = {\n        'api_key': settings.FLICKR_KEY[0],\n        'perms': 'write',\n        'frob': frob,\n    }\n    sign_flickr_query(query)\n    url = urlunparse(('", "answers": ["    result = call_flickr('flickr.auth.getToken', sign=True, frob=frob)"], "all_classes": null, "length": 1760}
+{"answers": "", "length": 5157}
+{"answers": "", "length": 5417}
+{"answers": "", "length": 4570}
+{"pred": "all_platform_slugs.extend(WEBLATE_SLUGS)\nall_platform_slugs.extend(MEMSOURCE_SLUGS)\n\nclass LanguageSetAdmin(admin.ModelAdmin):\n    list_display = ('lang_set_name', 'lang_", "answers": ["all_platform_slugs.extend(WEBLATE_SLUGS)"], "all_classes": null, "length": 1258}
+{"answers": "", "length": 6816}
+{"pred": "   def parse(self, ping_result: PingResult) -> PingStats:\n        return self.__parser.parse(ping_result.stdout)\n\nNext line of code:\n    def parse(self, ping_result: PingResult) -> PingStats:\n        return", "answers": ["    def parse(self, ping_message: Union[str, PingResult]) -> PingStats:"], "all_classes": null, "length": 1973}
+{"answers": "", "length": 7404}
+{"answers": "", "length": 13204}
+{"pred": "   account = account_for_facebook_user(fb_user, person=person)\n\n\ndef signin_vimeo(request):\n    redirect_uri = request.build_absolute_uri(reverse('complete-vimeo'))\n\n    query = {\n        'client", "answers": ["    account = account_for_facebook_user(fb_user, person=person)"], "all_classes": null, "length": 1752}
+{"pred": "\n    }\n\n    private void queryHolder() {\n        // tag::query[]\n        ProxyTestDataSource ds = new ProxyTestDataSource(actualDataSource);\n\n        // ... perform application logic with database ...\n\n        QueryHolder qh = ds.getFirstStatement();\n\n       ", "answers": ["        assertThat(qe, statementOrBatchStatement());"], "all_classes": null, "length": 2091}
+{"pred": "\n    } else if (Utils.getXmlNodeValue(doc, TAG_INPROGRESS) != null) {\n      log(\"server response is: inprogress \" + getFileNames(), null);\n      successful = false;\n      uploadFinished();\n      return;\n    }", "answers": ["    } else if (Utils.getXmlNodeValue(doc, TAG_PERCENT) != null) {"], "all_classes": null, "length": 1196}
+{"pred": "   logger.info(\"Merging assembly points from different sources into a set of unique ones.\")\n\n    logger.info(\"Merging assembly points from different sources into a set of unique ones.\")\n\n    logger.info(\"Merging assembly points from different sources into a set of unique ones.\")\n\n   ", "answers": ["    merged_assembly_points = merge_assembly_points(assembly_points_by_source=assembly_points_by_sources)"], "all_classes": null, "length": 1749}
+{"pred": "\n    api.add_resource(\n        GyroscopeResource,\n        \"/aircraft/sensors/gyroscope\",\n        resource_class_args=(sensors.gyroscope,)\n    )\n\n\ndef _add_control_resources(api, controls):\n   ", "answers": ["        GyroscopeResource,"], "all_classes": null, "length": 2638}
+{"pred": "\n\n    @staticmethod\n    async def send_channel_config_embed(ctx, config):\n\n        embed = Embeds.make_embed(header=\"Channel Configuration\", header_icon=Icons.CONFIGURATION,\n                        fields={ key.capitalize():value for", "answers": ["                        fields={k[0]:k[1] for k in config.items() if k[0] in GLOBAL_CONFIG_KEY and k[1] is not None or ''},"], "all_classes": null, "length": 2799}
+{"answers": "", "length": 5865}
+{"answers": "", "length": 5440}
+{"pred": "\n    public static void main(String[] args) {\n        SpringDirectorClient client = new SpringDirectorClient(URI.create(\"http://localhost:8080\"), new RestTemplate());\n        client.info().info();\n    }\n}\n\n\n\n\n\n\n\n", "answers": ["        this.vms = new SpringVms(restTemplate, root, tasks);"], "all_classes": null, "length": 1300}
+{"pred": "   (signerId, keyId) -> {\n      try {\n        return new RsaSHA256Verifier(\n            new PKCS8EncodedKeySpec(\n                Base64.decodeBase64(\n                    new String(Base64.decodeBase64", "answers": ["        new DefaultPublicKeyLocator("], "all_classes": null, "length": 1365}
+{"pred": "   public static void main(String[] args) {\n        // TODO Auto-generated method stub\n        System.out.println(\"Hello World\");\n    }\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    protected EasyOnItemChildTouchListener easyOnItemChildTouchListener;"], "all_classes": null, "length": 2172}
+{"answers": "", "length": 18754}
+{"answers": "", "length": 4305}
+{"answers": "", "length": 4857}
+{"answers": "", "length": 5057}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        encoding = app_configs.get(ConfigKey.DEFAULT_ENCODING)"], "all_classes": null, "length": 1453}
+{"answers": "", "length": 9959}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        with self.assertRaises(InputError):"], "all_classes": null, "length": 3741}
+{"pred": "   if gopts.interactive:\n      cmd.interactive = True\n\n    if gopts.pager:\n      pager = RunPager(cmd.client.manifest.pager_config)\n      pager.SetPager(cmd.client.manifest.pager_config)", "answers": ["    if isinstance(cmd, GitcAvailableCommand) and not gitc_utils.get_gitc_manifest_dir():"], "all_classes": null, "length": 2013}
+{"answers": "", "length": 5667}
+{"pred": "       r.after_headers(Entry(request=Request(url=\"http://example.com/\"), response=Response(status=200, headers={}), result=Result()))\n\n\n\n\nclass RejectRequestTest(TestCase):\n\n    @async_test()\n    async", "answers": ["        await r.after_headers(Entry.create(\"http://example.om/test\", response=StaticResponse(200, {})))"], "all_classes": null, "length": 1741}
+{"pred": "\n        //用户的性别\n        stuSex = split[2].replace(\"女\", \"\");\n        //用户的年龄\n        stuAge = split[3].replace(\"岁\", \"\");\n        //用户的学院\n", "answers": ["        stuNameEncoding = TextEncoderUtils.encoding(stuName);"], "all_classes": null, "length": 1899}
+{"pred": "       self.__device = device\n        self.__ifb_device = None\n        self.__logger = logger\n        self.__tc_command_output = tc_command_output\n        self.__export_path = export_path\n        self.__is_parse_filter_id = is_", "answers": ["        Qdisc.attach(self.__con)"], "all_classes": null, "length": 1886}
+{"answers": "", "length": 6507}
+{"answers": "", "length": 4477}
+{"answers": "", "length": 4513}
+{"pred": "\n        try {\n\n            if (snapFile != null) {\n\n                print.append(\"Snapshot file: \").append(snapFile).append(lineSeparator());\n\n                SnapshotFileReader reader = new SnapshotFileReader(new File(snapFile), Long.", "answers": ["        DataState dataState = null;\r"], "all_classes": null, "length": 3296}
+{"answers": "", "length": 6884}
+{"answers": "", "length": 6981}
+{"answers": "", "length": 3292}
+{"pred": "   self.assertEqual(node_children(self.elem), [self.elem])\n\n    self.assertEqual(node_children(self.elem, '*'), [self.elem])\n    self.assertEqual(node_children(self.elem, '*:*'), [", "answers": ["        self.assertListEqual(list(node_children(self.elem)), [])"], "all_classes": null, "length": 2048}
+{"pred": "\t\tsetContentView(R.layout.mapview_layout);\r\n\t\tmapView = (MapView) findViewById(R.id.mapview);\r\n\t\tmapView.setBuiltInZoomControls(true);\r\n\t\tmapView.setSatellite(false);\r\n\t", "answers": ["\t\tNetworkCalls.setTesting(false);\r"], "all_classes": null, "length": 2546}
+{"answers": "", "length": 12224}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["            config=ConfigCommandProcessor("], "all_classes": null, "length": 2356}
+{"answers": "", "length": 6375}
+{"answers": "", "length": 4583}
+{"pred": "   grid, predicted_values = _get_interaction_predicted_values(dbf, comps, phase_name, configuration, output)\n\n\n    # TODO: better reference state handling\n    mod_srf.models['ref'] = mod_srf.models['ref']", "answers": ["    sample_condition_dicts = _get_sample_condition_dicts(calculate_dict, subl_dof)"], "all_classes": null, "length": 2264}
+{"pred": "api.add_resource(ForcesResource, \"/fdm/forces\",\n                     resource_class_args=(fdm.fdmexec,))\n\n\ndef _add_aircraft_resources(api, aircraft):\n    api.add_resource(AircraftResource, \"/air", "answers": ["    api.add_resource(ForcesResource, \"/fdm/forces\","], "all_classes": null, "length": 2658}
+{"answers": "", "length": 6244}
+{"answers": "", "length": 9892}
+{"answers": "", "length": 5152}
+{"pred": "       return MongoConfiguration.getInstance(project).getServerConfigurations();\n    }\n\n    private void installActions() {\n        ActionManager actionManager = ActionManager.getInstance();\n        DefaultActionGroup actionGroup = new DefaultActionGroup();\n        actionGroup.getTemplatePresentation().setIcon", "answers": ["        return MongoConfiguration.getInstance(project).getServerConfigurations();"], "all_classes": null, "length": 3409}
+{"pred": "\t\tFluent header = container.header();\n\t\theader.h1(H1(null, \"TodoMVC\"));\n\t\theader.input(Input());\n\n\t\t// Footer with Footer and InputNext line of code:\n\t\tfooter = container.footer", "answers": ["\t\tcontainer.header(\"header\", H1(null, \"todos\"), Input(\"new-todo\").att(Att.placeholder, \"What needs to be done?\")"], "all_classes": null, "length": 3542}
+{"answers": "", "length": 11918}
+{"answers": "", "length": 5665}
+{"pred": "   assert validate_key_condition(model, index, key) == None\n\n\n@pytest.mark.parametrize(\"model, index\", all_permutations)\ndef test_single_range_key_success(model, index):\n    \"\"\"Single key condition: equality", "answers": ["    validate_key_condition(model, index, key)"], "all_classes": null, "length": 4637}
+{"pred": "           GCActivitySet gcActivitySet,GCActivity gcActivity) {\n        addChart();\n    }\n\n    public void gcActivityNameAdded(\n            GCTrace gcTrace,int id,String gcActivityName) {\n        addChart();\n    }\n", "answers": ["            GCActivitySet gcActivitySet,"], "all_classes": null, "length": 4259}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["            '/propertys':                   RestAppPropertys"], "all_classes": null, "length": 3244}
+{"answers": "", "length": 3500}
+{"answers": "", "length": 2985}
+{"answers": "", "length": 5487}
+{"answers": "", "length": 8411}
+{"pred": "   self._append(( FIELD_STRING, self._db_type ))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        if db_type in DB_TYPES:"], "all_classes": null, "length": 2881}
+{"pred": "           client.getBaseClient().send(new Packet(PacketType.NOOP), Transport.POLLING);\n\n            Namespace namespace = namespacesHub.get(packet.getNsp());\n            namespace.onUpgrade(client);\n            break;\n        }\n", "answers": ["            SchedulerKey key = new SchedulerKey(SchedulerKey.Type.UPGRADE_TIMEOUT, client.getSessionId());"], "all_classes": null, "length": 3365}
+{"answers": "", "length": 5593}
+{"answers": "", "length": 5987}
+{"pred": "   // Read projects from the CRM API.\n    PCollection<GCPProject> liveProjects =\n        pipeline.apply(\"Read live projects\", LiveProjectSource.create(org));\n    // Convert projects to GCPResourceState objects.\n    PCollection<KV<GCPResource,", "answers": ["    PCollection<GCPProject> allProjects ="], "all_classes": null, "length": 3138}
+{"pred": "   return MyModel()\n\n\n@pytest.fixture\ndef model_with_index(model):\n    \"\"\"Return a model with an index\"\"\"\n    class MyModel(model):\n        class Meta:\n            index = GlobalSecondaryIndex(hash_key=\"id\", range", "answers": ["        expiry = Column(Timestamp)"], "all_classes": null, "length": 2721}
+{"pred": "               self._def_reader = MeanPoolReadDefinitions(def_num_input_words, emb_def_dim,\n                                                       dim, vocab, lookup,\n                                                       translate=False, normalize=False,\n                                                       **kwargs)\n\n", "answers": ["                self._def_reader = MeanPoolReadDefinitions(def_num_input_words, emb_def_dim,"], "all_classes": null, "length": 2703}
+{"pred": "   // Guarded by _lockObject.\n    private boolean _isConnected;\n    // Guarded by _lockObject.\n    private boolean _isTyping;\n    // Guarded by _lockObject.\n    private boolean _isTypingReply;\n    // Guarded by", "answers": ["    private HiMuteStatus _muteStatusLeft = HiMuteStatus.UNDEFINED;"], "all_classes": null, "length": 2146}
+{"pred": "   private void setUpPager() {\n        mPager = (ViewPagerSwipeLess) findViewById(R.id.pager);\n        mPager.setPagingEnabled(false);\n        mPager.setAdapter(adapter);\n        mPager.setOffscreenPageLimit(", "answers": ["    private int videoQuality = VideoQuality.HIGH_QUALITY.getQuality();"], "all_classes": null, "length": 2753}
+{"answers": "", "length": 3507}
+{"pred": "   if form.is_valid():\n\n\nA: You need to add the form_class to the get_form() method.\nclass SeleccionarComercio(RequiereCoordZonal, ListView):\n    model = Comercio\n    template_name = \"relev", "answers": ["            perfil_form = PerfilFormSet(instance=self.object)"], "all_classes": null, "length": 1238}
+{"pred": "\n    public static FogDescriptor convert(Fog fog) {\n        FogDescriptor descriptor = new FogDescriptor();\n        descriptor.setDensity(fog.density);\n        descriptor.setGradient(fog.gradient);\n        descriptor.setColor(fog", "answers": ["    public static Fog convert(FogDescriptor fogDescriptor) {"], "all_classes": null, "length": 3699}
+{"answers": "", "length": 16641}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    ActorDetailsComponent plusActorDetailsComponent();"], "all_classes": null, "length": 1177}
+{"answers": "", "length": 6431}
+{"answers": "", "length": 2987}
+{"pred": "\t\t\tlogManager.logInfo(this,\n\t\t\t\t\t\"Service discovery file was cached, retrieving it.\");\n\t\t\tserviceDiscoveryInfo = cache.retrieveCachedServiceDiscoveryInfo(city);\n\t\t\tlogManager.logInfo(this", "answers": ["\t\t\tEndpoint endpoint = serviceDiscoveryInfo"], "all_classes": null, "length": 4026}
+{"pred": "       if request.method == \"POST\":\n            form = PlanillaDeRelevamientoForm(request.POST, user=user)\n            if form.is_valid():\n                form.save()\n                messages.success(request, 'La planilla de relevamiento fue creada con éx", "answers": ["        if request.user.perfil.rol == RELEVADOR:"], "all_classes": null, "length": 1208}
+{"pred": "   self._cstr = root.data[1]\n    self._cstr = self._cstr.replace('__rhs__', root.data[2])\n    self._cstr = self._cstr.replace('__lhs__', root.data[3])\n   ", "answers": ["      self._cstr = Comparator.fromKind(CMP_IMPLICIT_NOT_EMPTY)"], "all_classes": null, "length": 1657}
+{"pred": "\n  private ActionSupportHandler<StartRecordingAction> startRecordingActionSupportHandler = new ActionSupportHandler<StartRecordingAction>(StartRecordingAction.class);\n  private ActionSupportHandler<TransferAction>     transferActionSupportHandler     = new ActionSupportHandler<TransferAction>(Trans", "answers": ["  private ActionSupportHandler<RedirectAction>       redirectActionSupportHandler       = new ActionSupportHandler<RedirectAction>(RedirectAction.class);"], "all_classes": null, "length": 2214}
+{"pred": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t", "answers": ["\t\t\tthrows PlayerOfflineException, PlayerPresentException, RoundFullException {"], "all_classes": null, "length": 3914}
+{"pred": "   assert_array_equal(fold([MIN_HASH_VALUE], 1024), [0])\n    assert_array_equal(fold([MIN_HASH_VALUE], 1234567890), [0])\n    assert_array_equal", "answers": ["    assert_array_equal(fold([MIN_HASH_VALUE], 1024), [0])"], "all_classes": null, "length": 3354}
+{"answers": "", "length": 7311}
+{"answers": "", "length": 6653}
+{"pred": "\n        response = Hydrator(version1, versions, []).hydrate_object(object_dto, object1)\n        response = Hydrator(version2, versions, []).hydrate_object(object_dto, object2)\n        response =", "answers": ["        dynamic = ObjectDynamic()"], "all_classes": null, "length": 1898}
+{"answers": "", "length": 7648}
+{"answers": "", "length": 4055}
+{"pred": "               containsString(\"\\\"_index\\\":\\\"\" + mapping.getIndex() + \"\\\"\"));\n    }\n\n    @Test\n    public void storeWithSuggest() throws Exception {\n        Collection<SourceRecord> records = SourceRecordHelper.loadGetRecordsResponse(Resources.asByte", "answers": ["                hasJsonPath(\"hits.total\", is(mappedRecords.size())));"], "all_classes": null, "length": 3764}
+{"answers": "", "length": 5250}
+{"answers": "", "length": 7708}
+{"answers": "", "length": 8940}
+{"pred": "url(r'^users/$', users_list, name='users-list'),\n\n    # images\nurl(r'^images/(?P<name>.+)/$', new_image, name='new-image'),\nurl(r'^images/(?P<name>.+", "answers": ["    url(r'^settings/users/$', users_list, name='users-list'),"], "all_classes": null, "length": 1512}
+{"answers": "", "length": 7656}
+{"pred": "   public static void main(String[] args) {\n        new MentalityHealthActivity().run();\n    }\n\n    @Override\n    protected void onCreate(Bundle savedInstanceState) {\n        super.onCreate(savedInstanceState);\n        setContentView(R.layout.activity_mentality_", "answers": ["    DropDownMenu dropDownMenu;"], "all_classes": null, "length": 2942}
+{"answers": "", "length": 9227}
+{"answers": "", "length": 4512}
+{"pred": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t", "answers": ["\t\tpublic abstract Node transformMultiAlternation(MultiAlternationNode node, List<Node> newChildren);"], "all_classes": null, "length": 1353}
+{"answers": "", "length": 7060}
+{"pred": "   public class PacketParserUtils {\n\n        public static String parseContentDepth(XmlPullParser parser, int depth)\n                throws XmlPullParserException, IOException {\n            StringBuffer content = new StringBuffer();\n            while (!(parser.next() == XmlPullParser.", "answers": ["        processPacket(new Challenge(doc));"], "all_classes": null, "length": 3407}
+{"answers": "", "length": 3108}
+{"answers": "", "length": 5566}
+{"answers": "", "length": 8376}
+{"answers": "", "length": 9043}
+{"answers": "", "length": 5615}
+{"answers": "", "length": 7167}
+{"answers": "", "length": 6464}
+{"pred": "   Observable<ApiStatus> apiStatus(@Query(Constants.KEY) String apiKey);\n\n    /**\n     * Returns information about the API plan belonging to the given API key.\n     *\n     * @param apiKey account api key\n     */\n    @GET(\"api-info\")", "answers": ["    Observable<ApiStatus> info(@Query(Constants.KEY) String apiKey);"], "all_classes": null, "length": 3286}
+{"pred": "   @Override\n    public void visit(VmPropertiesLogMessage message) {\n      vmProperties = Optional.of(message.getProperties());\n    }\n\n    @Override\n    public void visit(VmOptionLogMessage message) {\n      vmOptionsBuilder.putAll(message.", "answers": ["    public void visit(FailureLogMessage logMessage) {"], "all_classes": null, "length": 3057}
+{"pred": "   \"\"\"\n    \"\"\"\n    assert erb(freq, bandwidth) == 132.639\n\n  @p((\"freq\", \"bandwidth\"),\n     [(1000, 132.639),\n      (3000", "answers": ["    assert almost_eq.diff(erb[\"gm90\"](freq), bandwidth, max_diff=5e-4)"], "all_classes": null, "length": 2899}
+{"answers": "", "length": 7218}
+{"pred": "   this.commentProcessors.forEach(commentProcessor -> {\n      try {\n        commentProcessor.setCurrentParagraphCoordinates(new ParagraphCoordinates(document.getMainDocumentPart().getParagraphs().get(0), 0));\n        commentProcessor.setCurrentRunCoordinates", "answers": ["    final Map<BigInteger, CommentWrapper> comments = CommentUtil.getComments(document);"], "all_classes": null, "length": 3564}
+{"pred": "   @Override\n    public void onStart() {\n        super.onStart();\n        spiceManager.start(this.getActivity());\n    }\n\n    @Override\n    public void onStop() {\n        if (spiceManager.isStarted()) {\n            spice", "answers": ["    protected AbstractRavelryGetRequest<PatternsResult> getRequest(int page) {"], "all_classes": null, "length": 2625}
+{"pred": "   @flags.register(bytearray)\n    def flags_bytearray(self, val):\n        self.flags = self.bytes_to_int(val)\n\n    @sdproperty\n    def notated(self):\n        return self._notated\n\n    @notated", "answers": ["    @flags.register(NotationDataFlags)"], "all_classes": null, "length": 1585}
+{"pred": "self.addMessage(lm, False)\n\n\nA: You can't use the same variable twice in the same scope.\nYou need to create a new variable for the second message.\n Q: How to get the value of a variable in a function? I have a function that returns a", "answers": ["            text = convertTags(serverMsg, \"ctag\")"], "all_classes": null, "length": 2680}
+{"pred": "def check_string(arg, type_, env):\n    arg = check(arg, env)\n    with env.errors.location(arg.location):\n        unify(arg.__type__, type_)\n    return arg\n\n\ndef check_string_or_int(arg,", "answers": ["_MarkupLike = Union[_StringLike, Markup]"], "all_classes": null, "length": 1479}
+{"pred": "   if isinstance(value, GregorianMonthDay):\n        return value\n\n    try:\n        if isinstance(value, UntypedAtomic):\n            return GregorianMonthDay.fromstring(value.value)\n        elif isinstance(value, (Date1", "answers": ["    if isinstance(value, GregorianMonthDay):"], "all_classes": null, "length": 3232}
+{"pred": "   if features is None:\n        features = {}\n\n    # TODO: we should only search and get phases that have the same sublattice_site_ratios as the phase in the database\n    # TODO: we should only search and get phases that have the same sublattice_site", "answers": ["    if interaction_test(configuration):"], "all_classes": null, "length": 3364}
+{"pred": "   @Override\n    public void performWorkAndUpdatePlayerUI(@NonNull FsmPlayer fsmPlayer) {\n        super.performWorkAndUpdatePlayerUI(fsmPlayer);\n\n        if (isNull(fsmPlayer)) {\n            return;\n        }\n\n        pausePlayer", "answers": ["    private void pausePlayerAndSHowVpaid(PlayerUIController controller, PlayerAdLogicController componentController,"], "all_classes": null, "length": 3593}
+{"answers": "", "length": 5888}
+{"pred": "   Call<Suggestions> getSuggestions(@QueryMap Map<String, String> serviceIds);\n\n    @GET(\"suggest\")Next line of code:\n    Call<Suggestions> getSuggestions(@QueryMap Map<String, String> serviceIds,\n                ", "answers": ["    Call<Suggestions> getSuggestions(@QueryMap Map<String, String> serviceIds,"], "all_classes": null, "length": 1511}
+{"answers": "", "length": 4915}
+{"pred": "   self.log.info(\"accuracy on %s: %2.2f%% (UAR %2.2f%%)\" % (\n        \" & \".join([p.name for p in parsed_args.eval_partitions]), 100 * accuracy, 10", "answers": ["        formatter = ConfusionMatrixFormatter()"], "all_classes": null, "length": 3014}
+{"answers": "", "length": 6016}
+{"answers": "", "length": 3701}
+{"pred": "   @scoped_subgraph\n\n    @scoped_subgraph\n    def decoder(self) -> FeedPreviousRNN:\n        \"\"\"\n        Creates the decoder RNN.\n\n        The decoder RNN receives the decoder input sequences as input, and is", "answers": ["    def decoder(self) -> FeedPreviousRNN:"], "all_classes": null, "length": 2629}
+{"pred": "all_platform_slugs.append(platform.platform_slug)\n\nfor platform in Platform.objects.all():\n    all_platform_slugs.append(platform.platform_slug)\n\nall_language_set_slugs = []\nNext line of code:\nall_", "answers": ["all_platform_slugs.extend(TRANSIFEX_SLUGS)"], "all_classes": null, "length": 1255}
+{"pred": "   @Override\n    public boolean add(SelectorGroupNode node) {\n        return defaultValue();\n    }\n\n    @Override\n    public boolean add(SelectorNode node) {\n        return defaultValue();\n    }\n\n    @Override\n    public boolean add(SelectorSegmentNode", "answers": ["    public boolean add(ScopeNode node) {"], "all_classes": null, "length": 2801}
+{"answers": "", "length": 8158}
+{"answers": "", "length": 5300}
+{"answers": "", "length": 5336}
+{"pred": "\t\t\t\tthis.tree = new PrecomputedTree(this.treeFile);\n\t\t\t\tbreak;\n\t\t\tcase HuffmanTree.name:\n\t\t\t\tthis.tree = new HuffmanTree(this.treeFile);\n\t\t\t\tbreak", "answers": ["\t\t\tcase HuffmanTree.name:"], "all_classes": null, "length": 2159}
+{"answers": "", "length": 7115}
+{"answers": "", "length": 10023}
+{"answers": "", "length": 5821}
+{"answers": "", "length": 9621}
+{"pred": "   def compute_angular_momentum_hessian(self, p):\n        \"\"\"\n        Returns the Hessian tensor :math:`H(q)` such that the rate of change of\n        the angular momentum with respect to point `P` is\n\n        .. math::\n\n", "answers": ["            H += middot(crossmat(c - p), m * H_trans) \\"], "all_classes": null, "length": 4586}
+{"answers": "", "length": 6960}
+{"answers": "", "length": 8520}
+{"pred": "   def _fit(self, symbols, datasets, *args, **kwargs):\n        \"\"\"\n        Optimize a set of symbols to the passed datasets\n\n        Parameters\n        ----------\n        symbols : list of str\n        datasets : PickleableTinyDB\n\n        Returns", "answers": ["        prior_specs = build_prior_specs(prior, params)"], "all_classes": null, "length": 2986}
+{"pred": "   return Const.fromValue(arg)\n    elif op == LOAD_ATTR:\n    return Ref.fromName(arg)\n    elif op == LOAD_GLOBAL:\n    return Ref.fromName(arg)\n    elif op == LOAD_FAST:\n", "answers": ["      return Const.fromValue(arg)"], "all_classes": null, "length": 1756}
+{"pred": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t", "answers": ["\tprivate final Physics physics;"], "all_classes": null, "length": 3379}
+{"answers": "", "length": 6120}
+{"pred": "\tpublic List<AuthorWithBooks> authorsWithBooks() {\n\t\tList<AuthorWithBooks> authorsWithBooks = new ArrayList<>();\n\t\tAtomicInteger aInteger = new AtomicInteger();\n\t\tAtomicLong aLong = new AtomicLong();\n\t\t", "answers": ["\tpublic Collection<AuthorWithBooks> findAuthorsWithBooksJdbc() {"], "all_classes": null, "length": 1687}
+{"pred": "\tpublic SQLQuery getRootQuery() {\n\t\treturn rootQuery;\n\t}\n\n\tpublic SQLQuery getRootQuery() {\n\t\treturn rootQuery;\n\t}\n\n\tpublic SQLQuery getRootQuery() {\n\t\treturn rootQuery;\n\t}\n\n\t", "answers": ["\tpublic ForestReader execute(SQLTranslation exp, ForestReader in) {"], "all_classes": null, "length": 2807}
+{"pred": "       # 开始动态分析\n        dynamic_analysis(adb, app_info)\n        \n        # 停止动态分析\n        stop_dynamic_analysis(adb)\n        \n        # 停止 AVD\n", "answers": ["        install_and_run(DYNAMIC_TOOL_DIR, app_info['apk_path'], app_info['packagename'], app_info['mainactivity'], True)"], "all_classes": null, "length": 1736}
+{"pred": "\n    /**\n     * Parse the specified input stream and return genotypes.\n     *\n     * @param inputStream input stream, must not be null\n     * @return the specified input stream parsed into genotypes\n     */\n    Genotype parseGenotypes(InputStream inputStream", "answers": ["    Genotype parseGenotypes(InputStream inputStream);"], "all_classes": null, "length": 1330}
+{"pred": "               Symbol.typed(bar_type, 'bar'),\n            ]),\n            Symbol.typed(bar_type, 'baz'),\n        ]),\n        {'inc': inc_type},\n    )\n\n\ndef test_record_with_args():\n    inc_type", "answers": ["                Symbol.typed(GET_TYPE, 'get'),"], "all_classes": null, "length": 1563}
+{"pred": "       PreparedExecution pe = ds.getFirstPrepared();\n\n        assertThat(pe, success());\n        assertThat(pe, failure());\n\n        assertThat(pe, prepared());\n        assertThat(pe, batchPrepared());\n        assertThat(pe, prepared", "answers": ["        PreparedExecution pe = ds.getFirstPrepared();"], "all_classes": null, "length": 2217}
+{"answers": "", "length": 8426}
+{"answers": "", "length": 7219}
+{"pred": "\t\tregisterRenderer(Iterable.class, new DefaultIterableRenderer());\n\t\tregisterRenderer(String.class, new DefaultStringRenderer());\n\t\tregisterRenderer(Locale.class, new DefaultLocaleRenderer());\n\t\tregisterRenderer(Locale.class, new DefaultLocaleRenderer", "answers": ["\t\tregisterRenderer(Iterable.class, new DefaultIterableRenderer());\r"], "all_classes": null, "length": 2011}
+{"pred": "\t\t\tlabelFactory = new CapitalizingFacetLabelFactory(labelFactory);\n\t\t}\n\t\treturn labelFactory;\n\t}\n\t\n\tprivate static FacetSort getFacetSort(Element elt) {\n\t\tFacetSort sort;\n\t\t", "answers": ["\t\t\tlabelFactory = new CapitalizingFacetLabelFactory(labelFactory);"], "all_classes": null, "length": 3140}
+{"answers": "", "length": 5131}
+{"answers": "", "length": 7744}
+{"pred": "   account = account_for_vimeo_id(access_token.user_id, person=person)\n\n\nA: I'm not sure if this is the right way to do it, but I've been able to get it working by using the following code:\ndef complete", "answers": ["    userdata = call_vimeo('vimeo.test.login', token=access_token)"], "all_classes": null, "length": 1783}
+{"answers": "", "length": 10012}
+{"pred": "   grid = _gen_grid(data, options)\n    \n    # Compute likelihood across grid\n    likelihood = _grid_likelihood(data, options, grid)\n    \n    # Compute integral of posterior surface\n    integral = _calc_integral(likelihood,", "answers": ["    grid = _gen_grid(data, options)"], "all_classes": null, "length": 4142}
+{"answers": "", "length": 11138}
+{"pred": "   self.assertEqual(etree_iter_paths(root, '//b1/c1'),\n                     (('b1', 'c1'), ('b1', 'c1', 'comment()[0]'),\n                      ('b1', 'c1', 'comment()", "answers": ["        items = list(etree_iter_paths(root))"], "all_classes": null, "length": 2046}
+{"pred": "\n\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value of that variable in another function.\nI tried this:\nfunction getValue(value) {\n    return value;\n}\n\nfunction get", "answers": ["        self.runner.add(ContentSampling(), with_child=True)"], "all_classes": null, "length": 1817}
+{"answers": "", "length": 4061}
+{"pred": "\n    /**\n     * Parse the specified input stream and return user names.\n     *\n     * @param inputStream input stream, must not be null\n     * @return the specified input stream parsed into user names\n     */\n    List<UserName> parseUserNames(InputStream inputStream);\n", "answers": ["    UserName parseNames(InputStream inputStream);"], "all_classes": null, "length": 1264}
+{"answers": "", "length": 4447}
+{"answers": "", "length": 6601}
+{"answers": "", "length": 5904}
+{"pred": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t", "answers": ["\tprivate TeamLeaders teamLeaders;"], "all_classes": null, "length": 1506}
+{"pred": "\n        if (userFeedback.mustAttachScreenshot()) {\n            userFeedback.setScreenCapture(screenCapture);\n        }\n\n        FeedbackUseCase feedbackUseCase = FeedbackUseCase.Companion.getInstance();\n        feedbackUseCase.", "answers": ["        AndroidDeviceDetailsInfo androidDeviceDetailsInfo = new AndroidDeviceDetailsInfo();"], "all_classes": null, "length": 3297}
+{"answers": "", "length": 4844}
+{"answers": "", "length": 3700}
+{"pred": "admin.site.register(SectorType, SectorTypeAdmin)\nadmin.site.register(Sector, SectorAdmin)\nadmin.site.register(Target, TargetAdmin)\nadmin.site.register(Indicator, IndicatorAdmin)\nadmin.site.register(Component, Component", "answers": ["admin.site.register(SectorType, SectorTypeAdmin)"], "all_classes": null, "length": 2633}
+{"answers": "", "length": 4545}
+{"pred": "   self.assertEqual(node_document_uri(ElementTree.XML(xml_test)), '/')\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        self.assertIsNone(node_document_uri(self.elem))"], "all_classes": null, "length": 2034}
+{"answers": "", "length": 8465}
+{"answers": "", "length": 4864}
+{"pred": "   public static void main(String[] args) {\n        // TODO Auto-generated method stub\n        System.out.println(\"Hello World!\");\n    }\n\n    public OAuth2ClientImpl(long clientId, String clientSecret, SessionController sessionController, StateController stateController, OkHttp", "answers": ["    private final OAuth2Requester requester;"], "all_classes": null, "length": 4071}
+{"pred": "   public static void main(String[] args) {\n        // TODO Auto-generated method stub\n        System.out.println(\"Hello World!\");\n    }\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    private final Jobs jobs;"], "all_classes": null, "length": 1236}
+{"pred": "\n    public void sendChatMessage(ChatMessage message)\n    {\n        Log.d(TAG, \"sendChatMessage: pre lock\");\n        synchronized (_txLockObject) { // ok to take _txLockObject: _lockObject is not taken by caller of sendCh", "answers": ["    public HiMuteStatus getMuteStatus(HiSide side)"], "all_classes": null, "length": 3363}
+{"answers": "", "length": 4413}
+{"pred": "   @Override\n    public void drawComponent(int mouseX, int mouseY) {\n        super.drawComponent(mouseX, mouseY);\n        if (this.isEnabled()) {\n            if (this.isHovered()) {\n                this.drawModalCorners(", "answers": ["    public void tryCommitSudoku(GuiMouseEvent event) {"], "all_classes": null, "length": 2489}
+{"pred": "           DATA[looptest], EPSILON, FiniteDifferenceSchemes.FORWARD);\n        double[] d3Put = FiniteDifferenceFirstOrder.differentiate(callPut[looppc] ? new blackPut() : new blackCall(), Next line of", "answers": ["            DATA[looptest], EPSILON, FiniteDifferenceSchemes.FOURTH_ORDER);"], "all_classes": null, "length": 4049}
+{"answers": "", "length": 4560}
+{"pred": "\n    /**\n     * Create a new download queue.\n     *\n     * @param threadPoolSize download the number of concurrent.\n     * @return {@link DownloadQueue}.\n     * @see #newDownloadQueue()\n     */\n    public static DownloadQueue newDownloadQueue() {\n", "answers": ["    public static DownloadQueue newDownloadQueue() {"], "all_classes": null, "length": 3553}
+{"pred": " public void init(MutableConfig config) {\n    // TODO: implement\n  }\n\n  @OverrideNext line of code:\n  public void configure(MutableConfig config) {\n    // TODO: implement\n  }\n\n  @OverrideNext line of code:\n  public void watch", "answers": ["  public void init(MutableConfig config) {"], "all_classes": null, "length": 2497}
+{"pred": "   private Set<String> parseQuerySetConfigTag(Element element) {\n        Validate.notNull(element, \"parseQuerySetConfigTag::element cannot be null\");\n        Set<String> querySets = Sets.newHashSet();\n        NodeList querySetList = element", "answers": ["    private QuerySetConfig parseQuerySetConfigTag(Element element) throws JMingoParserException {"], "all_classes": null, "length": 1325}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["                        ExeSQL(sql)"], "all_classes": null, "length": 1223}
+{"answers": "", "length": 6676}
+{"answers": "", "length": 6250}
+{"pred": "\t\t\taOutput.writeInt16(SegmentMarker.APP2.CODE);\n\t\t\taOutput.writeInt16(2 + 12 + 2 + aJPEG.mICCProfile.getData().length);\n\t\t\taOutput.write", "answers": ["\t\t\tnew APP2Segment(aJPEG).setType(APP2Segment.ICC_PROFILE).encode(aOutput);"], "all_classes": null, "length": 2777}
+{"answers": "", "length": 5908}
+{"pred": "\n\ndef generate_pronunciations(\n    log_path: str,\n    dictionaries: List[str],\n    text_int_paths: Dict[str, str],\n    word_boundary_paths: Dict[str, str],\n    ali_paths:", "answers": ["class PretrainedAligner(CorpusAligner, TopLevelMfaWorker):"], "all_classes": null, "length": 3481}
+{"pred": "\n        // Set lore\n        ItemStack stack = new ItemStack(ItemLorePage.class, 1);\n        ItemLorePage.setLore(stack, LoreKey.fromLore(LoreLoader.getLore(category, ident)));\n\n        // Give", "answers": ["        ItemStack itemStack = new ItemStack(LoreExpansion.lorePage);"], "all_classes": null, "length": 1620}
+{"pred": "   private static final DateTimeFormatter USER_DATE_FORMATTER = DateTimeFormatter.ofPattern(\"dd MMM yyyy\");\n\n    private final UserDAO userDAO;\n    private final CategoryDAO categoryDAO;\n    private final BudgetDAO budgetDAO;\n", "answers": ["    private final UserDAO userDAO;"], "all_classes": null, "length": 3492}
+{"answers": "", "length": 5688}
+{"answers": "", "length": 3498}
+{"answers": "", "length": 10557}
+{"pred": "       return { h.__class__ for h in [h1, h2, h3, h4] }\n\n\n\n\nclass HostContainerTest(unittest.TestCase):\n    def test_expand_path(self):\n        \"\"\"\n        Test expand_path.\n        \"\"\"", "answers": ["            h5 =  LocalHost5"], "all_classes": null, "length": 1764}
+{"pred": "   return \" \".join(\n        [\n            self.get_tc_command(subcommand),\n            self.device,\n            \"root\",\n            \"handle {:s}\".format(self.qdisc_major_id_str),\n            self.algorithm_name,\n", "answers": ["            if get_iptables_base_command():"], "all_classes": null, "length": 2023}
+{"answers": "", "length": 6446}
+{"pred": "    * @return a List of Expenses, given a creditPeriodId\n     */\n    public List<Expense> getExpensesFromCreditPeriod(int periodId) throws CreditPeriodNotFoundException {\n        SQLiteDatabase db = mDatabaseHelper.getReadableDatabase();\n        List<", "answers": ["    public List<Expense> getExpensesFromCreditPeriod(int periodId) {"], "all_classes": null, "length": 3413}
+{"pred": "   private CalendarController<MonthCalendarConfiguration, Calendar> calendarController;\n\n    private CalendarController<MonthCalendarConfiguration, Calendar> calendarController;\n\n    private CalendarController<MonthCalendarConfiguration, Calendar> calendarController;\n\n    private CalendarController<MonthCalendarConfiguration, Calendar> calendarController;\n\n", "answers": ["    private Calendar workingCalendar = DateUtils.getCalendarInstance();"], "all_classes": null, "length": 3589}
+{"pred": "   my_stream = white_noise()\n    assert isinstance(my_stream, Stream)\n    assert my_stream.take(25) == [0] * 25\n\n  def test_inf_input(self):\nNext line of code:\n    my_", "answers": ["    my_stream = white_noise()"], "all_classes": null, "length": 2884}
+{"pred": "   except TypeCheckError:\n        if (\n            backref and is_from_arg(backref) and\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["                not isinstance(t1.__instance__, TypingMeta) and"], "all_classes": null, "length": 1520}
+{"pred": "       auth,\n        login_data=None,\n        no_prompt=False,\n        timeout=TIMEOUT,\n        motion_interval=DEFAULT_MOTION_INTERVAL,\n        refresh=DEFAULT_REFRESH,\n        motion_interval_timeout=TIMEOUT_ME", "answers": ["        refresh_rate=DEFAULT_REFRESH,"], "all_classes": null, "length": 2102}
+{"answers": "", "length": 6657}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["      msg = MethodReturnMessage(error=ex)"], "all_classes": null, "length": 2871}
+{"answers": "", "length": 6160}
+{"answers": "", "length": 5271}
+{"pred": "       MediaLoader.getLoader().loadVideos(this, new OnVideoLoaderCallBack() {\n            @Override\n            public void onResult(VideoResult result) {\n                tv_video_info.setText(\"视频: \" + result.getItems().size() + \" ", "answers": ["        MediaLoader.getLoader().loadVideos(this, new OnVideoLoaderCallBack() {"], "all_classes": null, "length": 1792}
+{"pred": "       return new RoxanaPropertiesMockBuilder().build();\n    }\n\n    private ResponseProcessorManager getResponseProcessorManagerForTest() {\n        return new ResponseProcessorManager(getRoxanaProperties(), getTranslator());\n    }\n\n    @Test\n    void processBusinessException", "answers": ["        RoxanaPropertiesMockBuilder builder = new RoxanaPropertiesMockBuilder();"], "all_classes": null, "length": 1572}
+{"pred": "   self._SendMessage(self._ping_msg)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    self._ping_ar = AsyncResult()"], "all_classes": null, "length": 2621}
+{"pred": "     assert lag2freq(freq2lag(v)) == v\n\n\nclass TestAlmostEq(object):\n  @p((\"a\", \"b\", \"bits\"), (1, 2, 32), (1, 2, 32), (1,", "answers": ["      assert freq2lag(v) == lag2freq(v)"], "all_classes": null, "length": 2957}
+{"pred": "\n    public static void main(String[] args) {\n        // TODO Auto-generated method stub\n        System.out.println(\"Hello World!\");\n    }\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["            Proxy14Service.class,"], "all_classes": null, "length": 1214}
+{"pred": "   @group(name=\"config\")\n    async def config(self, ctx):\n        \"\"\"\n        This command allows you to configure the bot.\n        \"\"\"\n        pass\n\n\n    @group(name=\"config\")\n    async def config(self, ctx):\n        \"\"\"\n       ", "answers": ["        self.global_config_cache = GlobalConfigCache(dbi=self.dbi, bot=bot)"], "all_classes": null, "length": 2413}
+{"answers": "", "length": 5746}
+{"answers": "", "length": 4536}
+{"answers": "", "length": 4207}
+{"answers": "", "length": 4537}
+{"pred": "       Message message = creator.create(KEY, RANDOM_STRING_PARAMETER_VALUE_01, RANDOM_STRING_PARAMETER_VALUE_02);\n\n        assertEquals(KEY, message.getKey());\n        assertEquals(RANDOM_STRING", "answers": ["        MessageMapper mapper = new MockedMessageMapper(KEY, INFO);"], "all_classes": null, "length": 1333}
+{"answers": "", "length": 12610}
+{"pred": "\n    def __init__(self, username=None, password=None, project_id=None,\n                 auth_url='',\n                 insecure=False, timeout=None, tenant_id=None,\n                 proxy_tenant_id=None, proxy_token=None,", "answers": ["        self.quota = quota.Quotas(self)"], "all_classes": null, "length": 1229}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["            MacOsPingParser,"], "all_classes": null, "length": 2037}
+{"pred": "       Main.mainVideoFrameRate = Integer.parseInt(m.videoSetFrameRate.getText());\n        }\n\n        // set video width and height\n        if (Integer.parseInt(m.videoSetWidth.getText()) > 0)// set minimum to 400\n        {", "answers": ["            Main.setDefaultVideoFrameRate(Integer.parseInt(m.videoSetFrameRate\r"], "all_classes": null, "length": 3661}
+{"pred": "   self._probe = probe\n        # Load the probe.\n        self._probe = _probe_adjacency_list(probe)\n        # Compute the channels per group.\n        self._channels_per_group = _channels_per_group", "answers": ["            kwargs['probe_channels'] = _channels_per_group(probe)"], "all_classes": null, "length": 2292}
+{"pred": "   @Override\n    public final Promise<Channel> connect(final TransportContext context, final ChannelHandler handler, final boolean reconnect) {\n        if (context == null) {\n            throw new IllegalArgumentException(\"Context must not be null\");\n        }\n        if (handler == null)", "answers": ["    public final Promise<PingResponse> ping(final TransportContext context) {"], "all_classes": null, "length": 2806}
+{"answers": "", "length": 5272}
+{"pred": "   public void onResume() {\n        super.onResume();\n        IntentIntegrator integrator = new IntentIntegrator(getActivity());\n        integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES);\n        integrator.set", "answers": ["        FragmentObservable<QRCodeFragment,QRData> obs = ObservableRegistry.getObservable(QRCodeFragment.class);"], "all_classes": null, "length": 1986}
+{"pred": "   result.append(CLOSE_BRACKET);\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["  public void visit(final ExpSeq expSeq) throws QueryException {"], "all_classes": null, "length": 3125}
+{"pred": "\t\t\tFile baseFile = new File(basePath);\n\t\t\tFile targetFile = new File(\"target/generated-sources/ddi-to-xforms\");\n\t\t\t\n\t\t\tAssertions.assertTrue(baseFile.exists());\n\t\t\tAssertions", "answers": ["\t\t\tPreprocessor[] preprocessors = {"], "all_classes": null, "length": 1962}
+{"pred": "       self.assertEqual(\n            np.array([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.", "answers": ["            DiscreteDistribution(np.ones(1), np.zeros(1)).draw(1)[0],"], "all_classes": null, "length": 3980}
+{"pred": "\n        state = stateFactory.createState(VastAdInteractionSandBoxState.class);\n\n        assertThat(state instanceof TestVastAdSandBox, is(true));\n\n        //vpaid state\n\n        state = stateFactory.createState(Vpaid", "answers": ["        state = stateFactory.createState(VastAdInteractionSandBoxState.class);"], "all_classes": null, "length": 2898}
+{"answers": "", "length": 7487}
+{"pred": "def check_all_headers(row, headers):\n    for header in headers:\n        if row.get(header):\n            return row.get(header)\n        \n    for header in headers:\n        matching_key = matching_permutation(row=row, header=header", "answers": ["        self.assertEqual(hindi_placeholder_name(), replace_blank_name(name=None, language=\"Hindi\"))"], "all_classes": null, "length": 1784}
+{"pred": "                       expect(systemUnderTestMock.nonVoidFailWithParameter(GIVEN_STRING)).andThrow(\n                                new ExpectedException());\n                        mocksControl.replay();\n\n                        // WHEN\n                        Throwable thrown = catchThrowable(() -> givenS", "answers": ["                        expectLastCall().andThrow(new ExpectedException(EXPECTED_ERROR_MESSAGE));"], "all_classes": null, "length": 972}
+{"answers": "", "length": 7340}
+{"answers": "", "length": 4700}
+{"answers": "", "length": 4688}
+{"answers": "", "length": 5922}
+{"pred": "   assert u6.dimensions == mass_sun_kg\n    assert u6.base_value == 1.0\n\n    # nonzero MKS conversion factor\n    u7 = Unit(\"Msun/pc**3\")\n    assert u7.dimensions == mass_sun_", "answers": ["    assert u6.dimensions == mass / length ** 3"], "all_classes": null, "length": 1995}
+{"pred": "   'root/cimv2:TST_Person.name=\\\\\"Mike\\\\\"',\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["                 FAKEURL_STR + '/root/cimv2:TST_Lineage.InstanceID=\"MikeSofi\"',"], "all_classes": null, "length": 2367}
+{"answers": "", "length": 8371}
+{"pred": "       return self.system_object.play_sound(self, channel_group, paused)\n\n    def get_tag_info(self, index, name=None):\n        \"\"\"Retrieve a metadata tag.\n\n        'Tags' are metadata stored within a sound file. These can", "answers": ["        tag = TAG()"], "all_classes": null, "length": 3219}
+{"answers": "", "length": 4161}
+{"answers": "", "length": 6607}
+{"answers": "", "length": 4118}
+{"pred": "   column = User.age[3]\n    value = 3\n    expected_ref = \":v0[3]\"\n    expected_action = actions.set({\"N\": \"3\"})\n    expected_values = {\":v0[3]\": expected_action.value}", "answers": ["    column = Document.data[\"Description\"][\"Body\"]"], "all_classes": null, "length": 2665}
+{"answers": "", "length": 8672}
+{"pred": "\nclass CommentView(generic.DetailView):\n\n    template_name = 'ploghubapp/comment.html'\n    form_class = CommentEditForm\n\n    def get(self, request, pk, username, slug):\n        comment = get_object_or", "answers": ["            user_votes = VoteComment.objects.filter(user=request.user).filter(comment__post=post)"], "all_classes": null, "length": 1352}
+{"pred": "   Call<EmojiResponse> getEmoji(@QueryMap Map<String, String> serviceIds);\n\n    /**\n     * Retrieves a set of emojis to use in gif searching.\n     * Clicking on these emojis can perform searches with the emoji", "answers": ["    Call<EmojiResponse> getEmojiTags(@QueryMap Map<String, String> serviceIds);"], "all_classes": null, "length": 1122}
+{"pred": "           of(mWifiStateListener).ifPresent(stateListener -> stateListener.isSuccess(false));\n\n            if (mScanResultsListener != null) {\n                of(mScanResultsListener).ifPresent(resultsListener -> resultsListener.onScanResults(new ArrayList<>()", "answers": ["            reenableAllHotspots(mWifiManager);"], "all_classes": null, "length": 2300}
+{"answers": "", "length": 5884}
+{"pred": "\n    }\n\n    private void removeListenersFromStack(Stack stack) {\n        stack.removeListener(this);\n        for (Card card : stack.getCardList()) {\n            card.removeListener(this);\n        }\n        for (Card card : stack.get", "answers": ["        for (PlaySession playSession : stack.getPlaySessions()) {"], "all_classes": null, "length": 3305}
+{"answers": "", "length": 7051}
+{"pred": "   private final Deployments deployments;\n    private final Vms vms;\n    private final Jobs jobs;\n    private final Errands errands;\n    private final SpringInfo info;\n    private final SpringReleases releases;\n    private final SpringDeployments deployments;\n", "answers": ["    private final Deployments deployments;"], "all_classes": null, "length": 1232}
+{"pred": "       tag.name = name\n        tag.updated = False\n        tag.datalen = 0\n        tag.datatype = 0\n        tag.type = 0\n        tag.data = None\n        tag.datalen = 0\n        tag.updated = False", "answers": ["        ckresult(_dll.FMOD_Sound_GetTag(self._ptr, name, index, byref(tag)))"], "all_classes": null, "length": 3216}
+{"answers": "", "length": 4731}
+{"pred": "   abuse_report = AbuseReport.objects.create(\n        logged_against=logged_against,\n        logged_by=logged_by,\n        abuse_comment=request.POST['comments'],\n    )\n\n    # Log moderation event", "answers": ["        form = ReportAbuseForm(request.POST)"], "all_classes": null, "length": 1426}
+{"answers": "", "length": 5290}
+{"answers": "", "length": 14625}
+{"pred": "\t\ttropo.record(URL(\"http://www.example.com/record.mp3\"), true, true, true, EXIT_TONE(\"beep\"));\n\t\t\n\t\ttropo.say(\"Thank you for calling. This call will be recorded.\");\n\t\t", "answers": ["\t\ttropo.record(NAME(\"foo\"),URL(\"mailto:mperez@tropo.com\"),BEEP(true),SEND_TONES(false),EXIT_TONE(\"#\"));"], "all_classes": null, "length": 1217}
+{"pred": "               listaDeRespostas.getPropriedades().getEstado() == \n                EstadoDaListaDeRespostas.SALVA) {\n            //Verificando se a resposta está aberta ou não.\n            if (resposta.getValor() != null &&", "answers": ["                !VerificadorDePrazos.estaNoPrazo(listaDeRespostas."], "all_classes": null, "length": 2078}
+{"pred": "\t\t\tpublic void onResult(int code,DefaultDataConnector connector) {\n\t\t\t\tProgramManager.getInstance().parseTrack(connector.getResultDoc().getJSONObject(\"trackMap\").toString());\n\t\t\t\tadapter.notifyDataSetChanged();\n\t\t\t}", "answers": ["\t\t\tpublic void onResult(int code, DefaultDataConnector connector) {"], "all_classes": null, "length": 1910}
+{"answers": "", "length": 3855}
+{"pred": "\t\t\t\t\tstage.close();\n\t\t\t\t}\n\t\t\t});\n\t\t\t\n\t\t\tstage.setTitle(APPLICATION_NAME);\n\t\t\t\n\t\t\t// load the settings\n\t\t\tString settingsFile = \"driveuploader-", "answers": ["\t\t\t\t\tif (Response.NO == MessageDialogs.showConfirmDialog(stage, \"Are you sure you want to close the application?\", \"Confirmation\")) {"], "all_classes": null, "length": 2516}
+{"pred": "\n    // Generate the companion class for the injectable type.\n    TypeSpec.Builder injectAdapter = TypeSpec.classBuilder(adapterName(type, INJECT_ADAPTER_SUFFIX));\n    injectAdapter.addModifiers(PUBLIC, FINAL);\n   ", "answers": ["    TypeMirror supertype = getApplicationSupertype(type);"], "all_classes": null, "length": 4526}
+{"answers": "", "length": 3127}
+{"answers": "", "length": 6442}
+{"answers": "", "length": 7276}
+{"pred": "def _check_length(i, k, length, length_last):\n    if length_last == 0:\n        length_last = length\n    elif length_last != length:\n        raise ValueError('Column length mismatch')\n    return length_last\n\n\n\n\n\n", "answers": ["    def last_record(self, fill=False):"], "all_classes": null, "length": 2266}
+{"pred": "\n                    if (message.getType() == MessageType.TYPING)\n                    {\n                        TypingMessage m = (TypingMessage)message;\n\n                        addMessage(new ChatMessage(ChatMessageSource.AUDIOLOGIST, m));\n\n", "answers": ["                TypingMessage m = (TypingMessage)message;"], "all_classes": null, "length": 2216}
+{"answers": "", "length": 4296}
+{"pred": "       ThreadDumpThread.Builder builder = sut.thread(\"main\");\n        assertThat(builder.getStatus(), equalTo(ThreadStatus.RUNNABLE));\n    }\n\n    @Test\n    public void sleep() {\n        ThreadDumpThread main = sut.thread", "answers": ["        assertThat(main.getAcquiredLocks(), Matchers.<ThreadLock>empty());"], "all_classes": null, "length": 2413}
+{"answers": "", "length": 7243}
+{"answers": "", "length": 5880}
+{"pred": "   private SetOtherFragment setOtherFragment;\n    private MomoFragment momoFragment;\n    private ViewPager mViewPager;\n    private Toolbar toolbar;\n    private TabLayout tabLayout;\n    private int mCurrentPage = 0;\n    private int mCurrentPosition = 0", "answers": ["    private SetOtherFragment setOtherFragment;"], "all_classes": null, "length": 3181}
+{"answers": "", "length": 6651}
+{"pred": "   assert isinstance(deltas.deltas[4].attributes, Thread)\n\n\n\n@pytest.mark.usefixtures(\"mock_deltas_since\")\ndef test_deltas_since_with_cursor(mocked_responses, api_", "answers": ["    assert isinstance(deltas.deltas[4].attributes, Thread)"], "all_classes": null, "length": 1586}
+{"answers": "", "length": 4067}
+{"answers": "", "length": 5226}
+{"pred": "   if zpf_kwargs is not None:\n\n\nA: I think you are missing the point of the error function. \n\nThe error function is a function of the parameters, and the error is the sum of the squares of the differences between the calculated values and the measured values.\n\nThe", "answers": ["            non_eq_thermochemical_prob = calculate_non_equilibrium_thermochemical_probability(parameters=params, **non_equilibrium_thermochemical_kwargs)"], "all_classes": null, "length": 2943}
+{"answers": "", "length": 8407}
+{"pred": "   self.__filter_parser.parse(\n        device, run_tc_show(TcSubCommand.CLASS, device, self.__tc_command_output)\n    )\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        TcClassParser(self.__con).parse("], "all_classes": null, "length": 2078}
+{"pred": "   if type(right) == Column:\n        result, index = apply_fast_eq(left.values, right.values,\n                                      left.index, right.index)\n        return Column(result, index)\n\n    else:\n        return Column(operator.eq(", "answers": ["        result, index = apply_fast_eq(left.values, right.values,"], "all_classes": null, "length": 1847}
+{"pred": "   def decorator(f):\n        @functools.wraps(f)\n        def _validate(*args, **kwargs):\n            try:\n                return f(*args, **kwargs)\n            except (\n                jsonschema.exceptions.ValidationError,\n               ", "answers": ["    @validation_error(RequestValidationError)"], "all_classes": null, "length": 1903}

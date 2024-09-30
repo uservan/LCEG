@@ -14,11 +14,11 @@ models_dir = os.path.dirname(current_dir)
 sys.path.append(models_dir)
 
 def set_global_path(path):
-    return os.path.join('/workspace/LCEG/longbench', path)
+    return os.path.join('/users/PDS0352/wyang107/project/LCEG/longbench', path)
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-yarn-32k')
+    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-ntk-32k')
     parser.add_argument('--dataset_name', type=str, default="narrativeqa")
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
@@ -28,14 +28,13 @@ def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset
     # if len(preds) == len(data): return
     i = 0
     for json_obj in tqdm(data):
-        # if i < len(preds):
-        #     i = i+1
-        #     continue
-        # else: i = i+1
-        pred = preds[i]
-        if len(pred['answers']) != 0:
+        flag=False
+        if i < len(preds):
+            pred, flag = preds[i], True
             i = i+1
-            continue
+            if len(pred['answers']) != 0:
+                continue
+        else: i = i+1
         try:
             prompt = prompt_format.format(**json_obj)
             # length = json_obj['length']
@@ -76,11 +75,11 @@ def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset
                     **kwargs,
                 )[0]
             pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
-            preds[i] = {"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"]}
-            # preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"]})
+            if flag: preds[i-1] = {"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"]}
+            else: preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"]})
         except:
-            preds[i] = {"answers":'', "length": json_obj["length"]}
-            # preds.append({"answers":'', "length": json_obj["length"]})
+            if flag: preds[i-1] = {"answers":'', "length": json_obj["length"]}
+            else: preds.append({"answers":'', "length": json_obj["length"]})
         # with open(out_path, "a", encoding="utf-8") as f:
         #     json.dump(preds[-1], f, ensure_ascii=False)
         #     f.write('\n')
@@ -258,7 +257,7 @@ if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model_name = args.model
     # define your model
-    model, tokenizer = load_model_and_tokenizer(model2path[model_name], model_name, device, True)
+    model, tokenizer = load_model_and_tokenizer(model2path[model_name], model_name, device, False)
     max_length = model2maxlen[model_name]
     print('max_length:', max_length)
 

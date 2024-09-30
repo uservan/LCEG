@@ -9,4 +9,5 @@ seaborn
 pandas
 matplotlib
 wandb
+accelerate
 flash-attn==2.3.6

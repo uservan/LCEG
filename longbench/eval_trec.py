@@ -39,28 +39,36 @@ dataset2metric = {
     "repobench-p": code_sim_score,
 }
 
+def set_global_path(path):
+    return os.path.join('/users/PDS0352/wyang107/project/LCEG/longbench', path)
+
+
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default=None)
+    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-yarn-32k')
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
 
 def scorer_e(dataset, predictions, answers, lengths, all_classes):
-    scores = {"0-4k": [], "4-8k": [], "8k+": []}
+    scores = {"0-2k": [],"2-4k": [], "4-6k": [], "6-8k": [], "8k+": []}
     for (prediction, ground_truths, length) in zip(predictions, answers, lengths):
         score = 0.
         if dataset in ["qasper", "trec", "triviaqa", "samsum", "lsht"] or "trec" in dataset:
             prediction = prediction.lstrip('\n').split('\n')[0]
         for ground_truth in ground_truths:
             score = max(score, dataset2metric[dataset](prediction, ground_truth, all_classes=all_classes))
-        if length < 4000:
-            scores["0-4k"].append(score)
+        if length < 2000:
+            scores["0-2k"].append(score)
+        elif length < 4000:
+            scores["2-4k"].append(score)
+        elif length < 6000:
+            scores["4-6k"].append(score)
         elif length < 8000:
-            scores["4-8k"].append(score)
+            scores["6-8k"].append(score)
         else:
             scores["8k+"].append(score)
     for key in scores.keys():
-        scores[key] = round(100 * np.mean(scores[key]), 2)
+        scores[key] = {'score': round(100 * np.mean(scores[key]), 2), 'num':len(scores[key])}
     return scores
 
 def scorer(dataset, predictions, answers, all_classes):
@@ -86,9 +94,9 @@ if __name__ == '__main__':
     args = parse_args()
     scores = dict()
     if args.e:
-        path = f"pred_e/{args.model}/"
+        path = set_global_path(f"pred_e/{args.model}/")
     else:
-        path = f"pred_trec/{args.model}/"
+        path = set_global_path(f"pred/{args.model}/")
     all_files = os.listdir(path)
     print("Evaluating on:", all_files)
     for filename in all_files:
@@ -107,11 +115,12 @@ if __name__ == '__main__':
         if args.e:
             score = scorer_e(dataset, predictions, answers, lengths, all_classes)
         else:
-            score = scorer(dataset, predictions, answers, all_classes)
+            score = scorer_e(dataset, predictions, answers, lengths, all_classes)
+            # score = scorer(dataset, predictions, answers, all_classes)
         scores[dataset] = score
     if args.e:
-        out_path = f"pred_e/{args.model}/result.json"
+        out_path = set_global_path(f"pred_e/{args.model}/result.json")
     else:
-        out_path = f"pred_trec/{args.model}/result.json"
+        out_path = set_global_path(f"pred/{args.model}/result.json")
     with open(out_path, "w") as f:
         json.dump(scores, f, ensure_ascii=False, indent=4)

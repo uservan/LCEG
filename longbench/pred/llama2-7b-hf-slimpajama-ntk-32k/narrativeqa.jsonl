@@ -1,0 +1,200 @@
+{"answers": "", "length": 22692}
+{"answers": "", "length": 23316}
+{"pred": "In a cave on Atlas' mountain.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The Atlas Mountains"], "all_classes": null, "length": 5397}
+{"pred": "Crito came to bring Socrates a message which was sad and painful; not, as I believe, to yourself, but to all of us who are your friends, and saddest of all to me.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["To smuggle Socrates out of prison and into a life of exile."], "all_classes": null, "length": 6592}
+{"answers": "", "length": 27745}
+{"answers": "", "length": 10020}
+{"answers": "", "length": 18054}
+{"answers": "", "length": 25090}
+{"answers": "", "length": 22692}
+{"pred": "The Witch wanted to have the priests reveal their own lies.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The scribe."], "all_classes": null, "length": 5403}
+{"answers": "", "length": 27521}
+{"answers": "", "length": 11201}
+{"pred": "50 years\n\n\n\n\n\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value of that variable in another function.\nI tried this:\nfunction getValue(value) {\n    return value;\n}\n\nfunction getValue2() {\n    return getValue(10);\n}\n\nconsole.log(getValue2());\n\nBut it doesn't work.\n\nA: You can use the arrow function to get the value of a variable in a function.\nfunction", "answers": ["50 years"], "all_classes": null, "length": 8147}
+{"pred": "The Vervelle couple believe Grassou is the perfect match for their daughter, Virginie.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Their daughter, Virgine. "], "all_classes": null, "length": 7903}
+{"pred": "Pierre Grassou\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Grassou"], "all_classes": null, "length": 7899}
+{"answers": "", "length": 25088}
+{"answers": "", "length": 14760}
+{"answers": "", "length": 27521}
+{"answers": "", "length": 17505}
+{"pred": "2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Two"], "all_classes": null, "length": 6592}
+{"answers": "", "length": 10015}
+{"answers": "", "length": 27514}
+{"answers": "", "length": 31692}
+{"pred": "A slave.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Your parents"], "all_classes": null, "length": 6594}
+{"answers": "", "length": 22695}
+{"answers": "", "length": 17490}
+{"pred": "\n\nSocrates's decision to remain in prison and die is based on his belief that it is unjust to escape. He believes that it is unjust to escape because he believes that it is unjust to break the agreements that he has made with the city of Athens. He also believes that it is unjust to escape because he believes that it is unjust to return evil for evil.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Because it violates his belief in the  laws of society."], "all_classes": null, "length": 6595}
+{"answers": "", "length": 29630}
+{"answers": "", "length": 22698}
+{"answers": "", "length": 17497}
+{"answers": "", "length": 11196}
+{"answers": "", "length": 17501}
+{"answers": "", "length": 18053}
+{"answers": "", "length": 23319}
+{"pred": "He is a man of action.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["HER BEAUTY"], "all_classes": null, "length": 8721}
+{"answers": "", "length": 22762}
+{"answers": "", "length": 31690}
+{"answers": "", "length": 10014}
+{"answers": "", "length": 25089}
+{"answers": "", "length": 23312}
+{"answers": "", "length": 25088}
+{"answers": "", "length": 17492}
+{"pred": "This etext was prepared by Sue Asscher <asschers@aia.net.au>\n\n\n\n\n\n\nCRITO\n\nby\n\nPlato\n\nTranslated by Benjamin Jowett\n\n\nPERSONS OF THE DIALOGUE:  Socrates, Crito.\n\nSCENE:  The Prison of Socrates.\n\n\nSOCRATES:  Why have you come at this hour, Crito? it must be quite early.\n\nCRITO:  Yes, certainly.\n\nSOCRATES", "answers": ["In Socrates Cell?"], "all_classes": null, "length": 6591}
+{"answers": "", "length": 17491}
+{"pred": "Bennett Landsmann needed to defend Seth Lazurus in court because he was the only one who could prove that Seth Lazurus was not guilty of the crime he was accused of.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["because he's a lawyer"], "all_classes": null, "length": 8727}
+{"answers": "", "length": 11202}
+{"answers": "", "length": 27737}
+{"answers": "", "length": 23312}
+{"answers": "", "length": 14762}
+{"answers": "", "length": 13954}
+{"answers": "", "length": 27741}
+{"answers": "", "length": 17490}
+{"answers": "", "length": 17497}
+{"answers": "", "length": 27510}
+{"answers": "", "length": 31691}
+{"answers": "", "length": 25093}
+{"answers": "", "length": 22694}
+{"answers": "", "length": 22764}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Laura attends Harvard Medical school."], "all_classes": null, "length": 8722}
+{"answers": "", "length": 25089}
+{"pred": "The Witch creates the Hermaphrodite.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Hermaphroditus."], "all_classes": null, "length": 5397}
+{"pred": "In the closet.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["In a closet."], "all_classes": null, "length": 8139}
+{"answers": "", "length": 36418}
+{"answers": "", "length": 14761}
+{"answers": "", "length": 10016}
+{"answers": "", "length": 36405}
+{"pred": "A doctor.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["A lawyer"], "all_classes": null, "length": 8721}
+{"answers": "", "length": 22697}
+{"answers": "", "length": 13953}
+{"answers": "", "length": 17501}
+{"answers": "", "length": 7896}
+{"answers": "", "length": 17500}
+{"answers": "", "length": 18050}
+{"pred": "A citizen willingly agrees to live in Athens.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Comply with the laws"], "all_classes": null, "length": 6598}
+{"answers": "", "length": 22762}
+{"answers": "", "length": 17499}
+{"answers": "", "length": 10014}
+{"pred": "They went to bed.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["They stayed in the bedroom for a few days with the sounds of her lover trapped. "], "all_classes": null, "length": 8148}
+{"answers": "", "length": 23324}
+{"answers": "", "length": 29630}
+{"answers": "", "length": 27508}
+{"answers": "", "length": 17497}
+{"answers": "", "length": 29633}
+{"answers": "", "length": 11198}
+{"answers": "", "length": 10016}
+{"pred": "A coward.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["He would turn into an outlaw."], "all_classes": null, "length": 6598}
+{"answers": "", "length": 22761}
+{"answers": "", "length": 25086}
+{"answers": "", "length": 11194}
+{"answers": "", "length": 23312}
+{"answers": "", "length": 27516}
+{"answers": "", "length": 29635}
+{"answers": "", "length": 25086}
+{"pred": "Socrates believes that he will be judged in the after life if he breaks out of prison.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["It would have a negative effect"], "all_classes": null, "length": 6602}
+{"pred": "She threatened to leave him if he opened the cupboard.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Opened the closet"], "all_classes": null, "length": 8146}
+{"pred": "The doctor.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Seth Lazarus"], "all_classes": null, "length": 8724}
+{"pred": "The art-dealer describes Grassou's skill level to Virginie's father as \"a great artist.\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["A grand master."], "all_classes": null, "length": 7902}
+{"pred": "His biggest disappointment is that he is not recognized as a great artist.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["He doesn't feel he is a true artist."], "all_classes": null, "length": 7896}
+{"answers": "", "length": 29633}
+{"answers": "", "length": 22768}
+{"answers": "", "length": 22766}
+{"answers": "", "length": 29631}
+{"answers": "", "length": 23319}
+{"answers": "", "length": 18050}
+{"pred": "The judge.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["bennett landsmann"], "all_classes": null, "length": 8723}
+{"answers": "", "length": 23315}
+{"answers": "", "length": 18050}
+{"answers": "", "length": 23312}
+{"answers": "", "length": 10016}
+{"answers": "", "length": 36409}
+{"answers": "", "length": 22692}
+{"answers": "", "length": 27506}
+{"answers": "", "length": 17495}
+{"answers": "", "length": 22695}
+{"answers": "", "length": 14768}
+{"answers": "", "length": 27739}
+{"answers": "", "length": 17492}
+{"answers": "", "length": 22766}
+{"answers": "", "length": 22692}
+{"pred": "In the closet.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["In the closet"], "all_classes": null, "length": 8139}
+{"pred": "Grassou is still resentful despite his potentially advantageous marriage because he is a mediocre artist who is unable to achieve the success he desires. He is also resentful because he feels that his work is not appreciated by the bourgeoisie, who are the ones who commission his portraits.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["He feels as the he is still not a real artist."], "all_classes": null, "length": 7901}
+{"answers": "", "length": 17494}
+{"answers": "", "length": 29630}
+{"answers": "", "length": 36405}
+{"answers": "", "length": 36411}
+{"pred": "The contract to obey the laws of the state.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The social contract."], "all_classes": null, "length": 6594}
+{"pred": "The art-dealer describes Grassou's skill level to Virginie's father as \"a great artist.\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["he calls Grassou a grand master"], "all_classes": null, "length": 7902}
+{"answers": "", "length": 14761}
+{"answers": "", "length": 14763}
+{"answers": "", "length": 23317}
+{"answers": "", "length": 27740}
+{"answers": "", "length": 23311}
+{"answers": "", "length": 27511}
+{"answers": "", "length": 11197}
+{"answers": "", "length": 10015}
+{"answers": "", "length": 8724}
+{"pred": "Pierre Grassou\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Pierre Grassou."], "all_classes": null, "length": 7900}
+{"pred": "He discovered that she was having an affair with a Spanish prisoner of war.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["That she was having an affair. "], "all_classes": null, "length": 8143}
+{"answers": "", "length": 17495}
+{"pred": "La Grande Breteche is a story written by Honore de Balzac.\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value of that variable in another function.\nI tried this:\nfunction getValue(value) {\n    return value;\n}\n\nfunction getValue2() {\n    return getValue(10);\n}\n\nconsole.log(getValue2());\n\nBut it doesn't work.\n\nA: You can use the arrow function to get the value of a", "answers": ["The ruins of an abandoned manor. "], "all_classes": null, "length": 8139}
+{"answers": "", "length": 22703}
+{"answers": "", "length": 13958}
+{"answers": "", "length": 31699}
+{"answers": "", "length": 17497}
+{"answers": "", "length": 27510}
+{"pred": "Grassou discovers that he has painted many of the paintings in Vervelle's home.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["A number of his own forgeries."], "all_classes": null, "length": 7900}
+{"answers": "", "length": 36413}
+{"pred": "The analogy that Socrates compares citizens and the law to is that of a parent and child.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Citizens are bound to laws the same as children are bound to parents."], "all_classes": null, "length": 6595}
+{"pred": "The coffin of the dead.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["A coffin."], "all_classes": null, "length": 5400}
+{"answers": "", "length": 27511}
+{"answers": "", "length": 27742}
+{"answers": "", "length": 29632}
+{"answers": "", "length": 14762}
+{"pred": "The owner of the manor is the Countess de Merret.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Madame de Merret"], "all_classes": null, "length": 8144}
+{"answers": "", "length": 22694}
+{"answers": "", "length": 11211}
+{"pred": "Apis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Apis"], "all_classes": null, "length": 5397}
+{"answers": "", "length": 10015}
+{"answers": "", "length": 29630}
+{"answers": "", "length": 31693}
+{"pred": "Elie Magus\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The greats"], "all_classes": null, "length": 7898}
+{"answers": "", "length": 25090}
+{"pred": "He believes that artists laugh at his work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["That artists laugh at and ridicule his work."], "all_classes": null, "length": 7906}
+{"answers": "", "length": 23311}
+{"pred": "La Grande Breteche is a story written by Honore de Balzac.\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value of that variable in another function.\nI tried this:\nfunction getValue(value) {\n    return value;\n}\n\nfunction getValue2() {\n    return getValue(10);\n}\n\nconsole.log(getValue2());\n\nBut it doesn't work.\n\nA: You can use the arrow function to get the value of a", "answers": ["Abandon manor"], "all_classes": null, "length": 8139}
+{"answers": "", "length": 25097}
+{"pred": "The abandoned manor is located at about a hundred paces from Vendome, on the banks of the Loir.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Near the town Vendome"], "all_classes": null, "length": 8140}
+{"answers": "", "length": 14761}
+{"answers": "", "length": 36406}
+{"answers": "", "length": 27740}
+{"pred": "The less beautiful received a panacea in a crystal bowl.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Strange dreams."], "all_classes": null, "length": 5401}
+{"pred": "In the rue de Navarin, on the fourth floor of one of those tall, narrow houses which resemble the obelisk of Luxor, and possess an alley, a dark little stairway with dangerous turnings, three windows only on each floor, and, within the building, a courtyard, or, to speak more correctly, a square pit or well.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["In a mansion in Ville-d'Avray. "], "all_classes": null, "length": 7898}
+{"answers": "", "length": 27739}
+{"answers": "", "length": 31690}
+{"answers": "", "length": 14761}
+{"answers": "", "length": 11198}
+{"answers": "", "length": 31692}
+{"answers": "", "length": 25088}
+{"answers": "", "length": 11204}
+{"answers": "", "length": 36410}
+{"answers": "", "length": 23315}
+{"answers": "", "length": 29630}
+{"answers": "", "length": 36418}
+{"pred": "She asks him to leave a crack at the bottom.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Break a piece of the door that she may look on her lover one last time"], "all_classes": null, "length": 8151}
+{"pred": "In a cave on Atlas' mountain.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Witch lives in cave on Atlas Mountains"], "all_classes": null, "length": 5397}
+{"answers": "", "length": 27742}
+{"pred": "A coward.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["An outlaw"], "all_classes": null, "length": 6598}
+{"answers": "", "length": 13955}
+{"pred": "The Witch was able to perceive the beauty of the human soul.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The fears and desires of mankind."], "all_classes": null, "length": 5401}
+{"answers": "", "length": 31695}
+{"answers": "", "length": 13957}
+{"answers": "", "length": 22769}
+{"answers": "", "length": 10016}
+{"answers": "", "length": 17492}
+{"answers": "", "length": 14762}
+{"answers": "", "length": 10011}
+{"answers": "", "length": 10013}
+{"answers": "", "length": 27512}
+{"answers": "", "length": 18053}
+{"answers": "", "length": 17495}
