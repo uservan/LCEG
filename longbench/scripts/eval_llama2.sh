@@ -56,7 +56,7 @@ do
 for MODEL_NAME in  "${models[@]}"; 
 do
 echo "$dataset"
-/users/PDS0352/wyang107/project/LCEG/longbench/pred.py \
+/workspace/LCEG/longbench/pred.py \
 --model ${MODEL_NAME} \
 --dataset_name ${dataset} 
 done

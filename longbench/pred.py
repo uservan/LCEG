@@ -14,14 +14,12 @@ models_dir = os.path.dirname(current_dir)
 sys.path.append(models_dir)
 
 def set_global_path(path):
-    return os.path.join('/users/PDS0352/wyang107/project/LCEG/longbench', path)
+    return os.path.join('/workspace/LCEG/longbench', path)
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-yarn-32k')
     parser.add_argument('--dataset_name', type=str, default="narrativeqa")
-    # \ 'multi_news'   \
-    #     "passage_retrieval_en" 
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
 
@@ -260,10 +258,11 @@ if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model_name = args.model
     # define your model
-    model, tokenizer = load_model_and_tokenizer(model2path[model_name], model_name, device, False)
+    model, tokenizer = load_model_and_tokenizer(model2path[model_name], model_name, device, True)
     max_length = model2maxlen[model_name]
     print('max_length:', max_length)
 
+    dataset = args.dataset_name
     # we design specific prompt format and max generation length for each task, feel free to modify them to optimize model output
     dataset2prompt = json.load(open(set_global_path("./config/dataset2prompt.json"), "r"))
     dataset2maxlen = json.load(open(set_global_path("./config/dataset2maxlen.json"), "r"))
@@ -273,39 +272,41 @@ if __name__ == '__main__':
     if not os.path.exists(set_global_path("pred_e")):
         os.makedirs(set_global_path("pred_e"))
     dataset_path = set_global_path("data")#  'Leooyii/longbench' 
-    dataset = args.dataset_name
-    print('testing:', dataset)
-    if args.e:
-        # data = load_dataset(dataset_path, f"{dataset}_e", split='test')
-        print('using longbench-e')
-        data = load_dataset('json', data_files={'test': os.path.join(dataset_path, f'{dataset}_e.jsonl')})
-        if not os.path.exists(f"pred_e/{model_name}"):
-            os.makedirs(f"pred_e/{model_name}")
-        out_path = f"pred_e/{model_name}/{dataset}.jsonl"
-    elif "trec" in dataset and dataset != "trec":
-        data = load_dataset('json', data_files={'test': os.path.join(dataset_path, f'{dataset}.jsonl')})
-        if not os.path.exists(f"pred_trec/{model_name}"):
-            os.makedirs(f"pred_trec/{model_name}")
-        out_path = f"pred_trec/{model_name}/{dataset}.jsonl"
-    else:
-        # data = load_dataset(os.path.join(dataset_path, f'{dataset}.jsonl'))
-        # data = load_dataset(dataset_path, dataset, split='test', cache_dir='/users/PDS0352/wyang107/project/LCEG/model_cache/data')
-        data = load_dataset('json', data_files={'test': os.path.join(dataset_path, f'{dataset}.jsonl')})
-        if not os.path.exists(set_global_path(f"pred/{model_name}")):
-            os.makedirs(set_global_path(f"pred/{model_name}"))
-        out_path = set_global_path(f"pred/{model_name}/{dataset}.jsonl")
-    if "trec" in dataset:
-        dataset = "trec"
-    prompt_format = dataset2prompt[dataset]
-    max_gen = dataset2maxlen[dataset]
-    preds=[]
-    if os.path.exists(out_path):
-        with open(out_path, "r", encoding="utf-8") as f:
-            for line in f:
-                l = json.loads(line)
-                preds.append(l)
-    preds = get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds, out_path)
-    with open(out_path, "w", encoding="utf-8") as f:
-        for pred in preds:
-            json.dump(pred, f, ensure_ascii=False)
-            f.write('\n')
+    for dataset in ("qasper","multifieldqa_en","hotpotqa","2wikimqa","musique" , "gov_report" ,
+                    "qmsum" ,"multi_news" ,"trec" ,"triviaqa", "samsum" ,
+          "passage_count", "passage_retrieval_en" ,"lcc" ,"repobench-p", "narrativeqa"):
+        print('testing:', dataset)
+        if args.e:
+            # data = load_dataset(dataset_path, f"{dataset}_e", split='test')
+            print('using longbench-e')
+            data = load_dataset('json', data_files={'test': os.path.join(dataset_path, f'{dataset}_e.jsonl')})
+            if not os.path.exists(f"pred_e/{model_name}"):
+                os.makedirs(f"pred_e/{model_name}")
+            out_path = f"pred_e/{model_name}/{dataset}.jsonl"
+        elif "trec" in dataset and dataset != "trec":
+            data = load_dataset('json', data_files={'test': os.path.join(dataset_path, f'{dataset}.jsonl')})
+            if not os.path.exists(f"pred_trec/{model_name}"):
+                os.makedirs(f"pred_trec/{model_name}")
+            out_path = f"pred_trec/{model_name}/{dataset}.jsonl"
+        else:
+            # data = load_dataset(os.path.join(dataset_path, f'{dataset}.jsonl'))
+            # data = load_dataset(dataset_path, dataset, split='test', cache_dir='/users/PDS0352/wyang107/project/LCEG/model_cache/data')
+            data = load_dataset('json', data_files={'test': os.path.join(dataset_path, f'{dataset}.jsonl')})
+            if not os.path.exists(set_global_path(f"pred/{model_name}")):
+                os.makedirs(set_global_path(f"pred/{model_name}"))
+            out_path = set_global_path(f"pred/{model_name}/{dataset}.jsonl")
+        if "trec" in dataset:
+            dataset = "trec"
+        prompt_format = dataset2prompt[dataset]
+        max_gen = dataset2maxlen[dataset]
+        preds=[]
+        if os.path.exists(out_path):
+            with open(out_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    l = json.loads(line)
+                    preds.append(l)
+        preds = get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds, out_path)
+        with open(out_path, "w", encoding="utf-8") as f:
+            for pred in preds:
+                json.dump(pred, f, ensure_ascii=False)
+                f.write('\n')
