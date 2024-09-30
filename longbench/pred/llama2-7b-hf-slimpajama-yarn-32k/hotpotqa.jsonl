@@ -162,27 +162,27 @@
 {"pred": "Two Episodes of Mash\n\nQuestion: what is the name of the British comedy series that aired on BBC Three from 31 May 2", "answers": ["the deadpan sketch group"], "all_classes": null, "length": 7720}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["William"], "all_classes": null, "length": 2412}
 {"pred": "No\n\nQuestion: Are both Kaiping and Pingxiang, Guangxi located in Guangxi Province?\nAnswer: No\n\n", "answers": ["no"], "all_classes": null, "length": 3777}
-{"answers": ""}
+{"pred": "4,000\n\nQuestion: The Lewiston Maineiacs were a junior ice hockey team of the Quebec Major Junior Hockey League based in", "answers": ["3,677 seated"], "all_classes": null, "length": 10535}
 {"pred": "Atlantic Ocean\n\nQuestion: Which of the following is a synonym for the word \"extinct\"?\nAnswer: Obsolete\n\nQuestion: Which", "answers": ["Atlantic Ocean"], "all_classes": null, "length": 2496}
-{"answers": ""}
 {"pred": "\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value of", "answers": ["IK Start"], "all_classes": null, "length": 2808}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"pred": "Ten Walls\n Q: How to get the current date in a function in a .NET Core 3.1 web application? I have a function", "answers": ["Ten Walls"], "all_classes": null, "length": 4660}
-{"answers": ""}
-{"answers": ""}
+{"pred": "\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value of", "answers": ["IK Start"], "all_classes": null, "length": 2808}
+{"pred": "The Center for Bioethics & Human Dignity\n\nQuestion: What is the name of the organization that Press TV is affiliated with?\nAnswer", "answers": ["Henry Jackson Society"], "all_classes": null, "length": 11212}
+{"pred": "Allen Wolf\n\nQuestion: The film The Wolf of Wall Street was based on the memoir of whom?\nAnswer: Jordan Belfort\n\nQuestion", "answers": ["Martin Scorsese"], "all_classes": null, "length": 10355}
+{"pred": "Babylon\n\nQuestion: The Panel with striding lion  was one of many that lined the way north of the gate to the inner", "answers": ["Babylon"], "all_classes": null, "length": 10063}
+{"pred": "Shrek the Third\n\nQuestion: Which film was released on May 24, 2002?\nAnswer: Spirit: Stallion", "answers": ["Dragons: Riders of Berk"], "all_classes": null, "length": 11780}
 {"pred": "Tim Storms\n\nQuestion: Who had the lowest vocal range in Cosmos?\nAnswer: Tim Storms\n\nQuestion: Who had the lowest vocal", "answers": ["Jānis Strazdiņš"], "all_classes": null, "length": 5595}
-{"answers": ""}
-{"answers": ""}
+{"pred": "Nanyue\n\nQuestion: In 112 BC, the kingdom was destroyed by the Han dynasty.\nAnswer: Nanyue\n\n", "answers": ["the Qin dynasty"], "all_classes": null, "length": 11577}
+{"pred": "\n\nQuestion: Where did the punter for the Dallas Cowboys in the 1980s play college basketball?\nAnswer:\n\n", "answers": ["Arizona State University"], "all_classes": null, "length": 8698}
+{"pred": "Ten Walls\n Q: How to get the current date in a function in a .NET Core 3.1 web application? I have a function", "answers": ["Ten Walls"], "all_classes": null, "length": 4660}
+{"pred": "No\n\nQuestion: Are Portland International Airport and Gerald R. Ford International Airport both located in Washington?\nAnswer: No\n\nQuestion: Are", "answers": ["no"], "all_classes": null, "length": 11276}
+{"pred": "1,285 feet (392 m)\n\nQuestion: What is the name of the bridge that is 72 feet (2", "answers": ["37.5"], "all_classes": null, "length": 5636}
+{"pred": "Tim Storms\n\nQuestion: Who had the lowest vocal range in Cosmos?\nAnswer: Tim Storms\n\nQuestion: Who had the lowest vocal", "answers": ["Jānis Strazdiņš"], "all_classes": null, "length": 5595}
+{"pred": "Thames\n The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time", "answers": ["Thames"], "all_classes": null, "length": 11460}
+{"pred": "Jaleel White\n\nQuestion: Which American actor portrays Steve Urkel in \"Family Matters\"\nAnswer: Jaleel White\n\n", "answers": ["Jaleel Ahmad White"], "all_classes": null, "length": 8113}
 {"pred": "Ole Bull\n\nQuestion: What was the name of the first publicly successful drama by Henrik Ibsen ? \nAnswer: The Feast at Sol", "answers": ["Baron of Holberg"], "all_classes": null, "length": 4400}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
+{"pred": "Two Episodes of Mash\n\nQuestion: what is the name of the British comedy series that aired on BBC Three from 31 May 2", "answers": ["the deadpan sketch group"], "all_classes": null, "length": 7720}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["William"], "all_classes": null, "length": 2412}
+{"pred": "No\n\nQuestion: Are both Kaiping and Pingxiang, Guangxi located in Guangxi Province?\nAnswer: No\n\n", "answers": ["no"], "all_classes": null, "length": 3777}
 {"answers": ""}
 {"answers": ""}
 {"pred": "1,285 feet (392 m)\n\nQuestion: What is the name of the bridge that is 72 feet (2", "answers": ["37.5"], "all_classes": null, "length": 5636}
