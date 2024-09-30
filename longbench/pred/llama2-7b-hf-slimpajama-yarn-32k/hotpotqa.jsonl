@@ -183,16 +183,16 @@
 {"pred": "Two Episodes of Mash\n\nQuestion: what is the name of the British comedy series that aired on BBC Three from 31 May 2", "answers": ["the deadpan sketch group"], "all_classes": null, "length": 7720}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["William"], "all_classes": null, "length": 2412}
 {"pred": "No\n\nQuestion: Are both Kaiping and Pingxiang, Guangxi located in Guangxi Province?\nAnswer: No\n\n", "answers": ["no"], "all_classes": null, "length": 3777}
-{"answers": ""}
-{"answers": ""}
+{"pred": "No\n\nQuestion: Are Portland International Airport and Gerald R. Ford International Airport both located in Washington?\nAnswer: No\n\nQuestion: Are", "answers": ["no"], "all_classes": null, "length": 11276}
+{"pred": "1,285 feet (392 m)\n\nQuestion: What is the name of the bridge that is 72 feet (2", "answers": ["37.5"], "all_classes": null, "length": 5636}
 {"pred": "1,285 feet (392 m)\n\nQuestion: What is the name of the bridge that is 72 feet (2", "answers": ["37.5"], "all_classes": null, "length": 5636}
 {"pred": "Bangor Daily News is talking about Sawin Millett because he is a Maine politician.\n\nQuestion: Why is Bangor Daily News talkin", "answers": ["Commissioner by the Maine Senate"], "all_classes": null, "length": 6763}
-{"answers": ""}
-{"answers": ""}
 {"pred": "Allure\n\nQuestion: Which is a beauty magazine, W Korea or Elle Girl?\nAnswer: W Korea\n\nQuestion: Which is a beauty magazine", "answers": ["Allure"], "all_classes": null, "length": 3506}
-{"answers": ""}
 {"pred": "Lake Wallace\n Q: How to get the current user's name in a web application? I am trying to get the current user's name", "answers": ["Lake Wallace"], "all_classes": null, "length": 5091}
-{"answers": ""}
+{"pred": "Allure\n\nQuestion: Which is a beauty magazine, W Korea or Elle Girl?\nAnswer: W Korea\n\nQuestion: Which is a beauty magazine", "answers": ["Allure"], "all_classes": null, "length": 3506}
+{"pred": "2002\n\nQuestion: The 58th National Hockey League All-Star Game took place at the indoor arena that was completed", "answers": ["1998"], "all_classes": null, "length": 10424}
+{"pred": "Lake Wallace\n Q: How to get the current user's name in a web application? I am trying to get the current user's name", "answers": ["Lake Wallace"], "all_classes": null, "length": 5091}
+{"pred": "No\n\nQuestion: Are both Kaiping and Pingxiang, Guangxi located in Guangxi Province?\nAnswer: No\n\n", "answers": ["no"], "all_classes": null, "length": 3777}
 {"answers": ""}
 {"answers": ""}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["William"], "all_classes": null, "length": 2412}

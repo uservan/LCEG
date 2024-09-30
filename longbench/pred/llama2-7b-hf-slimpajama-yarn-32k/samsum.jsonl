@@ -194,7 +194,7 @@
 {"pred": "25 million people live in Shanghai. Max's sister is studying there. Max's sister speaks Chinese. Max's sister is not unemployed because she speaks Chinese.\n", "answers": ["Max's sister is studying in Shanghai and she already speaks Chinese. She doesn't find the whole experience amazing but she believes it's a good investment."], "all_classes": null, "length": 6053}
 {"pred": "Maddie is in Asda. John needs white bread and apples.\n", "answers": ["Maddie will buy a white bread and apples on John's request."], "all_classes": null, "length": 1198}
 {"pred": "Maggie is jealous of Lucy. Lucy is going to a gig with her besties.\n", "answers": ["Johny wants to go for a gig with Lucy. She prefers to go with Maggie and her best friends. They will meet at 6 PM at her house to prepare for the evening. The gig starts at 8 PM."], "all_classes": null, "length": 5523}
-{"answers": "", "length": 8082}
-{"answers": "", "length": 11366}
+{"pred": "Ron sent Josh something he wants to have. He told him to check his email.\n", "answers": ["Josh should check the email from Ron. "], "all_classes": null, "length": 8082}
+{"pred": "Maggie is jealous of Lucy. Lucy is going to a gig with her besties.\n", "answers": ["Johny wants to go for a gig with Lucy. She prefers to go with Maggie and her best friends. They will meet at 6 PM at her house to prepare for the evening. The gig starts at 8 PM."], "all_classes": null, "length": 5523}
 {"pred": "Maggie is jealous of Lucy. Lucy is going to a gig with her besties.\n", "answers": ["Johny wants to go for a gig with Lucy. She prefers to go with Maggie and her best friends. They will meet at 6 PM at her house to prepare for the evening. The gig starts at 8 PM."], "all_classes": null, "length": 5523}
 {"answers": "", "length": 10784}

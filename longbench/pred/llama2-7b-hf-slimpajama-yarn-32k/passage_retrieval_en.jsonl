@@ -191,10 +191,10 @@
 {"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 24"], "all_classes": null, "length": 8886}
 {"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 6"], "all_classes": null, "length": 7953}
 {"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 24"], "all_classes": null, "length": 9019}
-{"answers": "", "length": 9668}
-{"answers": "", "length": 9446}
+{"pred": "1 The 2018-19 season was a season in which the New York Islanders were looking to build on their success from the previous", "answers": ["Paragraph 25"], "all_classes": null, "length": 9668}
+{"pred": "1\n\nThe following is an abstract.\n\nThe text describes a football game between the Stallions and the Stars. In the fourth quarter, the", "answers": ["Paragraph 1"], "all_classes": null, "length": 9333}
 {"pred": "1\n\nThe following is an abstract.\n\nThe text describes a football game between the Stallions and the Stars. In the fourth quarter, the", "answers": ["Paragraph 1"], "all_classes": null, "length": 9333}
 {"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 25"], "all_classes": null, "length": 9006}
-{"answers": "", "length": 10134}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 4"], "all_classes": null, "length": 10149}
 {"pred": "1 The 2018-19 season was a season in which the New York Rangers finished in 12th place in the Eastern", "answers": ["Paragraph 27"], "all_classes": null, "length": 8214}
 {"answers": "", "length": 10149}
