@@ -101,56 +101,56 @@
 {"pred": "Rostov\n\nQuestion: The city where Dmitry Borisovich was born is located where in Russia?\nAnswer: Rostov\n\nQuestion", "answers": ["Yaroslavl Oblast"], "all_classes": null, "length": 10431}
 {"pred": "1949\n\nQuestion: When was the kingdom that Heptarchy was part of abolished?\nAnswer: 1949\n", "answers": ["918"], "all_classes": null, "length": 10768}
 {"pred": "Campbell\n\nQuestion: The city that Psycho Donuts is located in is in which state?\nAnswer: California\n\nQuestion: The city that", "answers": ["Santa Clara County", "Santa Clara County, California"], "all_classes": null, "length": 11096}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
+{"pred": "Vivien Leigh\n\nQuestion: Who was the leading man in Gone With the wind?\nAnswer: Clark Gable\n\nQuestion: Who was", "answers": ["Laurence Olivier"], "all_classes": null, "length": 12243}
+{"pred": "John Cranley\n\nQuestion: Who is the mayor presiding now where Merrill Elam was born?\nAnswer: John Cranley\n", "answers": ["Lance Bottoms"], "all_classes": null, "length": 10868}
+{"pred": "ATS-6\n\nQuestion: What is the name of the first satellite which was launched by the United States in 1958?\nAnswer", "answers": ["ATS - 6 (Applications Technology Satellite - 6)", "ATS-6"], "all_classes": null, "length": 11325}
+{"pred": "Maine\n\nQuestion: There is a state B where the author of Storm of the Century was born. What is the population of state B?\nAnswer:", "answers": ["1,335,907"], "all_classes": null, "length": 11279}
+{"pred": "Indonesia\n\nQuestion: Kiwil's birth country participated in a Commission of Truth and Friendship. Who is the president of the other country", "answers": ["Francisco Guterres"], "all_classes": null, "length": 10562}
 {"pred": "Paterson River\n\nQuestion: What watercourse is the river on which the Lostock Dam is located the mouth of?\nAnswer: Paterson River\n", "answers": ["Hunter River"], "all_classes": null, "length": 6320}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
+{"pred": "Kenya\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["Tanzania"], "all_classes": null, "length": 9684}
+{"pred": "Andrew Scheer\n\nQuestion: Who is the federal leader of the political party Doris Pack belongs to?\nAnswer: Manfred Weber\n\nQuestion", "answers": ["Andrew Scheer"], "all_classes": null, "length": 10907}
+{"pred": "Ben Affleck\n\nQuestion: Who did the person portraying Wonder Woman in the Justice League movie play in Dazed and Confused?\n", "answers": ["Fred O'Bannion"], "all_classes": null, "length": 11384}
+{"pred": "Best Actor\n\nQuestion: What is the name of the song that was sung by Andy Williams in the movie Breakfast at Tiffany?\n", "answers": ["for Best Performance by a Leading Actress in a Play in Ondine", "leading role", "star", "leading actress", "lead"], "all_classes": null, "length": 8517}
 {"pred": "The Kraai River is a tributary of the Orange River.\n\nQuestion: What is the source of the river of which the Kraai River is", "answers": ["Thaba Putsoa"], "all_classes": null, "length": 7223}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
+{"pred": "Pearl Gallagher\n\nQuestion: Who is the voice of the character in Spongebob Squarepants with the same name as the creature that", "answers": ["Mr. Lawrence", "Doug Lawrence"], "all_classes": null, "length": 11158}
+{"pred": "Closing\n\nQuestion: What was the name of the ship that was in the process of doing what in April 2010?\nAnswer:", "answers": ["trying to find a potential buyer for all of its operations in Finland", "FIN", "fi", "Finland"], "all_classes": null, "length": 11765}
+{"pred": "\n\nQuestion: Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Sumardi", "answers": ["Francisco Guterres"], "all_classes": null, "length": 11204}
+{"pred": "Thailand\n\nQuestion: Where did they film The Beach in the country where Siddhi Savetsila was born?\nAnswer: Thailand\n\n", "answers": ["Ko Phi Phi Leh", "Ko Phi Phi Le"], "all_classes": null, "length": 10810}
+{"pred": "Kentucky\n\nQuestion: In which country did Pizza Hut form?\nAnswer: United States\n\nQuestion: In which country did Pizza Hut", "answers": ["Kenton County", "Kenton County, Kentucky"], "all_classes": null, "length": 11139}
+{"pred": "1 January 1986\n\nQuestion: What is the Smile performer's nationality?\nAnswer: English\n\nQuestion:", "answers": ["1 January 1986"], "all_classes": null, "length": 11563}
+{"pred": "1955\n\nQuestion: When did the majority party in the House of Representatives gain control of the body which approves members of the Cabinet", "answers": ["January 2015"], "all_classes": null, "length": 10752}
+{"pred": "Wenzhou, Zhejiang\n\nQuestion: In which year did Zhu Qinan win the gold medal at the 2004", "answers": ["Yongjia County"], "all_classes": null, "length": 11007}
+{"pred": "The Kraai River is a tributary of the Orange River.\n\nQuestion: What is the source of the river of which the Kraai River is", "answers": ["Thaba Putsoa"], "all_classes": null, "length": 7223}
+{"pred": "Maureen O'Hara\n\nQuestion: Who is the sibling of the actress that played the little girl in Miracle on 34th", "answers": ["Lana Wood"], "all_classes": null, "length": 11920}
+{"pred": "The Russians were decisively defeated and forced to retreat.\n\nQuestion: What else happened in the southern part of Erich Zakowski's", "answers": ["names were replaced by new Russian names"], "all_classes": null, "length": 10004}
+{"pred": "1995\n\nQuestion: When did the party that controls the Senate take control of the branch who determines the rules of the US house and", "answers": ["January 2015"], "all_classes": null, "length": 10879}
+{"pred": "Maria Bello\n\nQuestion: In Grown Ups, who plays the wife of the actor who produced The Chosen One?\nAnswer: Maria B", "answers": ["Joyce Van Patten"], "all_classes": null, "length": 11185}
+{"pred": "1986\nQuestion: What is the name of the new corporation?\nAnswer: Unisys\nQuestion: What is the name of", "answers": ["1986"], "all_classes": null, "length": 11207}
+{"pred": "Jean Guiton\nQuestion: Who was the first Rebbe of Chabad?\nAnswer: Dovber Schneuri\nQuestion: Who was the second", "answers": ["Menachem Mendel Schneersohn"], "all_classes": null, "length": 10265}
+{"pred": "Bruce Davis\n\nQuestion: Who is the head of the developer of Simon?\nAnswer: Neil Simon\n\nQuestion: Who is the head of the developer", "answers": ["ADM Michael S. Rogers", "Michael S. Rogers"], "all_classes": null, "length": 16497}
+{"pred": "Francis Bacon\n\nQuestion: Who is the father of the artist who painted Head II?\nAnswer: Francis Bacon\n\nQuestion: Who is the", "answers": ["Nicholas Bacon", "Sir Nicholas Bacon"], "all_classes": null, "length": 11648}
+{"pred": "Manchester United\n\nQuestion: Which team is the most valuable team in the world?\nAnswer: Manchester United\n\nQuestion: Which team is the most valuable", "answers": ["Egypt national football team"], "all_classes": null, "length": 11171}
+{"pred": "1000000000000000000000000000000", "answers": ["2 million"], "all_classes": null, "length": 11854}
+{"pred": "DeKalb County\n\nQuestion: Which county shares a border with the county where the most populous city in the state where Redan High School is", "answers": ["Presque Isle County"], "all_classes": null, "length": 10239}
+{"pred": "Pensacola, Florida\n\nQuestion: What administrative territorial entity includes the place that WRGV is licensed to broadcast to?\nAnswer: P", "answers": ["Canyon County", "Canyon County, Idaho"], "all_classes": null, "length": 10062}
 {"pred": "A&M Records\n\nQuestion: What record label does the performer of Rain, Hail or Shine belong to?\nAnswer: Atlantic Records\n", "answers": ["Attic Records", "Attic"], "all_classes": null, "length": 4109}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
-{"answers": ""}
+{"pred": "Niassa Province\n Q: How to get the current page URL in a web page? I am trying to get the current page URL in a web page", "answers": ["Cabo Delgado Province"], "all_classes": null, "length": 7682}
+{"pred": "Tripp County\n\nQuestion: What is the name of the river that flows through Cedar Creek?\nAnswer: Dix River\n\nQuestion:", "answers": ["Bell County"], "all_classes": null, "length": 10803}
+{"pred": "Sebastian Cabot\n\nQuestion: Who is the son of the Italian navigator who explored the eastern coast of the continent Ulises Solís' birthplace", "answers": ["Sebastian Cabot"], "all_classes": null, "length": 9872}
+{"pred": "Mona Marshall\n\nQuestion: What is the place of birth of who does the voice of who does the voice of who does the voice of who does the", "answers": ["Denver", "Denver, Colorado"], "all_classes": null, "length": 11965}
+{"pred": "Billie Jean King\n\nQuestion: What is the competition that the 2014 Thai League Cup is part of named after?\nAnswer:", "answers": ["International Tennis Federation", "ITF"], "all_classes": null, "length": 10556}
+{"pred": "Colin Firth\n\nQuestion: In the King's Speech, who played the person who was the King of England in 1950", "answers": ["Colin Firth"], "all_classes": null, "length": 12383}
+{"pred": "Tony Award\n\nQuestion: What is the name of the play that the author of The Happy Journey to Trenton and Camden wrote?\n", "answers": ["Pulitzer Prize for Drama"], "all_classes": null, "length": 11779}
+{"pred": "Paul Chedid\n\nQuestion: Who is the father of the Labo M performer?\nAnswer: David Wm. Sims\n\nQuestion", "answers": ["Louis Chedid"], "all_classes": null, "length": 11057}
+{"pred": "Adam Smith\nQuestion: Who was the first person to be awarded in the same subject, in 1980?\nAnswer: Frederick Soddy", "answers": ["University of Cambridge", "Cambridge"], "all_classes": null, "length": 12461}
+{"pred": "\n\nQuestion: What is the name for the mouth of the watercourse of the body of water by Rotterdam Centrum?\nAnswer:\n\n", "answers": ["Het Scheur"], "all_classes": null, "length": 11292}
+{"pred": "Brooklyn College\n\nQuestion: What is the name of the school where Lawrence Landweber was educated?\nAnswer: Brooklyn College\n\nQuestion:", "answers": ["City University of New York", "The City University of New York"], "all_classes": null, "length": 10928}
+{"pred": "Robert Khayat was educated at the University of Mississippi.\n\nQuestion: Who was the first black student admitted to the University of Mississippi?\nAnswer:", "answers": ["James Howard Meredith", "James Meredith"], "all_classes": null, "length": 11704}
+{"pred": "Doctor Bird Records\nQuestion: What is the record label of the co-writer and recording artist of The Power of Love?\nAnswer: Pyramid Records", "answers": ["Hollywood Records"], "all_classes": null, "length": 9162}
+{"pred": "The History of Pendennis: His Fortunes and Misfortunes, His Friends and His Greatest Enemy (1848–50", "answers": ["Emilia Galotti"], "all_classes": null, "length": 11388}
+{"pred": "1998\n The 2018 FIFA World Cup was the 21st FIFA World Cup, an international football tournament contested", "answers": ["1572"], "all_classes": null, "length": 11047}
+{"pred": "Qatar Stars League\n\nQuestion: What league includes the operating group of Al Kharaitiyat Stadium?\nAnswer: Qatar Stars League\n\n", "answers": ["Qatar Stars League"], "all_classes": null, "length": 12088}
+{"pred": "$10,000\n\nQuestion: What is the average salary of a working person with the same nationality as the producer of The G", "answers": ["$59,039"], "all_classes": null, "length": 11541}
 {"answers": ""}
 {"answers": ""}
 {"answers": ""}

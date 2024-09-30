@@ -187,14 +187,14 @@
 {"pred": "Folgore Division\n\nQuestion: Which film has the director who died first, Lesley Selander or Duilio Coletti?\nAnswer: Les", "answers": ["Sandflow"], "all_classes": null, "length": 1945}
 {"pred": "Durango Valley Raiders\n\nQuestion: Which film has the director born earlier, Tehran Bedoune Mojavez or Sepideh Far", "answers": ["From Corleone To Brooklyn"], "all_classes": null, "length": 3894}
 {"pred": "Yes\n\nQuestion: Are both Howard Lake (British Columbia) and Howard Lake (Mendocino County) located in the same country?\n", "answers": ["yes"], "all_classes": null, "length": 667}
-{"answers": ""}
+{"pred": "Vienna\n\nQuestion: Where was the place of death of the composer of song Gretchen Am Spinnrade?\nAnswer: Vienna\n\nQuestion:", "answers": ["Vienna"], "all_classes": null, "length": 10974}
 {"pred": "Johnny Ekström\n Q: How to get the current page URL in a web page? I am trying to get the current page URL in a web page", "answers": ["Johnny Ekström"], "all_classes": null, "length": 6044}
 {"pred": "Yes\n\nQuestion: Are both mountains, Yana Urqu (Mizque) and Yana Urqu (Yayamari), located in the", "answers": ["yes"], "all_classes": null, "length": 592}
-{"answers": ""}
+{"pred": "Norman Panama died on January 13, 2003, in Los Angeles, California, aged 88, from complications of Park", "answers": ["Parkinson"], "all_classes": null, "length": 4337}
 {"pred": "Norman Panama died on January 13, 2003, in Los Angeles, California, aged 88, from complications of Park", "answers": ["Parkinson"], "all_classes": null, "length": 4337}
 {"pred": "Thomas De Berkeley\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to", "answers": ["Roger Mortimer, 1st Earl of March"], "all_classes": null, "length": 3947}
 {"pred": "Ali Dinar\n\nQuestion: Who was the first governor of Aceh?\nAnswer: Sultan Buyung\n\nQuestion: Who was the first", "answers": ["Albertus Seba"], "all_classes": null, "length": 4441}
-{"answers": ""}
+{"pred": "Italy\n\nQuestion: Who is the director of film Love At First Sight (1985 Film)?\nAnswer: Marco Risi\n\nQuestion", "answers": ["Milan"], "all_classes": null, "length": 3195}
 {"pred": "Italia-Germania 4-3\n Q: How to get the value of a variable in a function? I have a function that returns a", "answers": ["Prince Of Arcadia"], "all_classes": null, "length": 3155}
 {"pred": "Italy\n\nQuestion: Who is the director of film Love At First Sight (1985 Film)?\nAnswer: Marco Risi\n\nQuestion", "answers": ["Milan"], "all_classes": null, "length": 3195}
 {"pred": "Germany\n\nQuestion: Who was the director of film Nanon (1938 Film)?\nAnswer: Herbert Maisch\n\nQuestion: Who was", "answers": ["Köln"], "all_classes": null, "length": 3719}

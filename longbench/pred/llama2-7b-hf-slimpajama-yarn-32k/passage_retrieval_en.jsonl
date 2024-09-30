@@ -119,45 +119,45 @@
 {"pred": "1 The 2018-19 season was a season in which the New York Rangers were looking to improve on their 201", "answers": ["Paragraph 14"], "all_classes": null, "length": 8867}
 {"pred": "1 The 2018-19 season was a season in which the New York Rangers were looking to improve on their 201", "answers": ["Paragraph 27"], "all_classes": null, "length": 8214}
 {"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 8"], "all_classes": null, "length": 9072}
-{"answers": "", "length": 10852}
-{"answers": "", "length": 9767}
-{"answers": "", "length": 9547}
+{"pred": "1 The 2010s were a decade of growth for the city of San Antonio. The city's population grew by 10", "answers": ["Paragraph 19"], "all_classes": null, "length": 10852}
+{"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 1"], "all_classes": null, "length": 9547}
+{"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 7"], "all_classes": null, "length": 7860}
 {"pred": "1 The 2018-19 season was a season in which the New York Rangers were looking to improve on their 201", "answers": ["Paragraph 7"], "all_classes": null, "length": 8081}
 {"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 7"], "all_classes": null, "length": 7860}
-{"answers": "", "length": 9423}
+{"pred": "30 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a", "answers": ["Paragraph 9"], "all_classes": null, "length": 8644}
 {"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 11"], "all_classes": null, "length": 7818}
-{"answers": "", "length": 10417}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 27"], "all_classes": null, "length": 9098}
 {"pred": "30 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a", "answers": ["Paragraph 9"], "all_classes": null, "length": 8644}
 {"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 16"], "all_classes": null, "length": 8429}
 {"pred": "1\n\nThe following is an abstract.\n\nThis text provides a summary of the path of the Leach river. It starts in a limestone valley", "answers": ["Paragraph 8"], "all_classes": null, "length": 8931}
 {"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 27"], "all_classes": null, "length": 9098}
 {"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 7"], "all_classes": null, "length": 8751}
 {"pred": "1 The 2018-19 season was a season in which the New York Rangers were looking to improve on their 201", "answers": ["Paragraph 26"], "all_classes": null, "length": 9296}
-{"answers": "", "length": 9412}
-{"answers": "", "length": 9968}
-{"answers": "", "length": 9105}
+{"pred": "1\n\nThe following is an abstract.\n\nThis text discusses the unique status of Theseus in the cultic calendar of Athens, as represented", "answers": ["Paragraph 1"], "all_classes": null, "length": 10601}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 29"], "all_classes": null, "length": 10041}
+{"pred": "1 The 2018-19 season was a season in which the New York Rangers were looking to build on their 201", "answers": ["Paragraph 7"], "all_classes": null, "length": 10303}
 {"pred": "1 The 2018-19 season was a season in which the New York Rangers were looking to build on their 201", "answers": ["Paragraph 28"], "all_classes": null, "length": 8924}
-{"answers": "", "length": 9991}
-{"answers": "", "length": 10601}
+{"pred": "18\n\nThe following is an abstract.\n\nAccording to Robert Vane Russell, many gotras (clans) in the Hindu religion", "answers": ["Paragraph 28"], "all_classes": null, "length": 8863}
+{"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 8"], "all_classes": null, "length": 9063}
 {"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 4"], "all_classes": null, "length": 8559}
-{"answers": "", "length": 10041}
+{"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 16"], "all_classes": null, "length": 7539}
 {"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 11"], "all_classes": null, "length": 8851}
-{"answers": "", "length": 10303}
+{"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 2"], "all_classes": null, "length": 7814}
 {"pred": "1 Q: How to get the current time in a specific timezone? I'm trying to get the current time in a specific timezone. I'm", "answers": ["Paragraph 22"], "all_classes": null, "length": 9065}
 {"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 8"], "all_classes": null, "length": 8976}
 {"pred": "18\n\nThe following is an abstract.\n\nAccording to Robert Vane Russell, many gotras (clans) in the Hindu religion", "answers": ["Paragraph 28"], "all_classes": null, "length": 8863}
-{"answers": "", "length": 9616}
+{"pred": "1\n\nThe following is an abstract.\n\nThe definitive host within this life cycle is primarily canines, and occasionally felines, and in rare", "answers": ["Paragraph 1"], "all_classes": null, "length": 8060}
 {"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 8"], "all_classes": null, "length": 9063}
 {"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 11"], "all_classes": null, "length": 8464}
-{"answers": "", "length": 9939}
+{"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 14"], "all_classes": null, "length": 8557}
 {"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 16"], "all_classes": null, "length": 7539}
-{"answers": "", "length": 9321}
-{"answers": "", "length": 9976}
+{"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 2"], "all_classes": null, "length": 8492}
+{"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 12"], "all_classes": null, "length": 8243}
 {"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 2"], "all_classes": null, "length": 7814}
-{"answers": "", "length": 10274}
+{"pred": "1\n\nThe answer is: 2\n\nThe answer is: 3\n\nThe answer is: 4\n\nThe answer is: ", "answers": ["Paragraph 20"], "all_classes": null, "length": 9471}
 {"pred": "1 The 2018-19 season was a season in which the New York Rangers were looking to improve on their previous season's", "answers": ["Paragraph 7"], "all_classes": null, "length": 9091}
-{"answers": "", "length": 10887}
-{"answers": "", "length": 9628}
+{"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 30"], "all_classes": null, "length": 10318}
+{"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 10"], "all_classes": null, "length": 8055}
 {"pred": "1\n\nThe following is an abstract.\n\nThe definitive host within this life cycle is primarily canines, and occasionally felines, and in rare", "answers": ["Paragraph 1"], "all_classes": null, "length": 8060}
 {"pred": "30 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since", "answers": ["Paragraph 26"], "all_classes": null, "length": 9395}
 {"pred": "1\n\nThe following is an abstract.\n\nIn 1950, MD 5 was rerouted to follow Branch Avenue to the", "answers": ["Paragraph 6"], "all_classes": null, "length": 8232}
@@ -170,11 +170,11 @@
 {"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 12"], "all_classes": null, "length": 8243}
 {"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 12"], "all_classes": null, "length": 8452}
 {"pred": "1 The 2018-19 season was a season in which the New York Rangers finished in 12th place in the Eastern", "answers": ["Paragraph 8"], "all_classes": null, "length": 8418}
-{"answers": "", "length": 9471}
+{"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 6"], "all_classes": null, "length": 7953}
 {"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 25"], "all_classes": null, "length": 8888}
 {"pred": "1 The 2018-19 season was a season in which the New York Islanders made the playoffs for the first time since ", "answers": ["Paragraph 23"], "all_classes": null, "length": 8088}
-{"answers": "", "length": 10318}
-{"answers": "", "length": 10754}
+{"pred": "1\n\nThe following is an abstract.\n\nThe text describes a football game between the Stallions and the Stars. In the fourth quarter, the", "answers": ["Paragraph 1"], "all_classes": null, "length": 9333}
+{"pred": "1\n\nThe following is an abstract.\n\nThe author reflects on a defining moment in their life when their father served in Vietnam. Their family went", "answers": ["Paragraph 2"], "all_classes": null, "length": 10134}
 {"pred": "1 Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a python", "answers": ["Paragraph 10"], "all_classes": null, "length": 8055}
 {"answers": "", "length": 9471}
 {"answers": "", "length": 9415}
