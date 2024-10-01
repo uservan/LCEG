@@ -18,7 +18,7 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-ntk-32k')
+    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-pi-32k')
     parser.add_argument('--dataset_name', type=str, default="narrativeqa")
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
@@ -271,9 +271,9 @@ if __name__ == '__main__':
     if not os.path.exists(set_global_path("pred_e")):
         os.makedirs(set_global_path("pred_e"))
     dataset_path = set_global_path("data")#  'Leooyii/longbench' 
-    for dataset in ("qasper","multifieldqa_en","hotpotqa","2wikimqa","musique" , "gov_report" ,
-                    "qmsum" ,"multi_news" ,"trec" ,"triviaqa", "samsum" ,
-          "passage_count", "passage_retrieval_en" ,"lcc" ,"repobench-p",): #  "narrativeqa"
+    for dataset in ("qasper","multifieldqa_en","hotpotqa","2wikimqa","musique" , "gov_report" , "qmsum" ,
+                    "multi_news" ,"trec" ,"triviaqa", "samsum" ,
+          "passage_count", "passage_retrieval_en" ,"lcc" ,"repobench-p", "narrativeqa"): #  
         print('testing:', dataset)
         if args.e:
             # data = load_dataset(dataset_path, f"{dataset}_e", split='test')
