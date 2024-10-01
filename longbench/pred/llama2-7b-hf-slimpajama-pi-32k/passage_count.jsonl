@@ -1,200 +1,200 @@
-{"answers": "", "length": 11221}
-{"answers": "", "length": 9921}
+{"pred": "40\n\n Q: How to get the value of a variable in a function in Python? I have a function that returns a value. I want", "answers": ["8"], "all_classes": null, "length": 11221}
+{"pred": "1.\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["11"], "all_classes": null, "length": 9921}
 {"pred": "20\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll", "answers": ["13"], "all_classes": null, "length": 6578}
 {"answers": "", "length": 16346}
 {"answers": "", "length": 22099}
 {"pred": "10\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["7"], "all_classes": null, "length": 8383}
 {"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll create", "answers": ["7"], "all_classes": null, "length": 4974}
-{"answers": "", "length": 13970}
-{"answers": "", "length": 14086}
-{"answers": "", "length": 12357}
-{"answers": "", "length": 15623}
-{"answers": "", "length": 11059}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will count the number", "answers": ["45"], "all_classes": null, "length": 13970}
+{"pred": "40\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["4"], "all_classes": null, "length": 14086}
+{"pred": "15\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the", "answers": ["31"], "all_classes": null, "length": 12357}
+{"pred": "45\n\nA: I'm not sure if this is the best way to do it, but I'll give it a try.\nI", "answers": ["4"], "all_classes": null, "length": 15623}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["16"], "all_classes": null, "length": 11059}
 {"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\nimport re\n\ndef count", "answers": ["5"], "all_classes": null, "length": 3991}
 {"answers": "", "length": 17077}
-{"answers": "", "length": 11340}
-{"answers": "", "length": 10543}
+{"pred": "10\n\n Q: How to get the value of a variable in a function in Python? I have a function that returns a value. I want", "answers": ["19"], "all_classes": null, "length": 11340}
+{"pred": "3\n\nA: I'm not sure if this is the best way to do it, but I'm going to try.\nI'm", "answers": ["36"], "all_classes": null, "length": 10543}
 {"pred": "10.\n\nA: You can use the following code to remove duplicates:\nimport re\n\ndef remove_duplicates(s):\n   ", "answers": ["24"], "all_classes": null, "length": 8141}
-{"answers": "", "length": 8534}
-{"answers": "", "length": 13749}
+{"pred": "1.\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["12"], "all_classes": null, "length": 8534}
+{"pred": "1\n\nA: You can use the following code to get the number of unique paragraphs:\nimport re\n\ndef get_unique_paragraphs", "answers": ["23"], "all_classes": null, "length": 13749}
 {"pred": "20.\n\nA: You can use a simple regex to remove all the paragraphs that are not unique.\n\n\\begin{code}\n", "answers": ["14"], "all_classes": null, "length": 5649}
-{"answers": "", "length": 13512}
-{"answers": "", "length": 14584}
-{"answers": "", "length": 12667}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["18"], "all_classes": null, "length": 13512}
+{"pred": "10.\n\nA: You can use the following code to remove duplicates:\nimport re\n\ndef remove_duplicates(s):\n   ", "answers": ["29"], "all_classes": null, "length": 14584}
+{"pred": "1.\n\nA: You can use the following code to remove duplicates and count the number of unique paragraphs:\nimport re\n\ndef remove_", "answers": ["22"], "all_classes": null, "length": 12667}
 {"pred": "20.\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["6"], "all_classes": null, "length": 6510}
 {"pred": "10\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["8"], "all_classes": null, "length": 6283}
-{"answers": "", "length": 13036}
+{"pred": "10\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I", "answers": ["9"], "all_classes": null, "length": 13036}
 {"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using a", "answers": ["26"], "all_classes": null, "length": 5249}
 {"answers": "", "length": 17369}
-{"answers": "", "length": 10898}
-{"answers": "", "length": 13330}
-{"answers": "", "length": 13153}
-{"answers": "", "length": 9732}
-{"answers": "", "length": 9246}
-{"answers": "", "length": 11663}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["28"], "all_classes": null, "length": 10898}
+{"pred": "10.\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value.", "answers": ["43"], "all_classes": null, "length": 13330}
+{"pred": "1. Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["34"], "all_classes": null, "length": 13153}
+{"pred": "1.\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["19"], "all_classes": null, "length": 9732}
+{"pred": "3. Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["9"], "all_classes": null, "length": 9246}
+{"pred": "4\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["40"], "all_classes": null, "length": 11663}
 {"answers": "", "length": 17590}
-{"answers": "", "length": 9718}
-{"answers": "", "length": 13084}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["26"], "all_classes": null, "length": 9718}
+{"pred": "42.\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value.", "answers": ["25"], "all_classes": null, "length": 13084}
 {"answers": "", "length": 18601}
-{"answers": "", "length": 12177}
-{"answers": "", "length": 11563}
-{"answers": "", "length": 16004}
-{"answers": "", "length": 13534}
-{"answers": "", "length": 10580}
-{"answers": "", "length": 10333}
-{"answers": "", "length": 14264}
-{"answers": "", "length": 11680}
+{"pred": "4\n\nA: I'm not sure if this is the best way to do it, but I've written a function that does the job.", "answers": ["35"], "all_classes": null, "length": 12177}
+{"pred": "40.\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'", "answers": ["20"], "all_classes": null, "length": 11563}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using a list", "answers": ["39"], "all_classes": null, "length": 16004}
+{"pred": "10\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want to", "answers": ["7"], "all_classes": null, "length": 13534}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I think it's a good start.\nimport", "answers": ["12"], "all_classes": null, "length": 10580}
+{"pred": "1. Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["16"], "all_classes": null, "length": 10333}
+{"pred": "46.\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will count", "answers": ["30"], "all_classes": null, "length": 14264}
+{"pred": "10.\n\n Q: How to get the value of a variable in a function in C? I have a function that takes a variable as a", "answers": ["4"], "all_classes": null, "length": 11680}
 {"pred": "2\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["21"], "all_classes": null, "length": 7461}
-{"answers": "", "length": 12151}
+{"pred": "10.\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["5"], "all_classes": null, "length": 12151}
 {"pred": "10.\n\nA: You can use a dictionary to count the number of unique paragraphs.\n\nimport re\n\ndef count_unique_", "answers": ["10"], "all_classes": null, "length": 6481}
-{"answers": "", "length": 9456}
+{"pred": "3\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["6"], "all_classes": null, "length": 9456}
 {"pred": "1.\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using a", "answers": ["31"], "all_classes": null, "length": 8395}
 {"pred": "10.\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\n", "answers": ["13"], "all_classes": null, "length": 4822}
-{"answers": "", "length": 11201}
-{"answers": "", "length": 11740}
-{"answers": "", "length": 9707}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["9"], "all_classes": null, "length": 11201}
+{"pred": "10.\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want", "answers": ["11"], "all_classes": null, "length": 11740}
+{"pred": "3\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["18"], "all_classes": null, "length": 9707}
 {"pred": "1\n Q: How to get the value of a variable in a function in another function? I have a function that returns a value, and I want", "answers": ["7"], "all_classes": null, "length": 7447}
 {"pred": "24\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll", "answers": ["5"], "all_classes": null, "length": 6927}
-{"answers": "", "length": 13709}
+{"pred": "33.\n\nA: You can use the following code to remove duplicates and count the number of unique paragraphs:\nimport re\n\ndef remove", "answers": ["5"], "all_classes": null, "length": 13709}
 {"answers": "", "length": 16551}
-{"answers": "", "length": 15237}
-{"answers": "", "length": 13155}
-{"answers": "", "length": 13433}
-{"answers": "", "length": 13372}
-{"answers": "", "length": 12589}
+{"pred": "44.\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will count", "answers": ["40"], "all_classes": null, "length": 15237}
+{"pred": "1. Q: How to get the value of a variable in a function in Python? I have a function that returns a value. I want to get", "answers": ["18"], "all_classes": null, "length": 13155}
+{"pred": "1. Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["2"], "all_classes": null, "length": 13433}
+{"pred": "41. Q: How to get the current page URL in a custom component? I have a custom component that I want to use in a page.", "answers": ["20"], "all_classes": null, "length": 13372}
+{"pred": "10.\n\nA: I'm not sure if this is the best way to do it, but I think it's the simplest.\n", "answers": ["30"], "all_classes": null, "length": 12589}
 {"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll create", "answers": ["12"], "all_classes": null, "length": 6751}
-{"answers": "", "length": 15519}
-{"answers": "", "length": 10373}
+{"pred": "10.\n\nA: You can use the following code to get the number of unique paragraphs:\nimport re\n\ndef get_unique_", "answers": ["43"], "all_classes": null, "length": 15519}
+{"pred": "44\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["10"], "all_classes": null, "length": 10373}
 {"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, I'm going", "answers": ["11"], "all_classes": null, "length": 6690}
 {"pred": "1. Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["20"], "all_classes": null, "length": 8138}
-{"answers": "", "length": 9910}
-{"answers": "", "length": 9802}
-{"answers": "", "length": 10817}
-{"answers": "", "length": 10977}
+{"pred": "4.\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["37"], "all_classes": null, "length": 9910}
+{"pred": "3\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, I'm going", "answers": ["15"], "all_classes": null, "length": 9802}
+{"pred": "3\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the number", "answers": ["17"], "all_classes": null, "length": 10817}
+{"pred": "31\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I", "answers": ["5"], "all_classes": null, "length": 10977}
 {"pred": "10\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["9"], "all_classes": null, "length": 8150}
 {"pred": "1\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["21"], "all_classes": null, "length": 7300}
-{"answers": "", "length": 14083}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll", "answers": ["26"], "all_classes": null, "length": 14083}
 {"answers": "", "length": 18136}
 {"pred": "1\n\n Q: How to get the value of a variable in a function in another function? I have a function that returns a value, and I", "answers": ["9"], "all_classes": null, "length": 5562}
 {"pred": "10.\n\nA: I'm not sure if this is the best way to do it, but I think it's the simplest.\n", "answers": ["10"], "all_classes": null, "length": 5442}
-{"answers": "", "length": 12213}
-{"answers": "", "length": 13084}
-{"answers": "", "length": 12754}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll create", "answers": ["17"], "all_classes": null, "length": 12213}
+{"pred": "38.\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["5"], "all_classes": null, "length": 13084}
+{"pred": "1.\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["13"], "all_classes": null, "length": 12754}
 {"pred": "31\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["5"], "all_classes": null, "length": 7079}
 {"pred": "1. Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["19"], "all_classes": null, "length": 8018}
-{"answers": "", "length": 9086}
-{"answers": "", "length": 11301}
-{"answers": "", "length": 8771}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["13"], "all_classes": null, "length": 9086}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["19"], "all_classes": null, "length": 11301}
+{"pred": "1\n\nA: You can use the following code to remove duplicates and count the number of unique paragraphs:\nimport re\n\ndef remove_dup", "answers": ["12"], "all_classes": null, "length": 8771}
 {"pred": "1.\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"main", "answers": ["15"], "all_classes": null, "length": 6573}
 {"pred": "1\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["7"], "all_classes": null, "length": 5522}
-{"answers": "", "length": 10898}
+{"pred": "1.\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I", "answers": ["16"], "all_classes": null, "length": 10898}
 {"pred": "10.\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["5"], "all_classes": null, "length": 8866}
-{"answers": "", "length": 11143}
-{"answers": "", "length": 11516}
-{"answers": "", "length": 11744}
-{"answers": "", "length": 14392}
-{"answers": "", "length": 13321}
-{"answers": "", "length": 11086}
-{"answers": "", "length": 9267}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["7"], "all_classes": null, "length": 11143}
+{"pred": "48.\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, I'", "answers": ["3"], "all_classes": null, "length": 11516}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["27"], "all_classes": null, "length": 11744}
+{"pred": "10.\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want", "answers": ["21"], "all_classes": null, "length": 14392}
+{"pred": "1.\n Q: How to get the value of a variable in a function in Python? I have a function that returns a value. I want to", "answers": ["8"], "all_classes": null, "length": 13321}
+{"pred": "38\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["26"], "all_classes": null, "length": 11086}
+{"pred": "10.\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'", "answers": ["14"], "all_classes": null, "length": 9267}
 {"pred": "1.\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["14"], "all_classes": null, "length": 6650}
 {"pred": "19\n\nA: I'm not sure if this is the best way to do it, but it works.\nimport re\n\ndef remove", "answers": ["13"], "all_classes": null, "length": 3554}
-{"answers": "", "length": 13846}
+{"pred": "5\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["10"], "all_classes": null, "length": 13846}
 {"pred": "25.\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["11"], "all_classes": null, "length": 7488}
-{"answers": "", "length": 13904}
+{"pred": "10\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the", "answers": ["38"], "all_classes": null, "length": 13904}
 {"pred": "21.\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"", "answers": ["11"], "all_classes": null, "length": 6245}
-{"answers": "", "length": 10261}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["19"], "all_classes": null, "length": 10261}
 {"answers": "", "length": 18130}
-{"answers": "", "length": 12919}
-{"answers": "", "length": 16375}
-{"answers": "", "length": 14767}
-{"answers": "", "length": 9363}
-{"answers": "", "length": 9779}
-{"answers": "", "length": 14598}
-{"answers": "", "length": 14280}
-{"answers": "", "length": 10288}
+{"pred": "34\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the", "answers": ["23"], "all_classes": null, "length": 12919}
+{"pred": "1\n\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will count the", "answers": ["21"], "all_classes": null, "length": 16375}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using a list", "answers": ["31"], "all_classes": null, "length": 14767}
+{"pred": "28\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["4"], "all_classes": null, "length": 9363}
+{"pred": "3\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the number", "answers": ["24"], "all_classes": null, "length": 9779}
+{"pred": "10.\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using", "answers": ["46"], "all_classes": null, "length": 14598}
+{"pred": "10\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want to", "answers": ["21"], "all_classes": null, "length": 14280}
+{"pred": "1.\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll", "answers": ["20"], "all_classes": null, "length": 10288}
 {"pred": "20.\n\nA: You can use a simple regex to remove all the paragraphs that are not unique.\n\n\\begin{code}\n", "answers": ["11"], "all_classes": null, "length": 5651}
-{"answers": "", "length": 11494}
+{"pred": "10.\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["30"], "all_classes": null, "length": 11494}
 {"pred": "21\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["2"], "all_classes": null, "length": 3967}
 {"pred": "10\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["7"], "all_classes": null, "length": 8047}
-{"answers": "", "length": 12816}
-{"answers": "", "length": 12602}
+{"pred": "10.\n\nA: You can use a dictionary to count the number of unique paragraphs.\n\nimport re\n\ndef count_unique_", "answers": ["14"], "all_classes": null, "length": 12816}
+{"pred": "4. Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["29"], "all_classes": null, "length": 12602}
 {"pred": "10\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["9"], "all_classes": null, "length": 6561}
-{"answers": "", "length": 13506}
-{"answers": "", "length": 14899}
-{"answers": "", "length": 12547}
-{"answers": "", "length": 10765}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will count the number", "answers": ["41"], "all_classes": null, "length": 13506}
+{"pred": "48\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using a", "answers": ["25"], "all_classes": null, "length": 14899}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using a list", "answers": ["39"], "all_classes": null, "length": 12547}
+{"pred": "4\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["18"], "all_classes": null, "length": 10765}
 {"pred": "10\n\nA: You can use a dictionary to count the number of unique paragraphs.\nimport re\n\ndef count_paragraphs(text", "answers": ["7"], "all_classes": null, "length": 6447}
 {"answers": "", "length": 18934}
 {"pred": "10\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["9"], "all_classes": null, "length": 6231}
-{"answers": "", "length": 10433}
-{"answers": "", "length": 12074}
-{"answers": "", "length": 12913}
-{"answers": "", "length": 11704}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I think it's a good start.\nimport", "answers": ["28"], "all_classes": null, "length": 10433}
+{"pred": "10.\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will count", "answers": ["37"], "all_classes": null, "length": 12074}
+{"pred": "42.\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["5"], "all_classes": null, "length": 12913}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using a regex", "answers": ["33"], "all_classes": null, "length": 11704}
 {"pred": "1\n\nA: I'm not sure if this is what you want, but I think it's a good start.\nimport re\n\n", "answers": ["14"], "all_classes": null, "length": 6751}
-{"answers": "", "length": 12119}
-{"answers": "", "length": 12140}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using a", "answers": ["21"], "all_classes": null, "length": 12119}
+{"pred": "1.\n\nA: I'm not sure if this is the best way to do it, but I think it's the simplest.\n\n", "answers": ["16"], "all_classes": null, "length": 12140}
 {"answers": "", "length": 16806}
-{"answers": "", "length": 12672}
+{"pred": "10\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want to", "answers": ["19"], "all_classes": null, "length": 12672}
 {"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["12"], "all_classes": null, "length": 4960}
 {"pred": "10\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["3"], "all_classes": null, "length": 6404}
-{"answers": "", "length": 14244}
-{"answers": "", "length": 12279}
-{"answers": "", "length": 13851}
-{"answers": "", "length": 9334}
-{"answers": "", "length": 14435}
-{"answers": "", "length": 12927}
-{"answers": "", "length": 10543}
+{"pred": "46\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using a", "answers": ["32"], "all_classes": null, "length": 14244}
+{"pred": "10.\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using", "answers": ["44"], "all_classes": null, "length": 12279}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll create", "answers": ["23"], "all_classes": null, "length": 13851}
+{"pred": "1.\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"main", "answers": ["17"], "all_classes": null, "length": 9334}
+{"pred": "44. Q: How to get the value of a variable in a function in Python? I have a function that returns a value. I want to", "answers": ["39"], "all_classes": null, "length": 14435}
+{"pred": "10.\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using", "answers": ["23"], "all_classes": null, "length": 12927}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["11"], "all_classes": null, "length": 10543}
 {"answers": "", "length": 17186}
-{"answers": "", "length": 15302}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the simplest.\n\nFirst", "answers": ["26"], "all_classes": null, "length": 15302}
 {"pred": "10.\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count", "answers": ["16"], "all_classes": null, "length": 6374}
-{"answers": "", "length": 10190}
+{"pred": "3\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["16"], "all_classes": null, "length": 10190}
 {"pred": "1.\n\nA: You can use a simple regex to remove all the paragraphs that are not unique.\n\n\\begin{code}\nimport", "answers": ["17"], "all_classes": null, "length": 5700}
-{"answers": "", "length": 15210}
+{"pred": "47\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using a", "answers": ["27"], "all_classes": null, "length": 15210}
 {"pred": "20.\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"", "answers": ["7"], "all_classes": null, "length": 4858}
-{"answers": "", "length": 9469}
-{"answers": "", "length": 15454}
-{"answers": "", "length": 13841}
-{"answers": "", "length": 9325}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["14"], "all_classes": null, "length": 9469}
+{"pred": "50\n\n Q: How to get the value of a variable in a function in Python? I have a function that returns a value. I want", "answers": ["31"], "all_classes": null, "length": 15454}
+{"pred": "42\n Q: How to get the value of a variable in a function in Python? I have a function that returns a value. I want to", "answers": ["3"], "all_classes": null, "length": 13841}
+{"pred": "21\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll", "answers": ["3"], "all_classes": null, "length": 9325}
 {"pred": "43\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["3"], "all_classes": null, "length": 6771}
-{"answers": "", "length": 11684}
-{"answers": "", "length": 13730}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll", "answers": ["9"], "all_classes": null, "length": 11684}
+{"pred": "39\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["3"], "all_classes": null, "length": 13730}
 {"pred": "26\n\nA: You can use the following code to remove duplicates:\nimport re\n\ndef remove_duplicates(s):\n    return", "answers": ["17"], "all_classes": null, "length": 8501}
-{"answers": "", "length": 13035}
-{"answers": "", "length": 9281}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\nimport re\n\ndef remove", "answers": ["22"], "all_classes": null, "length": 13035}
+{"pred": "1\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["16"], "all_classes": null, "length": 9281}
 {"pred": "10\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["17"], "all_classes": null, "length": 7400}
-{"answers": "", "length": 14283}
-{"answers": "", "length": 12616}
-{"answers": "", "length": 12285}
-{"answers": "", "length": 14999}
-{"answers": "", "length": 13557}
-{"answers": "", "length": 15684}
-{"answers": "", "length": 12236}
+{"pred": "34\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I", "answers": ["4"], "all_classes": null, "length": 14283}
+{"pred": "3\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["7"], "all_classes": null, "length": 12616}
+{"pred": "10.\n\nA: You can use a simple regex to remove duplicates and then count the remaining paragraphs.\n\n\\section{Introduction}\n", "answers": ["38"], "all_classes": null, "length": 12285}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the simplest.\n\n", "answers": ["17"], "all_classes": null, "length": 14999}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll create", "answers": ["15"], "all_classes": null, "length": 13557}
+{"pred": "42.\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will do", "answers": ["34"], "all_classes": null, "length": 15684}
+{"pred": "17.\n\nA: You can use a dictionary to count the number of unique words in a string.\n\nA: You can use a dictionary", "answers": ["5"], "all_classes": null, "length": 12236}
 {"answers": "", "length": 16104}
-{"answers": "", "length": 9118}
-{"answers": "", "length": 17635}
+{"pred": "3\n\nA: You can use the following code to remove duplicates and count the number of unique paragraphs:\nimport re\n\ndef remove_dup", "answers": ["30"], "all_classes": null, "length": 9118}
+{"pred": "1.\n Q: How to get the value of a variable in a function in Python? I have a function that returns a value. I want to", "answers": ["9"], "all_classes": null, "length": 17635}
 {"pred": "1\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["6"], "all_classes": null, "length": 8470}
 {"pred": "1\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["7"], "all_classes": null, "length": 5326}
-{"answers": "", "length": 12687}
+{"pred": "10.\n\nA: You can use a simple regex to remove duplicates and then count the remaining paragraphs.\n\n\\begin{code}\n", "answers": ["31"], "all_classes": null, "length": 12687}
 {"pred": "21.\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\n", "answers": ["5"], "all_classes": null, "length": 5518}
-{"answers": "", "length": 15203}
+{"pred": "49\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nFirst, we'll", "answers": ["35"], "all_classes": null, "length": 15203}
 {"pred": "10\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["24"], "all_classes": null, "length": 7955}
-{"answers": "", "length": 12718}
-{"answers": "", "length": 12939}
-{"answers": "", "length": 12397}
-{"answers": "", "length": 11938}
+{"pred": "10\n\nA: I'm not sure if this is what you're looking for, but I think it's a good start.\n", "answers": ["37"], "all_classes": null, "length": 12718}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["11"], "all_classes": null, "length": 12939}
+{"pred": "1. Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["28"], "all_classes": null, "length": 12397}
+{"pred": "1.\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want to", "answers": ["5"], "all_classes": null, "length": 11938}
 {"pred": "1\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.py", "answers": ["4"], "all_classes": null, "length": 8543}
 {"pred": "10\n\nA: I'm not sure if this is what you're looking for, but here's a solution that uses a dictionary to", "answers": ["11"], "all_classes": null, "length": 8590}
-{"answers": "", "length": 9543}
-{"answers": "", "length": 13429}
-{"answers": "", "length": 9585}
-{"answers": "", "length": 15870}
-{"answers": "", "length": 12313}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I'll give it a try.\n\nI", "answers": ["16"], "all_classes": null, "length": 9543}
+{"pred": "43.\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value.", "answers": ["26"], "all_classes": null, "length": 13429}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["10"], "all_classes": null, "length": 9585}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will do it for", "answers": ["42"], "all_classes": null, "length": 15870}
+{"pred": "10.\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test", "answers": ["26"], "all_classes": null, "length": 12313}
 {"pred": "1. Q: How to get the current page URL in a custom component? I have a custom component that I want to use in a page. I", "answers": ["21"], "all_classes": null, "length": 6986}
 {"pred": "1\n\n Q: How to get the value of a variable in a function in another function? I have a function that returns a value, and I", "answers": ["19"], "all_classes": null, "length": 9484}
-{"answers": "", "length": 15479}
-{"answers": "", "length": 9960}
-{"answers": "", "length": 14973}
-{"answers": "", "length": 13734}
+{"pred": "50.\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value.", "answers": ["26"], "all_classes": null, "length": 15479}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in javascript? I have a function that returns a value. I want to", "answers": ["5"], "all_classes": null, "length": 9960}
+{"pred": "14.\n\n Q: How to get the value of a variable in a function in Python? I have a function that returns a value. I", "answers": ["20"], "all_classes": null, "length": 14973}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in Python? I have a function that returns a value. I want to", "answers": ["15"], "all_classes": null, "length": 13734}
 {"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nI'm using a dictionary", "answers": ["10"], "all_classes": null, "length": 6073}
 {"answers": "", "length": 15984}
 {"pred": "3\n\n Q: How to get the value of a variable in a function in another file? I have a function in a file called \"test.", "answers": ["28"], "all_classes": null, "length": 6972}
