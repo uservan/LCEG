@@ -3,13 +3,13 @@
 {"pred": "In a cave on Atlas' mountain.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The Atlas Mountains"], "all_classes": null, "length": 5397}
 {"pred": "Crito came to bring Socrates a message which was sad and painful; not, as I believe, to yourself, but to all of us who are your friends, and saddest of all to me.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["To smuggle Socrates out of prison and into a life of exile."], "all_classes": null, "length": 6592}
 {"answers": "", "length": 27745}
-{"answers": "", "length": 10020}
+{"pred": "The doctor examined the body after the death of Mortimer Trefinnis' sister.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Six hours."], "all_classes": null, "length": 10020}
 {"answers": "", "length": 18054}
 {"answers": "", "length": 25090}
 {"answers": "", "length": 22692}
 {"pred": "The Witch wanted to have the priests reveal their own lies.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The scribe."], "all_classes": null, "length": 5403}
 {"answers": "", "length": 27521}
-{"answers": "", "length": 11201}
+{"pred": "Soames provides descriptions of the future world in the following ways:\n\n1. He describes the reading room of the British Museum as being the same as it is now.\n\n2. He describes the people in the reading room as being the same as they are now.\n\n3. He describes the books in the reading room as being the same as they are now.\n\n4. He describes the catalogue of the reading room as being the same as it is now.\n\n5. He describes the catalogue of the reading room as being the same as it will be in the future.\n\n6", "answers": ["ones that are vague"], "all_classes": null, "length": 11201}
 {"pred": "50 years\n\n\n\n\n\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value of that variable in another function.\nI tried this:\nfunction getValue(value) {\n    return value;\n}\n\nfunction getValue2() {\n    return getValue(10);\n}\n\nconsole.log(getValue2());\n\nBut it doesn't work.\n\nA: You can use the arrow function to get the value of a variable in a function.\nfunction", "answers": ["50 years"], "all_classes": null, "length": 8147}
 {"pred": "The Vervelle couple believe Grassou is the perfect match for their daughter, Virginie.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Their daughter, Virgine. "], "all_classes": null, "length": 7903}
 {"pred": "Pierre Grassou\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Grassou"], "all_classes": null, "length": 7899}
@@ -18,7 +18,7 @@
 {"answers": "", "length": 27521}
 {"answers": "", "length": 17505}
 {"pred": "2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Two"], "all_classes": null, "length": 6592}
-{"answers": "", "length": 10015}
+{"pred": "Mortimer Trefinnis was once estranged from his siblings because he had a quarrel with them about money.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["because of the division of proceeds from selling the family business."], "all_classes": null, "length": 10015}
 {"answers": "", "length": 27514}
 {"answers": "", "length": 31692}
 {"pred": "A slave.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Your parents"], "all_classes": null, "length": 6594}
@@ -28,14 +28,14 @@
 {"answers": "", "length": 29630}
 {"answers": "", "length": 22698}
 {"answers": "", "length": 17497}
-{"answers": "", "length": 11196}
+{"pred": "Soames gets upset with Beerbohm because he thinks that Beerbohm is making fun of him.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Beerbohm wrote a fictional story about Soames."], "all_classes": null, "length": 11196}
 {"answers": "", "length": 17501}
 {"answers": "", "length": 18053}
 {"answers": "", "length": 23319}
 {"pred": "He is a man of action.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["HER BEAUTY"], "all_classes": null, "length": 8721}
 {"answers": "", "length": 22762}
 {"answers": "", "length": 31690}
-{"answers": "", "length": 10014}
+{"pred": "To investigate the death of Mortimer Tregennis.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["For Holmes' health."], "all_classes": null, "length": 10014}
 {"answers": "", "length": 25089}
 {"answers": "", "length": 23312}
 {"answers": "", "length": 25088}
@@ -43,11 +43,11 @@
 {"pred": "This etext was prepared by Sue Asscher <asschers@aia.net.au>\n\n\n\n\n\n\nCRITO\n\nby\n\nPlato\n\nTranslated by Benjamin Jowett\n\n\nPERSONS OF THE DIALOGUE:  Socrates, Crito.\n\nSCENE:  The Prison of Socrates.\n\n\nSOCRATES:  Why have you come at this hour, Crito? it must be quite early.\n\nCRITO:  Yes, certainly.\n\nSOCRATES", "answers": ["In Socrates Cell?"], "all_classes": null, "length": 6591}
 {"answers": "", "length": 17491}
 {"pred": "Bennett Landsmann needed to defend Seth Lazurus in court because he was the only one who could prove that Seth Lazurus was not guilty of the crime he was accused of.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["because he's a lawyer"], "all_classes": null, "length": 8727}
-{"answers": "", "length": 11202}
+{"pred": "He wore a soft black hat of clerical kind, but of Bohemian intention, and a gray waterproof cape which, perhaps because it was waterproof, failed to be romantic.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["always wore a grey waterproof cape and a soft black hat"], "all_classes": null, "length": 11202}
 {"answers": "", "length": 27737}
 {"answers": "", "length": 23312}
 {"answers": "", "length": 14762}
-{"answers": "", "length": 13954}
+{"pred": "She writes about the young lady from New York.\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: What does Vane say about the young lady from New York?\n\nAnswer: She says that she is not her equal.\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: What does Vane say about the young lady from New York?\n\nAnswer: She says that", "answers": ["Louis Leverett"], "all_classes": null, "length": 13954}
 {"answers": "", "length": 27741}
 {"answers": "", "length": 17490}
 {"answers": "", "length": 17497}
@@ -62,31 +62,31 @@
 {"pred": "In the closet.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["In a closet."], "all_classes": null, "length": 8139}
 {"answers": "", "length": 36418}
 {"answers": "", "length": 14761}
-{"answers": "", "length": 10016}
+{"pred": "The doctor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The housekeeper"], "all_classes": null, "length": 10016}
 {"answers": "", "length": 36405}
 {"pred": "A doctor.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["A lawyer"], "all_classes": null, "length": 8721}
 {"answers": "", "length": 22697}
-{"answers": "", "length": 13953}
+{"pred": "To her mother.\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: What is the name of the hotel where Miranda first stays?\n\nAnswer: The Sebago House.\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: What is the name of the hotel where Miranda first stays?\n\nAnswer: The Sebago House.\n\nNow, answer the question based", "answers": ["Her mother."], "all_classes": null, "length": 13953}
 {"answers": "", "length": 17501}
-{"answers": "", "length": 7896}
+{"pred": "Virginie\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Virginie."], "all_classes": null, "length": 7896}
 {"answers": "", "length": 17500}
 {"answers": "", "length": 18050}
 {"pred": "A citizen willingly agrees to live in Athens.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Comply with the laws"], "all_classes": null, "length": 6598}
 {"answers": "", "length": 22762}
 {"answers": "", "length": 17499}
-{"answers": "", "length": 10014}
+{"pred": "Brenda\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Brenda."], "all_classes": null, "length": 10014}
 {"pred": "They went to bed.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["They stayed in the bedroom for a few days with the sounds of her lover trapped. "], "all_classes": null, "length": 8148}
 {"answers": "", "length": 23324}
 {"answers": "", "length": 29630}
 {"answers": "", "length": 27508}
 {"answers": "", "length": 17497}
 {"answers": "", "length": 29633}
-{"answers": "", "length": 11198}
-{"answers": "", "length": 10016}
+{"pred": "82 years into the future.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["100."], "all_classes": null, "length": 11198}
+{"pred": "Holmes had a watering-pot and he upset it.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Holmes accidentally kicks over a water pot"], "all_classes": null, "length": 10016}
 {"pred": "A coward.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["He would turn into an outlaw."], "all_classes": null, "length": 6598}
 {"answers": "", "length": 22761}
 {"answers": "", "length": 25086}
-{"answers": "", "length": 11194}
+{"pred": "Soames is unhappy about the fact that he has not been appreciated by the world. He has written a book, but it has not been appreciated by the world. He has not been appreciated by the world.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["the his works are not recognized"], "all_classes": null, "length": 11194}
 {"answers": "", "length": 23312}
 {"answers": "", "length": 27516}
 {"answers": "", "length": 29635}
@@ -106,7 +106,7 @@
 {"answers": "", "length": 23315}
 {"answers": "", "length": 18050}
 {"answers": "", "length": 23312}
-{"answers": "", "length": 10016}
+{"pred": "Mortimer blames his brother George for the death of his sister.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["the devil"], "all_classes": null, "length": 10016}
 {"answers": "", "length": 36409}
 {"answers": "", "length": 22692}
 {"answers": "", "length": 27506}
@@ -131,15 +131,15 @@
 {"answers": "", "length": 27740}
 {"answers": "", "length": 23311}
 {"answers": "", "length": 27511}
-{"answers": "", "length": 11197}
-{"answers": "", "length": 10015}
-{"answers": "", "length": 8724}
+{"pred": "T.K. Nupton thought that Soames was a figment of Max Beerbohm's imagination.\n\n\n\n\n\n\n\n\n\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value of that variable in another function.\nI have tried this:\nfunction getValue(value) {\n    return value;\n}\n\nfunction getValue2() {\n    return getValue(10);\n}\n\nconsole.log(getValue2());\n\nBut it doesn't", "answers": ["He thought he was a fictional character."], "all_classes": null, "length": 11197}
+{"pred": "Mortimer Trefinnis was once estranged from his siblings because he had a quarrel with them about money.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The matter of the division of the proceeds from selling the family business."], "all_classes": null, "length": 10015}
+{"pred": "In the basement of his house.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Hawaii"], "all_classes": null, "length": 8724}
 {"pred": "Pierre Grassou\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Pierre Grassou."], "all_classes": null, "length": 7900}
 {"pred": "He discovered that she was having an affair with a Spanish prisoner of war.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["That she was having an affair. "], "all_classes": null, "length": 8143}
 {"answers": "", "length": 17495}
 {"pred": "La Grande Breteche is a story written by Honore de Balzac.\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value of that variable in another function.\nI tried this:\nfunction getValue(value) {\n    return value;\n}\n\nfunction getValue2() {\n    return getValue(10);\n}\n\nconsole.log(getValue2());\n\nBut it doesn't work.\n\nA: You can use the arrow function to get the value of a", "answers": ["The ruins of an abandoned manor. "], "all_classes": null, "length": 8139}
 {"answers": "", "length": 22703}
-{"answers": "", "length": 13958}
+{"pred": "Miranda Hope\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: What is the name of the character who is from Maine?\n\nAnswer: Agnes Rich\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: What is the name of the character who is from Boston?\n\nAnswer: Louis Leverett\n\nNow, answer the question based on the story asconcis", "answers": ["Violet Ray."], "all_classes": null, "length": 13958}
 {"answers": "", "length": 31699}
 {"answers": "", "length": 17497}
 {"answers": "", "length": 27510}
@@ -153,9 +153,9 @@
 {"answers": "", "length": 14762}
 {"pred": "The owner of the manor is the Countess de Merret.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Madame de Merret"], "all_classes": null, "length": 8144}
 {"answers": "", "length": 22694}
-{"answers": "", "length": 11211}
+{"pred": "He would have to wait for the publication of Nupton's book.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["By selling his soul to the devil."], "all_classes": null, "length": 11211}
 {"pred": "Apis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Apis"], "all_classes": null, "length": 5397}
-{"answers": "", "length": 10015}
+{"pred": "Two people fainted after seeing Brenda's dead body.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["2"], "all_classes": null, "length": 10015}
 {"answers": "", "length": 29630}
 {"answers": "", "length": 31693}
 {"pred": "Elie Magus\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The greats"], "all_classes": null, "length": 7898}
@@ -173,10 +173,10 @@
 {"answers": "", "length": 27739}
 {"answers": "", "length": 31690}
 {"answers": "", "length": 14761}
-{"answers": "", "length": 11198}
+{"pred": "Soames's presence in the future affected others by making them stare at him and follow him around and seem afraid of him.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["It caused a stir."], "all_classes": null, "length": 11198}
 {"answers": "", "length": 31692}
 {"answers": "", "length": 25088}
-{"answers": "", "length": 11204}
+{"pred": "The phonetic spelling of the 'future' article is a way of spelling words that are not in the dictionary. It is a way of spelling words that are not in the dictionary.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The English lanuage has evolved."], "all_classes": null, "length": 11204}
 {"answers": "", "length": 36410}
 {"answers": "", "length": 23315}
 {"answers": "", "length": 29630}
@@ -185,16 +185,16 @@
 {"pred": "In a cave on Atlas' mountain.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Witch lives in cave on Atlas Mountains"], "all_classes": null, "length": 5397}
 {"answers": "", "length": 27742}
 {"pred": "A coward.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["An outlaw"], "all_classes": null, "length": 6598}
-{"answers": "", "length": 13955}
+{"pred": "Leon focuses on his own happiness.\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: What does Miranda focus on in writing her letters?\n\nAnswer: Miranda focuses on her own happiness.\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: What does Louis focus on in writing his letters?\n\nAnswer: Louis focuses on his own happiness.\n\n", "answers": ["The beauty of the women"], "all_classes": null, "length": 13955}
 {"pred": "The Witch was able to perceive the beauty of the human soul.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The fears and desires of mankind."], "all_classes": null, "length": 5401}
 {"answers": "", "length": 31695}
-{"answers": "", "length": 13957}
+{"pred": "The American girl who has her mother with her.\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: Which boarder realizes that none of the boarders like each other?\n\nAnswer: The American girl who has her mother with her.\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: Which boarder realizes that none of the boarders like each other?\n\n", "answers": ["the German professor"], "all_classes": null, "length": 13957}
 {"answers": "", "length": 22769}
-{"answers": "", "length": 10016}
+{"pred": "Holmes had a watering-pot and he upset it.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Sherlock had wet the floor by overturning a water-filled pot."], "all_classes": null, "length": 10016}
 {"answers": "", "length": 17492}
 {"answers": "", "length": 14762}
-{"answers": "", "length": 10011}
-{"answers": "", "length": 10013}
+{"pred": "Brenda Tregennis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Brenda Tregennis"], "all_classes": null, "length": 10011}
+{"pred": "Holmes observes the ashes of the overnight fire.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["The remains of afire in the fireplace."], "all_classes": null, "length": 10013}
 {"answers": "", "length": 27512}
 {"answers": "", "length": 18053}
 {"answers": "", "length": 17495}

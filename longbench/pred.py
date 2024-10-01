@@ -14,7 +14,7 @@ models_dir = os.path.dirname(current_dir)
 sys.path.append(models_dir)
 
 def set_global_path(path):
-    return os.path.join('/users/PDS0352/wyang107/project/LCEG/longbench', path)
+    return os.path.join('/workspace/LCEG/longbench', path)
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
@@ -257,7 +257,7 @@ if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model_name = args.model
     # define your model
-    model, tokenizer = load_model_and_tokenizer(model2path[model_name], model_name, device, False)
+    model, tokenizer = load_model_and_tokenizer(model2path[model_name], model_name, device, True)
     max_length = model2maxlen[model_name]
     print('max_length:', max_length)
 
@@ -273,7 +273,7 @@ if __name__ == '__main__':
     dataset_path = set_global_path("data")#  'Leooyii/longbench' 
     for dataset in ("qasper","multifieldqa_en","hotpotqa","2wikimqa","musique" , "gov_report" ,
                     "qmsum" ,"multi_news" ,"trec" ,"triviaqa", "samsum" ,
-          "passage_count", "passage_retrieval_en" ,"lcc" ,"repobench-p", "narrativeqa"):
+          "passage_count", "passage_retrieval_en" ,"lcc" ,"repobench-p",): #  "narrativeqa"
         print('testing:', dataset)
         if args.e:
             # data = load_dataset(dataset_path, f"{dataset}_e", split='test')
