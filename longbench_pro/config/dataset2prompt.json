@@ -1,7 +1,7 @@
 {
    
-    "single_doc_qa":"The following are given passages and these passages are from many different fields.\n\n{context}\n\nAnswer the question based on the given passages following the instruction: \n{instruction}\n Only give me the answer and do not output any other words.\n\nQuestion: {input}\nAnswer:",
-    "multi_doc_qa":"The following are given passages and these passages are from many different fields.\n\n{context}\n\nAnswer the question based on the given passages following the instruction: \n{instruction}\n Only give me the answer and do not output any other words.\n\nQuestion: {input}\nAnswer:",
+    "single_doc_qa":"Answer the question based on the given passages. Only give me the answer and do not output any other words.\n\nThe following are given passages and these passages are from many different fields.\n\n{context}\n\nAnswer the question based on the given passages following the instruction: \n{instruction}\n Only give me the answer and do not output any other words.\n\nQuestion: {input}\nAnswer:",
+    "multi_doc_qa":"Answer the question based on the given passages. Only give me the answer and do not output any other words.\n\nThe following are given passages and these passages are from many different fields.\n\n{context}\n\nAnswer the question based on the given passages following the instruction: \n{instruction}\n Only give me the answer and do not output any other words.\n\nQuestion: {input}\nAnswer:",
     "multi_doc_sum":"You are given several passages as follows and these passages are from many different fields.\n\n{context}\n Now, write a one-page summary under the instruction: \n{instruction}\n\nSummary:",
     "single_doc_sum":"You are given several passages as follows and these passages are from many different fields.\n\n{context}\n Now, write a one-page summary under the instruction: \n{instruction}\n\nSummary:",
     

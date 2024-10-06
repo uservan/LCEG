@@ -245,7 +245,7 @@ if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model_name = args.model
     # define your model
-    model, tokenizer = load_model_and_tokenizer(model2path[model_name], model_name, device, False)
+    model, tokenizer = load_model_and_tokenizer(model2path[model_name], model_name, device, True)
     # model, tokenizer = None, None
     max_length = model2maxlen[model_name]
     print('max_length:', max_length)
