@@ -8,6 +8,7 @@ import transformers
 from openai import OpenAI
 import random
 import re
+import json
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 models_dir = os.path.dirname(current_dir)
@@ -174,7 +175,7 @@ def generate_dataset_single_doc_sum(length=8, rows=100):
             context = context + f'Passage{i+1}:\n' + dataset_list[c[1]]['context'] + '\n\n'
         c_i = random.choice(range(len(choices)))
         d = dataset_list[choices[c_i][1]]
-        results.append({ 'instruction': f'These passages are from different fields. Now summarize Passage{c_i+1}. ',
+        results.append({ 'instruction': f'Summarize Passage{c_i+1}. ',
                          "input": d['input'], "answers": d["answers"], "new_context": context, 'old_context':d['context'],
                          "length": len(tokenizer.encode(context))})
     return results
@@ -224,10 +225,25 @@ def generate_dataset_multi_doc_sum(length=8, rows=100):
         for i, (text, flag) in enumerate(split_text):
             context = context + f'Passage{i+1}:\n' + text + '\n'
             if flag: num.append(i+1)
-        results.append({'instruction':f'These passages are from different fields. Now summarize Passage '+','.join(map(str, num))+'. ' , 
+        results.append({'instruction':f'Summarize Passage '+','.join(map(str, num))+'. ' , 
                         "input": qa['input'], "answers": qa["answers"], "new_context": context,  "old_context": qa['context'],
                         "length": len(tokenizer.encode(context))})
     return results
 
 
-result = generate_dataset_multi_doc_qa(length=8, rows=500)
+func = {'single_doc_qa':generate_dataset_single_doc_qa,
+        'multi_doc_qa': generate_dataset_multi_doc_qa,
+        'single_doc_sum':generate_dataset_single_doc_sum,
+        'multi_doc_sum':generate_dataset_multi_doc_sum
+}
+rows = 800
+out_path = '/users/PDS0352/wyang107/project/LCEG/longbench_pro/data'
+for length in [8, 16, 31]:
+    for key in func.keys():
+        result = func[key](length, rows)
+        with open(os.path.join(out_path, f'{key}_{length}.jsonl'), "w", encoding="utf-8") as f:
+            for pred in result:
+                json.dump(pred, f, ensure_ascii=False)
+                f.write('\n')
+
+

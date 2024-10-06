@@ -45,7 +45,7 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-yarn-32k')
+    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-ntk-32k')
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
 
@@ -115,8 +115,8 @@ if __name__ == '__main__':
         if args.e:
             score = scorer_e(dataset, predictions, answers, lengths, all_classes)
         else:
-            score = scorer_e(dataset, predictions, answers, lengths, all_classes)
-            # score = scorer(dataset, predictions, answers, all_classes)
+            # score = scorer_e(dataset, predictions, answers, lengths, all_classes)
+            score = scorer(dataset, predictions, answers, all_classes)
         scores[dataset] = score
     if args.e:
         out_path = set_global_path(f"pred_e/{args.model}/result.json")

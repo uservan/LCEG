@@ -14,7 +14,7 @@ models_dir = os.path.dirname(current_dir)
 sys.path.append(models_dir)
 
 def set_global_path(path):
-    return os.path.join('/workspace/LCEG/longbench', path)
+    return os.path.join('/users/PDS0352/wyang107/project/LCEG/longbench', path)
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()

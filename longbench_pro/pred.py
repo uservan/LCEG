@@ -14,72 +14,63 @@ models_dir = os.path.dirname(current_dir)
 sys.path.append(models_dir)
 
 def set_global_path(path):
-    return os.path.join('/users/PDS0352/wyang107/project/LCEG/longbench', path)
+    return os.path.join('/users/PDS0352/wyang107/project/LCEG/longbench_pro', path)
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-yarn-32k')
     parser.add_argument('--dataset_name', type=str, default="samsum")
-    # \ 'multi_news'  "samsum" \
-    #       "passage_count" "passage_retrieval_en" "lcc" "repobench-p" "narrativeqa"
-    parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
 
 def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds=[] ,out_path=''):
     data = data['test']
-    if len(preds) == len(data): return
-    i = 0
     for json_obj in tqdm(data):
-        if i < len(preds):
-            i = i+1
-            continue
-        else: i = i+1
+        context_length = json_obj["length"]
         try:
-            prompt = prompt_format.format(**json_obj)
-            # length = json_obj['length']
-            # truncate to fit max_length (we suggest truncate in the middle, since the left and right side may contain crucial instructions)
-            tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt").input_ids[0]
-            if "chatglm3" in model_name:
-                tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt", add_special_tokens=False).input_ids[0]
-            if len(tokenized_prompt) > max_length:
-                half = int(max_length/2)
-                prompt = tokenizer.decode(tokenized_prompt[:half], skip_special_tokens=True)+tokenizer.decode(tokenized_prompt[-half:], skip_special_tokens=True)
+            for i, inp in enumerate(json_obj['input']):
+                obj = {'context':json_obj['new_context'], 'input':inp, "length":json_obj["length"],
+                        'answers':json_obj['answers'][i], 'instruction':json_obj['instruction']}
+                prompt = prompt_format.format(**obj)
+                # truncate to fit max_length (we suggest truncate in the middle, since the left and right side may contain crucial instructions)
+                tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt").input_ids[0]
+                if "chatglm3" in model_name:
+                    tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt", add_special_tokens=False).input_ids[0]
+                if len(tokenized_prompt) > max_length:
+                    half = int(max_length/2)
+                    prompt = tokenizer.decode(tokenized_prompt[:half], skip_special_tokens=True)+tokenizer.decode(tokenized_prompt[-half:], skip_special_tokens=True)
 
-            input = tokenizer(prompt, truncation=False, return_tensors="pt").to(device)
-            context_length = input.input_ids.shape[-1]
-            kwargs = {}
-            kwargs['use_cache'] = True
-            if model_name == "llama2-7b-hf-slimpajama-landmark" or model_name == "llama2-7b-hf-slimpajama-landmark-test4k":  
-                kwargs['offload_cache_to_cpu'] = False
-                kwargs['use_flash'] = False
-                kwargs['cache_top_k'] = 5
-            if dataset == "samsum": # prevent illegal output on samsum (model endlessly repeat "\nDialogue"), might be a prompting issue
-                output = model.generate(
-                    **input,
-                    max_new_tokens=max_gen,
-                    num_beams=1,
-                    do_sample=False,
-                    temperature=1.0,
-                    min_length=context_length+1,
-                    eos_token_id=[tokenizer.eos_token_id, tokenizer.encode("\n", add_special_tokens=False)[-1]],
-                    **kwargs,
-                )[0]
-            else:
-                output = model.generate(
-                    **input,
-                    max_new_tokens=max_gen,
-                    num_beams=1,
-                    do_sample=False,
-                    temperature=1.0,
-                    **kwargs,
-                )[0]
-            pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
-            preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"]})
+                input = tokenizer(prompt, truncation=False, return_tensors="pt").to(device)
+                context_length = input.input_ids.shape[-1]
+                kwargs = {}
+                kwargs['use_cache'] = True
+                if model_name == "llama2-7b-hf-slimpajama-landmark" or model_name == "llama2-7b-hf-slimpajama-landmark-test4k":  
+                    kwargs['offload_cache_to_cpu'] = False
+                    kwargs['use_flash'] = False
+                    kwargs['cache_top_k'] = 5
+                if dataset == "samsum": # prevent illegal output on samsum (model endlessly repeat "\nDialogue"), might be a prompting issue
+                    output = model.generate(
+                        **input,
+                        max_new_tokens=max_gen,
+                        num_beams=1,
+                        do_sample=False,
+                        temperature=1.0,
+                        min_length=context_length+1,
+                        eos_token_id=[tokenizer.eos_token_id, tokenizer.encode("\n", add_special_tokens=False)[-1]],
+                        **kwargs,
+                    )[0]
+                else:
+                    output = model.generate(
+                        **input,
+                        max_new_tokens=max_gen,
+                        num_beams=1,
+                        do_sample=False,
+                        temperature=1.0,
+                        **kwargs,
+                    )[0]
+                pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
+                preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": context_length})
         except:
-            preds.append({"answers":'', "length": json_obj["length"]})
-        with open(out_path, "a", encoding="utf-8") as f:
-            json.dump(preds[-1], f, ensure_ascii=False)
-            f.write('\n')
+           preds.append({"answers":'', "length": context_length})
     return preds
 
 def seed_everything(seed):
@@ -255,6 +246,7 @@ if __name__ == '__main__':
     model_name = args.model
     # define your model
     model, tokenizer = load_model_and_tokenizer(model2path[model_name], model_name, device, False)
+    # model, tokenizer = None, None
     max_length = model2maxlen[model_name]
     print('max_length:', max_length)
 
@@ -266,36 +258,35 @@ if __name__ == '__main__':
         os.makedirs(set_global_path("pred/"))
     if not os.path.exists(set_global_path("pred_e")):
         os.makedirs(set_global_path("pred_e"))
-    dataset_path = set_global_path("data")#  'Leooyii/longbench' 
+    dataset_path = set_global_path("data")
     dataset = args.dataset_name
-    print('testing:', dataset)
-    if args.e:
-        # data = load_dataset(dataset_path, f"{dataset}_e", split='test')
-        print('using longbench-e')
-        data = load_dataset('json', data_files={'test': os.path.join(dataset_path, f'{dataset}_e.jsonl')})
-        if not os.path.exists(f"pred_e/{model_name}"):
-            os.makedirs(f"pred_e/{model_name}")
-        out_path = f"pred_e/{model_name}/{dataset}.jsonl"
-    elif "trec" in dataset and dataset != "trec":
-        data = load_dataset('json', data_files={'test': os.path.join(dataset_path, f'{dataset}.jsonl')})
-        if not os.path.exists(f"pred_trec/{model_name}"):
-            os.makedirs(f"pred_trec/{model_name}")
-        out_path = f"pred_trec/{model_name}/{dataset}.jsonl"
-    else:
+    file_names = [p.split('.')[0] for p in os.listdir(dataset_path)]
+    for dataset in file_names:
+        print('testing:', dataset)
         # data = load_dataset(os.path.join(dataset_path, f'{dataset}.jsonl'))
         # data = load_dataset(dataset_path, dataset, split='test', cache_dir='/users/PDS0352/wyang107/project/LCEG/model_cache/data')
-        data = load_dataset('json', data_files={'test': os.path.join(dataset_path, f'{dataset}.jsonl')})
+        # data = load_dataset('json', data_files={'test': os.path.join(dataset_path, f'{dataset}.jsonl')})
+        data = []
+        with open(os.path.join(dataset_path, f'{dataset}.jsonl'), "r", encoding="utf-8") as f:
+            for line in f:
+                l = json.loads(line)
+                data.append(l)
+        data = {'test':data}
         if not os.path.exists(set_global_path(f"pred/{model_name}")):
             os.makedirs(set_global_path(f"pred/{model_name}"))
         out_path = set_global_path(f"pred/{model_name}/{dataset}.jsonl")
-    if "trec" in dataset:
-        dataset = "trec"
-    prompt_format = dataset2prompt[dataset]
-    max_gen = dataset2maxlen[dataset]
-    preds=[]
-    if os.path.exists(out_path):
-        with open(out_path, "r", encoding="utf-8") as f:
-            for line in f:
-                l = json.loads(line)
-                preds.append(l)
-    preds = get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds, out_path)
+        key = '_'.join(dataset.split('_')[:-1])
+        prompt_format = dataset2prompt[key]
+        max_gen = dataset2maxlen[key]
+        preds=[]
+        preds=[]
+        if os.path.exists(out_path):
+            with open(out_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    l = json.loads(line)
+                    preds.append(l)
+        preds = get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds, out_path)
+        with open(out_path, "w", encoding="utf-8") as f:
+            for pred in preds:
+                json.dump(pred, f, ensure_ascii=False)
+                f.write('\n')

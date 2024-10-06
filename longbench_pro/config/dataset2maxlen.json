@@ -1,4 +1,9 @@
 {
+    "multi_doc_qa":128,
+    "single_doc_qa":128,
+    "single_doc_sum":128,
+    "multi_doc_sum":128,
+
     "narrativeqa": 128,
     "qasper": 128,
     "multifieldqa_en": 64,
@@ -20,4 +25,7 @@
     "passage_retrieval_zh": 32,
     "lcc": 64,
     "repobench-p": 64
+
+
+
 }
