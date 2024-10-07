@@ -238,10 +238,10 @@ def generate_dataset_multi_doc_sum(length=8, rows=100):
 
 
 func = {
-        # 'single_doc_qa':generate_dataset_single_doc_qa,
-        # 'multi_doc_qa': generate_dataset_multi_doc_qa,
-        'single_doc_sum':generate_dataset_single_doc_sum,
-        'multi_doc_sum':generate_dataset_multi_doc_sum
+        'single_doc_qa':generate_dataset_single_doc_qa,
+        'multi_doc_qa': generate_dataset_multi_doc_qa,
+        # 'single_doc_sum':generate_dataset_single_doc_sum,
+        # 'multi_doc_sum':generate_dataset_multi_doc_sum
 }
 rows = 200
 out_path = '/users/PDS0352/wyang107/project/LCEG/longbench_pro/data'

@@ -79,7 +79,8 @@ def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset
                 # preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": context_length})
                 if flag: preds[k-1] = {"pred": pred, "answers": obj["answers"], "length": context_length}
                 else: preds.append({"pred": pred, "answers": obj["answers"], "length": context_length})
-        except:
+        except Exception as e:
+            print(f"Exception occurred: {e}")
             if flag: preds[i-1] = {"answers":'', "length": json_obj["length"]}
             else: preds.append({"answers":'', "length": json_obj["length"]})
         save_preds(out_path, preds)
