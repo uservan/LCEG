@@ -2,8 +2,8 @@
    
     "single_doc_qa":"Answer the question based on the given passages. Only give me the answer and do not output any other words.\n\nThe following are given passages and these passages are from many different fields.\n\n{context}\n\nAnswer the question based on the given passages following the instruction: \n{instruction}\n Only give me the answer and do not output any other words.\n\nQuestion: {input}\nAnswer:",
     "multi_doc_qa":"Answer the question based on the given passages. Only give me the answer and do not output any other words.\n\nThe following are given passages and these passages are from many different fields.\n\n{context}\n\nAnswer the question based on the given passages following the instruction: \n{instruction}\n Only give me the answer and do not output any other words.\n\nQuestion: {input}\nAnswer:",
-    "multi_doc_sum":"You are given several passages as follows and these passages are from many different fields. {input}\n\n{context}\n Now, {input}\n\nSummary:",
-    "single_doc_sum":"You are given several passages as follows and these passages are from many different fields. {input}\n\n{context}\n Now, {input}\n\nSummary:",
+    "multi_doc_sum":"You are given several passages as follows and these passages are from many different fields. {input}\n\n{context}\n\nNow, {input}\n\nSummary:",
+    "single_doc_sum":"You are given several passages as follows and these passages are from many different fields. {input}\n\n{context}\n\nNow, {input}\n\nSummary:",
     
     
     "narrativeqa": "You are given a story, which can be either a novel or a movie script, and a question. Answer the question asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nStory: {context}\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: {input}\n\nAnswer:",
