@@ -9,6 +9,7 @@
 #SBATCH --error=/users/PDS0352/wyang107/project/LCEG/longbench_pro/result/error.txt   
 #SBATCH --time=0-10:00:00
 
+conda init
 conda activate lceg2
 python /users/PDS0352/wyang107/project/LCEG/longbench_pro/pred.py
 
