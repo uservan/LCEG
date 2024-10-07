@@ -9,6 +9,7 @@ from openai import OpenAI
 import random
 import re
 import json
+from tqdm import tqdm
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 models_dir = os.path.dirname(current_dir)
@@ -86,11 +87,11 @@ def generate_dataset_single_doc_qa(length=8, rows=100):
     for choices in new_datasets:
         context = ''
         for i, c in enumerate(choices):
-            context = context + f'Passage{i+1}:\n' + dataset_list[c[1]]['context'] + '\n\n'
+            context = context + f'Passage {i+1}:\n' + dataset_list[c[1]]['context'] + '\n\n'
         c_i = random.choice(range(len(choices)))
         d = dataset_list[choices[c_i][1]]
         results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': d['context'] , 
-                        'instruction': f'Answer the question related with Passage{c_i+1}. ', 
+                        'instruction': f'Answer the question related with Passage {c_i+1}. ', 
                          "input": d['input'], "answers": d["answers"]})
     return results
 
@@ -137,7 +138,7 @@ def generate_dataset_multi_doc_qa(length=8, rows=100):
         random.shuffle(split_text)
         context, num = '', []
         for i, (text, flag) in enumerate(split_text):
-            context = context + f'Passage{i+1}:\n' + text + '\n'
+            context = context + f'Passage {i+1}:\n' + text + '\n'
             if flag: num.append(i+1)
         results.append({'instruction':f'Answer the question related with Passage '+','.join(map(str, num))+'. ' , 
                         "input": qa['input'], "answers": qa["answers"], "new_context": context,  "old_context": qa['context'],
@@ -175,8 +176,10 @@ def generate_dataset_single_doc_sum(length=8, rows=100):
             context = context + f'Passage{i+1}:\n' + dataset_list[c[1]]['context'] + '\n\n'
         c_i = random.choice(range(len(choices)))
         d = dataset_list[choices[c_i][1]]
-        results.append({ 'instruction': f'Summarize Passage{c_i+1}. ',
-                         "input": d['input'], "answers": d["answers"], "new_context": context, 'old_context':d['context'],
+        instruction = f'Write a one-page summary of Passage {c_i+1}'
+        results.append({ 'instruction': '',
+                         "input": [f'{instruction}: {inp}' if len(inp) > 0 else f'{instruction}.' for inp in d['input']], 
+                         "answers": d["answers"], "new_context": context, 'old_context':d['context'],
                          "length": len(tokenizer.encode(context))})
     return results
 
@@ -223,22 +226,26 @@ def generate_dataset_multi_doc_sum(length=8, rows=100):
         random.shuffle(split_text)
         context, num = '', []
         for i, (text, flag) in enumerate(split_text):
-            context = context + f'Passage{i+1}:\n' + text + '\n'
+            context = context + f'Passage {i+1}:\n' + text + '\n'
             if flag: num.append(i+1)
-        results.append({'instruction':f'Summarize Passage '+','.join(map(str, num))+'. ' , 
-                        "input": qa['input'], "answers": qa["answers"], "new_context": context,  "old_context": qa['context'],
+        instruction = f'Write a one-page summary of Passage '+','.join(map(str, num))
+        results.append({'instruction':'' , 
+                        "input": qa['input'], 
+                        "input": [f'{instruction}: {inp}' if len(inp) > 0 else f'{instruction}.' for inp in qa['input']], 
+                        "answers": qa["answers"], "new_context": context,  "old_context": qa['context'],
                         "length": len(tokenizer.encode(context))})
     return results
 
 
-func = {'single_doc_qa':generate_dataset_single_doc_qa,
-        'multi_doc_qa': generate_dataset_multi_doc_qa,
+func = {
+        # 'single_doc_qa':generate_dataset_single_doc_qa,
+        # 'multi_doc_qa': generate_dataset_multi_doc_qa,
         'single_doc_sum':generate_dataset_single_doc_sum,
         'multi_doc_sum':generate_dataset_multi_doc_sum
 }
-rows = 800
+rows = 200
 out_path = '/users/PDS0352/wyang107/project/LCEG/longbench_pro/data'
-for length in [8, 16, 31]:
+for length in tqdm([8, 16, 31]):
     for key in func.keys():
         result = func[key](length, rows)
         with open(os.path.join(out_path, f'{key}_{length}.jsonl'), "w", encoding="utf-8") as f:

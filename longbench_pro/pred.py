@@ -18,16 +18,24 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-yarn-32k')
+    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-pi-32k')
     parser.add_argument('--dataset_name', type=str, default="samsum")
     return parser.parse_args(args)
 
 def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds=[] ,out_path=''):
     data = data['test']
+    k = 0
     for json_obj in tqdm(data):
         context_length = json_obj["length"]
         try:
             for i, inp in enumerate(json_obj['input']):
+                flag=False
+                if k < len(preds):
+                    pred, flag = preds[i], True
+                    k = k+1
+                    if len(pred['answers']) != 0:
+                        continue
+                else: k = k+1
                 obj = {'context':json_obj['new_context'], 'input':inp, "length":json_obj["length"],
                         'answers':json_obj['answers'][i], 'instruction':json_obj['instruction']}
                 prompt = prompt_format.format(**obj)
@@ -68,10 +76,20 @@ def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset
                         **kwargs,
                     )[0]
                 pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
-                preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": context_length})
+                # preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": context_length})
+                if flag: preds[k-1] = {"pred": pred, "answers": obj["answers"], "length": context_length}
+                else: preds.append({"pred": pred, "answers": obj["answers"], "length": context_length})
         except:
-           preds.append({"answers":'', "length": context_length})
+            if flag: preds[i-1] = {"answers":'', "length": json_obj["length"]}
+            else: preds.append({"answers":'', "length": json_obj["length"]})
+        save_preds(out_path, preds)
     return preds
+
+def save_preds(out_path, preds):
+    with open(out_path, "w", encoding="utf-8") as f:
+        for pred in preds:
+            json.dump(pred, f, ensure_ascii=False)
+            f.write('\n')
 
 def seed_everything(seed):
     torch.manual_seed(seed)
@@ -286,7 +304,4 @@ if __name__ == '__main__':
                     l = json.loads(line)
                     preds.append(l)
         preds = get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds, out_path)
-        with open(out_path, "w", encoding="utf-8") as f:
-            for pred in preds:
-                json.dump(pred, f, ensure_ascii=False)
-                f.write('\n')
+        save_preds(out_path, preds)

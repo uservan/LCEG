@@ -8,13 +8,13 @@
     "llama2-7b-hf":"",
     "llama2-7b-hf-lminfinite":"",
     "llama2-7b-hf-ntk-frozen":"",
-    "llama2-7b-hf-slimpajama-pi-32k":"",
-    "llama2-7b-hf-slimpajama-ntk-32k":"",
+    "llama2-7b-hf-slimpajama-pi-32k":"Leooyii/PI_32k_Slimpajama_1B",
+    "llama2-7b-hf-slimpajama-ntk-32k":"Leooyii/NTK_32k_Slimpajama_1B",
     "llama2-7b-hf-slimpajama-ntk-64k":"",
     "llama-2-7b-hf-slimpajama-ntk-64k-2B":"",
     "llama2-7b-hf-slimpajama-yarn-32k":"Leooyii/YaRN_32k_Slimpajama_1B",
     "llama2-7b-hf-slimpajama-longlora-32k":"",
     "llama2-7b-hf-slimpajama-landmark":"",
     "llama2-7b-hf-selfextend":"",
-    "llama2-7b-hf-slimpajama-clex-32k":""
+    "llama2-7b-hf-slimpajama-clex-32k":"Leooyii/Llama-2-7b-CLEX-32k-Slimpajama-1B"
 }
