@@ -2,6 +2,10 @@ import os
 import json
 import argparse
 import numpy as np
+from tqdm import tqdm
+
+def set_global_path(path):
+    return os.path.join('/users/PDS0352/wyang107/project/LCEG/longbench_pro', path)
 
 from metrics import (
     qa_f1_score,
@@ -16,6 +20,9 @@ from metrics import (
 )
 
 dataset2metric = {
+    'qa':qa_f1_score,
+    'sum':rouge_score,
+
     "narrativeqa": qa_f1_score,
     "qasper": qa_f1_score,
     "multifieldqa_en": qa_f1_score,
@@ -41,7 +48,7 @@ dataset2metric = {
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default=None)
+    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-ntk-32k')
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
 
@@ -65,15 +72,16 @@ def scorer_e(dataset, predictions, answers, lengths, all_classes):
 
 def scorer(dataset, predictions, answers, all_classes):
     total_score = 0.
-    if "trec" in dataset:
-        dataset="trec"
+    if "qa" in dataset: dataset="qa"
+    if 'sum' in dataset: dataset="sum"
     for (prediction, ground_truths) in zip(predictions, answers):
         score = 0.
         post_process_list = [
-                "narrativeqa", "qasper", "multifieldqa_en",
-                "hotpotqa", "2wikimqa", "musique",
-                "trec", "triviaqa", "samsum", "lsht",
-                "passage_count", "passage_retrieval_en"
+                # "narrativeqa", "qasper", "multifieldqa_en",
+                # "hotpotqa", "2wikimqa", "musique",
+                # "trec", "triviaqa", "samsum", "lsht",
+                # "passage_count", "passage_retrieval_en"
+                'qa'
                 ]
         if dataset in post_process_list:
             prediction = prediction.lstrip('\n').split('\n')[0]
@@ -86,12 +94,12 @@ if __name__ == '__main__':
     args = parse_args()
     scores = dict()
     if args.e:
-        path = f"pred_e/{args.model}/"
+        path = set_global_path(f"pred_e/{args.model}/")
     else:
-        path = f"pred_trec/{args.model}/"
-    all_files = os.listdir(path)
+        path = set_global_path(f"pred/{args.model}/")
+    all_files = sorted(os.listdir(path))
     print("Evaluating on:", all_files)
-    for filename in all_files:
+    for filename in tqdm(all_files):
         if not filename.endswith("jsonl"):
             continue
         predictions, answers, lengths = [], [], []
@@ -101,7 +109,7 @@ if __name__ == '__main__':
                 data = json.loads(line)
                 predictions.append(data["pred"])
                 answers.append(data["answers"])
-                all_classes = data["all_classes"]
+                all_classes = filename
                 if "length" in data:
                     lengths.append(data["length"])
         if args.e:
@@ -110,8 +118,8 @@ if __name__ == '__main__':
             score = scorer(dataset, predictions, answers, all_classes)
         scores[dataset] = score
     if args.e:
-        out_path = f"pred_e/{args.model}/result.json"
+        out_path = set_global_path(f"pred_e/{args.model}/result.json")
     else:
-        out_path = f"pred_trec/{args.model}/result.json"
+        out_path = set_global_path(f"pred/{args.model}/result.json")
     with open(out_path, "w") as f:
         json.dump(scores, f, ensure_ascii=False, indent=4)

@@ -1,8 +1,8 @@
 {
     "multi_doc_qa":128,
     "single_doc_qa":128,
-    "single_doc_sum":128,
-    "multi_doc_sum":128,
+    "single_doc_sum":512,
+    "multi_doc_sum":512,
 
     "narrativeqa": 128,
     "qasper": 128,

@@ -5,7 +5,7 @@ from datasets import Value, Sequence
 import sys
 import math
 import transformers
-from openai import OpenAI
+# from openai import OpenAI
 import random
 import re
 import json
@@ -173,10 +173,10 @@ def generate_dataset_single_doc_sum(length=8, rows=100):
     for choices in new_datasets:
         context = ''
         for i, c in enumerate(choices):
-            context = context + f'Passage{i+1}:\n' + dataset_list[c[1]]['context'] + '\n\n'
+            context = context + f'Passage {i+1}:\n' + dataset_list[c[1]]['context'] + '\n\n'
         c_i = random.choice(range(len(choices)))
         d = dataset_list[choices[c_i][1]]
-        instruction = f'Write a one-page summary of Passage {c_i+1}'
+        instruction = f'Write a one-page summary of Passage {c_i+1} into a few short sentences'
         results.append({ 'instruction': '',
                          "input": [f'{instruction}: {inp}' if len(inp) > 0 else f'{instruction}.' for inp in d['input']], 
                          "answers": d["answers"], "new_context": context, 'old_context':d['context'],
@@ -227,8 +227,8 @@ def generate_dataset_multi_doc_sum(length=8, rows=100):
         context, num = '', []
         for i, (text, flag) in enumerate(split_text):
             context = context + f'Passage {i+1}:\n' + text + '\n'
-            if flag: num.append(i+1)
-        instruction = f'Write a one-page summary of Passage '+','.join(map(str, num))
+            if flag: num.append(f'Passage {i+1}')
+        instruction = 'Write a one-page summary of selected passages only including '+','.join(map(str, num))
         results.append({'instruction':'' , 
                         "input": qa['input'], 
                         "input": [f'{instruction}: {inp}' if len(inp) > 0 else f'{instruction}.' for inp in qa['input']], 
@@ -236,12 +236,15 @@ def generate_dataset_multi_doc_sum(length=8, rows=100):
                         "length": len(tokenizer.encode(context))})
     return results
 
+# // "multi_doc_sum":"You are given several passages as follows and these passages are from many different fields. {input}\n\n{context}\n\nNow, {input}\n\nSummary:",
+# "single_doc_sum":"You are given several passages as follows and these passages are from many different fields. {input}\n\n{context}\n\nNow, {input}\n\nSummary:",
+    
 
 func = {
-        'single_doc_qa':generate_dataset_single_doc_qa,
-        'multi_doc_qa': generate_dataset_multi_doc_qa,
-        # 'single_doc_sum':generate_dataset_single_doc_sum,
-        # 'multi_doc_sum':generate_dataset_multi_doc_sum
+        # 'single_doc_qa':generate_dataset_single_doc_qa,
+        # 'multi_doc_qa': generate_dataset_multi_doc_qa,
+        'single_doc_sum':generate_dataset_single_doc_sum,
+        'multi_doc_sum':generate_dataset_multi_doc_sum
 }
 rows = 200
 out_path = '/users/PDS0352/wyang107/project/LCEG/longbench_pro/data'

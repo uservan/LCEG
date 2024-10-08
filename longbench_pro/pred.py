@@ -31,7 +31,7 @@ def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset
             for i, inp in enumerate(json_obj['input']):
                 flag=False
                 if k < len(preds):
-                    pred, flag = preds[i], True
+                    pred, flag = preds[k], True
                     k = k+1
                     if len(pred['answers']) != 0:
                         continue
@@ -81,7 +81,7 @@ def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset
                 else: preds.append({"pred": pred, "answers": obj["answers"], "length": context_length})
         except Exception as e:
             print(f"Exception occurred: {e}")
-            if flag: preds[i-1] = {"answers":'', "length": json_obj["length"]}
+            if flag: preds[k-1] = {"answers":'', "length": json_obj["length"]}
             else: preds.append({"answers":'', "length": json_obj["length"]})
         save_preds(out_path, preds)
     return preds
