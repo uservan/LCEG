@@ -1,200 +1,200 @@
-{"pred": "4\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["8"], "all_classes": null, "length": 11221}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["11"], "all_classes": null, "length": 9921}
-{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef count", "answers": ["13"], "all_classes": null, "length": 6578}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["44"], "all_classes": null, "length": 16346}
-{"pred": "39\n\nA: I'm not sure if this is the best way to do it, but it works.\nimport re\n\ndef count", "answers": ["2"], "all_classes": null, "length": 22099}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["7"], "all_classes": null, "length": 8383}
-{"pred": "6\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the number", "answers": ["7"], "all_classes": null, "length": 4974}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["45"], "all_classes": null, "length": 13970}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["4"], "all_classes": null, "length": 14086}
-{"pred": "10\n\n\n\n\n\n\n\n Q: How to get the value of a variable in a function? I have a function that returns a", "answers": ["31"], "all_classes": null, "length": 12357}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["4"], "all_classes": null, "length": 15623}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["16"], "all_classes": null, "length": 11059}
-{"pred": "1\n\nA: You can use the following code to remove duplicates:\nimport re\n\ns = \"\"\"\nParagraph 1: Often co", "answers": ["5"], "all_classes": null, "length": 3991}
-{"pred": "10\n Q: How to get the value of a variable in a function in python? I have a function that takes a variable as an argument.", "answers": ["44"], "all_classes": null, "length": 17077}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["19"], "all_classes": null, "length": 11340}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["36"], "all_classes": null, "length": 10543}
-{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the number", "answers": ["24"], "all_classes": null, "length": 8141}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["12"], "all_classes": null, "length": 8534}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["23"], "all_classes": null, "length": 13749}
-{"pred": "20\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef", "answers": ["14"], "all_classes": null, "length": 5649}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["18"], "all_classes": null, "length": 13512}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["29"], "all_classes": null, "length": 14584}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["22"], "all_classes": null, "length": 12667}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["6"], "all_classes": null, "length": 6510}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["8"], "all_classes": null, "length": 6283}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 13036}
-{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef", "answers": ["26"], "all_classes": null, "length": 5249}
-{"pred": "10\n Q: How to get the value of a variable in a function in python? I have a function that takes a variable as an argument.", "answers": ["26"], "all_classes": null, "length": 17369}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["28"], "all_classes": null, "length": 10898}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["43"], "all_classes": null, "length": 13330}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["34"], "all_classes": null, "length": 13153}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["19"], "all_classes": null, "length": 9732}
-{"pred": "3\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 9246}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["40"], "all_classes": null, "length": 11663}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["14"], "all_classes": null, "length": 17590}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 9718}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["25"], "all_classes": null, "length": 13084}
-{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["13"], "all_classes": null, "length": 18601}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["35"], "all_classes": null, "length": 12177}
-{"pred": "4\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["20"], "all_classes": null, "length": 11563}
-{"pred": "10\n Q: How to get the value of a variable in a function in C#? I have a function that takes a variable as a parameter", "answers": ["39"], "all_classes": null, "length": 16004}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["7"], "all_classes": null, "length": 13534}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["12"], "all_classes": null, "length": 10580}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["16"], "all_classes": null, "length": 10333}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["30"], "all_classes": null, "length": 14264}
-{"pred": "4\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["4"], "all_classes": null, "length": 11680}
-{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef count", "answers": ["21"], "all_classes": null, "length": 7461}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 12151}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["10"], "all_classes": null, "length": 6481}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["6"], "all_classes": null, "length": 9456}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["31"], "all_classes": null, "length": 8395}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["13"], "all_classes": null, "length": 4822}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 11201}
-{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["11"], "all_classes": null, "length": 11740}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["18"], "all_classes": null, "length": 9707}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["7"], "all_classes": null, "length": 7447}
-{"pred": "2\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 6927}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 13709}
-{"pred": "10\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["14"], "all_classes": null, "length": 16551}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["40"], "all_classes": null, "length": 15237}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["18"], "all_classes": null, "length": 13155}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["2"], "all_classes": null, "length": 13433}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["20"], "all_classes": null, "length": 13372}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["30"], "all_classes": null, "length": 12589}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["12"], "all_classes": null, "length": 6751}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["43"], "all_classes": null, "length": 15519}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["10"], "all_classes": null, "length": 10373}
-{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef count", "answers": ["11"], "all_classes": null, "length": 6690}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["20"], "all_classes": null, "length": 8138}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["37"], "all_classes": null, "length": 9910}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["15"], "all_classes": null, "length": 9802}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["17"], "all_classes": null, "length": 10817}
-{"pred": "3\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 10977}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 8150}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["21"], "all_classes": null, "length": 7300}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 14083}
-{"pred": "10\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want to", "answers": ["19"], "all_classes": null, "length": 18136}
-{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I think it's a good start.\nimport", "answers": ["9"], "all_classes": null, "length": 5562}
-{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef", "answers": ["10"], "all_classes": null, "length": 5442}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["17"], "all_classes": null, "length": 12213}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 13084}
-{"pred": "4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["13"], "all_classes": null, "length": 12754}
-{"pred": "31\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["5"], "all_classes": null, "length": 7079}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["19"], "all_classes": null, "length": 8018}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["13"], "all_classes": null, "length": 9086}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["19"], "all_classes": null, "length": 11301}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["12"], "all_classes": null, "length": 8771}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["15"], "all_classes": null, "length": 6573}
-{"pred": "10\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will take a", "answers": ["7"], "all_classes": null, "length": 5522}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["16"], "all_classes": null, "length": 10898}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["5"], "all_classes": null, "length": 8866}
-{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["7"], "all_classes": null, "length": 11143}
-{"pred": "1\n\nA: You can use the following code to remove duplicates:\nimport re\n\ndef remove_duplicates(s):\n    s =", "answers": ["3"], "all_classes": null, "length": 11516}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["27"], "all_classes": null, "length": 11744}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["21"], "all_classes": null, "length": 14392}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["8"], "all_classes": null, "length": 13321}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 11086}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["14"], "all_classes": null, "length": 9267}
-{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef count", "answers": ["14"], "all_classes": null, "length": 6650}
-{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["13"], "all_classes": null, "length": 3554}
-{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["10"], "all_classes": null, "length": 13846}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["11"], "all_classes": null, "length": 7488}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["38"], "all_classes": null, "length": 13904}
-{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the number", "answers": ["11"], "all_classes": null, "length": 6245}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["19"], "all_classes": null, "length": 10261}
-{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["5"], "all_classes": null, "length": 18130}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["23"], "all_classes": null, "length": 12919}
-{"pred": "1\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want to", "answers": ["21"], "all_classes": null, "length": 16375}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["31"], "all_classes": null, "length": 14767}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["4"], "all_classes": null, "length": 9363}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["24"], "all_classes": null, "length": 9779}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["46"], "all_classes": null, "length": 14598}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["21"], "all_classes": null, "length": 14280}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["20"], "all_classes": null, "length": 10288}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["11"], "all_classes": null, "length": 5651}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["30"], "all_classes": null, "length": 11494}
-{"pred": "2\n\nA: import re\n\nfrom collections import Counter\n\ndef count_unique(s):\n    c = Counter(s)", "answers": ["2"], "all_classes": null, "length": 3967}
-{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\nimport re\n\ndef count_", "answers": ["7"], "all_classes": null, "length": 8047}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["14"], "all_classes": null, "length": 12816}
-{"pred": "4\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["29"], "all_classes": null, "length": 12602}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 6561}
-{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["41"], "all_classes": null, "length": 13506}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["25"], "all_classes": null, "length": 14899}
-{"pred": "4\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["39"], "all_classes": null, "length": 12547}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["18"], "all_classes": null, "length": 10765}
-{"pred": "10\n\nA: I'm not sure if this is what you want, but I'm going to assume that you want to count the number", "answers": ["7"], "all_classes": null, "length": 6447}
-{"pred": "10\n\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want", "answers": ["30"], "all_classes": null, "length": 18934}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 6231}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["28"], "all_classes": null, "length": 10433}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["37"], "all_classes": null, "length": 12074}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 12913}
-{"pred": "4\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["33"], "all_classes": null, "length": 11704}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["14"], "all_classes": null, "length": 6751}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["21"], "all_classes": null, "length": 12119}
-{"pred": "10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["16"], "all_classes": null, "length": 12140}
-{"pred": "10\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want to", "answers": ["31"], "all_classes": null, "length": 16806}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["19"], "all_classes": null, "length": 12672}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["12"], "all_classes": null, "length": 4960}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["3"], "all_classes": null, "length": 6404}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["32"], "all_classes": null, "length": 14244}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["44"], "all_classes": null, "length": 12279}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["23"], "all_classes": null, "length": 13851}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["17"], "all_classes": null, "length": 9334}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["39"], "all_classes": null, "length": 14435}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["23"], "all_classes": null, "length": 12927}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["11"], "all_classes": null, "length": 10543}
-{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["4"], "all_classes": null, "length": 17186}
-{"pred": "1\n\n\n\n\n\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns", "answers": ["26"], "all_classes": null, "length": 15302}
-{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the number", "answers": ["16"], "all_classes": null, "length": 6374}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["16"], "all_classes": null, "length": 10190}
-{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef", "answers": ["17"], "all_classes": null, "length": 5700}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["27"], "all_classes": null, "length": 15210}
-{"pred": "20\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["7"], "all_classes": null, "length": 4858}
-{"pred": "5\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["14"], "all_classes": null, "length": 9469}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["31"], "all_classes": null, "length": 15454}
-{"pred": "42\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["3"], "all_classes": null, "length": 13841}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["3"], "all_classes": null, "length": 9325}
-{"pred": "10\n\nA: The answer is 10.\n\nThe first paragraph is:\n\nThe Crimson Tide has appeared in ten", "answers": ["3"], "all_classes": null, "length": 6771}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["9"], "all_classes": null, "length": 11684}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["3"], "all_classes": null, "length": 13730}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["17"], "all_classes": null, "length": 8501}
-{"pred": "1\n\n\n\n\n\n\n Q: How to get the value of a variable in a function? I have a function that returns a value.", "answers": ["22"], "all_classes": null, "length": 13035}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["16"], "all_classes": null, "length": 9281}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["17"], "all_classes": null, "length": 7400}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["4"], "all_classes": null, "length": 14283}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["7"], "all_classes": null, "length": 12616}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["38"], "all_classes": null, "length": 12285}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["17"], "all_classes": null, "length": 14999}
-{"pred": "1\n\n\n\n\n\n\n Q: How to get the value of a variable in a function? I have a function that returns a value.", "answers": ["15"], "all_classes": null, "length": 13557}
-{"pred": "1\n Q: How to get the value of a variable in a function in C#? I have a function that takes a variable as a parameter.", "answers": ["34"], "all_classes": null, "length": 15684}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 12236}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["22"], "all_classes": null, "length": 16104}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["30"], "all_classes": null, "length": 9118}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 17635}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["6"], "all_classes": null, "length": 8470}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["7"], "all_classes": null, "length": 5326}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["31"], "all_classes": null, "length": 12687}
-{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["5"], "all_classes": null, "length": 5518}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["35"], "all_classes": null, "length": 15203}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["24"], "all_classes": null, "length": 7955}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["37"], "all_classes": null, "length": 12718}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["11"], "all_classes": null, "length": 12939}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["28"], "all_classes": null, "length": 12397}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 11938}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["4"], "all_classes": null, "length": 8543}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["11"], "all_classes": null, "length": 8590}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["16"], "all_classes": null, "length": 9543}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 13429}
-{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["10"], "all_classes": null, "length": 9585}
-{"pred": "10\n Q: How to get the value of a variable in a function in C#? I have a function that takes a variable as a parameter", "answers": ["42"], "all_classes": null, "length": 15870}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 12313}
-{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["21"], "all_classes": null, "length": 6986}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["19"], "all_classes": null, "length": 9484}
-{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 15479}
-{"pred": "26\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["5"], "all_classes": null, "length": 9960}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["20"], "all_classes": null, "length": 14973}
-{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["15"], "all_classes": null, "length": 13734}
-{"pred": "1\n\nA: You can use the following code to remove duplicates and count the number of unique paragraphs:\nimport re\n\ns = \"\"\"\n", "answers": ["10"], "all_classes": null, "length": 6073}
-{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["17"], "all_classes": null, "length": 15984}
-{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["28"], "all_classes": null, "length": 6972}
+{"pred": "4\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["8"], "all_classes": null, "length": 18176}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["11"], "all_classes": null, "length": 14822}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef count", "answers": ["13"], "all_classes": null, "length": 10390}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["44"], "all_classes": null, "length": 25513}
+{"pred": "39\n\nA: I'm not sure if this is the best way to do it, but it works.\nimport re\n\ndef count", "answers": ["2"], "all_classes": null, "length": 32768}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["7"], "all_classes": null, "length": 13592}
+{"pred": "6\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the number", "answers": ["7"], "all_classes": null, "length": 8398}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["45"], "all_classes": null, "length": 21108}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["4"], "all_classes": null, "length": 22254}
+{"pred": "10\n\n\n\n\n\n\n\n Q: How to get the value of a variable in a function? I have a function that returns a", "answers": ["31"], "all_classes": null, "length": 18684}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["4"], "all_classes": null, "length": 24902}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["16"], "all_classes": null, "length": 16086}
+{"pred": "1\n\nA: You can use the following code to remove duplicates:\nimport re\n\ns = \"\"\"\nParagraph 1: Often co", "answers": ["5"], "all_classes": null, "length": 6173}
+{"pred": "10\n Q: How to get the value of a variable in a function in python? I have a function that takes a variable as an argument.", "answers": ["44"], "all_classes": null, "length": 26301}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["19"], "all_classes": null, "length": 17234}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["36"], "all_classes": null, "length": 16108}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the number", "answers": ["24"], "all_classes": null, "length": 12053}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["12"], "all_classes": null, "length": 14115}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["23"], "all_classes": null, "length": 21608}
+{"pred": "20\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef", "answers": ["14"], "all_classes": null, "length": 8889}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["18"], "all_classes": null, "length": 21381}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["29"], "all_classes": null, "length": 22714}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["22"], "all_classes": null, "length": 20174}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["6"], "all_classes": null, "length": 10257}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["8"], "all_classes": null, "length": 9765}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 19492}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef", "answers": ["26"], "all_classes": null, "length": 8556}
+{"pred": "10\n Q: How to get the value of a variable in a function in python? I have a function that takes a variable as an argument.", "answers": ["26"], "all_classes": null, "length": 27083}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["28"], "all_classes": null, "length": 16808}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["43"], "all_classes": null, "length": 20188}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["34"], "all_classes": null, "length": 19896}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["19"], "all_classes": null, "length": 15153}
+{"pred": "3\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 16086}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["40"], "all_classes": null, "length": 17976}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["14"], "all_classes": null, "length": 26763}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 16604}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["25"], "all_classes": null, "length": 20375}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["13"], "all_classes": null, "length": 27593}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["35"], "all_classes": null, "length": 18923}
+{"pred": "4\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["20"], "all_classes": null, "length": 17545}
+{"pred": "10\n Q: How to get the value of a variable in a function in C#? I have a function that takes a variable as a parameter", "answers": ["39"], "all_classes": null, "length": 24146}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["7"], "all_classes": null, "length": 20465}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["12"], "all_classes": null, "length": 17547}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["16"], "all_classes": null, "length": 17150}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["30"], "all_classes": null, "length": 22261}
+{"pred": "4\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["4"], "all_classes": null, "length": 18064}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef count", "answers": ["21"], "all_classes": null, "length": 11345}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 18680}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["10"], "all_classes": null, "length": 10654}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["6"], "all_classes": null, "length": 15022}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["31"], "all_classes": null, "length": 12956}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["13"], "all_classes": null, "length": 7666}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 16927}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["11"], "all_classes": null, "length": 19009}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["18"], "all_classes": null, "length": 15013}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["7"], "all_classes": null, "length": 12333}
+{"pred": "2\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 10653}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 22357}
+{"pred": "10\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["14"], "all_classes": null, "length": 27694}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["40"], "all_classes": null, "length": 23550}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["18"], "all_classes": null, "length": 18873}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["2"], "all_classes": null, "length": 19821}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["20"], "all_classes": null, "length": 19752}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["30"], "all_classes": null, "length": 19605}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["12"], "all_classes": null, "length": 10514}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["43"], "all_classes": null, "length": 23361}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["10"], "all_classes": null, "length": 15473}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef count", "answers": ["11"], "all_classes": null, "length": 10332}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["20"], "all_classes": null, "length": 12305}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["37"], "all_classes": null, "length": 15467}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["15"], "all_classes": null, "length": 14981}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["17"], "all_classes": null, "length": 16141}
+{"pred": "3\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 17335}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 12635}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["21"], "all_classes": null, "length": 10985}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 21409}
+{"pred": "10\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want to", "answers": ["19"], "all_classes": null, "length": 27597}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I think it's a good start.\nimport", "answers": ["9"], "all_classes": null, "length": 8386}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef", "answers": ["10"], "all_classes": null, "length": 8098}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["17"], "all_classes": null, "length": 18904}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 19942}
+{"pred": "4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["13"], "all_classes": null, "length": 19351}
+{"pred": "31\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["5"], "all_classes": null, "length": 11413}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["19"], "all_classes": null, "length": 12112}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["13"], "all_classes": null, "length": 14122}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["19"], "all_classes": null, "length": 17953}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["12"], "all_classes": null, "length": 13624}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["15"], "all_classes": null, "length": 11042}
+{"pred": "10\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will take a", "answers": ["7"], "all_classes": null, "length": 8646}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["16"], "all_classes": null, "length": 16592}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["5"], "all_classes": null, "length": 13190}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["7"], "all_classes": null, "length": 17359}
+{"pred": "1\n\nA: You can use the following code to remove duplicates:\nimport re\n\ndef remove_duplicates(s):\n    s =", "answers": ["3"], "all_classes": null, "length": 16573}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["27"], "all_classes": null, "length": 17916}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["21"], "all_classes": null, "length": 22152}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["8"], "all_classes": null, "length": 20178}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 16494}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["14"], "all_classes": null, "length": 14492}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef count", "answers": ["14"], "all_classes": null, "length": 10204}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["13"], "all_classes": null, "length": 5696}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["10"], "all_classes": null, "length": 20294}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["11"], "all_classes": null, "length": 11276}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["38"], "all_classes": null, "length": 21862}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the number", "answers": ["11"], "all_classes": null, "length": 9521}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["19"], "all_classes": null, "length": 15576}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["5"], "all_classes": null, "length": 27489}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["23"], "all_classes": null, "length": 19706}
+{"pred": "1\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want to", "answers": ["21"], "all_classes": null, "length": 24682}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["31"], "all_classes": null, "length": 23036}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["4"], "all_classes": null, "length": 14258}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["24"], "all_classes": null, "length": 14682}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["46"], "all_classes": null, "length": 22350}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["21"], "all_classes": null, "length": 21530}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["20"], "all_classes": null, "length": 15925}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["11"], "all_classes": null, "length": 8881}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["30"], "all_classes": null, "length": 18134}
+{"pred": "2\n\nA: import re\n\nfrom collections import Counter\n\ndef count_unique(s):\n    c = Counter(s)", "answers": ["2"], "all_classes": null, "length": 7023}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but it works.\nimport re\n\ndef count_", "answers": ["7"], "all_classes": null, "length": 12107}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["14"], "all_classes": null, "length": 20520}
+{"pred": "4\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["29"], "all_classes": null, "length": 19613}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 10597}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["41"], "all_classes": null, "length": 20375}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["25"], "all_classes": null, "length": 23330}
+{"pred": "4\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["39"], "all_classes": null, "length": 19380}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["18"], "all_classes": null, "length": 16302}
+{"pred": "10\n\nA: I'm not sure if this is what you want, but I'm going to assume that you want to count the number", "answers": ["7"], "all_classes": null, "length": 9811}
+{"pred": "10\n\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want", "answers": ["30"], "all_classes": null, "length": 28733}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 9373}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["28"], "all_classes": null, "length": 16300}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["37"], "all_classes": null, "length": 18528}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 19777}
+{"pred": "4\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["33"], "all_classes": null, "length": 18312}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["14"], "all_classes": null, "length": 10158}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["21"], "all_classes": null, "length": 19579}
+{"pred": "10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["16"], "all_classes": null, "length": 18914}
+{"pred": "10\n Q: How to get the value of a variable in a function in python? I have a function that returns a value. I want to", "answers": ["31"], "all_classes": null, "length": 26148}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["19"], "all_classes": null, "length": 19290}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["12"], "all_classes": null, "length": 7817}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["3"], "all_classes": null, "length": 9648}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["32"], "all_classes": null, "length": 21365}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["44"], "all_classes": null, "length": 19974}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["23"], "all_classes": null, "length": 21825}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["17"], "all_classes": null, "length": 14925}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["39"], "all_classes": null, "length": 25197}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["23"], "all_classes": null, "length": 20173}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["11"], "all_classes": null, "length": 16498}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["4"], "all_classes": null, "length": 26686}
+{"pred": "1\n\n\n\n\n\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns", "answers": ["26"], "all_classes": null, "length": 23269}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the number", "answers": ["16"], "all_classes": null, "length": 9382}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["16"], "all_classes": null, "length": 14979}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but it works.\n\nimport re\n\ndef", "answers": ["17"], "all_classes": null, "length": 8955}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["27"], "all_classes": null, "length": 23368}
+{"pred": "20\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["7"], "all_classes": null, "length": 7817}
+{"pred": "5\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["14"], "all_classes": null, "length": 14863}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["31"], "all_classes": null, "length": 24085}
+{"pred": "42\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["3"], "all_classes": null, "length": 19332}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["3"], "all_classes": null, "length": 14020}
+{"pred": "10\n\nA: The answer is 10.\n\nThe first paragraph is:\n\nThe Crimson Tide has appeared in ten", "answers": ["3"], "all_classes": null, "length": 11463}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["9"], "all_classes": null, "length": 20128}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["3"], "all_classes": null, "length": 20705}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["17"], "all_classes": null, "length": 13068}
+{"pred": "1\n\n\n\n\n\n\n Q: How to get the value of a variable in a function? I have a function that returns a value.", "answers": ["22"], "all_classes": null, "length": 20067}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["16"], "all_classes": null, "length": 14631}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["17"], "all_classes": null, "length": 13223}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["4"], "all_classes": null, "length": 21196}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["7"], "all_classes": null, "length": 20514}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["38"], "all_classes": null, "length": 18863}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["17"], "all_classes": null, "length": 22936}
+{"pred": "1\n\n\n\n\n\n\n Q: How to get the value of a variable in a function? I have a function that returns a value.", "answers": ["15"], "all_classes": null, "length": 21262}
+{"pred": "1\n Q: How to get the value of a variable in a function in C#? I have a function that takes a variable as a parameter.", "answers": ["34"], "all_classes": null, "length": 24181}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 19453}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["22"], "all_classes": null, "length": 25973}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["30"], "all_classes": null, "length": 14367}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 25425}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["6"], "all_classes": null, "length": 13446}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["7"], "all_classes": null, "length": 9772}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["31"], "all_classes": null, "length": 19804}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["5"], "all_classes": null, "length": 8135}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["35"], "all_classes": null, "length": 23813}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["24"], "all_classes": null, "length": 12237}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["37"], "all_classes": null, "length": 19678}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["11"], "all_classes": null, "length": 20766}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["28"], "all_classes": null, "length": 18432}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["5"], "all_classes": null, "length": 18464}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["4"], "all_classes": null, "length": 13777}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["11"], "all_classes": null, "length": 12924}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["16"], "all_classes": null, "length": 15872}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 20374}
+{"pred": "10\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["10"], "all_classes": null, "length": 14476}
+{"pred": "10\n Q: How to get the value of a variable in a function in C#? I have a function that takes a variable as a parameter", "answers": ["42"], "all_classes": null, "length": 24791}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 18294}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["21"], "all_classes": null, "length": 11259}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["19"], "all_classes": null, "length": 13859}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 23095}
+{"pred": "26\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["5"], "all_classes": null, "length": 19807}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["20"], "all_classes": null, "length": 25347}
+{"pred": "1\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["15"], "all_classes": null, "length": 23530}
+{"pred": "1\n\nA: You can use the following code to remove duplicates and count the number of unique paragraphs:\nimport re\n\ns = \"\"\"\n", "answers": ["10"], "all_classes": null, "length": 12062}
+{"pred": "1\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["17"], "all_classes": null, "length": 26766}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["28"], "all_classes": null, "length": 10255}
