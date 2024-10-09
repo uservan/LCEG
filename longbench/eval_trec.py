@@ -2,6 +2,7 @@ import os
 import json
 import argparse
 import numpy as np
+import math
 
 from metrics import (
     qa_f1_score,
@@ -45,7 +46,7 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-ntk-32k')
+    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-pi-32k')
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
 
@@ -68,7 +69,9 @@ def scorer_e(dataset, predictions, answers, lengths, all_classes):
         else:
             scores["8k+"].append(score)
     for key in scores.keys():
-        scores[key] = {'score': round(100 * np.mean(scores[key]), 2), 'num':len(scores[key])}
+        s = round(100 * np.mean(scores[key]), 2)
+        if math.isnan(s): s= 0
+        scores[key] = {'score': s, 'num':len(scores[key])}
     return scores
 
 def scorer(dataset, predictions, answers, all_classes):
@@ -115,8 +118,8 @@ if __name__ == '__main__':
         if args.e:
             score = scorer_e(dataset, predictions, answers, lengths, all_classes)
         else:
-            # score = scorer_e(dataset, predictions, answers, lengths, all_classes)
-            score = scorer(dataset, predictions, answers, all_classes)
+            score = scorer_e(dataset, predictions, answers, lengths, all_classes)
+            # score = scorer(dataset, predictions, answers, all_classes)
         scores[dataset] = score
     if args.e:
         out_path = set_global_path(f"pred_e/{args.model}/result.json")

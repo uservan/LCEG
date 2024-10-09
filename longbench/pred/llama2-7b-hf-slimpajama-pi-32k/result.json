@@ -1,90 +1,90 @@
 {
     "qasper": {
         "0-2k": {
-            "score": 18.85,
-            "num": 24
+            "score": 0,
+            "num": 0
         },
         "2-4k": {
-            "score": 28.81,
-            "num": 111
-        },
-        "4-6k": {
-            "score": 23.99,
+            "score": 28.78,
             "num": 53
         },
+        "4-6k": {
+            "score": 26.0,
+            "num": 69
+        },
         "6-8k": {
-            "score": 38.77,
-            "num": 7
+            "score": 24.57,
+            "num": 55
         },
         "8k+": {
-            "score": 14.55,
-            "num": 5
+            "score": 25.86,
+            "num": 23
         }
     },
     "multifieldqa_en": {
         "0-2k": {
-            "score": 13.11,
-            "num": 26
+            "score": 10.1,
+            "num": 6
         },
         "2-4k": {
-            "score": 20.07,
-            "num": 41
+            "score": 16.81,
+            "num": 27
         },
         "4-6k": {
-            "score": 24.43,
-            "num": 32
+            "score": 21.53,
+            "num": 17
         },
         "6-8k": {
-            "score": 23.95,
-            "num": 38
+            "score": 21.12,
+            "num": 23
         },
         "8k+": {
-            "score": 22.82,
-            "num": 13
+            "score": 23.2,
+            "num": 77
         }
     },
     "hotpotqa": {
         "0-2k": {
-            "score": 21.05,
-            "num": 2
+            "score": 0,
+            "num": 0
         },
         "2-4k": {
-            "score": 9.15,
-            "num": 14
+            "score": 14.04,
+            "num": 3
         },
         "4-6k": {
-            "score": 9.77,
-            "num": 14
+            "score": 11.49,
+            "num": 8
         },
         "6-8k": {
-            "score": 7.41,
-            "num": 27
+            "score": 9.53,
+            "num": 11
         },
         "8k+": {
-            "score": 9.37,
-            "num": 143
+            "score": 9.04,
+            "num": 178
         }
     },
     "2wikimqa": {
         "0-2k": {
-            "score": 10.16,
-            "num": 15
+            "score": 4.61,
+            "num": 5
         },
         "2-4k": {
-            "score": 9.99,
-            "num": 75
+            "score": 11.83,
+            "num": 12
         },
         "4-6k": {
-            "score": 11.96,
-            "num": 62
+            "score": 12.51,
+            "num": 36
         },
         "6-8k": {
-            "score": 13.81,
-            "num": 17
+            "score": 9.6,
+            "num": 65
         },
         "8k+": {
-            "score": 7.49,
-            "num": 31
+            "score": 10.63,
+            "num": 82
         }
     },
     "musique": {
@@ -93,152 +93,152 @@
             "num": 0
         },
         "2-4k": {
+            "score": 0,
+            "num": 0
+        },
+        "4-6k": {
+            "score": 0,
+            "num": 0
+        },
+        "6-8k": {
             "score": 10.53,
             "num": 1
         },
-        "4-6k": {
-            "score": 18.77,
-            "num": 3
-        },
-        "6-8k": {
-            "score": 1.67,
-            "num": 6
-        },
         "8k+": {
-            "score": 5.79,
-            "num": 190
+            "score": 5.86,
+            "num": 199
         }
     },
     "gov_report": {
         "0-2k": {
-            "score": 35.81,
-            "num": 1
+            "score": 0,
+            "num": 0
         },
         "2-4k": {
-            "score": 31.0,
-            "num": 36
+            "score": 32.97,
+            "num": 12
         },
         "4-6k": {
-            "score": 23.15,
-            "num": 43
+            "score": 29.54,
+            "num": 27
         },
         "6-8k": {
-            "score": 25.03,
-            "num": 31
+            "score": 23.22,
+            "num": 24
         },
         "8k+": {
-            "score": 24.36,
-            "num": 89
+            "score": 24.39,
+            "num": 137
         }
     },
     "qmsum": {
         "0-2k": {
+            "score": 0,
+            "num": 0
+        },
+        "2-4k": {
             "score": 15.22,
             "num": 1
         },
-        "2-4k": {
-            "score": 19.84,
-            "num": 11
-        },
         "4-6k": {
-            "score": 19.95,
-            "num": 21
+            "score": 0,
+            "num": 0
         },
         "6-8k": {
-            "score": 22.53,
-            "num": 34
+            "score": 18.67,
+            "num": 21
         },
         "8k+": {
-            "score": 21.42,
-            "num": 133
+            "score": 21.69,
+            "num": 178
         }
     },
     "multi_news": {
         "0-2k": {
-            "score": 13.59,
-            "num": 122
+            "score": 17.33,
+            "num": 73
         },
         "2-4k": {
-            "score": 6.43,
-            "num": 63
+            "score": 7.43,
+            "num": 83
         },
         "4-6k": {
-            "score": 0.11,
-            "num": 10
+            "score": 6.98,
+            "num": 26
         },
         "6-8k": {
-            "score": 4.14,
-            "num": 2
+            "score": 0.12,
+            "num": 9
         },
         "8k+": {
-            "score": 5.46,
-            "num": 3
+            "score": 2.74,
+            "num": 9
         }
     },
     "trec": {
         "0-2k": {
-            "score": 50.0,
-            "num": 14
+            "score": 0,
+            "num": 0
         },
         "2-4k": {
-            "score": 63.46,
-            "num": 52
+            "score": 60.61,
+            "num": 33
         },
         "4-6k": {
-            "score": 75.0,
-            "num": 56
+            "score": 59.38,
+            "num": 32
         },
         "6-8k": {
-            "score": 78.18,
-            "num": 55
+            "score": 73.68,
+            "num": 38
         },
         "8k+": {
-            "score": 73.91,
-            "num": 23
+            "score": 77.32,
+            "num": 97
         }
     },
     "triviaqa": {
         "0-2k": {
-            "score": 89.74,
-            "num": 13
+            "score": 100.0,
+            "num": 1
         },
         "2-4k": {
-            "score": 90.99,
-            "num": 27
+            "score": 88.33,
+            "num": 20
         },
         "4-6k": {
-            "score": 82.5,
-            "num": 24
+            "score": 90.44,
+            "num": 15
         },
         "6-8k": {
-            "score": 91.9,
-            "num": 30
+            "score": 85.71,
+            "num": 7
         },
         "8k+": {
-            "score": 88.21,
-            "num": 106
+            "score": 88.45,
+            "num": 157
         }
     },
     "samsum": {
         "0-2k": {
-            "score": 39.12,
-            "num": 17
+            "score": 32.0,
+            "num": 1
         },
         "2-4k": {
-            "score": 41.06,
-            "num": 48
+            "score": 35.99,
+            "num": 26
         },
         "4-6k": {
-            "score": 44.5,
-            "num": 27
+            "score": 41.62,
+            "num": 21
         },
         "6-8k": {
-            "score": 45.35,
-            "num": 42
+            "score": 47.68,
+            "num": 24
         },
         "8k+": {
-            "score": 44.16,
-            "num": 66
+            "score": 44.3,
+            "num": 128
         }
     },
     "passage_count": {
@@ -247,20 +247,20 @@
             "num": 0
         },
         "2-4k": {
-            "score": 0.0,
-            "num": 3
+            "score": 0,
+            "num": 0
         },
         "4-6k": {
-            "score": 7.69,
-            "num": 13
+            "score": 0.0,
+            "num": 1
         },
         "6-8k": {
-            "score": 3.7,
-            "num": 27
+            "score": 0.0,
+            "num": 5
         },
         "8k+": {
-            "score": 0.64,
-            "num": 157
+            "score": 1.55,
+            "num": 194
         }
     },
     "passage_retrieval_en": {
@@ -277,56 +277,56 @@
             "num": 0
         },
         "6-8k": {
-            "score": 10.42,
-            "num": 12
+            "score": 0,
+            "num": 0
         },
         "8k+": {
-            "score": 2.93,
-            "num": 188
+            "score": 3.38,
+            "num": 200
         }
     },
     "lcc": {
         "0-2k": {
-            "score": 53.75,
-            "num": 439
+            "score": 56.22,
+            "num": 36
         },
         "2-4k": {
-            "score": 52.33,
-            "num": 45
+            "score": 56.11,
+            "num": 307
         },
         "4-6k": {
-            "score": 50.2,
-            "num": 10
+            "score": 45.23,
+            "num": 73
         },
         "6-8k": {
-            "score": 40.25,
-            "num": 4
+            "score": 47.13,
+            "num": 38
         },
         "8k+": {
-            "score": 36.5,
-            "num": 2
+            "score": 51.02,
+            "num": 46
         }
     },
     "repobench-p": {
         "0-2k": {
-            "score": 48.39,
-            "num": 111
+            "score": 0,
+            "num": 0
         },
         "2-4k": {
-            "score": 42.61,
-            "num": 167
+            "score": 49.5,
+            "num": 4
         },
         "4-6k": {
-            "score": 45.81,
-            "num": 112
+            "score": 48.94,
+            "num": 63
         },
         "6-8k": {
-            "score": 46.01,
-            "num": 68
+            "score": 45.87,
+            "num": 75
         },
         "8k+": {
-            "score": 41.79,
-            "num": 42
+            "score": 44.08,
+            "num": 358
         }
     },
     "narrativeqa": {
@@ -339,16 +339,16 @@
             "num": 0
         },
         "4-6k": {
-            "score": 38.83,
-            "num": 8
+            "score": 0,
+            "num": 0
         },
         "6-8k": {
-            "score": 20.3,
-            "num": 23
+            "score": 0,
+            "num": 0
         },
         "8k+": {
-            "score": 11.75,
-            "num": 169
+            "score": 13.82,
+            "num": 200
         }
     }
 }
