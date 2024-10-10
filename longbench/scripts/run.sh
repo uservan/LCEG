@@ -9,4 +9,4 @@
 #SBATCH --error=/users/PDS0352/wyang107/project/LCEG/longbench/result/error.txt   
 #SBATCH --time=0-10:00:00
 
-python /users/PDS0352/wyang107/project/LCEG/longbench/pred.py --model llama2-7b-hf-slimpajama-yarn-32k
+python /users/PDS0352/wyang107/project/LCEG/longbench/pred.py --model llama2-7b-hf-slimpajama-landmark

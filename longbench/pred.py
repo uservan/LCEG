@@ -35,53 +35,52 @@ def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset
             if len(pred['answers']) != 0:
                 continue
         else: i = i+1
-        # try:
-        prompt = prompt_format.format(**json_obj)
-        # length = json_obj['length']
-        # truncate to fit max_length (we suggest truncate in the middle, since the left and right side may contain crucial instructions)
-        tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt").input_ids[0]
-        if "chatglm3" in model_name:
-            tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt", add_special_tokens=False).input_ids[0]
-        if len(tokenized_prompt) > max_length:
-            half = int(max_length/2)
-            prompt = tokenizer.decode(tokenized_prompt[:half], skip_special_tokens=True)+tokenizer.decode(tokenized_prompt[-half:], skip_special_tokens=True)
+        try:
+            prompt = prompt_format.format(**json_obj)
+            # length = json_obj['length']
+            # truncate to fit max_length (we suggest truncate in the middle, since the left and right side may contain crucial instructions)
+            tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt").input_ids[0]
+            if "chatglm3" in model_name:
+                tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt", add_special_tokens=False).input_ids[0]
+            if len(tokenized_prompt) > max_length:
+                half = int(max_length/2)
+                prompt = tokenizer.decode(tokenized_prompt[:half], skip_special_tokens=True)+tokenizer.decode(tokenized_prompt[-half:], skip_special_tokens=True)
 
-        input = tokenizer(prompt, truncation=False, return_tensors="pt").to(device)
-        context_length = input.input_ids.shape[-1]
-        kwargs = {}
-        kwargs['use_cache'] = True
-        if model_name == "llama2-7b-hf-slimpajama-landmark" or model_name == "llama2-7b-hf-slimpajama-landmark-test4k":  
-            kwargs['offload_cache_to_cpu'] = False
-            kwargs['use_flash'] = False
-            kwargs['cache_top_k'] = 5
-        if dataset == "samsum": # prevent illegal output on samsum (model endlessly repeat "\nDialogue"), might be a prompting issue
-            output = model.generate(
-                **input,
-                max_new_tokens=max_gen,
-                num_beams=1,
-                do_sample=False,
-                temperature=1.0,
-                min_length=context_length+1,
-                eos_token_id=[tokenizer.eos_token_id, tokenizer.encode("\n", add_special_tokens=False)[-1]],
-                **kwargs,
-            )[0]
-        else:
-            output = model.generate(
-                **input,
-                max_new_tokens=max_gen,
-                num_beams=1,
-                do_sample=False,
-                temperature=1.0,
-                **kwargs,
-            )[0]
-        pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
-        if flag: preds[i-1] = {"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": context_length}
-        else: preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": context_length})
-        # except Exception as e:
-        #     print(f"Exception occurred: {e}")
-        #     if flag: preds[i-1] = {"answers":'', "length": context_length}
-        #     else: preds.append({"answers":'', "length": context_length})
-
+            input = tokenizer(prompt, truncation=False, return_tensors="pt").to(device)
+            context_length = input.input_ids.shape[-1]
+            kwargs = {}
+            kwargs['use_cache'] = True
+            if model_name == "llama2-7b-hf-slimpajama-landmark" or model_name == "llama2-7b-hf-slimpajama-landmark-test4k":  
+                kwargs['offload_cache_to_cpu'] = False
+                kwargs['use_flash'] = False
+                kwargs['cache_top_k'] = 5
+            if dataset == "samsum": # prevent illegal output on samsum (model endlessly repeat "\nDialogue"), might be a prompting issue
+                output = model.generate(
+                    **input,
+                    max_new_tokens=max_gen,
+                    num_beams=1,
+                    do_sample=False,
+                    temperature=1.0,
+                    min_length=context_length+1,
+                    eos_token_id=[tokenizer.eos_token_id, tokenizer.encode("\n", add_special_tokens=False)[-1]],
+                    **kwargs,
+                )[0]
+            else:
+                output = model.generate(
+                    **input,
+                    max_new_tokens=max_gen,
+                    num_beams=1,
+                    do_sample=False,
+                    temperature=1.0,
+                    **kwargs,
+                )[0]
+            pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
+            if flag: preds[i-1] = {"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": context_length}
+            else: preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": context_length})
+        except Exception as e:
+            print(f"Exception occurred: {e}")
+            if flag: preds[i-1] = {"answers":'', "length": context_length}
+            else: preds.append({"answers":'', "length": context_length})
         # with open(out_path, "a", encoding="utf-8") as f:
         #     json.dump(preds[-1], f, ensure_ascii=False)
         #     f.write('\n')
@@ -246,10 +245,11 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
              cache_dir=cache_dir
             )
         tokenizer = transformers.AutoTokenizer.from_pretrained(
-            path,
+            path, #"meta-llama/Llama-2-7b-hf",
             padding_side="right",
             use_fast=False,
-            ache_dir=cache_dir
+            cache_dir=cache_dir,
+            token=token
         )
         tokenizer.padding_side = "left"
         tokenizer.pad_token = tokenizer.eos_token 
