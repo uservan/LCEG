@@ -1,0 +1,200 @@
+{"answers": "", "length": 11221}
+{"pred": "25\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["11"], "all_classes": null, "length": 9921}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["13"], "all_classes": null, "length": 6578}
+{"answers": "", "length": 16346}
+{"answers": "", "length": 22099}
+{"pred": "28\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["7"], "all_classes": null, "length": 8383}
+{"pred": "10\n Q: How to get the current page URL in a webview? I am trying to get the current page URL in a webview.", "answers": ["7"], "all_classes": null, "length": 4974}
+{"answers": "", "length": 13970}
+{"answers": "", "length": 14086}
+{"answers": "", "length": 12357}
+{"answers": "", "length": 15623}
+{"pred": "1\n Q: How to get the current date in a string in a function? I have a function that I want to get the current date in a", "answers": ["16"], "all_classes": null, "length": 11059}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that takes a variable as an argument. I want", "answers": ["5"], "all_classes": null, "length": 3991}
+{"answers": "", "length": 17077}
+{"answers": "", "length": 11340}
+{"pred": "1\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a", "answers": ["36"], "all_classes": null, "length": 10543}
+{"pred": "28\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["24"], "all_classes": null, "length": 8141}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["12"], "all_classes": null, "length": 8534}
+{"answers": "", "length": 13749}
+{"pred": "20\n\nA: I'm not sure if this is what you're looking for, but I've written a script that will count the", "answers": ["14"], "all_classes": null, "length": 5649}
+{"answers": "", "length": 13512}
+{"answers": "", "length": 14584}
+{"answers": "", "length": 12667}
+{"pred": "20\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["6"], "all_classes": null, "length": 6510}
+{"pred": "10\n Q: How to get the current page URL in a webview? I am trying to get the current page URL in a webview.", "answers": ["8"], "all_classes": null, "length": 6283}
+{"answers": "", "length": 13036}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["26"], "all_classes": null, "length": 5249}
+{"answers": "", "length": 17369}
+{"answers": "", "length": 10898}
+{"answers": "", "length": 13330}
+{"answers": "", "length": 13153}
+{"pred": "1\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a", "answers": ["19"], "all_classes": null, "length": 9732}
+{"pred": "1\n Q: How to get the current date in a string in a function? I have a function that I want to get the current date in a", "answers": ["9"], "all_classes": null, "length": 9246}
+{"answers": "", "length": 11663}
+{"answers": "", "length": 17590}
+{"answers": "", "length": 9718}
+{"answers": "", "length": 13084}
+{"answers": "", "length": 18601}
+{"answers": "", "length": 12177}
+{"answers": "", "length": 11563}
+{"answers": "", "length": 16004}
+{"answers": "", "length": 13534}
+{"answers": "", "length": 10580}
+{"answers": "", "length": 10333}
+{"answers": "", "length": 14264}
+{"answers": "", "length": 11680}
+{"pred": "20\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["21"], "all_classes": null, "length": 7461}
+{"answers": "", "length": 12151}
+{"pred": "10\n Q: How to get the current page URL in a webview? I am trying to get the current page URL in a webview.", "answers": ["10"], "all_classes": null, "length": 6481}
+{"pred": "34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["6"], "all_classes": null, "length": 9456}
+{"pred": "33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["31"], "all_classes": null, "length": 8395}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["13"], "all_classes": null, "length": 4822}
+{"answers": "", "length": 11201}
+{"answers": "", "length": 11740}
+{"pred": "10\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["18"], "all_classes": null, "length": 9707}
+{"pred": "10\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["7"], "all_classes": null, "length": 7447}
+{"pred": "24\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["5"], "all_classes": null, "length": 6927}
+{"answers": "", "length": 13709}
+{"answers": "", "length": 16551}
+{"answers": "", "length": 15237}
+{"answers": "", "length": 13155}
+{"answers": "", "length": 13433}
+{"answers": "", "length": 13372}
+{"answers": "", "length": 12589}
+{"pred": "24\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["12"], "all_classes": null, "length": 6751}
+{"answers": "", "length": 15519}
+{"pred": "44\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["10"], "all_classes": null, "length": 10373}
+{"pred": "19\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["11"], "all_classes": null, "length": 6690}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["20"], "all_classes": null, "length": 8138}
+{"pred": "1\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a", "answers": ["37"], "all_classes": null, "length": 9910}
+{"pred": "10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["15"], "all_classes": null, "length": 9802}
+{"pred": "10\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["17"], "all_classes": null, "length": 10817}
+{"answers": "", "length": 10977}
+{"pred": "10\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["9"], "all_classes": null, "length": 8150}
+{"pred": "1\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the value", "answers": ["21"], "all_classes": null, "length": 7300}
+{"answers": "", "length": 14083}
+{"answers": "", "length": 18136}
+{"pred": "15\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["9"], "all_classes": null, "length": 5562}
+{"pred": "10\n\nA: There are 10 unique paragraphs.\n Q: How to get the value of a variable in a function? I", "answers": ["10"], "all_classes": null, "length": 5442}
+{"answers": "", "length": 12213}
+{"answers": "", "length": 13084}
+{"answers": "", "length": 12754}
+{"pred": "31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["5"], "all_classes": null, "length": 7079}
+{"pred": "23\n Q: How to get the current page URL in a webview? I am trying to get the current page URL in a webview.", "answers": ["19"], "all_classes": null, "length": 8018}
+{"pred": "33\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["13"], "all_classes": null, "length": 9086}
+{"answers": "", "length": 11301}
+{"pred": "26\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["12"], "all_classes": null, "length": 8771}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["15"], "all_classes": null, "length": 6573}
+{"pred": "24\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["7"], "all_classes": null, "length": 5522}
+{"answers": "", "length": 10898}
+{"pred": "10\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["5"], "all_classes": null, "length": 8866}
+{"answers": "", "length": 11143}
+{"answers": "", "length": 11516}
+{"answers": "", "length": 11744}
+{"answers": "", "length": 14392}
+{"answers": "", "length": 13321}
+{"answers": "", "length": 11086}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["14"], "all_classes": null, "length": 9267}
+{"pred": "18\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["14"], "all_classes": null, "length": 6650}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that takes a variable as an argument. I want", "answers": ["13"], "all_classes": null, "length": 3554}
+{"answers": "", "length": 13846}
+{"pred": "25\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["11"], "all_classes": null, "length": 7488}
+{"answers": "", "length": 13904}
+{"pred": "20\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["11"], "all_classes": null, "length": 6245}
+{"pred": "1\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a", "answers": ["19"], "all_classes": null, "length": 10261}
+{"answers": "", "length": 18130}
+{"answers": "", "length": 12919}
+{"answers": "", "length": 16375}
+{"answers": "", "length": 14767}
+{"pred": "28\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["4"], "all_classes": null, "length": 9363}
+{"pred": "31\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["24"], "all_classes": null, "length": 9779}
+{"answers": "", "length": 14598}
+{"answers": "", "length": 14280}
+{"pred": "10\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["20"], "all_classes": null, "length": 10288}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["11"], "all_classes": null, "length": 5651}
+{"answers": "", "length": 11494}
+{"pred": "21\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["2"], "all_classes": null, "length": 3967}
+{"pred": "27\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["7"], "all_classes": null, "length": 8047}
+{"answers": "", "length": 12816}
+{"answers": "", "length": 12602}
+{"pred": "26\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["9"], "all_classes": null, "length": 6561}
+{"answers": "", "length": 13506}
+{"answers": "", "length": 14899}
+{"answers": "", "length": 12547}
+{"pred": "41\n Q: How to get the current date in a string in a function? I have a function that I want to get the current date in", "answers": ["18"], "all_classes": null, "length": 10765}
+{"pred": "10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["7"], "all_classes": null, "length": 6447}
+{"answers": "", "length": 18934}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["9"], "all_classes": null, "length": 6231}
+{"pred": "35\n The 2019-2020 season is the 10th season of the National Basketball Association (NBA)", "answers": ["28"], "all_classes": null, "length": 10433}
+{"answers": "", "length": 12074}
+{"answers": "", "length": 12913}
+{"answers": "", "length": 11704}
+{"pred": "1\n Q: How to get the current page URL in a webview? I am trying to get the current page URL in a webview. I", "answers": ["14"], "all_classes": null, "length": 6751}
+{"answers": "", "length": 12119}
+{"answers": "", "length": 12140}
+{"answers": "", "length": 16806}
+{"answers": "", "length": 12672}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["12"], "all_classes": null, "length": 4960}
+{"pred": "34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["3"], "all_classes": null, "length": 6404}
+{"answers": "", "length": 14244}
+{"answers": "", "length": 12279}
+{"answers": "", "length": 13851}
+{"pred": "1\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a", "answers": ["17"], "all_classes": null, "length": 9334}
+{"answers": "", "length": 14435}
+{"answers": "", "length": 12927}
+{"answers": "", "length": 10543}
+{"answers": "", "length": 17186}
+{"answers": "", "length": 15302}
+{"pred": "1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["16"], "all_classes": null, "length": 6374}
+{"pred": "32\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["16"], "all_classes": null, "length": 10190}
+{"pred": "10\n\nA: I'm not sure if this is what you're looking for, but I've written a function that will count the", "answers": ["17"], "all_classes": null, "length": 5700}
+{"answers": "", "length": 15210}
+{"pred": "10\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["7"], "all_classes": null, "length": 4858}
+{"pred": "10\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["14"], "all_classes": null, "length": 9469}
+{"answers": "", "length": 15454}
+{"answers": "", "length": 13841}
+{"pred": "21\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["3"], "all_classes": null, "length": 9325}
+{"pred": "43\n Q: How to get the current page URL in a webview? I am trying to get the current page URL in a webview.", "answers": ["3"], "all_classes": null, "length": 6771}
+{"answers": "", "length": 11684}
+{"answers": "", "length": 13730}
+{"pred": "14\n\nThe output format should only contain the number, such as 1, 2, 3, and so on.\n Q:", "answers": ["17"], "all_classes": null, "length": 8501}
+{"answers": "", "length": 13035}
+{"pred": "10\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in", "answers": ["16"], "all_classes": null, "length": 9281}
+{"pred": "12\n\nThe final answer is: 12\n\nThe final answer is: 12\n\nThe final answer is: 12", "answers": ["17"], "all_classes": null, "length": 7400}
+{"answers": "", "length": 14283}
+{"answers": "", "length": 12616}
+{"answers": "", "length": 12285}
+{"answers": "", "length": 14999}
+{"answers": "", "length": 13557}
+{"answers": "", "length": 15684}
+{"answers": "", "length": 12236}
+{"answers": "", "length": 16104}
+{"pred": "11\n\nThe final answer is: 11\n\nThe final answer is: 11\n\nThe final answer is: 11", "answers": ["30"], "all_classes": null, "length": 9118}
+{"answers": "", "length": 17635}
+{"pred": "34\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["6"], "all_classes": null, "length": 8470}
+{"pred": "19\n\n\n Q: How to get the current page URL in a web page? I am trying to get the current page URL in a web", "answers": ["7"], "all_classes": null, "length": 5326}
+{"answers": "", "length": 12687}
+{"pred": "21\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["5"], "all_classes": null, "length": 5518}
+{"answers": "", "length": 15203}
+{"pred": "10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["24"], "all_classes": null, "length": 7955}
+{"answers": "", "length": 12718}
+{"answers": "", "length": 12939}
+{"answers": "", "length": 12397}
+{"answers": "", "length": 11938}
+{"pred": "22\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["4"], "all_classes": null, "length": 8543}
+{"pred": "16\n\nA: I'm not sure if this is what you're looking for, but you can use the following code to get the number", "answers": ["11"], "all_classes": null, "length": 8590}
+{"pred": "1\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a", "answers": ["16"], "all_classes": null, "length": 9543}
+{"answers": "", "length": 13429}
+{"pred": "43\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["10"], "all_classes": null, "length": 9585}
+{"answers": "", "length": 15870}
+{"answers": "", "length": 12313}
+{"pred": "10\n Q: How to get the current page URL in a webview? I am trying to get the current page URL in a webview.", "answers": ["21"], "all_classes": null, "length": 6986}
+{"pred": "1\n Q: How to get the current date in a string in a python script? I am trying to get the current date in a string in a", "answers": ["19"], "all_classes": null, "length": 9484}
+{"answers": "", "length": 15479}
+{"answers": "", "length": 9960}
+{"answers": "", "length": 14973}
+{"answers": "", "length": 13734}
+{"pred": "120\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["10"], "all_classes": null, "length": 6073}
+{"answers": "", "length": 15984}
+{"pred": "30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["28"], "all_classes": null, "length": 6972}
