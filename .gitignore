@@ -17,3 +17,5 @@ models/llama_clex/__pycache__/
 models/llama_clex/llama/__pycache__/
 models/llama_landmark/ltriton/__pycache__/
 models/llama_landmark/__pycache__/
+models/llama_selfextend/__pycache__/
+models/llama_infinite/__pycache__/

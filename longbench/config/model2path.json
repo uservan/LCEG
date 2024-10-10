@@ -6,7 +6,7 @@
     "chatglm2-6b-32k": "THUDM/chatglm2-6b-32k",
     "vicuna-v1.5-7b-16k": "lmsys/vicuna-7b-v1.5-16k",
     "llama2-7b-hf":"meta-llama/Llama-2-7b-hf",
-    "llama2-7b-hf-lminfinite":"",
+    "llama2-7b-hf-lminfinite":"meta-llama/Llama-2-7b-hf",
     "llama2-7b-hf-ntk-frozen":"",
     "llama2-7b-hf-slimpajama-pi-32k":"Leooyii/PI_32k_Slimpajama_1B",
     "llama2-7b-hf-slimpajama-ntk-32k":"Leooyii/NTK_32k_Slimpajama_1B",
