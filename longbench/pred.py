@@ -18,7 +18,7 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama2-7b-hf')
+    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-yarn-32k')
     parser.add_argument('--dataset_name', type=str, default="narrativeqa")
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
@@ -75,11 +75,13 @@ def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset
                     **kwargs,
                 )[0]
             pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
-            if flag: preds[i-1] = {"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"]}
-            else: preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"]})
-        except:
-            if flag: preds[i-1] = {"answers":'', "length": json_obj["length"]}
-            else: preds.append({"answers":'', "length": json_obj["length"]})
+            if flag: preds[i-1] = {"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": context_length}
+            else: preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": context_length})
+        except Exception as e:
+            print(f"Exception occurred: {e}")
+            if flag: preds[i-1] = {"answers":'', "length": context_length}
+            else: preds.append({"answers":'', "length": context_length})
+
         # with open(out_path, "a", encoding="utf-8") as f:
         #     json.dump(preds[-1], f, ensure_ascii=False)
         #     f.write('\n')

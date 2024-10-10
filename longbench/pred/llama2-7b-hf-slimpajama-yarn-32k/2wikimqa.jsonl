@@ -8,12 +8,12 @@
 {"pred": "Rosamund\n\nQuestion: Who is the father of James Armour?\nAnswer: William Cruickshanks\n\nQuestion: Who is the father", "answers": ["Cunimund"], "all_classes": null, "length": 7639}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["St Patrick's College"], "all_classes": null, "length": 3964}
 {"pred": "Bob Jones University\n\nQuestion: What is the name of the film director of film Wine Of Morning?\nAnswer: Katherine Stenholm\n", "answers": ["Bob Jones University"], "all_classes": null, "length": 5162}
-{"answers": "", "length": 10338}
+{"answers": "", "length": 17807}
 {"pred": "Marie Of Brabant, Queen Of France is the paternal granddaughter of Marie Of Brabant, Queen Of France.\n\nQuestion:", "answers": ["Marie of Hohenstaufen"], "all_classes": null, "length": 3596}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Guy II, Count of Soissons"], "all_classes": null, "length": 1280}
 {"pred": "1803\n\nQuestion: When did William Le Poer Trench's mother die?\nAnswer: 1837\n\n", "answers": ["26 April 1872"], "all_classes": null, "length": 3432}
 {"pred": "United States\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get the", "answers": ["America"], "all_classes": null, "length": 4442}
-{"answers": "", "length": 10444}
+{"answers": "", "length": 16870}
 {"pred": "Indradhanura Chhai\n\nQuestion: Which film came out earlier, The Death Of Black King or The Death Of Tragedy?\nAnswer:", "answers": ["The Death Of Black King"], "all_classes": null, "length": 1696}
 {"pred": "No\n\nQuestion: Do both films The Reincarnation Of Golden Lotus and I'Ll Get By (Film) have the same director", "answers": ["no"], "all_classes": null, "length": 5932}
 {"pred": "Yes\n\nQuestion: Are both villages, Qaleh-Ye Sahar and Qaleh-Ye Zaras, located in the same country", "answers": ["no"], "all_classes": null, "length": 535}
@@ -30,7 +30,7 @@
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Nepal"], "all_classes": null, "length": 4625}
 {"pred": "Archibald Acheson, 3rd Earl of Gosford\n Q: How to get the value of a variable in a function? I", "answers": ["Archibald Acheson, 2nd Earl of Gosford"], "all_classes": null, "length": 4383}
 {"pred": "John Paul Getty Jr.\n\nQuestion: Who is the maternal grandfather of John Paul Getty Jr.?\nAnswer: John Paul Getty", "answers": ["Jean Paul Getty"], "all_classes": null, "length": 5464}
-{"answers": "", "length": 11686}
+{"answers": "", "length": 19083}
 {"pred": "Yes\n\nQuestion: Do director of film Betrayal (1932 Film) and director of film The Godsend (Film) share the", "answers": ["yes"], "all_classes": null, "length": 3122}
 {"pred": "The Abduction Club\n\nQuestion: Which film whose director was born last, The Best Man or The Miracle of the Wolves?\nAnswer:", "answers": ["Wooden Crosses"], "all_classes": null, "length": 4154}
 {"pred": "The Magic Aster\n\nQuestion: Which film came out earlier, The Magic Aster or The Magic Keyboard?\nAnswer: The Magic Aster\n", "answers": ["Above Rubies"], "all_classes": null, "length": 3299}
@@ -48,7 +48,7 @@
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Vibia Sabina"], "all_classes": null, "length": 3690}
 {"pred": "Bajo Otro Sol\n\nQuestion: Which film was released more recently, Riding The California Trail or Riding The Edge?\nAnswer: R", "answers": ["Bajo Otro Sol"], "all_classes": null, "length": 1120}
 {"pred": "Lisa Azuelos\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to", "answers": ["Marie Laforêt"], "all_classes": null, "length": 3219}
-{"answers": "", "length": 10498}
+{"answers": "", "length": 16854}
 {"pred": "1702\n\nQuestion: When is Henrietta Maria Of Brandenburg-Schwedt's mother's birthday?\nAnswer: ", "answers": ["May 19, 1669"], "all_classes": null, "length": 4570}
 {"pred": "Pamplona\n\nQuestion: Where was the place of death of Joan Of Navarre (regent)'s mother?\nAnswer: Pamplona\n", "answers": ["Palencia"], "all_classes": null, "length": 3496}
 {"pred": "Dance With A Stranger\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want", "answers": ["Miley Naa Miley Hum"], "all_classes": null, "length": 3934}
@@ -76,14 +76,14 @@
 {"pred": "Sir Paul Gore, 1st Baronet\n\nQuestion: Who is Sir William Gore, 3Rd Baronet's maternal grand", "answers": ["Sir Paul Gore, 1st Baronet"], "all_classes": null, "length": 2779}
 {"pred": "Egypt\n\nQuestion: Which country Baglan Mailybayev's father is from?\nAnswer: Kazakhstan\n\nQuestion: Which country El", "answers": ["Fatimid caliphate"], "all_classes": null, "length": 8314}
 {"pred": "Dayton, Ohio\n\nQuestion: Where was the wife of Samuel of Bulgaria born?\nAnswer: Dyrrhachium\n\nQuestion: Where", "answers": ["Dayton, Ohio"], "all_classes": null, "length": 3761}
-{"answers": "", "length": 11373}
+{"answers": "", "length": 18177}
 {"pred": "The Drover'S Sweetheart\n\nQuestion: Which film came out earlier, The Drover'S Sweetheart or The Night of Nights", "answers": ["The Drover'S Sweetheart"], "all_classes": null, "length": 3866}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Tumkur"], "all_classes": null, "length": 3459}
 {"pred": "Closely Watched Trains\n\nQuestion: Which film came out earlier, The Man Who Watched Trains Go By or The Night of Nights", "answers": ["Det Sande Ansigt"], "all_classes": null, "length": 4713}
 {"pred": "Il Gaucho\n\nQuestion: Which film has the director who died earlier, Phullu or BOMgay?\nAnswer: Phullu", "answers": ["Bomgay"], "all_classes": null, "length": 4261}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Preslav"], "all_classes": null, "length": 5869}
 {"pred": "The Pyrammmid\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want", "answers": ["Revolt Of The Praetorians"], "all_classes": null, "length": 3504}
-{"answers": "", "length": 10582}
+{"answers": "", "length": 17033}
 {"pred": "Arsenic poisoning\n\nQuestion: What is the cause of death of Eric XIV of Sweden?\nAnswer: Arsenic poisoning\n\nQuestion", "answers": ["poisoning"], "all_classes": null, "length": 5584}
 {"pred": "American\n\nQuestion: What nationality is the director of film Radioactive Dreams (1987 Film)?\nAnswer: American\n\nQuestion:", "answers": ["America"], "all_classes": null, "length": 5631}
 {"pred": "Morocco\n\nQuestion: Which country Khalid Habib's father is from?\nAnswer: Egypt\n\nQuestion: Which country Khal", "answers": ["Kingdom of Hawaii"], "all_classes": null, "length": 8829}
@@ -91,18 +91,18 @@
 {"pred": "Vasantha Raagam\n\nQuestion: Which film was released earlier, August Underground'S Penance or Royal Tramp II?\nAnswer:", "answers": ["Vasantha Raagam"], "all_classes": null, "length": 6052}
 {"pred": "Lee Kun-Hee\n\nQuestion: Who is the father-in-law of Lee Kun-Hee?\nAnswer: Ogawa Mataji", "answers": ["Lee Byung-chul"], "all_classes": null, "length": 6337}
 {"pred": "Archambault VII of Bourbon\n\nQuestion: Who is Isabella Of Bourbon's maternal grandfather?\nAnswer: Odo II of", "answers": ["John I, Duke of Bourbon"], "all_classes": null, "length": 4501}
-{"answers": "", "length": 10742}
+{"answers": "", "length": 18116}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Gura Humorului"], "all_classes": null, "length": 3888}
 {"pred": "Jacques Dutronc\n\nQuestion: Who is the spouse of the performer of song Et Moi, Et Moi, Et Moi?", "answers": ["Françoise Hardy"], "all_classes": null, "length": 5091}
 {"pred": "Charles Wheatstone\n\nQuestion: Who lived longer, Jean-Claude Lauzon or Charles Wheatstone?\nAnswer: Jean-Claude Lau", "answers": ["Charles Wheatstone"], "all_classes": null, "length": 8386}
 {"pred": "Perryville, Missouri\n Q: How to get the value of a variable in a function? I have a function that takes a variable as an argument.", "answers": ["Washington"], "all_classes": null, "length": 1917}
-{"answers": "", "length": 9611}
+{"answers": "", "length": 16719}
 {"pred": "Diego Fernández De Oviedo is the paternal grandfather of Jimena Díaz, wife of Rodrigo Díaz de Vivar El Cid", "answers": ["Flaín Muñoz"], "all_classes": null, "length": 3208}
 {"pred": "Michael Sorvino\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to", "answers": ["Mira Sorvino"], "all_classes": null, "length": 4398}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["yes"], "all_classes": null, "length": 1863}
 {"pred": "Denmark\n\nQuestion: Which country Christine Of Mecklenburg-Güstrow's father is from?\nAnswer: Mecklenburg", "answers": ["Norway"], "all_classes": null, "length": 3211}
 {"pred": "\n\nQuestion: What is the cause of death of Heonjong Of Goryeo's father?\nAnswer:\n\nQuestion: What", "answers": ["illness"], "all_classes": null, "length": 4438}
-{"answers": "", "length": 10562}
+{"answers": "", "length": 16621}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Hong Kong Film Award for Best Director"], "all_classes": null, "length": 3401}
 {"pred": "1961\n\nQuestion: What is the date of death of the Bishop of Elmham?\nAnswer: 997\n\n", "answers": ["3 September 1992"], "all_classes": null, "length": 1680}
 {"pred": "Nathaniel Mclenaghan\n Q: How to get the value of a variable in a function? I have a function that takes a variable as", "answers": ["Nathaniel Mclenaghan"], "all_classes": null, "length": 3026}
@@ -124,7 +124,7 @@
 {"pred": "The Comedians Of Comedy\n\nQuestion: Which film came out first, The Comedians Of Comedy or F The Prom?\nAnswer:", "answers": ["The Comedians Of Comedy"], "all_classes": null, "length": 4756}
 {"pred": "Waiting For The Clouds\n\nQuestion: Which film has the director who was born second, Tombstone Rashomon or Waiting For The Cloud", "answers": ["Tombstone Rashomon"], "all_classes": null, "length": 5772}
 {"pred": "Dhuen Ki Lakeer\n\nQuestion: Which film has the director who was born earlier, Iru Kodugal or Aboorva Ra", "answers": ["Dhuen Ki Lakeer"], "all_classes": null, "length": 4828}
-{"answers": "", "length": 10456}
+{"answers": "", "length": 17039}
 {"pred": "University of Wisconsin-Madison\n\nQuestion: Where did the director of film The Seventh Company Outdoors (1977 Film) gradu", "answers": ["University of Wisconsin"], "all_classes": null, "length": 2748}
 {"pred": "Dudley Russell\n\nQuestion: Was Wale Adebanwi or Juan de Courten born first?\nAnswer: Wale Adebanwi", "answers": ["Dudley Russell"], "all_classes": null, "length": 4526}
 {"pred": "Mirjam Polkunen\n\nQuestion: Who was born first, Henry Moore or Wale Adebanwi?\nAnswer: Wale A", "answers": ["Mirjam Polkunen"], "all_classes": null, "length": 3620}
@@ -146,7 +146,7 @@
 {"pred": "No, The Other Half (2016 Film) is from Denmark and Spy Kids 2: The Island Of Lost Dreams is from", "answers": ["no"], "all_classes": null, "length": 6771}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Mülheim an der Ruhr"], "all_classes": null, "length": 3140}
 {"pred": "The Bag Man\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to get", "answers": ["Una Prostituta Al Servizio Del Pubblico E In Regola Con Le Leggi Dello Stato"], "all_classes": null, "length": 2809}
-{"answers": "", "length": 10991}
+{"answers": "", "length": 18963}
 {"pred": "John Mackay (poet)\n\nQuestion: Who is the maternal grandfather of Leonard Cohen?\nAnswer: Lyon Cohen\n\nQuestion", "answers": ["Mongkut"], "all_classes": null, "length": 3759}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Lady Frances Manners"], "all_classes": null, "length": 3293}
 {"pred": "The director of film L'Arbre, Le Maire Et La Médiathèque works at the Norwegian Museum of Cultural History.\n\nQuestion: Where", "answers": ["Cahiers du cinéma"], "all_classes": null, "length": 9453}
@@ -155,10 +155,10 @@
 {"pred": "Mangalia\n\nQuestion: What is the place of birth of the performer of song Panda (Astro Song)?\nAnswer: Neptun", "answers": ["Mangalia"], "all_classes": null, "length": 8046}
 {"pred": "Pier-Luc Funk\n\nQuestion: Who is the father of the actor of film A No-Hit No-Run Summer?\nAnswer:", "answers": ["Félix Leclerc"], "all_classes": null, "length": 4871}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Jacques"], "all_classes": null, "length": 5577}
-{"answers": "", "length": 11622}
+{"answers": "", "length": 19004}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Yi Jiang"], "all_classes": null, "length": 4142}
 {"pred": "19 May 1797\n\nQuestion: What is the date of death of Maria Isabel De Alcântara, Countess Of Igu", "answers": ["November 3, 1867"], "all_classes": null, "length": 6374}
-{"answers": "", "length": 10243}
+{"answers": "", "length": 16596}
 {"pred": "1813\n Q: How to get the value of a variable in a function? I have a function that takes a variable as an argument", "answers": ["1 August 1813"], "all_classes": null, "length": 2765}
 {"pred": "Season Of Strangers\n\nQuestion: Which film has the director who is younger than the other, The Yellow Teddy Bears or The Car? ", "answers": ["Season Of Strangers"], "all_classes": null, "length": 6966}
 {"pred": "Yes\n\nQuestion: Was Emma Russack born in Narooma, New South Wales?\nAnswer: No\n\nQuestion: Was David Ji born in", "answers": ["yes"], "all_classes": null, "length": 4450}
@@ -170,7 +170,7 @@
 {"pred": "In 1311\n\nQuestion: Where did Catherine Of Cleves's mother die?\nAnswer: In 1360\n\n", "answers": ["Lecce"], "all_classes": null, "length": 3523}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Prometheus Award"], "all_classes": null, "length": 3529}
 {"pred": "German\n\nQuestion: What nationality is Princess Feodora Of Saxe-Meiningen's husband?\nAnswer: German\n\nQuestion:", "answers": ["Duchy of Saxe-Gotha-Altenburg"], "all_classes": null, "length": 4847}
-{"answers": "", "length": 9998}
+{"answers": "", "length": 16936}
 {"pred": "Inverkeithing, Fife, Scotland\n\nQuestion: What is the place of birth of Cleomenes II?\nAnswer: Inverke", "answers": ["Inverkeithing"], "all_classes": null, "length": 4097}
 {"pred": "1185\n\nQuestion: When did Thomas Of Galloway (Bastard)'s father die?\nAnswer: 118", "answers": ["1234"], "all_classes": null, "length": 9182}
 {"pred": "24 October 1642\n\nQuestion: When did Robert Bertie, 3Rd Earl Of Lindsey's father die?", "answers": ["25 July 1666"], "all_classes": null, "length": 6136}
@@ -187,10 +187,10 @@
 {"pred": "Folgore Division\n\nQuestion: Which film has the director who died first, Lesley Selander or Duilio Coletti?\nAnswer: Les", "answers": ["Sandflow"], "all_classes": null, "length": 1945}
 {"pred": "Durango Valley Raiders\n\nQuestion: Which film has the director born earlier, Tehran Bedoune Mojavez or Sepideh Far", "answers": ["From Corleone To Brooklyn"], "all_classes": null, "length": 3894}
 {"pred": "Yes\n\nQuestion: Are both Howard Lake (British Columbia) and Howard Lake (Mendocino County) located in the same country?\n", "answers": ["yes"], "all_classes": null, "length": 667}
-{"answers": "", "length": 10974}
+{"answers": "", "length": 18427}
 {"pred": "Johnny Ekström\n Q: How to get the current page URL in a web page? I am trying to get the current page URL in a web page", "answers": ["Johnny Ekström"], "all_classes": null, "length": 6044}
 {"pred": "Yes\n\nQuestion: Are both mountains, Yana Urqu (Mizque) and Yana Urqu (Yayamari), located in the", "answers": ["yes"], "all_classes": null, "length": 592}
-{"answers": "", "length": 11950}
+{"answers": "", "length": 18933}
 {"pred": "Norman Panama died on January 13, 2003, in Los Angeles, California, aged 88, from complications of Park", "answers": ["Parkinson"], "all_classes": null, "length": 4337}
 {"pred": "Thomas De Berkeley\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want to", "answers": ["Roger Mortimer, 1st Earl of March"], "all_classes": null, "length": 3947}
 {"pred": "Ali Dinar\n\nQuestion: Who was the first governor of Aceh?\nAnswer: Sultan Buyung\n\nQuestion: Who was the first", "answers": ["Albertus Seba"], "all_classes": null, "length": 4441}
