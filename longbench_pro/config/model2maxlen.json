@@ -17,5 +17,10 @@
     "llama2-7b-hf-slimpajama-longlora-32k":32768,
     "llama2-7b-hf-slimpajama-landmark":32768,
     "llama2-7b-hf-selfextend":32768,
-    "llama2-7b-hf-slimpajama-clex-32k":32768
+    "llama2-7b-hf-slimpajama-clex-32k":32768,
+
+    "llama-3.1-8B-Instruct":1572864,
+    "llama-3.1-70B-Instruct":1572864,
+    "Qwen2.5-7B-Instruct":32768,
+    "Qwen2.5-14B-Instruct":32768
 }

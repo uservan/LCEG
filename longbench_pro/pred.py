@@ -18,7 +18,7 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-pi-32k')
+    parser.add_argument('--model', type=str, default='llama-3.1-8B-Instruct')
     parser.add_argument('--dataset_name', type=str, default="samsum")
     return parser.parse_args(args)
 
@@ -105,6 +105,7 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
     print('testing:', model_name)
     print('model path:', path)
     cache_dir = '/users/PDS0352/wyang107/project/LCEG/model_cache'
+    token='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'
     if model_name == "llama2-7b-hf" or model_name == "llama2-7b-hf-slimpajama-pi-32k" or model_name == "llama2-7b-hf-slimpajama-longlora-32k":
         config = transformers.AutoConfig.from_pretrained(path)
         print('rope_scaling:', config.rope_scaling)
@@ -114,10 +115,12 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
             torch_dtype=torch.float16,
             use_flash_attention_2=use_flash_attention_2,
             device_map="auto",
+            cache_dir=cache_dir,
         )
         tokenizer = transformers.AutoTokenizer.from_pretrained(
             path,
             config=config,
+            cache_dir=cache_dir,
         )
     elif model_name == "llama2-7b-hf-slimpajama-ntk-32k":
         config = transformers.AutoConfig.from_pretrained(path)
@@ -129,10 +132,12 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
             torch_dtype=torch.float16,
             use_flash_attention_2=use_flash_attention_2,
             device_map="auto",
+            cache_dir=cache_dir,
         )
         tokenizer = transformers.AutoTokenizer.from_pretrained(
             path,
             config=config,
+            cache_dir=cache_dir,
         )
     elif model_name == "llama2-7b-hf-slimpajama-ntk-64k" or model_name == "llama-2-7b-hf-slimpajama-ntk-64k-2B":
         config = transformers.AutoConfig.from_pretrained(path)
@@ -156,10 +161,12 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
             path,
             torch_dtype=torch.float16,
             device_map="auto",
+            cache_dir=cache_dir,
         )
         model = convert_llama_model(model, 4096, 10)
         tokenizer = transformers.AutoTokenizer.from_pretrained(
             path,
+            cache_dir=cache_dir,
         )
     elif model_name == "llama2-7b-hf-ntk-frozen":
             # Set RoPE scaling factor
@@ -178,9 +185,10 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
             torch_dtype=torch.float16,
             use_flash_attention_2=use_flash_attention_2,
             device_map="auto",
+            cache_dir=cache_dir,
         )
         tokenizer = transformers.AutoTokenizer.from_pretrained(
-            path,
+            path,cache_dir=cache_dir,
         )
         
     elif model_name == "llama2-7b-hf-slimpajama-yarn-32k":
@@ -199,7 +207,7 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
             cache_dir=cache_dir
         )
         tokenizer = transformers.AutoTokenizer.from_pretrained(
-            path,
+            path,cache_dir=cache_dir,
         )
     elif model_name == "llama2-7b-hf-selfextend":
         from transformers import AutoModelForCausalLM
@@ -207,11 +215,11 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
         window_size = 1024
         group_size = 64
         use_flash = use_flash_attention_2
-        model = AutoModelForCausalLM.from_pretrained(path, device_map="auto", torch_dtype=torch.bfloat16, use_flash_attention_2=use_flash)
+        model = AutoModelForCausalLM.from_pretrained(path, device_map="auto", torch_dtype=torch.bfloat16, use_flash_attention_2=use_flash,cache_dir=cache_dir,)
         print(f'using group size {group_size} using window size {window_size}')
         SelfExtend.apply(model, group_size, window_size, enable_flash_attention=use_flash, flash_attention_impl="flash_attn") ## flash_attention_impl="triton" or "flash_attn"
         tokenizer = transformers.AutoTokenizer.from_pretrained(
-            path,
+            path,cache_dir=cache_dir,
         )
     elif model_name == "llama2-7b-hf-slimpajama-clex-32k":
         print('eval clex')
@@ -225,10 +233,11 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
             torch_dtype=torch.bfloat16,
             config=config,
             attn_implementation="flash_attention_2",
-            device_map="auto"
+            device_map="auto",
+            cache_dir=cache_dir
         )
         tokenizer = transformers.AutoTokenizer.from_pretrained(
-            path,
+            path,cache_dir=cache_dir,
         )
 
     elif model_name == "llama2-7b-hf-slimpajama-landmark":
@@ -236,11 +245,13 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
         model = LlamaForCausalLM.from_pretrained(
             path,
             torch_dtype=torch.bfloat16,
+            cache_dir=cache_dir,
             )
         tokenizer = transformers.AutoTokenizer.from_pretrained(
             path,
             padding_side="right",
             use_fast=False,
+            cache_dir=cache_dir,
         )
         tokenizer.padding_side = "left"
         tokenizer.pad_token = tokenizer.eos_token 
@@ -249,9 +260,25 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
         model.set_mem_id(mem_id)
         model = model.to(device)
     else:
-        print('ERROR! Model_name not exist!')
-        exit()
-        
+        config = transformers.AutoConfig.from_pretrained(path,token=token)
+        print('rope_scaling:', config.rope_scaling)
+        tokenizer = transformers.AutoTokenizer.from_pretrained(
+            path,
+            config=config,
+            cache_dir=cache_dir,
+            token=token
+        )
+        if "llama-3" in model_name.lower():
+            tokenizer.pad_token_id = tokenizer.eos_token_id
+        model = transformers.AutoModelForCausalLM.from_pretrained(
+            path,
+            config=config,
+            torch_dtype=torch.float16,
+            use_flash_attention_2=use_flash_attention_2,
+            device_map="auto",
+            cache_dir=cache_dir,
+            token=token
+        )
 
     model = model.eval()
     return model, tokenizer

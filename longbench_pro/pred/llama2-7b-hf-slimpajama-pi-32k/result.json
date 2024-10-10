@@ -2,13 +2,13 @@
     "multi_doc_qa_16": 33.52,
     "multi_doc_qa_31": 33.19,
     "multi_doc_qa_8": 35.88,
-    "multi_doc_sum_16": 14.83,
-    "multi_doc_sum_31": 10.09,
-    "multi_doc_sum_8": 13.86,
+    "multi_doc_sum_16": 14.78,
+    "multi_doc_sum_31": 7.6,
+    "multi_doc_sum_8": 13.75,
     "single_doc_qa_16": 16.55,
     "single_doc_qa_31": 13.9,
     "single_doc_qa_8": 14.93,
-    "single_doc_sum_16": 12.9,
-    "single_doc_sum_31": 13.83,
-    "single_doc_sum_8": 13.2
+    "single_doc_sum_16": 12.57,
+    "single_doc_sum_31": 23.97,
+    "single_doc_sum_8": 19.52
 }

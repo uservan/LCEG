@@ -13,3 +13,7 @@ models/llama_selfextend/self_extend_patch/__pycache__/
 longbench/__pycache__/
 models/llama_ntk_32k/__pycache__/
 longbench_pro/__pycache__/
+models/llama_clex/__pycache__/
+models/llama_clex/llama/__pycache__/
+models/llama_landmark/ltriton/__pycache__/
+models/llama_landmark/__pycache__/
