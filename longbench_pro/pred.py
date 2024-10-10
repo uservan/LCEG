@@ -18,7 +18,7 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama-3.1-8B-Instruct')
+    parser.add_argument('--model', type=str, default='llama-3.2-3B-Instruct')
     parser.add_argument('--dataset_name', type=str, default="samsum")
     return parser.parse_args(args)
 
@@ -204,7 +204,8 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
             torch_dtype=torch.float16,
             use_flash_attention_2=use_flash_attention_2,
             device_map="auto",
-            cache_dir=cache_dir
+            cache_dir=cache_dir,
+            low_cpu_mem_usage=True,
         )
         tokenizer = transformers.AutoTokenizer.from_pretrained(
             path,cache_dir=cache_dir,

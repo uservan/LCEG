@@ -22,5 +22,7 @@
     "llama-3.1-8B-Instruct":1572864,
     "llama-3.1-70B-Instruct":1572864,
     "Qwen2.5-7B-Instruct":32768,
-    "Qwen2.5-14B-Instruct":32768
+    "Qwen2.5-14B-Instruct":32768,
+    "llama-3.2-1B-Instruct":1572864,
+    "llama-3.2-3B-Instruct":1572864
 }
