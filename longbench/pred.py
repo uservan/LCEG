@@ -18,7 +18,7 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-yarn-32k')
+    parser.add_argument('--model', type=str, default='llama2-7b-hf')
     parser.add_argument('--dataset_name', type=str, default="narrativeqa")
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
@@ -102,7 +102,7 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
     cache_dir = '/users/PDS0352/wyang107/project/LCEG/model_cache'
     token='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'
     if model_name == "llama2-7b-hf" or model_name == "llama2-7b-hf-slimpajama-pi-32k" or model_name == "llama2-7b-hf-slimpajama-longlora-32k":
-        config = transformers.AutoConfig.from_pretrained(path)
+        config = transformers.AutoConfig.from_pretrained(path, token=token)
         print('rope_scaling:', config.rope_scaling)
         model = transformers.AutoModelForCausalLM.from_pretrained(
             path,
@@ -114,7 +114,7 @@ def load_model_and_tokenizer(path, model_name, device, use_flash_attention_2=Fal
             token=token
         )
         tokenizer = transformers.AutoTokenizer.from_pretrained(
-            path,
+            "meta-llama/Llama-2-7b-hf",
             config=config,
             cache_dir=cache_dir,
             token=token
