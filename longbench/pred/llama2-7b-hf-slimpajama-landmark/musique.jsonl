@@ -1,0 +1,200 @@
+{"pred": "Cher\n\nA: import re\nimport sys\n\ndef main():\n    for line in sys.stdin:\n        line = line.strip", "answers": ["Maria Bello"], "all_classes": null, "length": 18803}
+{"pred": "The person who provided evidence to suggest the existence of the neutron was James Chadwick.\n\n\nA: The answer is James Chadwick.", "answers": ["Manhattan Project"], "all_classes": null, "length": 18586}
+{"pred": "Whiston\n\nPassage 1:\nBritish nationality law\nThe primary law governing nationality in the United Kingdom is the British", "answers": ["Knowsley", "Metropolitan Borough of Knowsley"], "all_classes": null, "length": 18803}
+{"pred": "\n\nPassage 1:\nPaula Santiago\nPaula Santiago (born 2007 in Vigo) is a Gallega mixed", "answers": ["Sebastian Cabot"], "all_classes": null, "length": 18741}
+{"pred": "\n\n\n*\n\n*Joyce Harmon\n\n*Joyce Harmon\n\n*Joyce Harmon\n\n*Jo", "answers": ["Sherry Boucher"], "all_classes": null, "length": 19601}
+{"pred": "1913\n\nA: I'm not sure if this is the best way to do it, but I'm going to try to", "answers": ["1 December 2010"], "all_classes": null, "length": 19550}
+{"pred": "\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:", "answers": ["Tatum O'Neal"], "all_classes": null, "length": 19074}
+{"pred": "1\n\nPassage 10:\n\nPassage 11:\n\nPassage 12:\n\nPassage 1", "answers": ["22"], "all_classes": null, "length": 19496}
+{"pred": "1941\n\n\nA: I'm not sure if this is what you're looking for, but I think you're looking", "answers": ["1912"], "all_classes": null, "length": 17994}
+{"pred": "\n\nA:\n\nA2100\n\n\nA:\n\nA2100\n\n\nA:\n\nA2", "answers": ["ATS - 6 (Applications Technology Satellite - 6)", "ATS-6"], "all_classes": null, "length": 19232}
+{"pred": "Robert Khayat\n\nPassage 1:\nRobert Khayat\nRobert Khayat (born 1941) is", "answers": ["James Howard Meredith", "James Meredith"], "all_classes": null, "length": 19431}
+{"pred": "The Royal Swedish Academy of Sciences\n\nPassage 17:\nThe Nobel Prize in Literature\nThe Nobel Prize in Literature (Swedish", "answers": ["University of Cambridge", "Cambridge"], "all_classes": null, "length": 18887}
+{"pred": "\n\n\nA: I'm not sure if this is the right answer, but I think it is.\n\n\nA: I think the answer", "answers": ["Tom Hood", "Thomas Hood"], "all_classes": null, "length": 19179}
+{"pred": "\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:", "answers": ["Jennifer Connelly"], "all_classes": null, "length": 18922}
+{"pred": "The Caledon River is a river in the Australian state of Victoria. It is a tributary of the Yarra River, and is 1", "answers": ["Thaba Putsoa"], "all_classes": null, "length": 15046}
+{"pred": "The bridge is called the Ponte di Rialto.\n\nPassage 5:\n\nPassage 6:\n\nPassage 7", "answers": ["Rialto Bridge", "Ponte di Rialto"], "all_classes": null, "length": 18687}
+{"pred": "The Republican Party gained control of the House of Representatives in the midterm elections in 1946.\n\n\nA: The answer is 1", "answers": ["January 2015"], "all_classes": null, "length": 20283}
+{"pred": "In the United States.\n\nPassage 3:\nJulius Caesar\nJulius Caesar (100 BC – 44 BC", "answers": ["Clifton College"], "all_classes": null, "length": 19036}
+{"pred": "İzmir\n\nPassage 4:\nMehmet Hayri Tarhan\nMehmet Hayri Tarhan (1915", "answers": ["Malko Tarnovo Municipality"], "all_classes": null, "length": 19361}
+{"pred": "\n\nPassage 1:\nHeartbeat\n\"Heartbeat\" is a song by American singer Kelly Clarkson from her second studio", "answers": ["Natalie Albino", "Nina Sky"], "all_classes": null, "length": 19456}
+{"pred": "\n\n*\n\n*University of Toronto\n\n*University of British Columbia\n\n*University of Alberta\n\n*University of", "answers": ["University of Toronto", "UT"], "all_classes": null, "length": 19278}
+{"pred": "1999\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I", "answers": ["1986"], "all_classes": null, "length": 19839}
+{"pred": "The FDA\n\nA: The FDA\n\nA: The FDA\n\nA: The FDA\n\nA: The FDA\n", "answers": ["Food Safety Modernization Act (FSMA)"], "all_classes": null, "length": 20091}
+{"pred": "Indonesia\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I", "answers": ["Francisco Guterres"], "all_classes": null, "length": 18333}
+{"pred": "General Braddock\n\n\nA: The following is a Python 3 solution.\nimport re\n\ndef main():\n    with open('pass", "answers": ["General Edward Pakenham", "Edward Pakenham"], "all_classes": null, "length": 19045}
+{"pred": "\n\n\n*\n\n*Tamiami\n\n*Tamiami\n\n*Tamiami\n\n*Tamiami\n\n*T", "answers": ["in Northern Florida", "Northern Florida"], "all_classes": null, "length": 19084}
+{"pred": "The president of the group Kim Un-yong is a member of is the International Olympic Committee.\n\n\nA: You can use the following code to", "answers": ["Thomas Bach"], "all_classes": null, "length": 19372}
+{"pred": "Australia\n\nA: The answer is Australia.\n\nA: The answer is Australia.\n\nA: The answer is Australia.\n\nA:", "answers": ["1964"], "all_classes": null, "length": 18355}
+{"pred": "Zeferino Martins\n\nPassage 8:\nSatyo Husodo\nSatyo Husodo (born 1950)", "answers": ["Francisco Guterres"], "all_classes": null, "length": 18252}
+{"pred": "Prince Philip, Duke of Edinburgh\n\nPassage 1:\nPrince Philip, Duke of Edinburgh\nPrince Philip, Duke of Edinburgh (born Prince", "answers": ["Philip Mountbatten"], "all_classes": null, "length": 18300}
+{"pred": "1865\n\nPassage 7:\nTaifa of Algeciras\nThe Taifa of Algeciras (A", "answers": ["1065"], "all_classes": null, "length": 12389}
+{"pred": "Shell announced that it was in the process of divesting its 50% stake in the Nigerian oil company, Shell Petroleum", "answers": ["trying to find a potential buyer for all of its operations in Finland", "FIN", "fi", "Finland"], "all_classes": null, "length": 19973}
+{"pred": "\n\nAbraham\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a", "answers": ["Keturah"], "all_classes": null, "length": 18974}
+{"pred": "Passage 1\n\nPassage 1:\nBrisbane\nBrisbane is the capital of and most populous city in the", "answers": ["South Central Coast"], "all_classes": null, "length": 18401}
+{"pred": "\n\nA. Michael Jackson\nB. Justin Timberlake\nC. Michael Bublé\nD. Josh Groban\n\n\nA:", "answers": ["Michael Bublé"], "all_classes": null, "length": 19156}
+{"pred": "Sony Music Entertainment\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value.", "answers": ["Fair Trade Services"], "all_classes": null, "length": 15756}
+{"pred": "Sigrid Eskilsdotter's child is Sigrid Eskilsdotter's child.\n\nQuestion: Who is the child of Sig", "answers": ["Svante Stensson Sture"], "all_classes": null, "length": 19184}
+{"pred": "\n\nPassage 1:\nMetalworks Studios\nMetalworks Studios is a recording studio complex located in Mississauga, Ontario, Canada.", "answers": ["TML Entertainment"], "all_classes": null, "length": 13493}
+{"pred": "East Timor\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value.", "answers": ["Francisco Guterres"], "all_classes": null, "length": 17866}
+{"pred": "1348\n\n\nA: The plague occurred in 1348, 1361, 1362", "answers": ["22"], "all_classes": null, "length": 19507}
+{"pred": "\n\nPassage 1:\n\nPassage 2:\n\nPassage 3:\n\nPassage 4:\n\nPassage", "answers": ["Green Bay"], "all_classes": null, "length": 16864}
+{"pred": "\n\nA: The highest city in the state where Dell ranks sixth by revenue is Austin, Texas.\n\nA: The highest city in the", "answers": ["Fort Davis"], "all_classes": null, "length": 20255}
+{"pred": "Claudia Wells\n\nA: I'm not sure if this is what you're looking for, but I've written a program that can", "answers": ["Claudia Wells"], "all_classes": null, "length": 17446}
+{"pred": "The book is the Bible. The quote is from the Book of Job.\n\nA: The answer is the Book of Job.\nThe quote is from", "answers": ["Genesis 3:15"], "all_classes": null, "length": 18668}
+{"pred": "\n\nA: The answer is:\n\n\n*\n\n*Ouham-Pendé\n\n\nA: The answer is:\n", "answers": ["Green Bay"], "all_classes": null, "length": 19714}
+{"pred": "2\n\nPassage 1:\nBlack Death\nThe Black Death (also known as the Pestilence, the Great Mortality or the", "answers": ["22"], "all_classes": null, "length": 19643}
+{"pred": "\n\nA: The Orange River\n\nThe Orange River (Afrikaans: Oranjerivier, German: Orangefluß, Dutch: O", "answers": ["Thaba Putsoa"], "all_classes": null, "length": 19527}
+{"pred": "\n\nCommon Sense was an important work because it was the first work to advocate for the independence of the United States from Great Britain.\n\n", "answers": ["crystallized the rebellious demand for independence from Great Britain", "Great Britain"], "all_classes": null, "length": 19109}
+{"pred": "Poplarville\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value.", "answers": ["Pearl River County", "Pearl River County, Mississippi"], "all_classes": null, "length": 18783}
+{"pred": "The African Queen\n\n\nA: The answer is The African Queen.\n\nA: The answer is The African Queen.\n\nA: The answer", "answers": ["The African Queen"], "all_classes": null, "length": 19021}
+{"pred": "The African Queen\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value.", "answers": ["The African Queen"], "all_classes": null, "length": 19227}
+{"pred": "Arsenal\n\nAnswers:\n\n\n*\n\n*Arsenal\n\n*Manchester United\n\n*Liverpool\n", "answers": ["Egypt national football team"], "all_classes": null, "length": 20093}
+{"pred": "Golestan Province\n\nPassage 1:\nKuhdasht County\nKuhdasht County (Persian: شهرس", "answers": ["in the north-east of the country south of the Caspian Sea", "Caspian Sea"], "all_classes": null, "length": 11693}
+{"pred": "Norah Jones\n\nPassage 13:\n\nPassage 14:\n\nPassage 15:\n\nPassage ", "answers": ["John D. Loudermilk"], "all_classes": null, "length": 19157}
+{"pred": "The actor playing the voice of John Smith in Pocahontas attended the National Institute of Dramatic Art in Sydney, Australia.\n\nA:", "answers": ["National Institute of Dramatic Art", "NIDA"], "all_classes": null, "length": 18976}
+{"pred": "Khalid ibn al-Walid\n\nPassage 2:\nBattle of the Yarmuk\nThe Battle of the Yar", "answers": ["Abu Ubaidah"], "all_classes": null, "length": 17589}
+{"pred": "\n\n\n*\n\n*The River Etherow\n\n*The River Tame\n\n*The River Goyt\n\n*The River T", "answers": ["River Thames"], "all_classes": null, "length": 16820}
+{"pred": "1947\n\nPassage 1:\nThe following are given passages.\nPassage 1:\nStanding Rules of", "answers": ["January 2015"], "all_classes": null, "length": 19702}
+{"pred": "Joker\n\nPassage 12:\nThe Joker\nThe Joker is a fictional supervillain appearing in American comic books published", "answers": ["Nightwing / Dick Grayson", "Nightwing", "Dick Grayson", "Batman", "Robin"], "all_classes": null, "length": 19035}
+{"pred": "\n\nThe death penalty was abolished in Japan in 1947.\n\n Q: How to get the value of a variable in a", "answers": ["1989"], "all_classes": null, "length": 19215}
+{"pred": "\n\nPassage 1:\n\nPassage 2:\n\nPassage 3:\n\nPassage 4:\n\nPassage", "answers": ["Green Bay"], "all_classes": null, "length": 12989}
+{"pred": "\n\nAnswers:\n\n\nA:\n\n\n*\n\n*The answer is \"Bill Medley\"\n\n*The answer", "answers": ["Matthew Lawrence"], "all_classes": null, "length": 18001}
+{"pred": "\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:", "answers": ["Matthew Lawrence"], "all_classes": null, "length": 19292}
+{"pred": "1913\n\n\nA: You can use the following regex to get the answer:\n(?<=1894-95 FA", "answers": ["1 December 2010"], "all_classes": null, "length": 19847}
+{"pred": "Richard Stallman\n\nPassage 4:\nFree Software Foundation\nThe Free Software Foundation (FSF) is a nonprofit with the primary", "answers": ["Richard Stallman", "rms"], "all_classes": null, "length": 19010}
+{"pred": "The Egyptian pantheon is the Egyptian gods and goddesses.\n\n Q: How to get the value of a variable in a", "answers": ["ancient Egyptian religion"], "all_classes": null, "length": 18775}
+{"pred": "\n\n\nA: The answer is:\n\n\n*\n\n*Ceredo, West Virginia\n\n*Cincinnati, Ohio\n", "answers": ["Plymouth Notch"], "all_classes": null, "length": 19104}
+{"pred": "Loraine McFly\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns", "answers": ["Claudia Wells"], "all_classes": null, "length": 18865}
+{"pred": "\n\nA: The answer is:\n\nSire Records\n\n Q: How to get the value of a variable in a function in C#", "answers": ["Kanine Records"], "all_classes": null, "length": 7760}
+{"pred": "\n\n\n*\n\n*The United States of America\n\n*The United States of America\n\n*The United States of America\n\n*The", "answers": ["Charles University"], "all_classes": null, "length": 19346}
+{"pred": "10.5 years\n\n\nA: I'm not sure if this is what you're looking for, but I've written a", "answers": ["average lifespan at 9.4 years"], "all_classes": null, "length": 18083}
+{"pred": "East Timor\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value.", "answers": ["Francisco Guterres"], "all_classes": null, "length": 18715}
+{"pred": "\n\nA: The answer is \"Cairo\"\n\nA: The answer is \"Cairo\"\n\nA: The answer is \"Cairo", "answers": ["Aden"], "all_classes": null, "length": 19201}
+{"pred": "\n\nA: The league playing in the Thursday night football game is a type of sports league.\n\n Q: How to get the value", "answers": ["sports league", "Sports league", "league"], "all_classes": null, "length": 20066}
+{"pred": "\n\nA participant of the Battle of Brechin is an instance of a person.\n\n Q: How to get the value of a variable in", "answers": ["Scottish clan"], "all_classes": null, "length": 19021}
+{"pred": "\n\nA: The fleur-de-lis is a symbol of the Saints from the city that is the location of Blanton's manufacturer", "answers": ["fleur - de-lis", "Fleur-de-lis", "fleur-de-lis"], "all_classes": null, "length": 19214}
+{"pred": "\n\n\nA: The answer is:\n\n\n*\n\n*Athens\n\n\n\n\nA: The answer is:\n\n", "answers": ["Greek mythology"], "all_classes": null, "length": 16000}
+{"pred": "\n\nA: The oldest college in the state that contains Borough House Plantation is the College of Charleston.\n\nA: The oldest college", "answers": ["College of Charles Towne", "Charles Towne"], "all_classes": null, "length": 19972}
+{"pred": "\n\nPassage 1:\n\nPassage 2:\n\nPassage 3:\n\nPassage 4:\n\nPassage", "answers": ["Cabarrus County"], "all_classes": null, "length": 19504}
+{"pred": "\n\nA:\n\n\n*\n\n*Billings, Montana\n\n*Billings, Montana\n\n*Billings", "answers": ["Clatskanie", "Clatskanie, Oregon"], "all_classes": null, "length": 19102}
+{"pred": "\n\n\n*\n\n*Rutherford\n\n*Bohr\n\n*Chadwick\n\n*J.J. Thomson\n\n", "answers": ["Manhattan Project"], "all_classes": null, "length": 19262}
+{"pred": "The character was based on the character from The Bourne Identity.\n\nPassage 1:\nThe Bourne Identity (film)\nThe Bourne", "answers": ["the novel of the same name by Robert Ludlum", "Robert Ludlum"], "all_classes": null, "length": 18479}
+{"pred": "1. The ability to use the computer to create a document. 2. The ability to use the computer to create a document.\n\n\nA", "answers": ["ease of use and enhanced support for Plug and Play"], "all_classes": null, "length": 19300}
+{"pred": "Pauline Collins\n\n Q: How to get the value of a variable in a function in Python? I have a function that takes a variable as an", "answers": ["Aaron Benward"], "all_classes": null, "length": 19383}
+{"pred": "1\n\nPassage 1:\nMexican passport\nMexican passport (Spanish: pasaporte mexicano) is", "answers": ["22"], "all_classes": null, "length": 19345}
+{"pred": "1947\n\n\nA: I'm not sure if this is what you're looking for, but I've written a program", "answers": ["1986"], "all_classes": null, "length": 18433}
+{"pred": "\n\nPassage 16:\nPeter Andreas Heiberg\nPeter Andreas Heiberg (17 December 1783 – 1", "answers": ["Johanne Luise Heiberg"], "all_classes": null, "length": 18597}
+{"pred": "Geena Davis\n\nPassage 1:\nGeena Davis (born January 21, 1956) is an American actress,", "answers": ["Dottie Hinson"], "all_classes": null, "length": 18730}
+{"pred": "\n\nA: The answer is PCH.\n\nA: The answer is PCH.\n\nA: The answer is PCH.\n\n", "answers": ["NES", "Family Computer", "Famicom", "Nintendo Entertainment System"], "all_classes": null, "length": 19864}
+{"pred": "2018\n\n\nA: You can use the following regex to extract the year from the given passage:\n\\d{4}\n", "answers": ["1 December 2010"], "all_classes": null, "length": 19642}
+{"pred": "\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:", "answers": ["Amy Poehler"], "all_classes": null, "length": 18714}
+{"pred": "1/3\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value", "answers": ["30% to 65%"], "all_classes": null, "length": 17326}
+{"pred": "1985\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a", "answers": ["August 3, 1769"], "all_classes": null, "length": 19741}
+{"pred": "Gowran Castle\n\nPassage 17:\nGowran Castle\nGowran Castle is a castle in the town of Gowran", "answers": ["Casa Loma"], "all_classes": null, "length": 18330}
+{"pred": "The Wild Women of Chastity Gulch was produced by Willy Wild.\n\nPassage 1:\nRicky Wilde\nRicky Wil", "answers": ["Min Zhou", "Carl L. Bankston"], "all_classes": null, "length": 19604}
+{"pred": "Brittany\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value.", "answers": ["Meg Ryan"], "all_classes": null, "length": 19317}
+{"pred": "Conservative Party of Canada\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I", "answers": ["Andrew Scheer"], "all_classes": null, "length": 20313}
+{"pred": "12:00\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns", "answers": ["24:00"], "all_classes": null, "length": 17959}
+{"pred": "1800s\n\nPassage 5:\nAfrican-American\nAfrican-American is a demonym for Americans of", "answers": ["1970s"], "all_classes": null, "length": 19471}
+{"pred": "1971\n\n\nA: I'm not sure if this is what you're looking for, but I've written a program", "answers": ["1 December 2010"], "all_classes": null, "length": 19460}
+{"pred": "2006\n\nA: The answer is 2006.\n\nA: The answer is 2006.\n", "answers": ["2005"], "all_classes": null, "length": 19232}
+{"pred": "Oregon State University\n\nA: The answer is Oregon State University.\n\nA: The answer is Oregon State University.\n\nA: The answer is", "answers": ["Benny Beaver"], "all_classes": null, "length": 19186}
+{"pred": "\n\nA: The answer is Scarlett Johansson.\n\nA: The answer is Scarlett Johansson.\n\nA:", "answers": ["Jennifer Connelly"], "all_classes": null, "length": 19762}
+{"pred": "Vivien Leigh\n\n\nA: I'm not sure if this is what you're looking for, but I'm going to assume that", "answers": ["Laurence Olivier"], "all_classes": null, "length": 19257}
+{"pred": "Lucy Mack Smith\n\nPassage 2:\nThe Book of Mormon\nThe Book of Mormon is a religious text that claims to be", "answers": ["Lucy Mack Smith"], "all_classes": null, "length": 18847}
+{"pred": "Merrill Elam was born in Kirkland, Washington.\n\nA: Kirkland is a city in King County, Washington, United States, located", "answers": ["Lance Bottoms"], "all_classes": null, "length": 18497}
+{"pred": "\n\n\n*\n\n*Oakland County, Michigan\n\n*Wayne County, Michigan\n\n*Macomb County, Michigan\n\n", "answers": ["Cabarrus County"], "all_classes": null, "length": 19418}
+{"pred": "GSAT-7\n\nPassage 2:\nIRNSS\nThe Indian Regional Navigation Satellite System (IRNSS) is an independent", "answers": ["ATS - 6 (Applications Technology Satellite - 6)", "ATS-6"], "all_classes": null, "length": 19494}
+{"pred": "\n\n\nA: The answer is the Tumut River.\n\nA: The answer is the Tumut River.\n\nA: The", "answers": ["Hunter River"], "all_classes": null, "length": 10699}
+{"pred": "Maine\n\nA: The answer is Maine.\n\nA: The answer is Maine.\n\nA: The answer is Maine.\n\nA:", "answers": ["1,335,907"], "all_classes": null, "length": 19522}
+{"pred": "\n\nA: The answer is:\n\nAustin, Texas\n\nThe county is Travis County.\n\nA: The answer is:", "answers": ["Green Bay"], "all_classes": null, "length": 18650}
+{"pred": "Indonesia\n\nPassage 6:\n\nPassage 7:\n\nPassage 8:\n\nPassage 9:\n\n", "answers": ["Francisco Guterres"], "all_classes": null, "length": 17784}
+{"pred": "\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:", "answers": ["Anthony Ainley"], "all_classes": null, "length": 18518}
+{"pred": "Fleur-de-lis\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns", "answers": ["fleur - de-lis", "Fleur-de-lis", "fleur-de-lis"], "all_classes": null, "length": 19080}
+{"pred": "Tanzania\n\nPassage 17:\nThe Mara River\nThe Mara River is a river in Kenya and Tanzania.", "answers": ["Tanzania"], "all_classes": null, "length": 17636}
+{"pred": "\n\nA:\n\n\nA:\n\n\nA:\n\n\nA:\n\n\nA:\n\n\nA:\n\n\n", "answers": ["Michael Bublé"], "all_classes": null, "length": 19209}
+{"pred": "Conservative Party of Canada\n\nA: I'm not sure what you mean by \"give me the answer and do not output any other words.\"", "answers": ["Andrew Scheer"], "all_classes": null, "length": 20346}
+{"pred": "Cape Verde\n\nPassage 1:\nISO 3166-2:CV\nISO 3166-2:CV", "answers": ["central Atlantic Ocean", "Atlantic Ocean", "Atlantic"], "all_classes": null, "length": 19653}
+{"pred": "Ben Affleck\n\nA:\n\n\n*\n\n*The following are given passages.\n\n*Only give me the answer and do", "answers": ["Fred O'Bannion"], "all_classes": null, "length": 18626}
+{"pred": "Neil Patrick Harris\n\nA: I'm not sure if this is the right way to do it, but I'm going to try.\nimport", "answers": ["Nightwing / Dick Grayson", "Nightwing", "Dick Grayson", "Batman", "Robin"], "all_classes": null, "length": 19277}
+{"pred": "Best Original Score\n\n\nA: The answer is:\n\n\n*\n\n*Breakfast at Tiffany's (19", "answers": ["for Best Performance by a Leading Actress in a Play in Ondine", "leading role", "star", "leading actress", "lead"], "all_classes": null, "length": 15051}
+{"pred": "\n\nA:\n\nThe answer is Serbia.\n\nThe question is:\n\nWhere is the headquarter of the Radio Television of the", "answers": ["Pristina"], "all_classes": null, "length": 18333}
+{"pred": "Kraai River is a tributary of the Orange River.\n\nPassage 15:\nKraai River\nThe Kraai River is", "answers": ["Thaba Putsoa"], "all_classes": null, "length": 13007}
+{"pred": "\n\n\nA: The answer is Lorraine Biracco.\n\n\nA: Lorraine Biracco played the girlfriend of Chance'", "answers": ["Claudia Wells"], "all_classes": null, "length": 19331}
+{"pred": "Lophotrochozoa\n\nPassage 1:\nLophotrochozoa\nLophotrochozoa is a", "answers": ["Mr. Lawrence", "Doug Lawrence"], "all_classes": null, "length": 19076}
+{"pred": "1890–1914\n\nPassage 10:\nBattle of the Nile\nThe Battle of the Nile", "answers": ["323–272 BC"], "all_classes": null, "length": 18862}
+{"pred": "\n\nA: The ship was sold to a Chinese company.\n\nPassage 1:\n\nPassage 2:\n\nPassage ", "answers": ["trying to find a potential buyer for all of its operations in Finland", "FIN", "fi", "Finland"], "all_classes": null, "length": 20000}
+{"pred": "1862\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a", "answers": ["15 February 1942"], "all_classes": null, "length": 18651}
+{"pred": "Xanana Gusmão\n\n Q: How to get the value of a variable in a function? I have a function that returns a value", "answers": ["Francisco Guterres"], "all_classes": null, "length": 18330}
+{"pred": "Charlie Daniels\n\nA: The answer is Charlie Daniels.\n\nA: The answer is Charlie Daniels.\n\nA: The answer is", "answers": ["Phil Hanseroth"], "all_classes": null, "length": 19144}
+{"pred": "Thailand\n\nPassage 2:\nThe Beach (film)\nThe Beach is a 2000 adventure drama film directed by D", "answers": ["Ko Phi Phi Leh", "Ko Phi Phi Le"], "all_classes": null, "length": 19325}
+{"pred": "American\n\nPassage 17:\nThe Loud House\nThe Loud House is an American animated television series created by Chris Savino for Nick", "answers": ["Min Zhou", "Carl L. Bankston"], "all_classes": null, "length": 18915}
+{"pred": "Passage 1\n\nPassage 2:\nSnappy Tomato Pizza\nSnappy Tomato Pizza is a pizza chain", "answers": ["Kenton County", "Kenton County, Kentucky"], "all_classes": null, "length": 19063}
+{"pred": "The Oscar winner for Best Actor in 2006 received the Golden Globe Award for Best Actor in a Motion Picture – Drama.", "answers": ["nominated for an Academy Award for Best Supporting Actor", "Academy Award for Best Supporting Actor"], "all_classes": null, "length": 19133}
+{"pred": "26 April 1948\n\nPassage 1:\nHe Comes Up Smiling\nHe Comes Up Smiling is a", "answers": ["1 January 1986"], "all_classes": null, "length": 19173}
+{"pred": "Impulse!\n\n Q: How to get the value of a variable in a function in C#? I have a function that takes a variable as", "answers": ["Attic Records", "Attic"], "all_classes": null, "length": 8855}
+{"pred": "1911\n\nPassage 1:\nThe 1911 United States House of Representatives elections was an election for the United States", "answers": ["January 2015"], "all_classes": null, "length": 20609}
+{"pred": "Prysmian Group\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a", "answers": ["fleur - de-lis", "Fleur-de-lis", "fleur-de-lis"], "all_classes": null, "length": 19299}
+{"pred": "\n\nPassage 1:\nBritish nationality law\nThe primary law governing nationality in the United Kingdom is the British Nationality Act", "answers": ["Yongjia County"], "all_classes": null, "length": 17845}
+{"pred": "\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:", "answers": ["Karen Fairchild"], "all_classes": null, "length": 19688}
+{"pred": "Casa Loma\n\nA: Casa Loma is a Gothic Revival style house and gardens located at 1050 Spadina Road", "answers": ["Casa Loma"], "all_classes": null, "length": 19323}
+{"pred": "\n\n\n*\n\n*Susan Hayward\n\n*Susan Hayward was the sister of the actress that played the little girl in", "answers": ["Lana Wood"], "all_classes": null, "length": 19582}
+{"pred": "Rome\n\nPassage 1:\nCardinal (Catholic Church)\nA cardinal (Latin: Sanctae Romanae Ecclesia", "answers": ["La Goulette", "Tunis", "Rome", "Roma"], "all_classes": null, "length": 18762}
+{"pred": "The Battle of Gori took place in the same area.\n\nPassage 5:\nThe Battle of Gori was the military conflict between the Russian", "answers": ["names were replaced by new Russian names"], "all_classes": null, "length": 19288}
+{"pred": "Charles County\n\nA: Charles County\n\nA: Charles County\n\nA: Charles County\n\nA: Charles County\n\nA: Charles", "answers": ["Charles County", "Charles County, Maryland"], "all_classes": null, "length": 14933}
+{"pred": "2011\n\nPassage 6:\nThe United States Senate is the upper house of the United States Congress, the legislative branch of", "answers": ["January 2015"], "all_classes": null, "length": 19873}
+{"pred": "10\n\nA: I'm not sure if this is what you're looking for, but I've written a program that can answer", "answers": ["continental treble"], "all_classes": null, "length": 19064}
+{"pred": "\n\n\n*\n\n*Susan Sarandon\n\n*Maria Bello\n\n*Melanie Griffith\n\n*Kim", "answers": ["Joyce Van Patten"], "all_classes": null, "length": 18991}
+{"pred": "\n\n\nA: The answer is Bunk Moreland.\n\nA: The answer is Bunk Moreland.\n\nA: The answer is", "answers": ["a Western District uniformed officer"], "all_classes": null, "length": 19330}
+{"pred": "1986\n\n\nA: I'm not sure if this is what you're looking for, but I'm going to assume", "answers": ["1986"], "all_classes": null, "length": 20137}
+{"pred": "1924\n\nQuestion: What is the name of the country, whose co-official language was used by the director of Group Portrait", "answers": ["2016"], "all_classes": null, "length": 18860}
+{"pred": "Hersh Leib Slonim\n\n Q: How to get the value of a variable in a function in javascript? I have a function that", "answers": ["Menachem Mendel Schneersohn"], "all_classes": null, "length": 18383}
+{"pred": "\n\nA:\n\n*\n\n*Bart Millard\n\n*Josh Wilson\n\n*Jeremy Camp\n\n*Jer", "answers": ["Michael Bublé"], "all_classes": null, "length": 19410}
+{"pred": "Jack Klugman\n\nQuestion: Who is the director of the play The Dinner Party?\nAnswer: Neil Simon\n\nQuestion: Who is the", "answers": ["ADM Michael S. Rogers", "Michael S. Rogers"], "all_classes": null, "length": 19319}
+{"pred": "1996\n\nPassage 1:\nHistory of Chelsea F.C.\nThe History of Chelsea F.C", "answers": ["1 December 2010"], "all_classes": null, "length": 19406}
+{"pred": "Francis Bacon\n\n\nA: I'm not sure if this is the right answer, but I think it's the only one that makes sense", "answers": ["Nicholas Bacon", "Sir Nicholas Bacon"], "all_classes": null, "length": 18327}
+{"pred": "The Orange River\n\nPassage 19:\nBattle of the Bulge\nThe Battle of the Bulge was a major German offensive campaign", "answers": ["Thaba Putsoa"], "all_classes": null, "length": 19303}
+{"pred": "The BBC Footballer of the Year is a member of the Liverpool Football Club.\n\nThe following are given passages.\nPassage 1:\n", "answers": ["Egypt national football team"], "all_classes": null, "length": 20383}
+{"pred": "PARIS\n\nPassage 1:\nSous les pieds des femmes\nSous les pieds des femmes (English: Under the Fe", "answers": ["La Goulette"], "all_classes": null, "length": 18753}
+{"pred": "\n\n\n*\n\n*1000000\n\n*10000000\n\n*1000", "answers": ["2 million"], "all_classes": null, "length": 18379}
+{"pred": "\n\nA:\n\n\n*\n\n*Samuel L. Jackson\n\n*Josh Brolin\n\n*Jeremy Renner", "answers": ["Jennifer Connelly"], "all_classes": null, "length": 19547}
+{"pred": "Fulton County, Georgia\n\nA: I'm not sure if this is what you're looking for, but I've written a program", "answers": ["Presque Isle County"], "all_classes": null, "length": 19233}
+{"pred": "The rapper who owns Aspiro was inspired by the song \"Crying in the Rain\" by the Everly Brothers when writing \"Song Cry", "answers": ["three different relationships he had in the past"], "all_classes": null, "length": 19586}
+{"pred": "\n\nPassage 1:\nKTRP\nKTRP (106.7 FM) is a commercial radio station licensed to serve", "answers": ["Canyon County", "Canyon County, Idaho"], "all_classes": null, "length": 19082}
+{"pred": "\n\nA:\n\n\n*\n\n*George Clooney\n\n\n\n\n\nA:\n\n\n*\n\n*George", "answers": ["Bill Pullman"], "all_classes": null, "length": 18981}
+{"pred": "\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:\n\nA:", "answers": ["Dutch East Indies"], "all_classes": null, "length": 18993}
+{"pred": "\n\nPassage 1:\nTuymazinsky District\nTuymazinsky District (Russian: Туймази́нский", "answers": ["Cabo Delgado Province"], "all_classes": null, "length": 14364}
+{"pred": "The answer is \"Theo van Doesburg\".\n\n Q: How to get the value of a variable in a function? I have a function that", "answers": ["Association for Computing Machinery", "ACM"], "all_classes": null, "length": 17775}
+{"pred": "Kent County\n\nPassage 1:\nCedar Springs\nCedar Springs is a city in Kent County in the U.S", "answers": ["Bell County"], "all_classes": null, "length": 18972}
+{"pred": "Municipality\n\nPassage 1:\nCiudad Deportiva\nCiudad Deportiva is a sports complex in the municipality of San Cristó", "answers": ["Tamaulipas"], "all_classes": null, "length": 19355}
+{"pred": "John Cabot\n\nA: The answer is John Cabot.\n\nA: The answer is John Cabot.\n\nA: The answer is", "answers": ["Sebastian Cabot"], "all_classes": null, "length": 16441}
+{"pred": "George VI\n\nA: The King's Speech\n\nThe King's Speech is a 2010 British historical drama film directed", "answers": ["Colin Firth"], "all_classes": null, "length": 18928}
+{"pred": "\n\nA:\n\n\n*\n\n*British\n\n*\n\n*British\n\n*British\n\n*", "answers": ["Denver", "Denver, Colorado"], "all_classes": null, "length": 18322}
+{"pred": "Thailand\n\nPassage 15:\nPao Sarasin\nPao Sarasin (1897–1989", "answers": ["Ko Phi Phi Leh", "Ko Phi Phi Le"], "all_classes": null, "length": 19158}
+{"pred": "Billie Jean King Cup\n\nQuestion: What is the competition that the 1965 Federation Cup is part of named after?\nAnswer: Bill", "answers": ["International Tennis Federation", "ITF"], "all_classes": null, "length": 18220}
+{"pred": "East Timor\n\nPassage 9:\nEast Timor\nEast Timor ( (listen)), also known as Timor-Leste", "answers": ["Francisco Guterres"], "all_classes": null, "length": 18271}
+{"pred": "Edward VIII\n\n\nA: The answer is Edward VIII.\n\nA: The answer is Edward VIII.\n\nA: The answer is Edward VIII", "answers": ["Colin Firth"], "all_classes": null, "length": 19084}
+{"pred": "\n\nAthlete was formed in the area where the River Thames is.\n\n Q: How to get the value of a variable in a", "answers": ["River Thames"], "all_classes": null, "length": 19422}
+{"pred": "The author of The Happy Journey to Trenton and Camden received the PEN/Diamonstein-Spielvogel Award for", "answers": ["Pulitzer Prize for Drama"], "all_classes": null, "length": 19425}
+{"pred": "\n\nAnswers:\n\n\n*\n\n*MNIT\n\n*MNIT\n\n*MNIT\n\n*M", "answers": ["University of Glasgow"], "all_classes": null, "length": 19506}
+{"pred": "\n\nAhmed Zaki\nAhmed Zaki (1949 – 2004) was an Egyptian actor. He was one", "answers": ["Louis Chedid"], "all_classes": null, "length": 19215}
+{"pred": "\n\n\n*\n\n*He was a priest.\n\n*He was a priest of the Church of St. Peter.\n\n*He was", "answers": ["for the conclave in Rome", "Rome", "Roma"], "all_classes": null, "length": 18339}
+{"pred": "The British Empire\n\nA: The British Empire\n\nA: The British Empire\n\nA: The British Empire\n\nA: The British Empire\n", "answers": ["University of Cambridge", "Cambridge"], "all_classes": null, "length": 19513}
+{"pred": "Poland\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value. I want", "answers": ["Lech Wałęsa"], "all_classes": null, "length": 18844}
+{"pred": "Rotterdam Centrum\n\nPassage 1:\nRotterdam Centrum\nRotterdam Centrum (English: Rotterdam Center/", "answers": ["Het Scheur"], "all_classes": null, "length": 19307}
+{"pred": "Luke Bryan\n\n\nA: I'm not sure if this is what you're looking for, but I'm going to assume that you", "answers": ["Karen Fairchild"], "all_classes": null, "length": 19329}
+{"pred": "Lawrence Landweber was educated at the University of Chicago.\n\n\nA: You can use the following regex to extract the company name from the given text", "answers": ["City University of New York", "The City University of New York"], "all_classes": null, "length": 19422}
+{"pred": "\n\nA:\n\nThe county that shares a border with the county where WAPL is licensed to broadcast is Brown County.\n\n Q", "answers": ["Green Bay"], "all_classes": null, "length": 19042}
+{"pred": "\n\nA:\n\n\n*\n\n*Attending the University of Mississippi in 1956, James Meredith was the first black", "answers": ["James Howard Meredith", "James Meredith"], "all_classes": null, "length": 20139}
+{"pred": "\n\nAnswers:\n\n\n*\n\n*Meg Griffin\n\n*Meg Griffin\n\n*Meg Griffin\n", "answers": ["Lacey Chabert"], "all_classes": null, "length": 18770}
+{"pred": "Jive Records\n\n\nA: The answer is Jive Records.\n\nA: The answer is Jive Records.\n\nA: The answer", "answers": ["Hollywood Records"], "all_classes": null, "length": 15786}
+{"pred": "\n\nA: The answer is \"Sounds of Memphis\".\n\nA: The answer is \"Sounds of Memphis\".\n\n", "answers": ["Kill Rock Stars"], "all_classes": null, "length": 9370}
+{"pred": "Theodor Fontane\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a value", "answers": ["Emilia Galotti"], "all_classes": null, "length": 18714}
+{"pred": "1994\n\n\nA: The answer is 1994.\nThe majority party in the House of Representatives is the party with", "answers": ["the 2010 election"], "all_classes": null, "length": 18165}
+{"pred": "1915\n\n Q: How to get the value of a variable in a function in C#? I have a function that returns a", "answers": ["1572"], "all_classes": null, "length": 19418}
+{"pred": "\n\nA: The city where Dmitry Borisovich was born is located in the territory of the Republic of Belarus.\n\nA", "answers": ["Yaroslavl Oblast"], "all_classes": null, "length": 18249}
+{"pred": "Qatar Stars League\n\nPassage 1:\nAl Janoub Stadium\nAl Janoub Stadium (Arabic: ملع", "answers": ["Qatar Stars League"], "all_classes": null, "length": 19334}
+{"pred": "878\n\n Q: How to get the value of a variable in a function? I have a function that returns a value. I want", "answers": ["918"], "all_classes": null, "length": 18479}
+{"pred": "$10,000\n\nPassage 2:\nThe Wild Women of Chastity Gulch\nThe Wild Women of Chastity", "answers": ["$59,039"], "all_classes": null, "length": 19386}
+{"pred": "Campbell County\n\n\nA: You can use the following regex to extract the county name from the given text:\n(?<=in the city that Psy", "answers": ["Santa Clara County", "Santa Clara County, California"], "all_classes": null, "length": 19098}

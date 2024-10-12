@@ -236,6 +236,9 @@ def generate_dataset_multi_doc_sum(length=8, rows=100):
                         "length": len(tokenizer.encode(context))})
     return results
 
+
+
+
 # // "multi_doc_sum":"You are given several passages as follows and these passages are from many different fields. {input}\n\n{context}\n\nNow, {input}\n\nSummary:",
 # "single_doc_sum":"You are given several passages as follows and these passages are from many different fields. {input}\n\n{context}\n\nNow, {input}\n\nSummary:",
     
