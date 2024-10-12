@@ -3,6 +3,10 @@
     "single_doc_qa":128,
     "single_doc_sum":512,
     "multi_doc_sum":512,
+    "passage_count": 32,
+    "passage_retrieval": 32,
+    "kv_retrieval": 64,
+    "counting_stars": 32 ,
 
     "narrativeqa": 128,
     "qasper": 128,
@@ -20,7 +24,6 @@
     "triviaqa": 32,
     "samsum": 128,
     "lsht": 64,
-    "passage_count": 32,
     "passage_retrieval_en": 32,
     "passage_retrieval_zh": 32,
     "lcc": 64,

@@ -10,6 +10,7 @@ import random
 import re
 import json
 from tqdm import tqdm
+import uuid
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 models_dir = os.path.dirname(current_dir)
@@ -30,8 +31,6 @@ sys.path.append(models_dir)
 # print(response.choices[0].message.content)
 
 
-cache_dir = '/users/PDS0352/wyang107/project/LCEG/model_cache/data'
-
 # 1.load dataset: {"input": obj['input'], 'context':obj['context'] , 'answers':obj['answers'], 'source':obj['dataset'], "length": obj["length"]}
 # 2. 生成数据
 #   single-doc-qa
@@ -40,6 +39,9 @@ cache_dir = '/users/PDS0352/wyang107/project/LCEG/model_cache/data'
 #   Synthetic
 
 # code diag
+cache_dir = '/users/PDS0352/wyang107/project/LCEG/model_cache/data'
+token='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'
+tokenizer = transformers.AutoTokenizer.from_pretrained('meta-llama/Llama-2-7b-hf', token=token)
 
 def get_dataset(path='LongBench', name='narrativeqa'):
     new_dataset = list()
@@ -56,8 +58,6 @@ def get_dataset(path='LongBench', name='narrativeqa'):
                             'context':obj['input'] , 'answers':obj['outputs'],
                             'dataset':name})
     return new_dataset
-
-tokenizer = transformers.AutoTokenizer.from_pretrained('meta-llama/Llama-2-7b-hf')
 
 def generate_dataset_single_doc_qa(length=8, rows=100):
     # single-doc-qa
@@ -236,7 +236,162 @@ def generate_dataset_multi_doc_sum(length=8, rows=100):
                         "length": len(tokenizer.encode(context))})
     return results
 
+def generate_dataset_kv_retrieval(length=8, rows=100, kv_num=2):
+    length = length *(2**10)
+    # load raw datasets
+    dataset_list, new_datasets=[], []
+    for name in ("qasper", "multifieldqa_en", "narrativeqa"):
+        dataset = get_dataset('LongBench',name)
+        dataset_list.extend(dataset)
+    for name in ('multidoc_qa', 'legal_contract_qa', 'financial_qa', 'natural_question', 'scientific_qa' ):
+        dataset = get_dataset('LEval',name)
+        dataset_list.extend(dataset)
+    # generate
+    datasets_id = [(data['length'], i) for i, data in enumerate(dataset_list)]
+    while len(new_datasets) < rows:
+        choices = []
+        l = length
+        while l > 0:
+            datasets_id_tmp = [data_id for data_id in datasets_id if data_id[0]<l]
+            if len(datasets_id_tmp)<=0: break
+            choice = random.choice(datasets_id_tmp)
+            choices.append(choice)
+            l = l-choice[0]
+        if len(choices)<kv_num: continue
+        new_datasets.append(choices)
+    # collect
+    results = []
+    for choices in new_datasets:
+        context, keys, position = '', [str(uuid.uuid4()) for _ in range(kv_num+1)], random.sample(range(len(choices)), kv_num)
+        key_value = dict()
+        for i, p in enumerate(position):
+            key_value[p] = f'The pass value of {keys[i]} is {keys[i+1]}.'
+        for i, c in enumerate(choices):
+            context = context + f'Passage {i+1}:\n' + dataset_list[c[1]]['context']
+            if i in key_value.keys():
+                context = context + key_value[i]
+            context = context + '\n\n'
+        c_i = random.choice(range(len(choices)))
+        d = dataset_list[choices[c_i][1]]
+        results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
+                        'instruction': '', 
+                         "input": [f'What is the pass value of the pass value of {keys[0]} ?'], "answers":[keys[-1]]})
+    return results
 
+def generate_dataset_counting_stars(length=8, rows=100, test_type='Reasoning'):
+    # single-doc-qa
+    length = length *(2**10)
+    # load raw datasets
+    dataset_list, new_datasets, choices=list(), [], []
+    for name in ("qasper", "multifieldqa_en", "narrativeqa"):
+        dataset = get_dataset('LongBench',name)
+        dataset_list.extend(dataset)
+    for name in ('multidoc_qa', 'legal_contract_qa', 'financial_qa', 'natural_question', 'scientific_qa' ):
+        dataset = get_dataset('LEval',name)
+        dataset_list.extend(dataset)
+    # generate
+    datasets_id = [(data['length'], i) for i, data in enumerate(dataset_list)]
+    for i in range(rows):
+        l = length
+        while l > 0:
+            datasets_id_tmp = [data_id for data_id in datasets_id if data_id[0]<l]
+            if len(datasets_id_tmp)<=0: break
+            choice = random.choice(datasets_id_tmp)
+            choices.append(choice)
+            l = l-choice[0]
+        new_datasets.append(choices)
+        choices = []
+    # collect
+    results = []
+    for choices in new_datasets:
+        context, whole_stars = '', 0
+        for i, c in enumerate(choices):
+            context = context + '\n' + dataset_list[c[1]]['context']
+            a_stars, r_stars = random.randint(1, 100), random.randint(1, 100)
+            if test_type == 'Acquisition':
+                single_star = f"\nThe little penguin counted {a_stars} ★\n"
+            else:
+                single_star = f"\nThe little penguin counted {r_stars} ★, but found that a mistake had been made, so the counting was done again, and this time {a_stars} ★ was counted correctly.\n"
+            whole_stars = whole_stars+a_stars
+            context = context+ single_star
+        if test_type == 'Acquisition':
+            question = "On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the number of ★ and calculate the total number of ★ .The total number of ★ the little penguin collect is"
+        else:
+            question = "On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the correct number of ★ and calculate the total number of ★ .The total number of ★ the little penguin collect is"
+        results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
+                        'instruction': '',  "input": [question], "answers": [f'{whole_stars}']})
+    return results
+
+def generate_dataset_passage_count(length=8, rows=100):
+    length = length *(2**10)
+    # load raw datasets
+    dataset_list, new_datasets=[], []
+    for name in ("qasper", "multifieldqa_en", "narrativeqa"):
+        dataset = get_dataset('LongBench',name)
+        dataset_list.extend(dataset)
+    for name in ('multidoc_qa', 'legal_contract_qa', 'financial_qa', 'natural_question', 'scientific_qa' ):
+        dataset = get_dataset('LEval',name)
+        dataset_list.extend(dataset)
+    # generate
+    datasets_id = [(data['length'], i) for i, data in enumerate(dataset_list)]
+    while len(new_datasets) < rows:
+        choices, l = [], length
+        while l > 0:
+            passage_num = random.sample(range(3), 1)[0]+1
+            datasets_id_tmp = [data_id for data_id in datasets_id if data_id[0]*passage_num<l]
+            if len(datasets_id_tmp)<=0: break
+            choice = random.choice(datasets_id_tmp)
+            choices.append((choice, passage_num))
+            l = l-choice[0]
+        new_datasets.append(choices)
+    # collect
+    results = []
+    for choices in new_datasets:
+        passages_num = len(choices)
+        choices = [c for (c, num) in choices for i in range(num)]
+        random.shuffle(choices)
+        context = ''
+        for i, c in enumerate(choices):
+            context = context + f'Passage {i+1}:\n' + dataset_list[c[1]]['context'] + '\n\n'
+        results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
+                        'instruction': '',  "input":[''], "answers": [f'{passages_num}']})
+    return results
+
+def generate_dataset_passage_retrieval(length=8, rows=100):
+    # single-doc-sum
+    length = length *(2**10)
+    # load raw datasets
+    dataset_list, new_datasets, choices=list(), [], []
+    for name in ("gov_report", "qmsum"): # "multi_news"
+        dataset = get_dataset('LongBench',name)
+        dataset_list.extend(dataset)
+    for name in ( 'patent_summ','tv_show_summ','review_summ',  'meeting_summ' ): # 'news_summ',
+        dataset = get_dataset('LEval',name)
+        dataset_list.extend(dataset)
+    # generate
+    datasets_id = [(data['length'], i) for i, data in enumerate(dataset_list)]
+    for i in range(rows):
+        l = length
+        while l > 0:
+            datasets_id_tmp = [data_id for data_id in datasets_id if data_id[0]<l]
+            if len(datasets_id_tmp)<=0: break
+            choice = random.choice(datasets_id_tmp)
+            choices.append(choice)
+            l = l-choice[0]
+        new_datasets.append(choices)
+        choices = []
+    # collect
+    results = []
+    for choices in new_datasets:
+        context = ''
+        for i, c in enumerate(choices):
+            context = context + f'Passage {i+1}:\n' + dataset_list[c[1]]['context'] + '\n\n'
+        c_i = random.choice(range(len(choices)))
+        d = dataset_list[choices[c_i][1]]
+        results.append({ 'instruction': '',
+                         "input": [d["answers"][0]], "answers": [f'{c_i+1}'] , "new_context": context, 
+                         'old_context':d['context'], "length": len(tokenizer.encode(context))})
+    return results
 
 
 # // "multi_doc_sum":"You are given several passages as follows and these passages are from many different fields. {input}\n\n{context}\n\nNow, {input}\n\nSummary:",
@@ -246,12 +401,16 @@ def generate_dataset_multi_doc_sum(length=8, rows=100):
 func = {
         # 'single_doc_qa':generate_dataset_single_doc_qa,
         # 'multi_doc_qa': generate_dataset_multi_doc_qa,
-        'single_doc_sum':generate_dataset_single_doc_sum,
-        'multi_doc_sum':generate_dataset_multi_doc_sum
+        # 'single_doc_sum':generate_dataset_single_doc_sum,
+        # 'multi_doc_sum':generate_dataset_multi_doc_sum,
+        'kv_retrieval':generate_dataset_kv_retrieval,
+        'passage_retrieval':generate_dataset_passage_retrieval,
+        'passage_count':generate_dataset_passage_count,
+        'counting_stars':generate_dataset_counting_stars,
 }
 rows = 200
 out_path = '/users/PDS0352/wyang107/project/LCEG/longbench_pro/data'
-for length in tqdm([8, 16, 31]):
+for length in tqdm([8 , 16, 31]): #
     for key in func.keys():
         result = func[key](length, rows)
         with open(os.path.join(out_path, f'{key}_{length}.jsonl'), "w", encoding="utf-8") as f:
