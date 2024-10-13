@@ -262,7 +262,7 @@ def generate_dataset_kv_retrieval(length=8, rows=100, kv_num=2):
     # collect
     results = []
     for choices in new_datasets:
-        context, keys, position = '', [str(uuid.uuid4()) for _ in range(kv_num+1)], random.sample(range(len(choices)), kv_num)
+        context, keys, position = '', [str(uuid.uuid4()) for _ in range(kv_num+2)], random.sample(range(len(choices)), kv_num)
         key_value = dict()
         for i, p in enumerate(position):
             key_value[p] = f'The pass value of {keys[i]} is {keys[i+1]}.'
@@ -271,14 +271,17 @@ def generate_dataset_kv_retrieval(length=8, rows=100, kv_num=2):
             if i in key_value.keys():
                 context = context + key_value[i]
             context = context + '\n\n'
-        c_i = random.choice(range(len(choices)))
-        d = dataset_list[choices[c_i][1]]
+        question_key = keys[:4]
+        random.shuffle(question_key)
         results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
                         'instruction': '', 
-                         "input": [f'What is the pass value of the pass value of {keys[0]} ?'], "answers":[keys[-1]]})
+                         "input": [f'What is the pass value of the pass value of {keys[0]} ?'+
+                                   f'\n1. {question_key[0]}\n2. {question_key[1]}\n3. {question_key[2]}\n4. {question_key[3]}\n'+
+                                   'Please provide your answer as a single number (1, 2, 3, or 4) without any explanation.']
+                                   ,"answers":[[question_key.index(keys[2])+1,keys[2]]]})
     return results
 
-def generate_dataset_counting_stars(length=8, rows=100, test_type='Reasoning'):
+def generate_dataset_counting_stars(length=8, rows=100, test_type='Acquisition'):
     # single-doc-qa
     length = length *(2**10)
     # load raw datasets
@@ -291,7 +294,8 @@ def generate_dataset_counting_stars(length=8, rows=100, test_type='Reasoning'):
         dataset_list.extend(dataset)
     # generate
     datasets_id = [(data['length'], i) for i, data in enumerate(dataset_list)]
-    for i in range(rows):
+    while len(new_datasets) < rows:
+        choices = []
         l = length
         while l > 0:
             datasets_id_tmp = [data_id for data_id in datasets_id if data_id[0]<l]
@@ -299,27 +303,36 @@ def generate_dataset_counting_stars(length=8, rows=100, test_type='Reasoning'):
             choice = random.choice(datasets_id_tmp)
             choices.append(choice)
             l = l-choice[0]
+        if len(choices)<4: continue
         new_datasets.append(choices)
-        choices = []
     # collect
     results = []
+    def exchange(my_list):
+        index1, index2 = random.sample(range(len(my_list)), 2)
+        my_list[index1], my_list[index2] = my_list[index2], my_list[index1]
+        return my_list
     for choices in new_datasets:
         context, whole_stars = '', 0
+        answers = []
         for i, c in enumerate(choices):
             context = context + '\n' + dataset_list[c[1]]['context']
             a_stars, r_stars = random.randint(1, 100), random.randint(1, 100)
             if test_type == 'Acquisition':
                 single_star = f"\nThe little penguin counted {a_stars} ★\n"
-            else:
+            if test_type == 'Reasoning':
                 single_star = f"\nThe little penguin counted {r_stars} ★, but found that a mistake had been made, so the counting was done again, and this time {a_stars} ★ was counted correctly.\n"
             whole_stars = whole_stars+a_stars
             context = context+ single_star
+            answers.append(a_stars)
         if test_type == 'Acquisition':
-            question = "On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the number of ★ and calculate the total number of ★ .The total number of ★ the little penguin collect is"
-        else:
-            question = "On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the correct number of ★ and calculate the total number of ★ .The total number of ★ the little penguin collect is"
+            question = f"On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the number of ★, for example: [x, x, x,...]. The summation is not required, and the numbers in [x, x, x,...]. represent the counted number of ★ by the little penguin. "
+        if test_type == 'Reasoning':
+            question = f"On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the correct number of ★, for example: [x, x, x,...]. The summation is not required, and the numbers in [x, x, x,...]. represent the correctly counted number of ★ by the little penguin. "
+        question_key = [exchange(answers[:]) for i in range(3)]+[answers[:]]
+        random.shuffle(question_key)
+        question=question+f'\n1. {question_key[0]}\n2. {question_key[1]}\n3. {question_key[2]}\n4. {question_key[3]}\nPlease provide your answer as a single number (1, 2, 3, or 4) without any explanation.'
         results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
-                        'instruction': '',  "input": [question], "answers": [f'{whole_stars}']})
+                        'instruction': '',  "input": [question], "answers": [[question_key.index(answers)+1, f'{answers}']]})
     return results
 
 def generate_dataset_passage_count(length=8, rows=100):
@@ -403,9 +416,9 @@ func = {
         # 'multi_doc_qa': generate_dataset_multi_doc_qa,
         # 'single_doc_sum':generate_dataset_single_doc_sum,
         # 'multi_doc_sum':generate_dataset_multi_doc_sum,
-        'kv_retrieval':generate_dataset_kv_retrieval,
-        'passage_retrieval':generate_dataset_passage_retrieval,
-        'passage_count':generate_dataset_passage_count,
+        # 'kv_retrieval':generate_dataset_kv_retrieval,
+        # 'passage_retrieval':generate_dataset_passage_retrieval,
+        # 'passage_count':generate_dataset_passage_count,
         'counting_stars':generate_dataset_counting_stars,
 }
 rows = 200
