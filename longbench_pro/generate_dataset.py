@@ -412,18 +412,18 @@ def generate_dataset_passage_retrieval(length=8, rows=100):
     
 
 func = {
-        # 'single_doc_qa':generate_dataset_single_doc_qa,
-        # 'multi_doc_qa': generate_dataset_multi_doc_qa,
-        # 'single_doc_sum':generate_dataset_single_doc_sum,
-        # 'multi_doc_sum':generate_dataset_multi_doc_sum,
-        # 'kv_retrieval':generate_dataset_kv_retrieval,
-        # 'passage_retrieval':generate_dataset_passage_retrieval,
-        # 'passage_count':generate_dataset_passage_count,
+        'single_doc_qa':generate_dataset_single_doc_qa,
+        'multi_doc_qa': generate_dataset_multi_doc_qa,
+        'single_doc_sum':generate_dataset_single_doc_sum,
+        'multi_doc_sum':generate_dataset_multi_doc_sum,
+        'kv_retrieval':generate_dataset_kv_retrieval,
+        'passage_retrieval':generate_dataset_passage_retrieval,
+        'passage_count':generate_dataset_passage_count,
         'counting_stars':generate_dataset_counting_stars,
 }
 rows = 200
-out_path = '/users/PDS0352/wyang107/project/LCEG/longbench_pro/data'
-for length in tqdm([8 , 16, 31]): #
+out_path = '/users/PDS0352/wyang107/project/LCEG/longbench_pro/data2'
+for length in tqdm([64, 126]): #
     for key in func.keys():
         result = func[key](length, rows)
         with open(os.path.join(out_path, f'{key}_{length}.jsonl'), "w", encoding="utf-8") as f:

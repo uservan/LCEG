@@ -303,9 +303,7 @@ if __name__ == '__main__':
     # predict on each dataset
     if not os.path.exists(set_global_path("pred/")):
         os.makedirs(set_global_path("pred/"))
-    if not os.path.exists(set_global_path("pred_e")):
-        os.makedirs(set_global_path("pred_e"))
-    dataset_path = set_global_path("data")
+    dataset_path = set_global_path("data2")
     dataset = args.dataset_name
     file_names = [p.split('.')[0] for p in os.listdir(dataset_path)]
     for dataset in file_names:
