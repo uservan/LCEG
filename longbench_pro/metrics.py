@@ -53,6 +53,13 @@ def count_score(prediction, ground_truth, **kwargs):
     final_score = 0.0 if len(numbers) == 0 else right_num / len(numbers)
     return float(final_score)
 
+def acc_score(prediction, ground_truth, **kwargs):
+    match = re.search(r'\d+', prediction)
+    if match: number = match.group()
+    else: number=''
+    if str(number) == str(ground_truth): return 1
+    else: return 0
+
 def retrieval_score(prediction, ground_truth, **kwargs):
     pattern = r'Paragraph (\d+)'
     matches = re.findall(pattern, ground_truth)

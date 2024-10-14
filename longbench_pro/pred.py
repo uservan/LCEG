@@ -18,7 +18,7 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama-3.2-3B-Instruct')
+    parser.add_argument('--model', type=str, default='Qwen2.5-14B-Instruct')
     parser.add_argument('--dataset_name', type=str, default="samsum")
     return parser.parse_args(args)
 

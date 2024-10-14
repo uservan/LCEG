@@ -7,6 +7,6 @@
 #SBATCH -A PDS0352
 #SBATCH --output=/users/PDS0352/wyang107/project/LCEG/longbench_pro/result/output.txt      
 #SBATCH --error=/users/PDS0352/wyang107/project/LCEG/longbench_pro/result/error.txt   
-#SBATCH --time=0-100:00:00
+#SBATCH --time=0-10:00:00
 
-python /users/PDS0352/wyang107/project/LCEG/longbench_pro/pred.py --model llama-3.1-8B-Instruct
+python /users/PDS0352/wyang107/project/LCEG/longbench_pro/pred.py --model Qwen2.5-14B-Instruct

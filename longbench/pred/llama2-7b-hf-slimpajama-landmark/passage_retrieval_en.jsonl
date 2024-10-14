@@ -1,0 +1,200 @@
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do it", "answers": ["Paragraph 15"], "all_classes": null, "length": 12982}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make it work.\nimport", "answers": ["Paragraph 8"], "all_classes": null, "length": 13379}
+{"pred": "10\n\nA: You can use the following code to get the paragraph number from the wikipedia page.\nimport requests\nimport re\n\n", "answers": ["Paragraph 18"], "all_classes": null, "length": 15092}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make it work.\n\n", "answers": ["Paragraph 17"], "all_classes": null, "length": 14582}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\n\n\n", "answers": ["Paragraph 14"], "all_classes": null, "length": 14266}
+{"pred": "13\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from", "answers": ["Paragraph 3"], "all_classes": null, "length": 14057}
+{"pred": "11\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["Paragraph 24"], "all_classes": null, "length": 13556}
+{"pred": "28\n\nA: I'm not sure if this is what you're looking for, but I've used this in the past to get", "answers": ["Paragraph 27"], "all_classes": null, "length": 13920}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make a script that will do", "answers": ["Paragraph 30"], "all_classes": null, "length": 12112}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the string:\n\\d+\n\nThis will match any number of", "answers": ["Paragraph 12"], "all_classes": null, "length": 16287}
+{"pred": "14\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["Paragraph 22"], "all_classes": null, "length": 14561}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make a script that will find", "answers": ["Paragraph 30"], "all_classes": null, "length": 15744}
+{"pred": "26\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\nimport", "answers": ["Paragraph 24"], "all_classes": null, "length": 13912}
+{"pred": "28\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do", "answers": ["Paragraph 19"], "all_classes": null, "length": 15640}
+{"pred": "17\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\nimport", "answers": ["Paragraph 3"], "all_classes": null, "length": 17375}
+{"pred": "1\n\nA: You can use the following code to get the paragraph number from the string.\nimport re\n\nstring = \"Here are 3", "answers": ["Paragraph 8"], "all_classes": null, "length": 15608}
+{"pred": "1\n\nA: You can use the following code to get the paragraph number from the text.\nimport re\n\ntext = \"Paragraph 1", "answers": ["Paragraph 3"], "all_classes": null, "length": 14137}
+{"pred": "18\n\nA: Paragraph 18\n\nParagraph 18: The goblin king, Grizzlor, was fur", "answers": ["Paragraph 17"], "all_classes": null, "length": 14490}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the paragraph text:\n\\d+\n\nThis will match any sequence", "answers": ["Paragraph 4"], "all_classes": null, "length": 15328}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the string:\n^Paragraph \\d+\n\nThis will match", "answers": ["Paragraph 3"], "all_classes": null, "length": 17033}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\n\n\n", "answers": ["Paragraph 24"], "all_classes": null, "length": 15199}
+{"pred": "11\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\n\n", "answers": ["Paragraph 2"], "all_classes": null, "length": 15124}
+{"pred": "17\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do", "answers": ["Paragraph 6"], "all_classes": null, "length": 14248}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 12"], "all_classes": null, "length": 14268}
+{"pred": "1\n\nA: I''m not sure if this is what you're looking for, but I've found that the easiest way to find", "answers": ["Paragraph 24"], "all_classes": null, "length": 12971}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do", "answers": ["Paragraph 30"], "all_classes": null, "length": 12549}
+{"pred": "12\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["Paragraph 1"], "all_classes": null, "length": 17013}
+{"pred": "1\n\nA: The answer is 1.\n\nParagraph 1: After thwarting Zeev and Judy's plot, the", "answers": ["Paragraph 6"], "all_classes": null, "length": 14431}
+{"pred": "1\n\nA: The answer is 1.\n\nParagraph 1: Eddie Dee was born Eddie Alexander Ávila Ortiz", "answers": ["Paragraph 8"], "all_classes": null, "length": 15124}
+{"pred": "1\n\nA: The answer is 1.\n\nParagraph 1: Santiago de Compostela, in Galicia, the centre of dev", "answers": ["Paragraph 3"], "all_classes": null, "length": 11531}
+{"pred": "20\n\nA: I'm not sure if this is the best way to do it, but I've used this method to get the paragraph", "answers": ["Paragraph 1"], "all_classes": null, "length": 15470}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\n\n\n", "answers": ["Paragraph 25"], "all_classes": null, "length": 13338}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 19"], "all_classes": null, "length": 15801}
+{"pred": "21\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do", "answers": ["Paragraph 22"], "all_classes": null, "length": 12368}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\n\n\n", "answers": ["Paragraph 5"], "all_classes": null, "length": 14870}
+{"pred": "28\n\nA: You can use the following code to get the paragraph number from the paragraph text.\nimport re\n\ntext = \"Paragraph", "answers": ["Paragraph 15"], "all_classes": null, "length": 14836}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 28"], "all_classes": null, "length": 15610}
+{"pred": "17\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n", "answers": ["Paragraph 5"], "all_classes": null, "length": 13909}
+{"pred": "11\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\n\n", "answers": ["Paragraph 30"], "all_classes": null, "length": 15413}
+{"pred": "16\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["Paragraph 6"], "all_classes": null, "length": 12091}
+{"pred": "30\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n", "answers": ["Paragraph 12"], "all_classes": null, "length": 14115}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make it work.\nimport", "answers": ["Paragraph 26"], "all_classes": null, "length": 15794}
+{"pred": "14\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do this", "answers": ["Paragraph 30"], "all_classes": null, "length": 13711}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the string:\nimport re\n\ntext = \"\"\"\nHere are ", "answers": ["Paragraph 6"], "all_classes": null, "length": 15781}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the string:\n\\d+\n\nThis will match any sequence of", "answers": ["Paragraph 12"], "all_classes": null, "length": 13514}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from the", "answers": ["Paragraph 23"], "all_classes": null, "length": 16469}
+{"pred": "17\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do", "answers": ["Paragraph 17"], "all_classes": null, "length": 16773}
+{"pred": "19\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do", "answers": ["Paragraph 1"], "all_classes": null, "length": 13680}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 27"], "all_classes": null, "length": 16293}
+{"pred": "19\n\nA: I'm not sure if this is what you're looking for, but I've used this in the past to get", "answers": ["Paragraph 21"], "all_classes": null, "length": 14609}
+{"pred": "17\n\nA: You can use the following regex to extract the paragraph number from the paragraphs:\n\\d+\n\nThis will match any", "answers": ["Paragraph 27"], "all_classes": null, "length": 13670}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 29"], "all_classes": null, "length": 13352}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport re", "answers": ["Paragraph 28"], "all_classes": null, "length": 15351}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will take a paragraph", "answers": ["Paragraph 7"], "all_classes": null, "length": 13944}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from the", "answers": ["Paragraph 15"], "all_classes": null, "length": 14764}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've made a script that will do it for", "answers": ["Paragraph 22"], "all_classes": null, "length": 15972}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've written a program that can take a paragraph", "answers": ["Paragraph 16"], "all_classes": null, "length": 13870}
+{"pred": "14\n\nA: I'm not sure if this is the right way to do it, but I've tried to find the paragraphs that", "answers": ["Paragraph 14"], "all_classes": null, "length": 13230}
+{"pred": "19\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from", "answers": ["Paragraph 29"], "all_classes": null, "length": 16034}
+{"pred": "28\n\nA: I'm not sure if this is the right way to do it, but I've made a script that will do it", "answers": ["Paragraph 19"], "all_classes": null, "length": 16468}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've made a small script that will do the", "answers": ["Paragraph 28"], "all_classes": null, "length": 15978}
+{"pred": "13\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\n\n", "answers": ["Paragraph 26"], "all_classes": null, "length": 16261}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make a function that will return", "answers": ["Paragraph 1"], "all_classes": null, "length": 15893}
+{"pred": "28\n\nA: The answer is 28.\n\nParagraph 1: Nevada Smith is a 1966 American Western", "answers": ["Paragraph 10"], "all_classes": null, "length": 16124}
+{"pred": "29\n\nA: You can use the following code to get the paragraph number from the wikipedia page.\nfrom bs4 import BeautifulSoup", "answers": ["Paragraph 8"], "all_classes": null, "length": 14754}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the string:\n\\d+\n\nThis will match any sequence of", "answers": ["Paragraph 3"], "all_classes": null, "length": 12614}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from the", "answers": ["Paragraph 27"], "all_classes": null, "length": 13880}
+{"pred": "17\n\nA: I''m not sure if this is what you're looking for, but I've found a way to get the", "answers": ["Paragraph 15"], "all_classes": null, "length": 14041}
+{"pred": "13\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will take a", "answers": ["Paragraph 21"], "all_classes": null, "length": 14025}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\n\n\n", "answers": ["Paragraph 28"], "all_classes": null, "length": 17118}
+{"pred": "16\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n", "answers": ["Paragraph 5"], "all_classes": null, "length": 16305}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've used this in the past to get the", "answers": ["Paragraph 9"], "all_classes": null, "length": 14003}
+{"pred": "14\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\n\n", "answers": ["Paragraph 20"], "all_classes": null, "length": 12493}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 15"], "all_classes": null, "length": 14543}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\n\n\n", "answers": ["Paragraph 6"], "all_classes": null, "length": 14659}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 23"], "all_classes": null, "length": 15802}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make it work.\nimport", "answers": ["Paragraph 26"], "all_classes": null, "length": 12922}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do the", "answers": ["Paragraph 18"], "all_classes": null, "length": 13704}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from the", "answers": ["Paragraph 11"], "all_classes": null, "length": 13067}
+{"pred": "23\n\nA: The answer is 23.\n\nParagraph 23: The first known use of the term \"computer\"", "answers": ["Paragraph 18"], "all_classes": null, "length": 13202}
+{"pred": "20\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["Paragraph 7"], "all_classes": null, "length": 13495}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the string:\n\\d+\n\nThis will match any sequence of", "answers": ["Paragraph 24"], "all_classes": null, "length": 17532}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\nimport re", "answers": ["Paragraph 23"], "all_classes": null, "length": 14419}
+{"pred": "17\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\nimport", "answers": ["Paragraph 27"], "all_classes": null, "length": 13029}
+{"pred": "27\n\nA: I'm not sure if this is what you're looking for, but I've written a program that can extract the", "answers": ["Paragraph 18"], "all_classes": null, "length": 16308}
+{"pred": "11\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do", "answers": ["Paragraph 28"], "all_classes": null, "length": 13492}
+{"pred": "16\n\nA: I'm not sure if this is the best way to do it, but I think it works.\nimport re\n\n", "answers": ["Paragraph 3"], "all_classes": null, "length": 12972}
+{"pred": "17\n\nA: I'm not sure if this is the best way to do it, but I'll give it a shot.\n\n", "answers": ["Paragraph 5"], "all_classes": null, "length": 14665}
+{"pred": "17\n\nA: I'm not sure if this is the best way to do it, but I've found a way to get the paragraph", "answers": ["Paragraph 27"], "all_classes": null, "length": 15807}
+{"pred": "26\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will parse", "answers": ["Paragraph 24"], "all_classes": null, "length": 12380}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make it work.\nimport", "answers": ["Paragraph 29"], "all_classes": null, "length": 14821}
+{"pred": "18\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\n\n", "answers": ["Paragraph 23"], "all_classes": null, "length": 12179}
+{"pred": "19\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n", "answers": ["Paragraph 17"], "all_classes": null, "length": 11720}
+{"pred": "17\n\nA: The answer is 17.\n\nParagraph 1: Wayne Cao (born Nguyễn Cả", "answers": ["Paragraph 16"], "all_classes": null, "length": 14684}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 18"], "all_classes": null, "length": 14426}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've found a way to extract the paragraphs", "answers": ["Paragraph 13"], "all_classes": null, "length": 16263}
+{"pred": "27\n\nA: The answer is 27.\n\nParagraph 1: The villages of Leidenstall, Reichartsweiler", "answers": ["Paragraph 20"], "all_classes": null, "length": 15564}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 18"], "all_classes": null, "length": 17386}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\n\n\n", "answers": ["Paragraph 23"], "all_classes": null, "length": 14970}
+{"pred": "14\n\nA: I'm not sure if this is the best way to do it, but I've found a way to get the paragraph", "answers": ["Paragraph 19"], "all_classes": null, "length": 16304}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\n\n\n", "answers": ["Paragraph 19"], "all_classes": null, "length": 14975}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the URL:\n^https?://www\\.wikipedia\\.org/wiki", "answers": ["Paragraph 30"], "all_classes": null, "length": 16218}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\nimport re", "answers": ["Paragraph 13"], "all_classes": null, "length": 14885}
+{"pred": "1\n\nA: The answer is 1.\n\nParagraph 1: The Celynen Collieries' Institute (1908", "answers": ["Paragraph 9"], "all_classes": null, "length": 13862}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from the", "answers": ["Paragraph 22"], "all_classes": null, "length": 15644}
+{"pred": "27\n\nA: You can use the following code to get the paragraph number from the paragraph text.\nimport re\n\ntext = \"Paragraph", "answers": ["Paragraph 11"], "all_classes": null, "length": 15028}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 3"], "all_classes": null, "length": 16403}
+{"pred": "16\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do", "answers": ["Paragraph 12"], "all_classes": null, "length": 12921}
+{"pred": "21\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["Paragraph 10"], "all_classes": null, "length": 15079}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make a regex that matches the", "answers": ["Paragraph 3"], "all_classes": null, "length": 13634}
+{"pred": "11\n\nA: I'm not sure if this is the best way to do it, but I've made a script that will do it", "answers": ["Paragraph 10"], "all_classes": null, "length": 14529}
+{"pred": "19\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do", "answers": ["Paragraph 2"], "all_classes": null, "length": 15890}
+{"pred": "19\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n", "answers": ["Paragraph 27"], "all_classes": null, "length": 14034}
+{"pred": "16\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do", "answers": ["Paragraph 7"], "all_classes": null, "length": 14209}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from the", "answers": ["Paragraph 20"], "all_classes": null, "length": 14519}
+{"pred": "19\n\nA: I'm not sure if this is the right way to do it, but I've tried to find the paragraphs that", "answers": ["Paragraph 25"], "all_classes": null, "length": 16517}
+{"pred": "27\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will return the", "answers": ["Paragraph 30"], "all_classes": null, "length": 12699}
+{"pred": "20\n\nA: I'm not sure if this is the best way to do it, but I've used regex to extract the paragraphs", "answers": ["Paragraph 9"], "all_classes": null, "length": 14092}
+{"pred": "23\n\nA: The answer is 23.\n\nParagraph 1: Irish orthography is very etymological, which allows the", "answers": ["Paragraph 14"], "all_classes": null, "length": 13522}
+{"pred": "18\n\nA: I'm not sure if this is the best way to do it, but I've tried to extract the paragraphs from", "answers": ["Paragraph 8"], "all_classes": null, "length": 15299}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the string:\n(?<=Paragraph )\\d+\n\nThis", "answers": ["Paragraph 8"], "all_classes": null, "length": 14143}
+{"pred": "29\n\nA: You can use the following code to get the paragraph number from the wikipedia page.\nimport requests\nimport re\n\n", "answers": ["Paragraph 19"], "all_classes": null, "length": 17469}
+{"pred": "20\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["Paragraph 22"], "all_classes": null, "length": 14788}
+{"pred": "18\n\nA: The answer is 18.\n\nParagraph 18: The 1990s saw the rise of", "answers": ["Paragraph 1"], "all_classes": null, "length": 14557}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make it work.\nimport", "answers": ["Paragraph 7"], "all_classes": null, "length": 12575}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\nimport re", "answers": ["Paragraph 7"], "all_classes": null, "length": 12399}
+{"pred": "16\n\nA: You can use the following regex to extract the paragraph number from the paragraph text:\n\\d+\n\nThis will match any", "answers": ["Paragraph 28"], "all_classes": null, "length": 14356}
+{"pred": "20\n\nA: I'm not sure if this is the right way to do it, but I've tried to make it work.\n", "answers": ["Paragraph 11"], "all_classes": null, "length": 11737}
+{"pred": "18\n\nA: You can use the following code to get the paragraph number from the paragraph text.\nimport re\n\ntext = \"Paragraph", "answers": ["Paragraph 18"], "all_classes": null, "length": 15740}
+{"pred": "14\n\nA: You can use the following code to get the paragraph number from the abstract.\nimport re\n\ntext = \"Paragraph ", "answers": ["Paragraph 9"], "all_classes": null, "length": 13753}
+{"pred": "29\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n", "answers": ["Paragraph 16"], "all_classes": null, "length": 12775}
+{"pred": "1\n\nA: The answer is 1.\n\nParagraph 1: Venkatesh Kumar. G was born on 25", "answers": ["Paragraph 8"], "all_classes": null, "length": 14177}
+{"pred": "1\n\nA: The answer is 1.\n\nParagraph 1: After the Flyers traded away Jeff Carter and Mike Richards in", "answers": ["Paragraph 27"], "all_classes": null, "length": 14235}
+{"pred": "27\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n", "answers": ["Paragraph 7"], "all_classes": null, "length": 14101}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've found a way to get the paragraph number", "answers": ["Paragraph 26"], "all_classes": null, "length": 14252}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've found a way to get the paragraph number", "answers": ["Paragraph 24"], "all_classes": null, "length": 16117}
+{"pred": "24\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will return the", "answers": ["Paragraph 20"], "all_classes": null, "length": 15531}
+{"pred": "1\n\nA: The answer is 1.\n\nParagraph 1: Usingen (Latin Osinga), which in Frankish times", "answers": ["Paragraph 29"], "all_classes": null, "length": 14371}
+{"pred": "24\n\nA: Here is a simple function that will do the job:\ndef get_paragraph(text, index):\n    paragraphs =", "answers": ["Paragraph 28"], "all_classes": null, "length": 14169}
+{"pred": "18\n\nA: You can use the following code to get the paragraph number from the given paragraph:\nimport re\n\ndef get_paragraph_", "answers": ["Paragraph 6"], "all_classes": null, "length": 15331}
+{"pred": "30\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from", "answers": ["Paragraph 1"], "all_classes": null, "length": 16278}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I'd do it like this:\n\n\n", "answers": ["Paragraph 4"], "all_classes": null, "length": 13404}
+{"pred": "27\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will take a", "answers": ["Paragraph 29"], "all_classes": null, "length": 15823}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\nimport re", "answers": ["Paragraph 11"], "all_classes": null, "length": 13462}
+{"pred": "26\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\nimport", "answers": ["Paragraph 7"], "all_classes": null, "length": 15985}
+{"pred": "1\n\nA: You can use the following code to get the paragraph number from the wikipedia page.\nimport requests\nfrom bs4 import Beautiful", "answers": ["Paragraph 22"], "all_classes": null, "length": 13935}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the string:\n\\d+\n\nThis will match any sequence of", "answers": ["Paragraph 8"], "all_classes": null, "length": 13762}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make a function that will return", "answers": ["Paragraph 28"], "all_classes": null, "length": 14212}
+{"pred": "17\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\nimport", "answers": ["Paragraph 23"], "all_classes": null, "length": 15412}
+{"pred": "18\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["Paragraph 8"], "all_classes": null, "length": 13779}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to find the paragraphs that are", "answers": ["Paragraph 11"], "all_classes": null, "length": 13032}
+{"pred": "17\n\nA: I'm not sure if this is the right way to do it, but I'm going to try it.\n", "answers": ["Paragraph 28"], "all_classes": null, "length": 15411}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make a function that will return", "answers": ["Paragraph 16"], "all_classes": null, "length": 11935}
+{"pred": "1\n\nA: The answer is 1.\n\nParagraph 1: The opening movement begins quietly with a march figure, but quickly moves to", "answers": ["Paragraph 2"], "all_classes": null, "length": 14613}
+{"pred": "23\n\nA: You can use the following code to get the paragraph number from the string:\nimport re\n\nstring = \"Paragraph ", "answers": ["Paragraph 1"], "all_classes": null, "length": 15847}
+{"pred": "17\n\nA: I'm not sure if this is the right way to do it, but I've tried to make it work.\n", "answers": ["Paragraph 2"], "all_classes": null, "length": 12120}
+{"pred": "17\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from", "answers": ["Paragraph 28"], "all_classes": null, "length": 15507}
+{"pred": "11\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from", "answers": ["Paragraph 7"], "all_classes": null, "length": 13755}
+{"pred": "23\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will take a", "answers": ["Paragraph 27"], "all_classes": null, "length": 16953}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've made a script that will do it for", "answers": ["Paragraph 16"], "all_classes": null, "length": 16081}
+{"pred": "19\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["Paragraph 1"], "all_classes": null, "length": 12158}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've made a script that will take a paragraph", "answers": ["Paragraph 26"], "all_classes": null, "length": 14076}
+{"pred": "19\n\nA: I'm not sure if this is the right way to do it, but I've tried to make a script that will", "answers": ["Paragraph 6"], "all_classes": null, "length": 12990}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make it work.\nimport", "answers": ["Paragraph 15"], "all_classes": null, "length": 14190}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\n\n\n", "answers": ["Paragraph 14"], "all_classes": null, "length": 13469}
+{"pred": "24\n\nA: I'm not sure if this is the right way to do it, but I've tried to make a script that will", "answers": ["Paragraph 25"], "all_classes": null, "length": 14294}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\nimport re", "answers": ["Paragraph 6"], "all_classes": null, "length": 13644}
+{"pred": "17\n\nA: I'm not sure if this is the right way to do it, but I've found a way to get the paragraph", "answers": ["Paragraph 2"], "all_classes": null, "length": 12622}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I'd use a regular expression to extract the paragraph", "answers": ["Paragraph 5"], "all_classes": null, "length": 14031}
+{"pred": "1\n\nA: The answer is 1.\n\nParagraph 1: The Caterpillar in the Disney film is a blue creature", "answers": ["Paragraph 12"], "all_classes": null, "length": 12755}
+{"pred": "1\n\nA: The answer is 1.\n\nParagraph 1: In February 1989, Anjelica gives birth to", "answers": ["Paragraph 12"], "all_classes": null, "length": 13137}
+{"pred": "1\n\nA: I'm not sure if this is what you're looking for, but I've found a way to get the paragraph number", "answers": ["Paragraph 8"], "all_classes": null, "length": 12965}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the string:\n(?<=Paragraph\\s\\d+).*", "answers": ["Paragraph 20"], "all_classes": null, "length": 14764}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will take a paragraph", "answers": ["Paragraph 25"], "all_classes": null, "length": 13028}
+{"pred": "13\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["Paragraph 23"], "all_classes": null, "length": 12456}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the only way to do it", "answers": ["Paragraph 30"], "all_classes": null, "length": 16186}
+{"pred": "1\n\nA: You can use the following code to get the paragraph number from the wikipedia page.\nimport requests\nfrom bs4 import Beautiful", "answers": ["Paragraph 7"], "all_classes": null, "length": 16720}
+{"pred": "19\n\nA: I'm not sure if this is the right way to do it, but I've found a way to get the paragraph", "answers": ["Paragraph 10"], "all_classes": null, "length": 12641}
+{"pred": "10\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from", "answers": ["Paragraph 30"], "all_classes": null, "length": 14761}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a shot.\n\n\n", "answers": ["Paragraph 9"], "all_classes": null, "length": 14384}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've written a small script that will do this", "answers": ["Paragraph 17"], "all_classes": null, "length": 15767}
+{"pred": "19\n\nA: You can use the following regex:\n\\b\\w+\\b\\s+\\w+\\b\\s+\\w+\\b", "answers": ["Paragraph 30"], "all_classes": null, "length": 16219}
+{"pred": "15\n\nA: I'm not sure if this is the best way to do it, but I've made a script that will do it", "answers": ["Paragraph 10"], "all_classes": null, "length": 16966}
+{"pred": "13\n\nA: I'm not sure if this is what you're looking for, but I've created a script that will take a", "answers": ["Paragraph 26"], "all_classes": null, "length": 14798}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I've tried to make it work.\nimport", "answers": ["Paragraph 27"], "all_classes": null, "length": 12997}
+{"pred": "1\n\nA: You can use the following regex to extract the paragraph number from the paragraph text:\n\\d+\n\nThis will match any sequence", "answers": ["Paragraph 26"], "all_classes": null, "length": 13573}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 8"], "all_classes": null, "length": 12453}
+{"pred": "1\n\nA: You can use the following code to get the paragraph number from the given paragraph.\nimport re\n\ndef get_paragraph_number", "answers": ["Paragraph 30"], "all_classes": null, "length": 15089}
+{"pred": "25\n\nA: I'm not sure if this is the right way to do it, but I've tried to find the paragraphs that", "answers": ["Paragraph 13"], "all_classes": null, "length": 14471}
+{"pred": "19\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n", "answers": ["Paragraph 12"], "all_classes": null, "length": 15562}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 24"], "all_classes": null, "length": 13926}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've used this to get the paragraph number from", "answers": ["Paragraph 6"], "all_classes": null, "length": 12321}
+{"pred": "17\n\nA: I'm not sure if this is the right way to do it, but I've tried to extract the paragraphs from", "answers": ["Paragraph 24"], "all_classes": null, "length": 14000}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\nimport re", "answers": ["Paragraph 25"], "all_classes": null, "length": 15293}
+{"pred": "18\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["Paragraph 24"], "all_classes": null, "length": 15751}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will take a paragraph", "answers": ["Paragraph 1"], "all_classes": null, "length": 14274}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\nimport re", "answers": ["Paragraph 25"], "all_classes": null, "length": 14299}
+{"pred": "1\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n\n", "answers": ["Paragraph 2"], "all_classes": null, "length": 16331}
+{"pred": "26\n\nA: I'm not sure if this is the right way to do it, but I'll give it a try.\n\n", "answers": ["Paragraph 27"], "all_classes": null, "length": 12964}
+{"pred": "17\n\nA: I'm not sure if this is what you're looking for, but I've used this in the past to get", "answers": ["Paragraph 4"], "all_classes": null, "length": 16136}

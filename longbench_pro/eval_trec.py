@@ -3,6 +3,7 @@ import json
 import argparse
 import numpy as np
 from tqdm import tqdm
+import re
 
 def set_global_path(path):
     return os.path.join('/users/PDS0352/wyang107/project/LCEG/longbench_pro', path)
@@ -17,11 +18,16 @@ from metrics import (
     retrieval_zh_score,
     count_score,
     code_sim_score,
+    acc_score
 )
 
 dataset2metric = {
     'qa':qa_f1_score,
     'sum':rouge_score,
+    "passage_count": acc_score,
+    "passage_retrieval": acc_score,
+    "counting_stars": acc_score,
+    "kv_retrieval": acc_score,
 
     "narrativeqa": qa_f1_score,
     "qasper": qa_f1_score,
@@ -39,8 +45,8 @@ dataset2metric = {
     "triviaqa": qa_f1_score,
     "samsum": rouge_score,
     "lsht": classification_score,
-    "passage_retrieval_en": retrieval_score,
-    "passage_count": count_score,
+    # "passage_retrieval_en": retrieval_score,
+    # "passage_count": count_score,
     "passage_retrieval_zh": retrieval_zh_score,
     "lcc": code_sim_score,
     "repobench-p": code_sim_score,
@@ -48,43 +54,22 @@ dataset2metric = {
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-ntk-32k')
-    parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
+    parser.add_argument('--model', type=str, default='Qwen2.5-14B-Instruct')
     return parser.parse_args(args)
-
-def scorer_e(dataset, predictions, answers, lengths, all_classes):
-    scores = {"0-4k": [], "4-8k": [], "8k+": []}
-    for (prediction, ground_truths, length) in zip(predictions, answers, lengths):
-        score = 0.
-        if dataset in ["qasper", "trec", "triviaqa", "samsum", "lsht"] or "trec" in dataset:
-            prediction = prediction.lstrip('\n').split('\n')[0]
-        for ground_truth in ground_truths:
-            score = max(score, dataset2metric[dataset](prediction, ground_truth, all_classes=all_classes))
-        if length < 4000:
-            scores["0-4k"].append(score)
-        elif length < 8000:
-            scores["4-8k"].append(score)
-        else:
-            scores["8k+"].append(score)
-    for key in scores.keys():
-        scores[key] = round(100 * np.mean(scores[key]), 2)
-    return scores
 
 def scorer(dataset, predictions, answers, all_classes):
     total_score = 0.
-    if "qa" in dataset: dataset="qa"
-    if 'sum' in dataset: dataset="sum"
+    datasets_type = ["qa",'sum','passage_count','passage_retrieval', 'counting_stars', 'kv_retrieval']
+    for d in datasets_type:
+        if d in dataset: dataset=d
     for (prediction, ground_truths) in zip(predictions, answers):
         score = 0.
-        post_process_list = [
-                # "narrativeqa", "qasper", "multifieldqa_en",
-                # "hotpotqa", "2wikimqa", "musique",
-                # "trec", "triviaqa", "samsum", "lsht",
-                # "passage_count", "passage_retrieval_en"
-                'qa'
-                ]
-        if dataset in post_process_list:
+        if dataset in ['qa','passage_count','passage_retrieval','counting_stars','kv_retrieval']:
             prediction = prediction.lstrip('\n').split('\n')[0]
+        # if dataset in []:
+        #     match = re.search(r'\d+', prediction)
+        #     if match: prediction = match.group()
+        #     else: prediction=''
         for ground_truth in ground_truths:
             score = max(score, dataset2metric[dataset](prediction, ground_truth, all_classes=all_classes))
         total_score += score
@@ -93,10 +78,7 @@ def scorer(dataset, predictions, answers, all_classes):
 if __name__ == '__main__':
     args = parse_args()
     scores = dict()
-    if args.e:
-        path = set_global_path(f"pred_e/{args.model}/")
-    else:
-        path = set_global_path(f"pred/{args.model}/")
+    path = set_global_path(f"pred/{args.model}/")
     all_files = sorted(os.listdir(path))
     print("Evaluating on:", all_files)
     for filename in tqdm(all_files):
@@ -112,14 +94,8 @@ if __name__ == '__main__':
                 all_classes = filename
                 if "length" in data:
                     lengths.append(data["length"])
-        if args.e:
-            score = scorer_e(dataset, predictions, answers, lengths, all_classes)
-        else:
-            score = scorer(dataset, predictions, answers, all_classes)
+        score = scorer(dataset, predictions, answers, all_classes)
         scores[dataset] = score
-    if args.e:
-        out_path = set_global_path(f"pred_e/{args.model}/result.json")
-    else:
-        out_path = set_global_path(f"pred/{args.model}/result.json")
+    out_path = set_global_path(f"pred/{args.model}/result.json")
     with open(out_path, "w") as f:
         json.dump(scores, f, ensure_ascii=False, indent=4)
