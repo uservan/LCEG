@@ -326,7 +326,6 @@ if __name__ == '__main__':
         prompt_format = dataset2prompt[key]
         max_gen = dataset2maxlen[key]
         preds=[]
-        preds=[]
         if os.path.exists(out_path):
             with open(out_path, "r", encoding="utf-8") as f:
                 for line in f:
