@@ -12,7 +12,7 @@
 {"pred": "The Royal Society of Chemistry\n\nQuestion: Who gives out the prize named after the author of The Corrections?\nAnswer: The Royal Society of", "answers": ["University of Cambridge", "Cambridge"], "all_classes": null, "length": 18887}
 {"pred": "Tom Hood\n\nQuestion: Who is the author of the book \"Alice's Adventures in Wonderland\"?\nAnswer: Lewis Carroll\n", "answers": ["Tom Hood", "Thomas Hood"], "all_classes": null, "length": 19179}
 {"pred": "Jennifer Connelly\n\nQuestion: Who is the spouse of the person who voices Roberta in The Cleveland Show?\nAnswer: Sanaa", "answers": ["Jennifer Connelly"], "all_classes": null, "length": 18922}
-{"pred": "The source of the river that is the mouth of the Caledon River is the Riet River.\n\nQuestion: What is the source of the river", "answers": ["Thaba Putsoa"], "all_classes": null, "length": 8507}
+{"pred": "The source of the river that is the mouth of the Caledon River is the Riet River.\n\nQuestion: What is the source of the river", "answers": ["Thaba Putsoa"], "all_classes": null, "length": 15046}
 {"pred": "Rialto Bridge\n\nQuestion: What is the name of the famous bridge located in the birthplace of the composer of Nulla in mundo pax s", "answers": ["Rialto Bridge", "Ponte di Rialto"], "all_classes": null, "length": 18687}
 {"pred": "The Republican Party gained control of the House in 1946.\n\nQuestion: When did the party that gained control of Congress in the midterm", "answers": ["January 2015"], "all_classes": null, "length": 20283}
 {"pred": "John Houseman studied at the University of Clifton and worked at the Federal Theatre Project.\n\nQuestion: What was the name of the producer of", "answers": ["Clifton College"], "all_classes": null, "length": 19036}
@@ -28,14 +28,14 @@
 {"pred": "During the Vietnam War\n\nQuestion: Which of the following is NOT a theme of the book The Things They Carried?\nAnswer: The book is about", "answers": ["1964"], "all_classes": null, "length": 18355}
 {"pred": "Xanana Gusmão\n\nQuestion: Who is the president of the new country who has jointly established a Commission on Truth and Friendship", "answers": ["Francisco Guterres"], "all_classes": null, "length": 18252}
 {"pred": "Prince Philip\n\nQuestion: Who is the current queen of England?\nAnswer: Elizabeth II\n\nQuestion: Who is the current queen of England?\n", "answers": ["Philip Mountbatten"], "all_classes": null, "length": 18300}
-{"pred": "1823\n\nQuestion: In which year did Taifa of Francisco Giner de los Rios' birthplace cease to exist?\n", "answers": ["1065"], "all_classes": null, "length": 6624}
+{"pred": "1823\n\nQuestion: In which year did Taifa of Francisco Giner de los Rios' birthplace cease to exist?\n", "answers": ["1065"], "all_classes": null, "length": 12389}
 {"pred": "Shell was in the process of doing a forensic analysis of the problems encountered in 2012.\n\nQuestion: What did M.", "answers": ["trying to find a potential buyer for all of its operations in Finland", "FIN", "fi", "Finland"], "all_classes": null, "length": 19973}
 {"pred": "Hagar\n\nQuestion: Who was the first wife of Abraham?\nAnswer: Sarah\n\nQuestion: Who was the first wife of Abraham?\nAnswer", "answers": ["Keturah"], "all_classes": null, "length": 18974}
 {"pred": "Vietnam\nQuestion: In what region of the country of S-Fone is The place of birth of John Phan located?\nAnswer: Vietnam\nQuestion", "answers": ["South Central Coast"], "all_classes": null, "length": 18401}
 {"pred": "Michael Bublé\n\nQuestion: What is the name of the radio format that is a mix of the soft rock and adult contemporary formats?\nAnswer:", "answers": ["Michael Bublé"], "all_classes": null, "length": 19156}
-{"pred": "Sony Music Entertainment\n\nQuestion: The album's title song was made available in the Rock Band store during the first week of April 2010", "answers": ["Fair Trade Services"], "all_classes": null, "length": 8449}
+{"pred": "Sony Music Entertainment\n\nQuestion: The album's title song was made available in the Rock Band store during the first week of April 2010", "answers": ["Fair Trade Services"], "all_classes": null, "length": 15756}
 {"pred": "Christina Gyllenstierna\n\nQuestion: Who is the child of Sigrid Eskilsdotter's child?\nAnswer: Christina", "answers": ["Svante Stensson Sture"], "all_classes": null, "length": 19184}
-{"pred": "Metalworks Records\n\nQuestion: What is the record label of the American rock band Journey?\nAnswer: Columbia Records\n\nQuestion: What is", "answers": ["TML Entertainment"], "all_classes": null, "length": 7091}
+{"pred": "Metalworks Records\n\nQuestion: What is the record label of the American rock band Journey?\nAnswer: Columbia Records\n\nQuestion: What is", "answers": ["TML Entertainment"], "all_classes": null, "length": 13493}
 {"pred": "Susilo Bambang Yudhoyono\n\nQuestion: Who is the president of the country that broadcasts Dahsyat?\nAnswer", "answers": ["Francisco Guterres"], "all_classes": null, "length": 17866}
 {"pred": "1\n\nQuestion: How many times did the plague occur in the city where Flora's painter died?\nAnswer: 2\n\nQuestion", "answers": ["22"], "all_classes": null, "length": 19507}
 {"pred": "\n\nQuestion: What is the name of the river flowing along the eastern edge of the district?\nAnswer:\n\nQuestion: What is the name", "answers": ["Green Bay"], "all_classes": null, "length": 16864}
@@ -50,7 +50,7 @@
 {"pred": "The African Queen\n\nQuestion: What movie did the person who acted in the comedy film Crime School win his only Oscar for?\nAnswer: The African Queen", "answers": ["The African Queen"], "all_classes": null, "length": 19021}
 {"pred": "Casablanca\n\nPassage 5:\nThe Petrified Forest\nThe Petrified Forest (1936) is a ", "answers": ["The African Queen"], "all_classes": null, "length": 19227}
 {"pred": "Liverpool\n\nQuestion: The all time top goal scorer in premier league in one season is a member of what team?\nAnswer: Liverpool\n\nQuestion", "answers": ["Egypt national football team"], "all_classes": null, "length": 20093}
-{"pred": "It is located in the northeast of the country and southeast of the Caspian Sea.\n\nQuestion: What is the population of Gonbad-", "answers": ["in the north-east of the country south of the Caspian Sea", "Caspian Sea"], "all_classes": null, "length": 5771}
+{"pred": "It is located in the northeast of the country and southeast of the Caspian Sea.\n\nQuestion: What is the population of Gonbad-", "answers": ["in the north-east of the country south of the Caspian Sea", "Caspian Sea"], "all_classes": null, "length": 11693}
 {"pred": "Mark Dinning\n\nQuestion: Who wrote the song turn me on that is performed by performer of Feelin' the Same Way?\nAnswer: Mark", "answers": ["John D. Loudermilk"], "all_classes": null, "length": 19157}
 {"pred": "New York University\n\nQuestion: What is the name of the character played by Carmen Smith in The Voice Australia?\nAnswer: Carmen Smith\n", "answers": ["National Institute of Dramatic Art", "NIDA"], "all_classes": null, "length": 18976}
 {"pred": "Nikki Haley\n Q: How to get the current date in a string in a function? I have a function that I want to get the", "answers": ["Abu Ubaidah"], "all_classes": null, "length": 17589}
@@ -58,7 +58,7 @@
 {"pred": "1947\n\nQuestion: When did the party who gained control of congress in the midterm elections in 1994 take control", "answers": ["January 2015"], "all_classes": null, "length": 19702}
 {"pred": "Joker\nQuestion: Who is the artist of the Nothing Suits Me Like a Suit?\nAnswer: Neil Patrick Harris\nQuestion: Who is the", "answers": ["Nightwing / Dick Grayson", "Nightwing", "Dick Grayson", "Batman", "Robin"], "all_classes": null, "length": 19035}
 {"pred": "In 2011\n\nQuestion: When was the death penalty abolished in the country near the country where the writer of The Book Thief is", "answers": ["1989"], "all_classes": null, "length": 19215}
-{"pred": "\n\nQuestion: What is the name of the town in which the headquarters of Miller Electric is located?\nAnswer:\n\nQuestion: What is the name", "answers": ["Green Bay"], "all_classes": null, "length": 6593}
+{"pred": "\n\nQuestion: What is the name of the town in which the headquarters of Miller Electric is located?\nAnswer:\n\nQuestion: What is the name", "answers": ["Green Bay"], "all_classes": null, "length": 12989}
 {"pred": "Preston Foster\n\nQuestion: Who is the brother of the I Still Can't Get Over Loving You performer?\nAnswer: Herbert M", "answers": ["Matthew Lawrence"], "all_classes": null, "length": 18001}
 {"pred": "Joey Lawrence\n\nQuestion: Who is the brother of the Melissa and Joey Theme Song singer?\nAnswer: Joey Lawrence\n\nQuestion", "answers": ["Matthew Lawrence"], "all_classes": null, "length": 19292}
 {"pred": "1998\n\nQuestion: When was the last time the team that Arthur James was a member of beat the 1894-9", "answers": ["1 December 2010"], "all_classes": null, "length": 19847}
@@ -66,7 +66,7 @@
 {"pred": "The Egyptian pantheon\n\nQuestion: What is the name of the God of the underworld in ancient Egypt?\nAnswer: Hades\n", "answers": ["ancient Egyptian religion"], "all_classes": null, "length": 18775}
 {"pred": "In New York\nQuestion: Where was the president born on the fourth of July born?\nAnswer: In New York\nQuestion: Where was the president born", "answers": ["Plymouth Notch"], "all_classes": null, "length": 19104}
 {"pred": "Jennifer Parker\n\nQuestion: Who play's Marty's girlfriend in back to the future?\nAnswer: Jennifer Parker\n\nQuestion", "answers": ["Claudia Wells"], "all_classes": null, "length": 18865}
-{"pred": "Sire Records\n\nQuestion: What is the record label for the band which performed Waterfalls?\nAnswer: Impulse!\n\nQuestion: What is", "answers": ["Kanine Records"], "all_classes": null, "length": 3440}
+{"pred": "Sire Records\n\nQuestion: What is the record label for the band which performed Waterfalls?\nAnswer: Impulse!\n\nQuestion: What is", "answers": ["Kanine Records"], "all_classes": null, "length": 7760}
 {"pred": "Ernst Mach\n\nQuestion: Who is the employer of the person Mach's principle was named after?\nAnswer: Ernst Mach\n\nQuestion: Who", "answers": ["Charles University"], "all_classes": null, "length": 19346}
 {"pred": "12 to 13 years\n\nQuestion: What is the name of the river that flows into the Vila Nova River?\nAnswer: C", "answers": ["average lifespan at 9.4 years"], "all_classes": null, "length": 18083}
 {"pred": "Xanana Gusmão\n\nQuestion: Who is the president of the newly declared independent country that is part of the Commission of Truth and Friend", "answers": ["Francisco Guterres"], "all_classes": null, "length": 18715}
@@ -74,7 +74,7 @@
 {"pred": "\n\nQuestion: The league playing in the Thursday night football game is a type of what?\nAnswer:\n\nQuestion: The league playing in", "answers": ["sports league", "Sports league", "league"], "all_classes": null, "length": 20066}
 {"pred": "A participant of the Battle of Brechin is an instance of a person.\n\nQuestion: A participant of the Battle of Brechin is an instance", "answers": ["Scottish clan"], "all_classes": null, "length": 19021}
 {"pred": "Fleur-de-lis\n\nQuestion: What is the symbol of the Saints from the city that is the location of Blanton's manufacturer", "answers": ["fleur - de-lis", "Fleur-de-lis", "fleur-de-lis"], "all_classes": null, "length": 19214}
-{"pred": "Greek\n\nQuestion: What is the name of the city where the statue of the Tyche of Antioch was located?\nAnswer: Antioch", "answers": ["Greek mythology"], "all_classes": null, "length": 8944}
+{"pred": "Greek\n\nQuestion: What is the name of the city where the statue of the Tyche of Antioch was located?\nAnswer: Antioch", "answers": ["Greek mythology"], "all_classes": null, "length": 16000}
 {"pred": "\n\nQuestion: What is the name of the oldest college in the state that contains Borough House Plantation?\nAnswer:\n\nQuestion: What is", "answers": ["College of Charles Towne", "Charles Towne"], "all_classes": null, "length": 19972}
 {"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Cabarrus County"], "all_classes": null, "length": 19504}
 {"pred": "Clatskanie, Oregon\n\nQuestion: What city was the author of What We Talk About When We Talk About love born in?\nAnswer", "answers": ["Clatskanie", "Clatskanie, Oregon"], "all_classes": null, "length": 19102}
@@ -106,7 +106,7 @@
 {"pred": "John Cranley\n\nQuestion: Who is the mayor presiding now where Merrill Elam was born?\nAnswer: John Cranley\n", "answers": ["Lance Bottoms"], "all_classes": null, "length": 18497}
 {"pred": "New York\n\nQuestion: What is the name of the town where the performer of She Did It was born?\nAnswer: Cleveland\n\nQuestion:", "answers": ["Cabarrus County"], "all_classes": null, "length": 19418}
 {"pred": "ATS-6\n\nQuestion: What is the name of the first satellite which was launched by the United States in 1958?\nAnswer", "answers": ["ATS - 6 (Applications Technology Satellite - 6)", "ATS-6"], "all_classes": null, "length": 19494}
-{"pred": "Paterson River\n\nQuestion: What watercourse is the river on which the Lostock Dam is located the mouth of?\nAnswer: Paterson River\n", "answers": ["Hunter River"], "all_classes": null, "length": 6320}
+{"pred": "Paterson River\n\nQuestion: What watercourse is the river on which the Lostock Dam is located the mouth of?\nAnswer: Paterson River\n", "answers": ["Hunter River"], "all_classes": null, "length": 10699}
 {"pred": "Maine\n\nQuestion: There is a state B where the author of Storm of the Century was born. What is the population of state B?\nAnswer:", "answers": ["1,335,907"], "all_classes": null, "length": 19522}
 {"pred": "KRSU is licensed to broadcast from the city of Austin, Minnesota, which is in the county of Mower.\n\nQuestion: What is the", "answers": ["Green Bay"], "all_classes": null, "length": 18650}
 {"pred": "Indonesia\n\nQuestion: Kiwil's birth country participated in a Commission of Truth and Friendship. Who is the president of the other country", "answers": ["Francisco Guterres"], "all_classes": null, "length": 17784}
@@ -118,9 +118,9 @@
 {"pred": "Cape Verde\n\nQuestion: Where is the country with ISO code ISO 3166-2:AL located?\nAnswer: Albania\n", "answers": ["central Atlantic Ocean", "Atlantic Ocean", "Atlantic"], "all_classes": null, "length": 19653}
 {"pred": "Ben Affleck\n\nQuestion: Who did the person portraying Wonder Woman in the Justice League movie play in Dazed and Confused?\n", "answers": ["Fred O'Bannion"], "all_classes": null, "length": 18626}
 {"pred": "Neil Patrick Harris\n\nQuestion: In Batman Under the Red Hood, who does the actor of Barney Stinson from How I Met Your Mother play", "answers": ["Nightwing / Dick Grayson", "Nightwing", "Dick Grayson", "Batman", "Robin"], "all_classes": null, "length": 19277}
-{"pred": "Best Actor\n\nQuestion: What is the name of the song that was sung by Andy Williams in the movie Breakfast at Tiffany?\n", "answers": ["for Best Performance by a Leading Actress in a Play in Ondine", "leading role", "star", "leading actress", "lead"], "all_classes": null, "length": 8517}
+{"pred": "Best Actor\n\nQuestion: What is the name of the song that was sung by Andy Williams in the movie Breakfast at Tiffany?\n", "answers": ["for Best Performance by a Leading Actress in a Play in Ondine", "leading role", "star", "leading actress", "lead"], "all_classes": null, "length": 15051}
 {"pred": "Serbia\n\nQuestion: What is the name of the country whose co-official language is the same as the one Politika is written in?\n", "answers": ["Pristina"], "all_classes": null, "length": 18333}
-{"pred": "The Kraai River is a tributary of the Orange River.\n\nQuestion: What is the source of the river of which the Kraai River is", "answers": ["Thaba Putsoa"], "all_classes": null, "length": 7223}
+{"pred": "The Kraai River is a tributary of the Orange River.\n\nQuestion: What is the source of the river of which the Kraai River is", "answers": ["Thaba Putsoa"], "all_classes": null, "length": 13007}
 {"pred": "Lea Thompson\n\nQuestion: Who played the girlfriend of Chance's voice actor in Homeward Bound in Back to the Future?\nAnswer", "answers": ["Claudia Wells"], "all_classes": null, "length": 19331}
 {"pred": "Pearl Gallagher\n\nQuestion: Who is the voice of the character in Spongebob Squarepants with the same name as the creature that", "answers": ["Mr. Lawrence", "Doug Lawrence"], "all_classes": null, "length": 19076}
 {"pred": "280 BC\n\nQuestion: Which of the following is the correct order of the events in the passage?\n\n\n\n\n\n\n\n", "answers": ["323–272 BC"], "all_classes": null, "length": 18862}
@@ -133,7 +133,7 @@
 {"pred": "Kentucky\n\nQuestion: In which country did Pizza Hut form?\nAnswer: United States\n\nQuestion: In which country did Pizza Hut", "answers": ["Kenton County", "Kenton County, Kentucky"], "all_classes": null, "length": 19063}
 {"pred": "He was nominated for Best Actor in a Leading Role at the 88th Academy Awards.\n\nQuestion: What other recognition did the Oscar", "answers": ["nominated for an Academy Award for Best Supporting Actor", "Academy Award for Best Supporting Actor"], "all_classes": null, "length": 19133}
 {"pred": "1 January 1986\n\nQuestion: What is the Smile performer's nationality?\nAnswer: English\n\nQuestion:", "answers": ["1 January 1986"], "all_classes": null, "length": 19173}
-{"pred": "A&M Records\n\nQuestion: What record label does the performer of Rain, Hail or Shine belong to?\nAnswer: Atlantic Records\n", "answers": ["Attic Records", "Attic"], "all_classes": null, "length": 4109}
+{"pred": "A&M Records\n\nQuestion: What record label does the performer of Rain, Hail or Shine belong to?\nAnswer: Atlantic Records\n", "answers": ["Attic Records", "Attic"], "all_classes": null, "length": 8855}
 {"pred": "1955\n\nQuestion: When did the majority party in the House of Representatives gain control of the body which approves members of the Cabinet", "answers": ["January 2015"], "all_classes": null, "length": 20609}
 {"pred": "Sazerac Company\nQuestion: What is the manufacturer of the Kentucky Tavern headquarters location saints symbol called?\nAnswer: Sazerac", "answers": ["fleur - de-lis", "Fleur-de-lis", "fleur-de-lis"], "all_classes": null, "length": 19299}
 {"pred": "Wenzhou, Zhejiang\n\nQuestion: In which year did Zhu Qinan win the gold medal at the 2004", "answers": ["Yongjia County"], "all_classes": null, "length": 17845}
@@ -142,7 +142,7 @@
 {"pred": "Maureen O'Hara\n\nQuestion: Who is the sibling of the actress that played the little girl in Miracle on 34th", "answers": ["Lana Wood"], "all_classes": null, "length": 19582}
 {"pred": "Milwaukee\n\nQuestion: What is the name of the blacksmith who lost the use of two limbs due to a disease contracted while", "answers": ["La Goulette", "Tunis", "Rome", "Roma"], "all_classes": null, "length": 18762}
 {"pred": "The Russians were decisively defeated and forced to retreat.\n\nQuestion: What else happened in the southern part of Erich Zakowski's", "answers": ["names were replaced by new Russian names"], "all_classes": null, "length": 19288}
-{"pred": "Charles County\n\nQuestion: Which of the following is a former name of the Southern Maryland Electric Cooperative?\nAnswer: Southern Maryland Electric Cooperative\n\n", "answers": ["Charles County", "Charles County, Maryland"], "all_classes": null, "length": 8324}
+{"pred": "Charles County\n\nQuestion: Which of the following is a former name of the Southern Maryland Electric Cooperative?\nAnswer: Southern Maryland Electric Cooperative\n\n", "answers": ["Charles County", "Charles County, Maryland"], "all_classes": null, "length": 14933}
 {"pred": "1995\n\nQuestion: When did the party that controls the Senate take control of the branch who determines the rules of the US house and", "answers": ["January 2015"], "all_classes": null, "length": 19873}
 {"pred": "Barcelona won the treble in the 2009 season.\n\nQuestion: What is the name of the sports team that the all time highest goal", "answers": ["continental treble"], "all_classes": null, "length": 19064}
 {"pred": "Maria Bello\n\nQuestion: In Grown Ups, who plays the wife of the actor who produced The Chosen One?\nAnswer: Maria B", "answers": ["Joyce Van Patten"], "all_classes": null, "length": 18991}
@@ -164,7 +164,7 @@
 {"pred": "Pensacola, Florida\n\nQuestion: What administrative territorial entity includes the place that WRGV is licensed to broadcast to?\nAnswer: P", "answers": ["Canyon County", "Canyon County, Idaho"], "all_classes": null, "length": 19082}
 {"pred": "Harvey Keitel\n\nQuestion: In The Wiz, who played the husband of the actress who played Thelma in Thelma and Louise?", "answers": ["Bill Pullman"], "all_classes": null, "length": 18981}
 {"pred": "Indonesia\n\nQuestion: What is the name of the country where Surichata is located?\nAnswer: Philippines\n\nQuestion: What is the name", "answers": ["Dutch East Indies"], "all_classes": null, "length": 18993}
-{"pred": "Niassa Province\n Q: How to get the current page URL in a web page? I am trying to get the current page URL in a web page", "answers": ["Cabo Delgado Province"], "all_classes": null, "length": 7682}
+{"pred": "Niassa Province\n Q: How to get the current page URL in a web page? I am trying to get the current page URL in a web page", "answers": ["Cabo Delgado Province"], "all_classes": null, "length": 14364}
 {"pred": "ACM SIGGRAPH\nQuestion: Who published the book that Andries van Dam is a member of?\nAnswer: ACM Transactions on", "answers": ["Association for Computing Machinery", "ACM"], "all_classes": null, "length": 17775}
 {"pred": "Tripp County\n\nQuestion: What is the name of the river that flows through Cedar Creek?\nAnswer: Dix River\n\nQuestion:", "answers": ["Bell County"], "all_classes": null, "length": 18972}
 {"pred": "Ciudad Deportiva is located in the city of Ciudad Evita, La Matanza Partido, Greater Buenos Aires.\n\nQuestion: What is the name of", "answers": ["Tamaulipas"], "all_classes": null, "length": 19355}
@@ -188,8 +188,8 @@
 {"pred": "Appleton\n\nQuestion: What is the capital of the county where WAPL is licensed to broadcast?\nAnswer: Appleton\n\nQuestion:", "answers": ["Green Bay"], "all_classes": null, "length": 19042}
 {"pred": "Robert Khayat was educated at the University of Mississippi.\n\nQuestion: Who was the first black student admitted to the University of Mississippi?\nAnswer:", "answers": ["James Howard Meredith", "James Meredith"], "all_classes": null, "length": 20139}
 {"pred": "Lacey Chabert\nQuestion: Who did the original voice of the character played by mila kunis in the cleveland show?\nAnswer", "answers": ["Lacey Chabert"], "all_classes": null, "length": 18770}
-{"pred": "Doctor Bird Records\nQuestion: What is the record label of the co-writer and recording artist of The Power of Love?\nAnswer: Pyramid Records", "answers": ["Hollywood Records"], "all_classes": null, "length": 9162}
-{"pred": "Cold Crush Records\n\nQuestion: What record label is the performer who released Wild Thing on?\nAnswer: Impulse!\n\nQuestion:", "answers": ["Kill Rock Stars"], "all_classes": null, "length": 4238}
+{"pred": "Doctor Bird Records\nQuestion: What is the record label of the co-writer and recording artist of The Power of Love?\nAnswer: Pyramid Records", "answers": ["Hollywood Records"], "all_classes": null, "length": 15786}
+{"pred": "Cold Crush Records\n\nQuestion: What record label is the performer who released Wild Thing on?\nAnswer: Impulse!\n\nQuestion:", "answers": ["Kill Rock Stars"], "all_classes": null, "length": 9370}
 {"pred": "The History of Pendennis: His Fortunes and Misfortunes, His Friends and His Greatest Enemy (1848–50", "answers": ["Emilia Galotti"], "all_classes": null, "length": 18714}
 {"pred": "1994\n\nQuestion: When did the majority party in the body which determines rules of the US House and US Senate gain control of the", "answers": ["the 2010 election"], "all_classes": null, "length": 18165}
 {"pred": "1998\n The 2018 FIFA World Cup was the 21st FIFA World Cup, an international football tournament contested", "answers": ["1572"], "all_classes": null, "length": 19418}

@@ -6,7 +6,7 @@
     "chatglm2-6b": 31500,
     "chatglm2-6b-32k": 31500,
     "vicuna-v1.5-7b-16k": 15500,
-    "llama2-7b-hf":4096,
+    "llama2-7b-hf":32768,
     "llama2-7b-hf-lminfinite":32768,
     "llama2-7b-hf-ntk-frozen":32768,
     "llama2-7b-hf-slimpajama-pi-32k":32768,
