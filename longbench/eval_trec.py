@@ -46,15 +46,20 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama2-7b-hf-lminfinite')
-    parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
+    parser.add_argument('--model', type=str, default='llama2-7b-hf-slimpajama-yarn-32k')
+    parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E", default=True)
     return parser.parse_args(args)
 
 def scorer_e(dataset, predictions, answers, lengths, all_classes):
     scores = {"0-2k": [],"2-4k": [], "4-6k": [], "6-8k": [], "8k+": []}
     for (prediction, ground_truths, length) in zip(predictions, answers, lengths):
         score = 0.
-        if dataset in ["qasper", "trec", "triviaqa", "samsum", "lsht"] or "trec" in dataset:
+        if dataset in [ # ["qasper", "trec", "triviaqa", "samsum", "lsht"]
+                "narrativeqa", "qasper", "multifieldqa_en",
+                "hotpotqa", "2wikimqa", "musique",
+                "trec", "triviaqa", "samsum", "lsht",
+                "passage_count", "passage_retrieval_en"
+                ] or "trec" in dataset:
             prediction = prediction.lstrip('\n').split('\n')[0]
         for ground_truth in ground_truths:
             score = max(score, dataset2metric[dataset](prediction, ground_truth, all_classes=all_classes))
@@ -69,13 +74,15 @@ def scorer_e(dataset, predictions, answers, lengths, all_classes):
         else:
             scores["8k+"].append(score)
     for key in scores.keys():
-        s = round(100 * np.mean(scores[key]), 2)
-        if math.isnan(s): s= 0
+        # s = round(100 * np.mean(scores[key]), 2)
+        # if math.isnan(s): s= 0
+        if len(scores[key]) == 0: s=0
+        else: s = round(100 * sum(scores[key])/len(scores[key]), 2)
         scores[key] = {'score': s, 'num':len(scores[key])}
     return scores
 
 def scorer(dataset, predictions, answers, all_classes):
-    total_score = 0.
+    total_score = []
     if "trec" in dataset:
         dataset="trec"
     for (prediction, ground_truths) in zip(predictions, answers):
@@ -90,8 +97,8 @@ def scorer(dataset, predictions, answers, all_classes):
             prediction = prediction.lstrip('\n').split('\n')[0]
         for ground_truth in ground_truths:
             score = max(score, dataset2metric[dataset](prediction, ground_truth, all_classes=all_classes))
-        total_score += score
-    return round(100 * total_score / len(predictions), 2)
+        total_score.append(score)
+    return round(100 * sum(total_score) / len(total_score), 2)
 
 if __name__ == '__main__':
     args = parse_args()

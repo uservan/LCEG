@@ -1,0 +1,200 @@
+{"pred": "13\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["8"], "all_classes": null, "length": 18176}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["11"], "all_classes": null, "length": 14822}
+{"pred": "1\n\nA: Here is a solution that uses a simple regex to extract the paragraphs and then a simple loop to remove duplicates.\nimport re\n", "answers": ["13"], "all_classes": null, "length": 10390}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\n\n\n", "answers": ["44"], "all_classes": null, "length": 25513}
+{"pred": "1\n\nA: You can use this regex:\n\\b\\w+\\b\\s*\n\nThis will match a word followed by a space", "answers": ["2"], "all_classes": null, "length": 32768}
+{"pred": "12\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["7"], "all_classes": null, "length": 13592}
+{"pred": "1\n\nA: You can use this regex to find the paragraphs:\n\\s*\\n\\s*\\n\\s*\\n\\s*\\", "answers": ["7"], "all_classes": null, "length": 8398}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\n\n\n", "answers": ["45"], "all_classes": null, "length": 21108}
+{"pred": "1\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef main", "answers": ["4"], "all_classes": null, "length": 22254}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most straightforward.\n", "answers": ["31"], "all_classes": null, "length": 18684}
+{"pred": "17\n\nA: You can use this regex to find unique paragraphs:\n\\s*\\n\\s*\\n\\s*\\n\\s", "answers": ["4"], "all_classes": null, "length": 24902}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\nimport", "answers": ["16"], "all_classes": null, "length": 16086}
+{"pred": "11\n\nA: You can use this regex to find the paragraphs:\n\\s*(?:\\r\\n|\\r|\\n)\n", "answers": ["5"], "all_classes": null, "length": 6173}
+{"pred": "11\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["44"], "all_classes": null, "length": 26301}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["19"], "all_classes": null, "length": 17234}
+{"pred": "20\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["36"], "all_classes": null, "length": 16108}
+{"pred": "1\n\nA: You can use this regex:\n^(?:(?:(?:(?:(?:(?:(?:(?:(?:(?", "answers": ["24"], "all_classes": null, "length": 12053}
+{"pred": "11\n\nA: I'm not sure if this is the best way to do it, but I've written a script that does it.", "answers": ["12"], "all_classes": null, "length": 14115}
+{"pred": "24\n\nA: You can use this regex to find unique paragraphs:\n\\s*(?:.*?\\n(?!\\s*\\n", "answers": ["23"], "all_classes": null, "length": 21608}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["14"], "all_classes": null, "length": 8889}
+{"pred": "10\n\nA: You can use the following code to get the number of paragraphs in the text.\nimport re\n\ntext = \"\"\"\n", "answers": ["18"], "all_classes": null, "length": 21381}
+{"pred": "100\n\nA: You can use this regex:\n\\b\\w+\\b\\s+\n\nThis will match a word followed by", "answers": ["29"], "all_classes": null, "length": 22714}
+{"pred": "1\n\nA: You can use this regex:\n\\b\\w+\\b\\s+\n\nThis will match a word followed by a space", "answers": ["22"], "all_classes": null, "length": 20174}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["6"], "all_classes": null, "length": 10257}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["8"], "all_classes": null, "length": 9765}
+{"pred": "23\n\nA: Here is a solution using regex.\nimport re\n\ns = \"\"\"\nThere are some paragraphs below sourced from", "answers": ["9"], "all_classes": null, "length": 19492}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["26"], "all_classes": null, "length": 8556}
+{"pred": "12\n\nA: I'm not sure if this is the best way to do it, but I've written a script that does it.", "answers": ["26"], "all_classes": null, "length": 27083}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["28"], "all_classes": null, "length": 16808}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport re", "answers": ["43"], "all_classes": null, "length": 20188}
+{"pred": "20\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["34"], "all_classes": null, "length": 19896}
+{"pred": "1\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef get", "answers": ["19"], "all_classes": null, "length": 15153}
+{"pred": "10\n\nA: You can use this regex:\n^(?!.*\\1).*$\n\nThis will match any string that is not a", "answers": ["9"], "all_classes": null, "length": 16086}
+{"pred": "10\n\nA: You can use this regex:\n^(?:([^ ]+ )*([^ ]+ )*([^ ]+", "answers": ["40"], "all_classes": null, "length": 17976}
+{"pred": "36\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["14"], "all_classes": null, "length": 26763}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["26"], "all_classes": null, "length": 16604}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["25"], "all_classes": null, "length": 20375}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["13"], "all_classes": null, "length": 27593}
+{"pred": "16\n\nA: You can use this regex to get the unique paragraphs:\n\\b(?!.*\\b\\1\\b)\\b", "answers": ["35"], "all_classes": null, "length": 18923}
+{"pred": "16\n\nA: You can use this regex:\n\\b(?:(\\w+)\\s+(?:(\\w+)\\s+", "answers": ["20"], "all_classes": null, "length": 17545}
+{"pred": "10\n\nA: You can use this regex:\n\\s*(?:\n    \\d{1,2}\\.\n    \\d", "answers": ["39"], "all_classes": null, "length": 24146}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["7"], "all_classes": null, "length": 20465}
+{"pred": "17\n\nA: You can use this regex:\n\\b\\w+\\b\\s*\n\nThis will match a word followed by a", "answers": ["12"], "all_classes": null, "length": 17547}
+{"pred": "1\n\nA: You can use this regex:\n\\b(?:([^ ]+)\\s+([^ ]+)\\s+([^", "answers": ["16"], "all_classes": null, "length": 17150}
+{"pred": "10\n\nA: You can use the following code to get the number of unique paragraphs.\nimport re\n\ndef get_unique_paragraph", "answers": ["30"], "all_classes": null, "length": 22261}
+{"pred": "26\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["4"], "all_classes": null, "length": 18064}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["21"], "all_classes": null, "length": 11345}
+{"pred": "10\n\nA: You can use this regex to remove duplicates:\n\\b\\w+\\b\\s*\n\nThen you can use this", "answers": ["5"], "all_classes": null, "length": 18680}
+{"pred": "1\n\nA: You can use this regex:\n^(?:(?:(?:(?:(?:(?:(?:(?:(?:(?", "answers": ["10"], "all_classes": null, "length": 10654}
+{"pred": "10\n\nA: You can use this regex:\n\\b(?:(\\w{1,2})(?:\\s\\w{1,", "answers": ["6"], "all_classes": null, "length": 15022}
+{"pred": "15\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["31"], "all_classes": null, "length": 12956}
+{"pred": "11\n\nA: You can use this regex:\n\\s*(?:\n   (?:\n        \\d{1,2}\n", "answers": ["13"], "all_classes": null, "length": 7666}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["9"], "all_classes": null, "length": 16927}
+{"pred": "2\n\nA: I'm not sure if this is the best way to do it, but I've written a script that does it.\n", "answers": ["11"], "all_classes": null, "length": 19009}
+{"pred": "19\n\nA: You can use this regex to find the paragraphs:\n\\s*\\n\\s*\\n\\s*\\n\\s", "answers": ["18"], "all_classes": null, "length": 15013}
+{"pred": "19\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["7"], "all_classes": null, "length": 12333}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["5"], "all_classes": null, "length": 10653}
+{"pred": "11\n\nA: I''m not sure if this is the best way to do it, but I've written a script that does it", "answers": ["5"], "all_classes": null, "length": 22357}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I've written a program that does it.\n", "answers": ["14"], "all_classes": null, "length": 27694}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["40"], "all_classes": null, "length": 23550}
+{"pred": "24\n\nA: import re\n\ndef get_paragraphs(text):\n    paragraphs = []\n    for line in text.split", "answers": ["18"], "all_classes": null, "length": 18873}
+{"pred": "26\n\nA: You can use this regex:\n^(?!.*\\1).*$\n\nThis regex will match any paragraph that does not", "answers": ["2"], "all_classes": null, "length": 19821}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["20"], "all_classes": null, "length": 19752}
+{"pred": "10\n\nA: You can use this regex:\n\\b\\w+\\b\\s+\n\nThis will match a word followed by a", "answers": ["30"], "all_classes": null, "length": 19605}
+{"pred": "13\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["12"], "all_classes": null, "length": 10514}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["43"], "all_classes": null, "length": 23361}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport re", "answers": ["10"], "all_classes": null, "length": 15473}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most straightforward.", "answers": ["11"], "all_classes": null, "length": 10332}
+{"pred": "1\n\nA: You can use this regex:\n\\s*(?:.*?\\n(?:\\s*(?:.*?\\n){", "answers": ["20"], "all_classes": null, "length": 12305}
+{"pred": "1\n\nA: You can use this regex:\n\\b(?:([^\\s]+)\\s+(?:([^\\s]+)\\s", "answers": ["37"], "all_classes": null, "length": 15467}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\nimport", "answers": ["15"], "all_classes": null, "length": 14981}
+{"pred": "16\n\nA: You can use this regex to remove duplicates:\n\\b\\w+\\b\\s+\n\nThen you can use this", "answers": ["17"], "all_classes": null, "length": 16141}
+{"pred": "1\n\nA: You can use this regex to find the unique paragraphs:\n\\b\\w+\\b\\s*\\n\\s*\\b", "answers": ["5"], "all_classes": null, "length": 17335}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["9"], "all_classes": null, "length": 12635}
+{"pred": "19\n\nA: You can use this regex:\n\\s*(?:(\\w+)\\s*(?:(\\w+)\\s*", "answers": ["21"], "all_classes": null, "length": 10985}
+{"pred": "17\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["26"], "all_classes": null, "length": 21409}
+{"pred": "20\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["19"], "all_classes": null, "length": 27597}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["9"], "all_classes": null, "length": 8386}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["10"], "all_classes": null, "length": 8098}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["17"], "all_classes": null, "length": 18904}
+{"pred": "19\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["5"], "all_classes": null, "length": 19942}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["13"], "all_classes": null, "length": 19351}
+{"pred": "10\n\nA: You can use this regex:\n\\b\\w+\\b\\s*\n\nThis will match a word followed by a", "answers": ["5"], "all_classes": null, "length": 11413}
+{"pred": "1\n\nA: You can use this regex to find the paragraphs:\n\\s*(?:\\r\\n|\\n|\\r)\n\n", "answers": ["19"], "all_classes": null, "length": 12112}
+{"pred": "1\n\nA: You can use this regex:\n^(?:.*?\\n(?:.*?\\n){2,})(?:.*", "answers": ["13"], "all_classes": null, "length": 14122}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["19"], "all_classes": null, "length": 17953}
+{"pred": "1\n\nA: You can use the following code to get the number of paragraphs:\nimport re\n\ndef get_paragraphs(text):", "answers": ["12"], "all_classes": null, "length": 13624}
+{"pred": "1\n\nA: You can use this regex:\n\\s*(?:(\\d+)\\s*,\\s*(\\d+)\\s*", "answers": ["15"], "all_classes": null, "length": 11042}
+{"pred": "1\n\nA: You can use this regex:\n\\s*(\\d+)\\s*(?:(\\d+)\\s*){2,", "answers": ["7"], "all_classes": null, "length": 8646}
+{"pred": "13\n\nA: You can use this regex:\n\\b(?:(\\d{1,2})|(\\d{1,2}\\", "answers": ["16"], "all_classes": null, "length": 16592}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["5"], "all_classes": null, "length": 13190}
+{"pred": "12\n\nA: I'm not sure if this is the best way to do it, but I've written a script that does the job", "answers": ["7"], "all_classes": null, "length": 17359}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["3"], "all_classes": null, "length": 16573}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["27"], "all_classes": null, "length": 17916}
+{"pred": "20\n\nA: You can use this regex to find unique paragraphs:\n^(?!.*\\1).*$\n\nThis regex will match", "answers": ["21"], "all_classes": null, "length": 22152}
+{"pred": "1\n\nA: You can use this regex to remove duplicates:\n\\b\\w+\\b\\s+\n\nThen you can use this regex", "answers": ["8"], "all_classes": null, "length": 20178}
+{"pred": "1\n\nA: You can use the following code to get the number of paragraphs:\nimport re\n\ndef get_paragraphs(text):", "answers": ["26"], "all_classes": null, "length": 16494}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["14"], "all_classes": null, "length": 14492}
+{"pred": "17\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["14"], "all_classes": null, "length": 10204}
+{"pred": "1\n\nA: You can use this regex:\n\\s*(?:\n    \\d{1,2}\\.\\d{1,2", "answers": ["13"], "all_classes": null, "length": 5696}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nI'", "answers": ["10"], "all_classes": null, "length": 20294}
+{"pred": "15\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["11"], "all_classes": null, "length": 11276}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["38"], "all_classes": null, "length": 21862}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["11"], "all_classes": null, "length": 9521}
+{"pred": "1\n\nA: You can use this regex:\n\\b\\w+\\b\\s*\n\nThis will match a word followed by a space", "answers": ["19"], "all_classes": null, "length": 15576}
+{"pred": "14\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["5"], "all_classes": null, "length": 27489}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I've found a way to do it.", "answers": ["23"], "all_classes": null, "length": 19706}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["21"], "all_classes": null, "length": 24682}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["31"], "all_classes": null, "length": 23036}
+{"pred": "1\n\nA: You can use this regex:\n\\b\\w+\\b\\s*\n\nThis will match a word followed by a space", "answers": ["4"], "all_classes": null, "length": 14258}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["24"], "all_classes": null, "length": 14682}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\nimport", "answers": ["46"], "all_classes": null, "length": 22350}
+{"pred": "18\n\nA: You can use the following code to get the unique paragraphs:\nimport re\n\ndef get_paragraphs(text", "answers": ["21"], "all_classes": null, "length": 21530}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I've written a script that does it.", "answers": ["20"], "all_classes": null, "length": 15925}
+{"pred": "11\n\nA: Here is a solution using regex:\nimport re\n\ntext = '''\nParagraph 1: After the 19", "answers": ["11"], "all_classes": null, "length": 8881}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["30"], "all_classes": null, "length": 18134}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["2"], "all_classes": null, "length": 7023}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["7"], "all_classes": null, "length": 12107}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the most straightforward.\nimport", "answers": ["14"], "all_classes": null, "length": 20520}
+{"pred": "4\n\nA: You can use this regex:\n\\b(?:(\\w+)\\s+(?:(\\w+)\\s+)?(?", "answers": ["29"], "all_classes": null, "length": 19613}
+{"pred": "10\n\nA: You can use this regex:\n\\s*(?:\n    \\d{1,2}\\.?\\d{", "answers": ["9"], "all_classes": null, "length": 10597}
+{"pred": "10\n\nA: You can use this regex:\n\\s*(?:(\\w+)\\s*(?:(\\w+)\\s*", "answers": ["41"], "all_classes": null, "length": 20375}
+{"pred": "16\n\nA: You can use this regex:\n\\b\\w+\\b\\s+\n\nThis will match a word followed by a", "answers": ["25"], "all_classes": null, "length": 23330}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the most straightforward.\nimport", "answers": ["39"], "all_classes": null, "length": 19380}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["18"], "all_classes": null, "length": 16302}
+{"pred": "17\n\nA: I'm not sure if this is the best way to do it, but I've written a script that does it.", "answers": ["7"], "all_classes": null, "length": 9811}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["30"], "all_classes": null, "length": 28733}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport re", "answers": ["9"], "all_classes": null, "length": 9373}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["28"], "all_classes": null, "length": 16300}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\n\n\n", "answers": ["37"], "all_classes": null, "length": 18528}
+{"pred": "20\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["5"], "all_classes": null, "length": 19777}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the most straightforward.\nimport", "answers": ["33"], "all_classes": null, "length": 18312}
+{"pred": "1\n\nA: You can use this regex:\n\\b\\w+\\b\\s+\\w+\\b\\s+\\w+\\b\\s", "answers": ["14"], "all_classes": null, "length": 10158}
+{"pred": "11\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["21"], "all_classes": null, "length": 19579}
+{"pred": "10\n\nA: You can use this regex to find the paragraphs:\n\\s*(?:\\n\\s*(?:.*?\\", "answers": ["16"], "all_classes": null, "length": 18914}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\n\n\n", "answers": ["31"], "all_classes": null, "length": 26148}
+{"pred": "10\n\nA: You can use the following code to get the number of unique paragraphs:\nimport re\n\ntext = \"\"\"\nParagraph", "answers": ["19"], "all_classes": null, "length": 19290}
+{"pred": "1\n\nA: You can use this regex:\n\\b(?:(\\w+)\\s+(?:(\\w+)\\s+)?(?", "answers": ["12"], "all_classes": null, "length": 7817}
+{"pred": "1\n\nA: You can use this regex:\n\\s*(?:(\\w+)\\s*(?:,|;|:|-", "answers": ["3"], "all_classes": null, "length": 9648}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["32"], "all_classes": null, "length": 21365}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport re", "answers": ["44"], "all_classes": null, "length": 19974}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["23"], "all_classes": null, "length": 21825}
+{"pred": "10\n\nA: Here is a solution that uses a simple regex to extract the paragraphs and then a simple loop to remove the duplicates.\nimport", "answers": ["17"], "all_classes": null, "length": 14925}
+{"pred": "22\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["39"], "all_classes": null, "length": 25197}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport re", "answers": ["23"], "all_classes": null, "length": 20173}
+{"pred": "10\n\nA: I''m not sure if this is the best way to do it, but I'm sure it's the easiest", "answers": ["11"], "all_classes": null, "length": 16498}
+{"pred": "20\n\nA: I'm not sure if this is the best way to do it, but I've written a script that does it.", "answers": ["4"], "all_classes": null, "length": 26686}
+{"pred": "15\n\nA: You can use this regex to remove duplicates:\n\\b\\w+\\b\\s+\n\nThen you can use this", "answers": ["26"], "all_classes": null, "length": 23269}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["16"], "all_classes": null, "length": 9382}
+{"pred": "26\n\nA: I'm not sure if this is the best way to do it, but I think it's the most straightforward.\n", "answers": ["16"], "all_classes": null, "length": 14979}
+{"pred": "10\n\nA: You can use this regex:\n\\b\\w+\\b\\s*\n\nThis will match a word followed by a", "answers": ["17"], "all_classes": null, "length": 8955}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["27"], "all_classes": null, "length": 23368}
+{"pred": "14\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["7"], "all_classes": null, "length": 7817}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["14"], "all_classes": null, "length": 14863}
+{"pred": "1\n\nA: You can use this regex to remove duplicates:\n\\b\\w+\\b\\s*\\b\\w+\\b\\s*\\", "answers": ["31"], "all_classes": null, "length": 24085}
+{"pred": "16\n\nA: You can use this regex:\n\\b(?:Afia|Amea|Amadu|Andy|As", "answers": ["3"], "all_classes": null, "length": 19332}
+{"pred": "10\n\nA: You can use this regex:\n\\s*(?:\n    \\d{1,2}\\.\\d{1,", "answers": ["3"], "all_classes": null, "length": 14020}
+{"pred": "10\n\nA: You can use this regex:\n\\b\\w+\\b\\s+\\w+\\b\\s+\\w+\\b\\", "answers": ["3"], "all_classes": null, "length": 11463}
+{"pred": "18\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["9"], "all_classes": null, "length": 20128}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["3"], "all_classes": null, "length": 20705}
+{"pred": "19\n\nA: You can use this regex:\n\\b\\w+\\b\\s+\\w+\\b\\s+\\w+\\b\\", "answers": ["17"], "all_classes": null, "length": 13068}
+{"pred": "13\n\nA: You can use this regex to find the paragraphs:\n\\s*(?:\\n\\s*(?:\\n\\s", "answers": ["22"], "all_classes": null, "length": 20067}
+{"pred": "1\n\nA: You can use this regex to find unique paragraphs:\n\\b(?!.*\\b\\1\\b)\\b\n\n", "answers": ["16"], "all_classes": null, "length": 14631}
+{"pred": "10\n\nA: import re\n\ndef get_unique_paragraphs(text):\n    paragraphs = re.findall(r'\\", "answers": ["17"], "all_classes": null, "length": 13223}
+{"pred": "1\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef get", "answers": ["4"], "all_classes": null, "length": 21196}
+{"pred": "13\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["7"], "all_classes": null, "length": 20514}
+{"pred": "11\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["38"], "all_classes": null, "length": 18863}
+{"pred": "13\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["17"], "all_classes": null, "length": 22936}
+{"pred": "27\n\nA: You can use this regex to get the paragraphs:\n\\s*(?:\\r\\n|\\r|\\n)\n", "answers": ["15"], "all_classes": null, "length": 21262}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["34"], "all_classes": null, "length": 24181}
+{"pred": "3\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef get", "answers": ["5"], "all_classes": null, "length": 19453}
+{"pred": "1\n\nA: You can use the following code to get the unique paragraphs:\nimport re\n\ndef get_unique_paragraphs(text", "answers": ["22"], "all_classes": null, "length": 25973}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I think it's the most straightforward.\nimport", "answers": ["30"], "all_classes": null, "length": 14367}
+{"pred": "10\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef", "answers": ["9"], "all_classes": null, "length": 25425}
+{"pred": "17\n\nA: You can use this regex:\n\\b\\w+\\b\\s*\n\nThis will match a word followed by a", "answers": ["6"], "all_classes": null, "length": 13446}
+{"pred": "1\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\ndef get", "answers": ["7"], "all_classes": null, "length": 9772}
+{"pred": "10\n\nA: You can use this regex to find the paragraphs:\n\\s*(?:\\n\\s*(?:\\n\\s", "answers": ["31"], "all_classes": null, "length": 19804}
+{"pred": "1\n\nA: You can use the following code to get the number of unique paragraphs:\nimport re\n\ntext = \"\"\"\nThere are some", "answers": ["5"], "all_classes": null, "length": 8135}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I've written a script that will do it", "answers": ["35"], "all_classes": null, "length": 23813}
+{"pred": "17\n\nA: You can use this regex:\n\\s*(?:\n    \\d{1,2}\\.\n    \\d", "answers": ["24"], "all_classes": null, "length": 12237}
+{"pred": "10\n\nA: You can use this regex:\n\\d+(?:\\.\\d+)?\n\nThis will match a number followed by an", "answers": ["37"], "all_classes": null, "length": 19678}
+{"pred": "100\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\n", "answers": ["11"], "all_classes": null, "length": 20766}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I've written a function that will do it", "answers": ["28"], "all_classes": null, "length": 18432}
+{"pred": "1\n\nA: You can use this regex:\n\\b(?:.*?\\n(?!.*?\\n\\1))(?!.*", "answers": ["5"], "all_classes": null, "length": 18464}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most straightforward.\n", "answers": ["4"], "all_classes": null, "length": 13777}
+{"pred": "10\n\nA: You can use this regex:\n\\s*(?:(\\d+)\\s*(?:and\\s*(?:", "answers": ["11"], "all_classes": null, "length": 12924}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["16"], "all_classes": null, "length": 15872}
+{"pred": "10\n\nA: Here is a solution using regex:\nimport re\n\ntext = \"\"\"\nParagraph 1\nParagraph 2\n", "answers": ["26"], "all_classes": null, "length": 20374}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["10"], "all_classes": null, "length": 14476}
+{"pred": "10\n\nA: You can use this regex:\n\\s*(?:\n    \\d{1,2}\\.\n    \\d", "answers": ["42"], "all_classes": null, "length": 24791}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the easiest.\nimport", "answers": ["26"], "all_classes": null, "length": 18294}
+{"pred": "17\n\nA: I'm not sure if this is the best way to do it, but I've written a script that does it.", "answers": ["21"], "all_classes": null, "length": 11259}
+{"pred": "16\n\nA: I'm not sure if this is the best way to do it, but I've written a script that does it.", "answers": ["19"], "all_classes": null, "length": 13859}
+{"pred": "1\n\nA: I'm not sure if this is the best way to do it, but I'm sure it's the easiest.\n", "answers": ["26"], "all_classes": null, "length": 23095}
+{"pred": "10\n\nA: You can use this regex to get the unique paragraphs:\n(?<!\\n)(?!(?:\\n|\\Z))", "answers": ["5"], "all_classes": null, "length": 19807}
+{"pred": "1\n\nA: You can use this regex:\n\\b\\w+\\b\\s*\n\nThis will match a word followed by a space", "answers": ["20"], "all_classes": null, "length": 25347}
+{"pred": "100\n\nA: I'm not sure if this is the most efficient way to do it, but it works.\nimport re\n\n", "answers": ["15"], "all_classes": null, "length": 23530}
+{"pred": "120\n\nA: You can use this regex to find the paragraphs:\n\\s*(?:\\n\\s*(?:\\n\\", "answers": ["10"], "all_classes": null, "length": 12062}
+{"pred": "10\n\nA: I'm not sure if this is the best way to do it, but I think it's the most efficient.\n", "answers": ["17"], "all_classes": null, "length": 26766}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["28"], "all_classes": null, "length": 10255}
