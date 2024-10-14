@@ -1,0 +1,18 @@
+{
+    "qasper": 26.7,
+    "multifieldqa_en": 36.8,
+    "hotpotqa": 38.6,
+    "2wikimqa": 30.63,
+    "musique": 21.58,
+    "gov_report": 20.88,
+    "qmsum": 20.75,
+    "multi_news": 9.06,
+    "trec": 69.0,
+    "triviaqa": 89.63,
+    "samsum": 44.2,
+    "passage_count": 1.05,
+    "passage_retrieval_en": 3.79,
+    "lcc": 52.55,
+    "repobench-p": 45.34,
+    "narrativeqa": 19.8
+}

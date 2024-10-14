@@ -3,7 +3,7 @@
 #SBATCH --partition=gpu           
 #SBATCH --nodes=1                 
 #SBATCH -n 64    
-#SBATCH --gres=gpu:h100:1
+#SBATCH --gres=gpu:a100:1
 #SBATCH -A PDS0352
 #SBATCH --output=/users/PDS0352/wyang107/project/LCEG/longbench/result/output.txt      
 #SBATCH --error=/users/PDS0352/wyang107/project/LCEG/longbench/result/error.txt   
