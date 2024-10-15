@@ -1,0 +1,500 @@
+{"pred": "", "answers": ["    private transient KademliaRoutingTable routingTable;"], "all_classes": null, "length": 16504}
+{"pred": "", "answers": ["        mEffects.add(new NoEffect());"], "all_classes": null, "length": 24125}
+{"pred": "", "answers": ["class Encryption1(Encryption):  # noqa: D101"], "all_classes": null, "length": 19143}
+{"pred": "", "answers": ["    private ImmersiveTouchNavigation mImmersiveTouchNavigation;"], "all_classes": null, "length": 24012}
+{"pred": "", "answers": ["                new EventCommandHandler<>(SetUpdateFrequencyCommand.class, UpdateFrequencyChangeEvent::fromCommand, this::queueEvent));"], "all_classes": null, "length": 20936}
+{"pred": "", "answers": ["    private LocalRateLimiter localRateLimiter;"], "all_classes": null, "length": 20716}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["\t\t\tprint(\"Scanning vault structure may take some time. Be patient...\");"], "all_classes": null, "length": 5113}
+{"pred": "", "answers": ["        } catch (RestServiceException e) {"], "all_classes": null, "length": 20364}
+{"pred": "", "answers": ["    U2fSignRequest signRequest = u2fServer.getSignRequest(ACCOUNT_NAME, APP_ID_SIGN);"], "all_classes": null, "length": 23103}
+{"pred": "", "answers": ["            self.acctA = RadiusAccounting(self.global_config, 'answer', \\"], "all_classes": null, "length": 25933}
+{"pred": "         'Signature\n          Signature\n       Signature\n       Signature\n       Signature\n       Signature\n       Signature\n       Signature\n       Signature\n       Signature\n       Signature\n       Signature\n       Signature\n       Signature\n       Signature\n       Signature", "answers": ["    @sdproperty"], "all_classes": null, "length": 4568}
+{"pred": "_c_c_c_c_c_c_c_c_c_c_ _           _ _ _c_c_c_c_c_c_c_c_c_c_c_c_c", "answers": ["            cstr_node.rhs = Undef(data=None)"], "all_classes": null, "length": 6686}
+{"pred": "", "answers": ["                intent.setDataAndType(Uri.parse(url), TDConfig.MIME_FLV);"], "all_classes": null, "length": 12496}
+{"pred": "s s f    f    f    \n\n\n\n\n\nЉ.\n.\n.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nЉ\n\n\n", "answers": ["        PostLocationDataBody dataBody = new PostLocationDataBody("], "all_classes": null, "length": 6723}
+{"pred": "", "answers": ["        ilp = InterLayerPipeline(self.net['net1'], self.batch_size,"], "all_classes": null, "length": 27862}
+{"pred": "\n.\n.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    class Blob(BaseModel):"], "all_classes": null, "length": 6214}
+{"pred": "", "answers": ["            elif isinstance(result, TypedElement):"], "all_classes": null, "length": 20041}
+{"pred": "", "answers": ["                    new HSBAdjustTransformation(.5f,.5f,.5f),"], "all_classes": null, "length": 16809}
+{"pred": "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    private DelegateToActivity<Movie> delegateListener;"], "all_classes": null, "length": 7992}
+{"pred": "                   server.getMBean\n                    throw\n                    caseMBean\n                        throw\n        server.getMBean\n                    case\n        caseMBean\n        throw\n        caseMBean\n        throw\n        caseMBean\n        throwMBean\n        caseMBean\n", "answers": ["                writeResponse(instance, OBJECT_INSTANCE, CREATE_MBEAN, correlationId);"], "all_classes": null, "length": 4590}
+{"pred": "", "answers": ["        await wild_report.add_reaction(MyEmojis.DESPAWNED)"], "all_classes": null, "length": 9268}
+{"pred": "", "answers": ["    data = SNLIData(path=c['data_path'], layout=c['layout'], vocab=vocab)"], "all_classes": null, "length": 22160}
+{"pred": "", "answers": ["  assert isinstance(doppler, DopplerSine)"], "all_classes": null, "length": 23259}
+{"pred": "", "answers": ["                Intent intent = new Intent(getActivity(), ParticipantFortunateActivity.class);"], "all_classes": null, "length": 29357}
+{"pred": "", "answers": ["        with self.assertRaises(TooManyExtensions):"], "all_classes": null, "length": 9589}
+{"pred": "", "answers": ["        return ConeSettings(self._ptr, self.__class__.__name__)"], "all_classes": null, "length": 8068}
+{"pred": "", "answers": ["    @calg.register(CompressionAlgorithm)"], "all_classes": null, "length": 18359}
+{"pred": "", "answers": ["        csize = findCellSize(imgshape, maxLabel = centers.shape[0], out = out, **parameter);"], "all_classes": null, "length": 10306}
+{"pred": "", "answers": ["            Assets.perfectTapSound.play(GlobalConfiguration.feedbackVolume / 100f);"], "all_classes": null, "length": 15171}
+{"pred": "", "answers": ["            while (transactionIterator.nextTransactionState() == TransactionState.OK) {\r"], "all_classes": null, "length": 8079}
+{"pred": "", "answers": ["            } else if (stmnt instanceof InsertMeta) {//TODO: Handle this."], "all_classes": null, "length": 13767}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nf\nf\n\n\nf,\nf\nf\nf\nf\nf\nf\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["                    UsageEncryption.OSY,"], "all_classes": null, "length": 5324}
+{"pred": "", "answers": ["                            if (bsAt(env.backrefedMem, i)) {"], "all_classes": null, "length": 16798}
+{"pred": "", "answers": ["    url(r'^workflow-steps$', get_workflow_steps, name=\"ajax-workflow-steps\"),"], "all_classes": null, "length": 22516}
+{"pred": "", "answers": ["\t\tpublic ResourceData (MainActivity main)"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["        if storage_type in STORAGE_TYPES:"], "all_classes": null, "length": 8844}
+{"pred": "<}\n<}\n<}\n<}\n<}\n<}\n<}\n<}\n<}\n<}\n<}\n<<<<<<<<<<<<<<<<<<}\n<}\n<}\n<}\n<<", "answers": ["    public ThenWithoutResult<$SystemUnderTest> when(CheckedBiConsumer<$SystemUnderTest, $Argument> whenStep) {"], "all_classes": null, "length": 5377}
+{"pred": "", "answers": ["    CommandResult result = awaitResult(process);"], "all_classes": null, "length": 19453}
+{"pred": "", "answers": ["\t\tint theme = Themer.theme;"], "all_classes": null, "length": 21062}
+{"pred": "", "answers": ["\t\tMessage msg = XmlUtil.fromXml(Message.class, xml);"], "all_classes": null, "length": 7267}
+{"pred": "", "answers": ["    file_md5 = genMD5(file_path)"], "all_classes": null, "length": 7976}
+{"pred": "", "answers": ["    @raid_checks.raid_party_channel()"], "all_classes": null, "length": 17670}
+{"pred": "", "answers": ["        self.assertEqual(date_string_to_date(\"25/11/2015\"), datetime(2015, 11, 25, 0, 0).date())"], "all_classes": null, "length": 10426}
+{"pred": "", "answers": ["        config_actor = ConfigActor(config_file, '')"], "all_classes": null, "length": 18846}
+{"pred": "", "answers": ["                            ShareUtil.sharePicture(mActivity, picture"], "all_classes": null, "length": 12506}
+{"pred": "", "answers": ["\t\t\t\t\t\tsavefunc = savemgh_v2"], "all_classes": null, "length": 18956}
+{"pred": "", "answers": ["                OhmletActivity.class,"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["                PubKeyAlgorithm.ECDSA: ECDSASignature, }"], "all_classes": null, "length": 18403}
+{"pred": "", "answers": ["            elif is_document_node(context.root):"], "all_classes": null, "length": 17032}
+{"pred": "_as_as_as_as_as_as_as_as_as_as_as_as_as_as_as_as_ as_as_as_as_as_as_as_as_as_as_as_as_as_as_as_", "answers": ["      'no_members': Counter"], "all_classes": null, "length": 5948}
+{"pred": "ЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉ\nЉ\\\\ЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉ", "answers": ["        msg = OK('uuid', 'recipient', 'sender', 9999, 'version', 'seal')"], "all_classes": null, "length": 10773}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        assertTrue(\"is batch statement\", qe instanceof StatementBatchExecution);"], "all_classes": null, "length": 4998}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\nЪ\nЋ\nЪ\nЪ\nЉ\nЪ\nЉ\nЉ\n\n\n\n\n\n\n\n\nЋ /*...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        Assert.assertThat(ds, executions(0, failure()));"], "all_classes": null, "length": 6822}
+{"pred": "", "answers": ["                yield txsleep(scheduled - current)            "], "all_classes": null, "length": 17201}
+{"pred": "", "answers": ["                    function = FmllrRescoreFunction(args)"], "all_classes": null, "length": 23687}
+{"pred": "", "answers": ["class IEEE802154(Block):"], "all_classes": null, "length": 21949}
+{"pred": "", "answers": ["        Log.d(this.getClass().getSimpleName(), \"onStart\");"], "all_classes": null, "length": 16394}
+{"pred": "h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_h_", "answers": ["    parameter = DataElementGroupField(type=ParameterTwostepTAN6)"], "all_classes": null, "length": 6700}
+{"pred": "", "answers": ["            jdt_ref = datetime2JD(self.img_handle.beginning_datetime)"], "all_classes": null, "length": 23070}
+{"pred": "", "answers": ["        refreshPublicRoomsList(new ArrayList<MXSession>(Matrix.getInstance(getApplicationContext()).getSessions()), new ArrayList<String>(), 0, new ArrayList<List<PublicRoom>>());"], "all_classes": null, "length": 32768}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        self.MyBingoCardManager = BingoCardManager(bot.dbi)"], "all_classes": null, "length": 13313}
+{"pred": "", "answers": ["        chim_detect = ChimeraDetector(raw_bp_graphs, run_stages, target_sequences)"], "all_classes": null, "length": 15710}
+{"pred": "", "answers": ["        plugins.registerEvents(new BlockPlaceListener(this), this);"], "all_classes": null, "length": 29332}
+{"pred": "                   startMiPush();\n                    stopHwPush();\n                    Log.e(MYTAG, \"使用MiPush推送\");\n                }\n                break;\n            case \"HuaweiPush\":\n                if(shouldInit()) {Next line of code", "answers": ["                    MiPushClient.registerPush(this, mi_APP_ID, mi_APP_KEY);"], "all_classes": null, "length": 3787}
+{"pred": "       registry.put((byte) (QUERY_EXPONSE_MASK), new MarshalledResponseHandler<QueryExp>());\n        registry.put((byte) (QUERY_NAMES ^ RESPONSE_MASK), new MarshalledResponseHandler<String>(QUERY_", "answers": ["        registry.put((byte) (QUERY_NAMES ^ RESPONSE_MASK), new MarshalledResponseHandler<Set<ObjectName>>(SET_OBJECT_NAME));"], "all_classes": null, "length": 4194}
+{"pred": "", "answers": ["    protected VulnTitleDocumentListener titleDocumentListener;"], "all_classes": null, "length": 20723}
+{"pred": "", "answers": ["    synchronized public void gcTraceAdded(GCTrace gcTrace) {"], "all_classes": null, "length": 9268}
+{"pred": "", "answers": ["        final AckRequest ackRequest = new AckRequest(packet, client);"], "all_classes": null, "length": 11071}
+{"pred": "", "answers": ["        VideoCapturer capturer = getVideoCapturer();"], "all_classes": null, "length": 13915}
+{"pred": "       protected\n        protected\n        Job\n        protected\n        Job\n        protected\n        protected\n       \n        Job\n       \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       \n       \n", "answers": ["            contentValues.put(JobStorage.COLUMN_BACKOFF_MS, JobRequest.DEFAULT_BACKOFF_MS);"], "all_classes": null, "length": 4673}
+{"pred": "", "answers": ["    private CheckBoxPreferenceHideScore preferenceHideScore;"], "all_classes": null, "length": 32768}
+{"pred": "file. file. file. file.\nfile.\nfile. file. file. file. file. file. file. file. file_ file_ file_ file_ file_ file. file_ file_ file", "answers": ["    journal = DiskJournal(basedir, system_data_path)"], "all_classes": null, "length": 5831}
+{"pred": "", "answers": ["            WebappSupport(self.config.install_files.find_package_name()).update(docker_config)"], "all_classes": null, "length": 7209}
+{"pred": "", "answers": ["    final List<BoardSection> sections = new ArrayList<>();"], "all_classes": null, "length": 21191}
+{"pred": "/*(\"@ // // // //\\\\ \\\\ <? <? <? <? <? <? <? ←←←←·←·/*·/*///*/*f·f·f·f_d_d_d/*file_d/* Hinweis", "answers": ["        FragmentObservable<SearchContactFragment, DataClass> obs"], "all_classes": null, "length": 8453}
+{"pred": "", "answers": ["\tTest tmlTest = model.getTmlTest();\r"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["        simulator_data_client = SimulatorDataClient()"], "all_classes": null, "length": 11934}
+{"pred": "", "answers": ["            if (httpMessage instanceof SentinelHttpMessageOrig) {"], "all_classes": null, "length": 21109}
+{"pred": "", "answers": ["    assert simple_table_status(description) == expected_status"], "all_classes": null, "length": 8756}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfile\nfile\n\n\n\n\n\n", "answers": ["    @loadfile(writable=True)"], "all_classes": null, "length": 5222}
+{"pred": "", "answers": ["      visitBooleanOp(new VisitOrd3(n), opToOccur.get(op));\r"], "all_classes": null, "length": 21976}
+{"pred": "", "answers": ["                    new EmbossTransformation()"], "all_classes": null, "length": 17175}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npy\n\n\npy\npy\npy", "answers": ["            more = self._decode_field( FIELD_BOOLEAN )"], "all_classes": null, "length": 4955}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    bd = BalancingData(args.apikey)"], "all_classes": null, "length": 5249}
+{"pred": "", "answers": ["\t\t\t\titem = new GalleryAlbum( proxy );"], "all_classes": null, "length": 16051}
+{"pred": "", "answers": ["    assert dump_key(engine, user) == user_key"], "all_classes": null, "length": 10026}
+{"pred": "", "answers": ["          StringWrapper.wrap(\"[\", new ProgressBar(10, new char[]{'C', '<', 'o'}), \"]\")),"], "all_classes": null, "length": 7722}
+{"pred": "", "answers": ["\tpublic static A link(Url destination) {"], "all_classes": null, "length": 25033}
+{"pred": "", "answers": ["            events.append(Event(e))"], "all_classes": null, "length": 9663}
+{"pred": "public\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\npublic\n", "answers": ["            Matcher<? super ParameterHolder> parameterHolderMatcher) {"], "all_classes": null, "length": 4708}
+{"pred": "", "answers": ["            Popup popup = Popup.Builder(this)\r"], "all_classes": null, "length": 32762}
+{"pred": "", "answers": ["  private static final Map<Operator, List<Occur>> opToOccur = new HashMap<Operator, List<Occur>>(\r"], "all_classes": null, "length": 16041}
+{"pred": "", "answers": ["\t\tR=Reader('genotype')"], "all_classes": null, "length": 30352}
+{"pred": "   \n    \n    \n\n\n\n\n\n\n\n_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n      \n       fi\nfi\nfi\nfi\nfi\nfi\nfi\nfi fi Љ Љ Љ \nЉ \n\n\nfi", "answers": ["        self.beginning_datetime = unixTime2Date(self.vidinfo.ts, self.vidinfo.tu, dt_obj=True)"], "all_classes": null, "length": 6383}
+{"pred": "", "answers": ["    i = ilms.BarnesStreakLegPoly2P1D(npts=(16,10,8,4), zorder=8)"], "all_classes": null, "length": 19876}
+{"pred": "Љ\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["\t\tPacketDispatcher.get().sendTo(new PacketConfigSync(), player);"], "all_classes": null, "length": 11054}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        nodes = Comment.objects.filter(post=post).filter(deleted=False)"], "all_classes": null, "length": 5167}
+{"pred": "", "answers": ["\t\t\t\t\t\tsetSelection(new SingleCellSelection(selectedCells.iterator().next()));"], "all_classes": null, "length": 25732}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n:\n:\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    @keyclass.register(RevocationKeyClass)"], "all_classes": null, "length": 5519}
+{"pred": "", "answers": ["        if is_processing_instruction_node(item):"], "all_classes": null, "length": 13097}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["@PacketEventHandler.onXT_AS2('s', 'p#pg', WORLD_SERVER)\r"], "all_classes": null, "length": 4763}
+{"pred": "ЉЉЉЉЉЉ", "answers": ["    B = GlobalScalar('bkg', 0.0)"], "all_classes": null, "length": 8669}
+{"pred": "", "answers": ["            alignment_info = run_mp("], "all_classes": null, "length": 11280}
+{"pred": "", "answers": ["    platepar.rotation_from_horiz = rotationWrtHorizon(platepar)"], "all_classes": null, "length": 23799}
+{"pred": "       createDatabase.openHelper.content(Job.openHelper.content(Job.openHelper.openHelper.content(Job.openHelper.openHelper.content(Job.openHelper.openHelper.content(Job.openHelper.openHelper.content(Job.openHelper.openHelper.", "answers": ["        contentValues.put(JobStorage.COLUMN_END_MS, 120_000L);"], "all_classes": null, "length": 4465}
+{"pred": "", "answers": ["        Log.d(this.getClass().getSimpleName(), \"onStart\");"], "all_classes": null, "length": 11841}
+{"pred": "", "answers": ["        model = Progress"], "all_classes": null, "length": 11784}
+{"pred": "(\"@ // // // // // // // // // // // // // // // // // // // // // //1 // //f // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // ////", "answers": ["            subcategoryFilter.setVisibility(presenter.getProduceData().getCategory().equals(Constants.VEGETABLE) ? VISIBLE : GONE);"], "all_classes": null, "length": 8544}
+{"pred": "", "answers": ["        }).then(new ExecuteOn<Channel>(context.getExecutor())).then(new Accept<Channel>() {"], "all_classes": null, "length": 7384}
+{"pred": "", "answers": ["                new RegisterFragment.RegistrationParam(success, email, password, message));"], "all_classes": null, "length": 12142}
+{"pred": "", "answers": ["    private final Router<Road, RoadPoint> router;"], "all_classes": null, "length": 11728}
+{"pred": "\nimport\n\n\nimport\nprivate\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport\nimport", "answers": ["    private List<FilterType> list;"], "all_classes": null, "length": 4368}
+{"pred": "", "answers": ["  assert isinstance(args.gps_sv[0].getL1CAMessage(), ConstMessage)"], "all_classes": null, "length": 23004}
+{"pred": "", "answers": ["        graphics.draw_colored_triangles("], "all_classes": null, "length": 10438}
+{"pred": "", "answers": ["\t\t\t\tif (data.startsWith(AppData.COMPONENT)) {"], "all_classes": null, "length": 24194}
+{"pred": "", "answers": ["                if (AppSettingsAction.isShow && AppSettingsAction.isShowInStatusBar) {"], "all_classes": null, "length": 19502}
+{"pred": "", "answers": ["        self.beg_azim, self.beg_alt = raDec2AltAz(self.ra_array[0], self.dec_array[0], self.jd_array[0], \\"], "all_classes": null, "length": 8412}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n}\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["\t\tFunctionSymbol s = (FunctionSymbol)currentScope.resolve(fhead.ID().getText());"], "all_classes": null, "length": 4842}
+{"pred": "", "answers": ["    boolean enter(ArgumentsNode node);"], "all_classes": null, "length": 8762}
+{"pred": "   private SpecificationGenerator specificationGenerator;\n    private CodeGeneratorFactory codeGeneratorFactory;\n    private CodeGenerator codeGenerator;\n\n    private final AtomicReference<Swagger> runtimeSwagger = new AtomicReference<>();\n\n    private final AtomicReference<String> baseGenerationPackage = new", "answers": ["    private CodeGeneratorFactory codeGeneratorFactory;"], "all_classes": null, "length": 4006}
+{"pred": "", "answers": ["        bind(GerritToolWindow.class);"], "all_classes": null, "length": 17328}
+{"pred": "", "answers": ["                    long snapZxid = getZxidFromName(snapshots.get(i).getName());\r"], "all_classes": null, "length": 10563}
+{"pred": "", "answers": ["            entries = [e for e in entries if txn_matches(e.transaction, query)]"], "all_classes": null, "length": 8081}
+{"pred": "", "answers": ["        Int('mark', Pt=0xFF, Type='uint8', Repr='hex'),"], "all_classes": null, "length": 23767}
+{"pred": "", "answers": ["\t\t\t\t\t\treturn Db.getAllHistoricSearches(this).toList();"], "all_classes": null, "length": 27680}
+{"pred": "", "answers": ["    part = objs.PlatonicSpheresCollection(POS, rad, zscale=0.89)"], "all_classes": null, "length": 19700}
+{"pred": "\n\n\n\n\n\n\n_\n\n\n\n\n\n\n\n\n\n.\n.\n.\n.\n.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        result, index = apply_fast_and(left.values, right.values,"], "all_classes": null, "length": 6884}
+{"pred": "", "answers": ["                    Request request = CandyBarMainActivity.sMissedApps.get(RequestFragment.sSelectedRequests.get(i));\r"], "all_classes": null, "length": 30085}
+{"pred": "", "answers": ["            instance, (int, float, Decimal, AbstractDateTime, Duration, UntypedAtomic)"], "all_classes": null, "length": 10423}
+{"pred": "", "answers": ["            return SearchMenuPage()"], "all_classes": null, "length": 7691}
+{"pred": "", "answers": ["                exist = checkFileExistence(pattern.get(\"Datafile\"))"], "all_classes": null, "length": 11234}
+{"pred": "", "answers": ["    serializer_class = PlanSerializer"], "all_classes": null, "length": 14371}
+{"pred": "", "answers": ["    private BookmarkItemAdapter bookmarkItemAdapter;"], "all_classes": null, "length": 19320}
+{"pred": "", "answers": ["\t\tGenerationService genServiceDDI2PDF = new GenerationService(preprocessors, ddi2fo, postprocessors);"], "all_classes": null, "length": 11427}
+{"pred": "", "answers": ["                        new ChangePasswordTask(user).execute(\"1\");"], "all_classes": null, "length": 15218}
+{"pred": "", "answers": ["    url(r'^$', PackageSettingsView.as_view(), name=\"settings-packages\"),"], "all_classes": null, "length": 23320}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["  encoder = GPSL1L2BitEncoder(NormalRateConfig)"], "all_classes": null, "length": 7983}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    savedTg = textgrid._dictionaryToTg(tgAsDict, constants.ErrorReportingMode.ERROR)"], "all_classes": null, "length": 4748}
+{"pred": "", "answers": ["                    p = KaldiProcessWorker(i, return_queue, function, error_dict, stopped)"], "all_classes": null, "length": 25579}
+{"pred": "", "answers": ["            dataset = UAV123(root_dir, version)"], "all_classes": null, "length": 15579}
+{"pred": "", "answers": ["    String getString(FixTag tag) throws NoSuchTagException;"], "all_classes": null, "length": 26134}
+{"pred": "", "answers": ["            yield Bunch(bounds=bounds,"], "all_classes": null, "length": 7230}
+{"pred": "", "answers": ["\t\tpublic ExpansionResult visit(AlvisIRAnyQueryNode anyQueryNode, Void param) {"], "all_classes": null, "length": 15638}
+{"pred": "", "answers": ["\tprivate Validator validator;"], "all_classes": null, "length": 19544}
+{"pred": "      Message\n       Message\n        Message\n        Message\n        Message\n        Message\n       Message\n       Message\n       Message\n       Message\n       Message\n       Message\n       Message\n       Message\n       Message\n       Message\n       Message\n       Message\n       Message\n       Message\n       Message\n       ", "answers": ["        registry.put((byte) (CREATE_MBEAN ^ RESPONSE_MASK), new MarshalledResponseHandler<ObjectInstance>(OBJECT_INSTANCE));"], "all_classes": null, "length": 4620}
+{"pred": "", "answers": ["                        Result res = lp.detectLanguage(content, this.lang);"], "all_classes": null, "length": 11429}
+{"pred": "", "answers": ["        elif isinstance(descriptor, OperatorDescriptor):"], "all_classes": null, "length": 10536}
+{"pred": "", "answers": ["        default=Tc.ValueRange.LatencyTime.MIN,"], "all_classes": null, "length": 13208}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        self.contacts = Contact.objects.filter(phone_number=self.phone_number)"], "all_classes": null, "length": 4889}
+{"pred": "", "answers": ["        pipeline.apply(\"Read live projects\", Read.from(new LiveProjectSource(org)));"], "all_classes": null, "length": 11952}
+{"pred": "", "answers": ["        self.pg = SimilarPathGenerator()"], "all_classes": null, "length": 7694}
+{"pred": "", "answers": ["        ffibuilderRX.cdef(preimageRXDA.header)"], "all_classes": null, "length": 14313}
+{"pred": "", "answers": ["        left = ComparisonCondition(\"==\", column, value)"], "all_classes": null, "length": 7089}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        assert 0 == get_square_idx(1, 1)"], "all_classes": null, "length": 5480}
+{"pred": "", "answers": ["    private GroupMethodSelectionCtrl methodSelection;"], "all_classes": null, "length": 32768}
+{"pred": "(\n(1,\n(1,\n(1 (1 (1,\n1,\n1,\n\n\n(\n1\n1.\n1.\n1.\n(0,\n(0, (       1, 1,     ", "answers": ["      Source(service=global_properties[SinkProperties.Label]))"], "all_classes": null, "length": 5359}
+{"pred": "", "answers": ["\tprivate ArrayList<PageBlock> pageList;"], "all_classes": null, "length": 16120}
+{"pred": "", "answers": ["        () -> walkIfNecessary(List.of(input), pathFilenameEndsWith(\".java\")));  //FIXME, use rootNames ??"], "all_classes": null, "length": 18385}
+{"pred": "", "answers": ["        return RespostaSAT.comunicar_certificado_icpbrasil(retorno)"], "all_classes": null, "length": 17458}
+{"pred": "", "answers": ["        registerCallAction(new ToggleRingerAction(this), ToggleRingerAction.TOGGLE_RINGER_ACTION_ID);"], "all_classes": null, "length": 6918}
+{"pred": "( ( ( ( ( ( ( ((( ((( \n( \n(\n(((((((((( ( ( ( ( ( (((((((((((((((", "answers": ["    outer_client = RepoClient(self.repodir)"], "all_classes": null, "length": 6062}
+{"pred": "", "answers": ["    Prefs providePrefs(SharedPreferences sharedPreferences) {"], "all_classes": null, "length": 32768}
+{"pred": "Ъ nobody\n\n\n\nЉ\nЉ\nЉ\nЉ\nЉ nobody\n\n\n\n nobody ==\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        Assert.assertThat(ds, totalQueryCount(5));"], "all_classes": null, "length": 7315}
+{"pred": "", "answers": ["        return new SvnJavaChangeLogCommand();"], "all_classes": null, "length": 15076}
+{"pred": "", "answers": ["        VerifierProperty settings = null;"], "all_classes": null, "length": 23165}
+{"pred": "", "answers": ["            ServerInfo serverInfo = DatabaseManager.INSTANCE.getServerInfo();"], "all_classes": null, "length": 14896}
+{"pred": "\n\n\n\n\n\n\n\nd\nd\nd\nd\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    DrupalUser login(String username, String password) throws DrupalLoginException, DrupalFetchException;"], "all_classes": null, "length": 6041}
+{"pred": "", "answers": ["        lexmsg = lexMessage(text)"], "all_classes": null, "length": 11413}
+{"pred": "", "answers": ["            (r'/login\\/{0,1}', LogInHandler),"], "all_classes": null, "length": 19429}
+{"pred": "", "answers": ["\t\tpublic ExpansionResult visit(AlvisIRPrefixQueryNode prefixQueryNode, Void param) {"], "all_classes": null, "length": 14434}
+{"pred": "", "answers": ["                throw new ProtTestInternalException(\"Unexistent information criterion\");"], "all_classes": null, "length": 32768}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(\n(\n(\n(\n\n\n\n\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(", "answers": ["    return Pair(e1, e2, typ_mul(ty1, ty2))"], "all_classes": null, "length": 5184}
+{"pred": "", "answers": ["    void inject(BatteryStatusIndicator batteryStatusIndicator);"], "all_classes": null, "length": 28536}
+{"pred": "", "answers": ["    CreditPeriod creditPeriod;"], "all_classes": null, "length": 16771}
+{"pred": ",\n,,,,,,,,\n,\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    with pytest.raises(ResponseValidationError) as excinfo:"], "all_classes": null, "length": 5689}
+{"pred": "", "answers": ["\tprivate DocumentGraphEditor editor;"], "all_classes": null, "length": 15288}
+{"pred": "", "answers": ["            except TextGridParseError as e:"], "all_classes": null, "length": 12684}
+{"pred": "", "answers": ["        AccelerometerResource,"], "all_classes": null, "length": 11303}
+{"pred": "3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3.\n3.\n3.\n3\n3\n3\n3", "answers": ["        self.assertAlmostEqual(gps.airspeed, convert_jsbsim_velocity(fdmexec.GetAuxiliary().GetVtrueFPS()))"], "all_classes": null, "length": 5059}
+{"pred": "", "answers": ["    CMD_OPTION_SUMMARY_HELP_LINE,"], "all_classes": null, "length": 7821}
+{"pred": "", "answers": ["\tprivate CountryServices countryServices;"], "all_classes": null, "length": 30527}
+{"pred": "       class\n        run()\n        class\n        class\n        run\n        class\n        class\n       \n       \n        class\n        class\n        class\n        class\n        class\n        class\n        class\n        class\n        class\n        class\n        class\n        class\n        class", "answers": ["                            MessageHelper.showError(project, t.getMessage());"], "all_classes": null, "length": 4549}
+{"pred": "", "answers": ["                                       join_keyword=hindi_remind())"], "all_classes": null, "length": 15194}
+{"pred": "", "answers": ["  protected LocationUpdateRequester locationUpdateRequester;"], "all_classes": null, "length": 14040}
+{"pred": "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\n\n\n\n\n\n\n\n\n\n\n\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\n\n\n\n\n\n", "answers": ["        refresh_avd(adb, SETTINGS.AVD_PATH, SETTINGS.AVD_REFERENCE_NAME,"], "all_classes": null, "length": 6557}
+{"pred": "", "answers": ["class Header(Layer):"], "all_classes": null, "length": 26760}
+{"pred": "", "answers": ["\t\t\tadjac_lh = create_adjac_vertex(v_lh,faces_lh)"], "all_classes": null, "length": 20088}
+{"pred": "", "answers": ["        throw new QueryGrammarException(\"Cannot use NULL value with operator \""], "all_classes": null, "length": 8911}
+{"pred": "\n\nc.c.s.s.c.c.c.s.c.c.s.c.c.s.s.s.s\nc}s}c\n\n\n\nc\nc\n\nc1c_f1c1c11111", "answers": ["        CacheList list = new CacheList();"], "all_classes": null, "length": 5836}
+{"pred": "", "answers": ["        Bit('TI', ReprName='Transaction Identifier Flag', Pt=0, BitLen=1, \\\r"], "all_classes": null, "length": 25440}
+{"pred": "/**000000000000000000gckck0ckck.d.part.606066.66655616666666666666666600", "answers": ["                        new TimeEntryOvertimeAggregation()));"], "all_classes": null, "length": 9004}
+{"pred": "", "answers": ["            (True, PubKeyAlgorithm.DSA): DSAPub,"], "all_classes": null, "length": 18286}
+{"pred": "", "answers": ["                             self._expansion_num, ExpansionInfo.BOARDTYPE)"], "all_classes": null, "length": 20821}
+{"pred": "u_u_u_u u_ u u_ 0_ \n\n\n\n\n\n\n\n\n\"\"\n\"\"\"\"\"\"fi_fi_fi_fi_u_u_u_u_u_u_fi_fi_fi_fi_fi_un", "answers": ["        self.key_size = read_u8(f)"], "all_classes": null, "length": 6498}
+{"pred": "_account_account_account_account_account_account_account_account_account_account_account_account_account_account_account_account_account_\n_account_account_account_account_account_account_\naccount_\n_\n_\n_\n_\n_\n_", "answers": ["            new_user = create_inactive_user(email, full_name)"], "all_classes": null, "length": 5627}
+{"pred": "", "answers": ["        await Utilities.send_to_hastebin(ctx.channel, json.dumps(PokemonXCache.cache()))"], "all_classes": null, "length": 15181}
+{"pred": "\n\n\n\n\n\n\n\n\n1._0._0._\\\\._\\\\._\\\\._\\\\._\\\\._\\\\._�._�._�._�._\\\\._\\\\._\\\\._\\\\._lt._lt._lt+lt.flt+lt\n1lt\n1._\\\\lt\n", "answers": ["            ex = Hitbtc('bccbtc')"], "all_classes": null, "length": 8012}
+{"pred": "", "answers": ["            if is_schema_node(item):"], "all_classes": null, "length": 17062}
+{"pred": "", "answers": ["    NamedNodeImpl uri1 = new NamedNodeImpl(URI.create(\"http://example.org/foo\"));"], "all_classes": null, "length": 17143}
+{"pred": "", "answers": ["\t\t\ttextExpander = new IndexBasedTextExpander(expanderIndexReader);"], "all_classes": null, "length": 10561}
+{"pred": "                   deviceMiToken = MiPushClient.getInstance().getToken();\n                    Log.e(MYTAG, \"使用MiPush��������������������������������", "answers": ["                    MiPushClient.registerPush(this, mi_APP_ID, mi_APP_KEY);"], "all_classes": null, "length": 4155}
+{"pred": "", "answers": ["    private final KadConfiguration config;"], "all_classes": null, "length": 9199}
+{"pred": "", "answers": ["                tablefmt = vtablefmt.vsv_unaligned"], "all_classes": null, "length": 16920}
+{"pred": "token\ntoken\ntoken\ntoken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        return words_api(wordnik_api, token)"], "all_classes": null, "length": 5187}
+{"pred": "", "answers": ["\tprivate Connector connector;"], "all_classes": null, "length": 13170}
+{"pred": "", "answers": ["        CloseHandle(handle)  # will raise exception if the handle is invalid"], "all_classes": null, "length": 7074}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        this.deployments = new SpringDeployments(restTemplate, root, tasks);"], "all_classes": null, "length": 4733}
+{"pred": "      \n       \n       \n       \n       \n       \n       \n       \n       \n       \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["                    PathParser pathParser = parserHolder.getPathParser();"], "all_classes": null, "length": 4634}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nc\nc\nc\nc\nc\nc\npage\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    protected PageParser pageParser;"], "all_classes": null, "length": 5895}
+{"pred": "", "answers": ["            actionPopupGroup.add(new AddKeyAction(this));"], "all_classes": null, "length": 14530}
+{"pred": "", "answers": ["    private GuiText alias;"], "all_classes": null, "length": 19151}
+{"pred": "ЉЋЋЋЋЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉ\\\\ nobody\nЉ\n\n\n\n\n\n", "answers": ["                return new BtnQuickNotice();"], "all_classes": null, "length": 10901}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        form.setText(Messages.configurationEditorWebModulesPageTitle);\r"], "all_classes": null, "length": 8177}
+{"pred": "       type = Type.factory(\"string\", None)\n        type.format.pretty = \"foo\"\n        type.format.advanced = \"bar\"\n\n        self.assertEqual(\"foo\", type.get_sample())\n\n    def test_type_get_sample__return", "answers": ["        type = Type()"], "all_classes": null, "length": 3856}
+{"pred": "", "answers": ["                new EventCommandHandler<>(RemoveTagCommand.class, RemoveTagEvent::fromCommand, this::queueEvent));"], "all_classes": null, "length": 21313}
+{"pred": "\n\n\n\n\n}\n}\n}\n}\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n  ", "answers": ["        if _cluster_type in CLUSTER_TYPES:"], "all_classes": null, "length": 5772}
+{"pred": "('\\\\ if if if if if if if if if if if if if if if if if if if if if if if if if if if if if_Љ_ṭ._('(_._('(_(_.__ts_('('(_._('(_(('('('('('('('('('('('", "answers": ["    result = call_flickr('flickr.auth.getToken', sign=True, frob=frob)"], "all_classes": null, "length": 7308}
+{"pred": "", "answers": ["\t\t\t\t} catch(ConnectionTerminatedException e) {"], "all_classes": null, "length": 17177}
+{"pred": "", "answers": ["        pop, push = get_stack_effect(bytecode[k][2], bytecode[k][3])"], "all_classes": null, "length": 18801}
+{"pred": "", "answers": ["    ExpenseManagerDAO dao;"], "all_classes": null, "length": 19248}
+{"pred": ".\n.\n. . . 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.0.0.0.0. 0.0.0.0.0,0,0,0.", "answers": ["all_platform_slugs.extend(WEBLATE_SLUGS)"], "all_classes": null, "length": 5844}
+{"pred": "", "answers": ["\tprivate void openCustomList(CustomListWithCount customList) {"], "all_classes": null, "length": 27727}
+{"pred": "\\\\\\\\\\\\\\\\\\\\\\\\\\\\+++._\\\\++._._._._._._._._._._+++++++++++++++++.+.\\\\.+.\\\\.\\\\.+.+.\\\\.\\\\._._\\\\._\\\\", "answers": ["    def parse(self, ping_message: Union[str, PingResult]) -> PingStats:"], "all_classes": null, "length": 8840}
+{"pred": "", "answers": ["            Toaster.getInstance().toast(R.string.unable_open_chat, Toast.LENGTH_SHORT);\r"], "all_classes": null, "length": 24974}
+{"pred": "", "answers": ["\tpublic LevelIO levelManager;"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["    account = account_for_facebook_user(fb_user, person=person)"], "all_classes": null, "length": 7470}
+{"pred": "", "answers": ["        assertThat(qe, statementOrBatchStatement());"], "all_classes": null, "length": 10851}
+{"pred": "     uploading;\n      server.get;\n      uploading;\n      server.get\n      uploading;\n      uploading;\n      server.get\n      uploading;\n      uploading;\n      server.get\n      uploading;\n      uploading;\n      server.", "answers": ["    } else if (Utils.getXmlNodeValue(doc, TAG_PERCENT) != null) {"], "all_classes": null, "length": 4472}
+{"pred": "ab.ab.ab.ab.ab.cs.ab.cs.ab.cs.._._._._._.._.cs.cs.cs.cs.cs.cs.._._._._._._._._._._._._.ab.ap.ap.c.c.._", "answers": ["    merged_assembly_points = merge_assembly_points(assembly_points_by_source=assembly_points_by_sources)"], "all_classes": null, "length": 7773}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nЉ\nЉ\n\n\n\n\n\n\n\n\n\n", "answers": ["        GyroscopeResource,"], "all_classes": null, "length": 11288}
+{"pred": "", "answers": ["                        fields={k[0]:k[1] for k in config.items() if k[0] in GLOBAL_CONFIG_KEY and k[1] is not None or ''},"], "all_classes": null, "length": 12182}
+{"pred": "", "answers": ["\t\t\t\t\tgd.levelsManager.downloadLevel(level, new Callback() {"], "all_classes": null, "length": 24566}
+{"pred": "", "answers": ["    private WeeklyCaptionProvider weeklyCaptionFormatProvider = date -> DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM).withLocale(getLocale()).format(date);"], "all_classes": null, "length": 15610}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        this.vms = new SpringVms(restTemplate, root, tasks);"], "all_classes": null, "length": 4775}
+{"pred": "\n\n\n\n\n\n\n\n\nO\nO\n\n\n\nkey\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nh\nh\nh\n\n\n\n\n\n\n\n\nh\nhO\nhOOOOOOO", "answers": ["        new DefaultPublicKeyLocator("], "all_classes": null, "length": 6682}
+{"pred": "\n\n\n\n\n\n\n\n\n\\\\ \\\\ <? <?^^\nd\nd\nd\nd\nw\nw\nd\nd\nd\nd\n\\\\\\\\}\n\\\\\\\\\\\\\n\n\n\n\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\", "answers": ["    protected EasyOnItemChildTouchListener easyOnItemChildTouchListener;"], "all_classes": null, "length": 7475}
+{"pred": "", "answers": ["                } catch(FilesNotFoundException ex) {"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["                    TrackHistoryEntry newTrackHistoryEntry = new TrackHistoryEntry();"], "all_classes": null, "length": 15644}
+{"pred": "", "answers": ["        ProjectsFragmentListener,"], "all_classes": null, "length": 20153}
+{"pred": "", "answers": ["                        IconPreviewFragment.showIconPreview(\r"], "all_classes": null, "length": 22170}
+{"pred": "", "answers": ["        encoding = app_configs.get(ConfigKey.DEFAULT_ENCODING)"], "all_classes": null, "length": 7325}
+{"pred": "", "answers": ["        raise NotFound('Item with title \"%s\" not found in the playlist' % item.title)"], "all_classes": null, "length": 29319}
+{"pred": "", "answers": ["        with self.assertRaises(InputError):"], "all_classes": null, "length": 12421}
+{"pred": "\n\n\n\n(\n(\n(\n(\n(\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(\n(", "answers": ["    if isinstance(cmd, GitcAvailableCommand) and not gitc_utils.get_gitc_manifest_dir():"], "all_classes": null, "length": 6003}
+{"pred": "", "answers": ["            } catch (TaskDataException e) {"], "all_classes": null, "length": 22602}
+{"pred": "h,h,h,h,h,h,h, h h h h h h h h h h.h.h.h h h h h h,h,h,h,h,h h h", "answers": ["        await r.after_headers(Entry.create(\"http://example.om/test\", response=StaticResponse(200, {})))"], "all_classes": null, "length": 5892}
+{"pred": "", "answers": ["        stuNameEncoding = TextEncoderUtils.encoding(stuName);"], "all_classes": null, "length": 7520}
+{"pred": "", "answers": ["        Qdisc.attach(self.__con)"], "all_classes": null, "length": 8829}
+{"pred": "", "answers": ["        except (AttributeError, ActionRefused):"], "all_classes": null, "length": 18728}
+{"pred": "", "answers": ["  public Query visit(Ord4Search n, Query query) {\r"], "all_classes": null, "length": 16703}
+{"pred": "", "answers": ["\t\tthis.schemaValidator = new SchemaValidatorImpl();"], "all_classes": null, "length": 19641}
+{"pred": "", "answers": ["        DataState dataState = null;\r"], "all_classes": null, "length": 9546}
+{"pred": "", "answers": ["        except UncertainTimeError:"], "all_classes": null, "length": 21703}
+{"pred": "", "answers": ["        MovieCursor mc = new MovieCursor(cursorById);"], "all_classes": null, "length": 25197}
+{"pred": "", "answers": ["        DocumentDialog(self, DevisAccueilModifications(self.inscrit, self.current_cotisation[0])).ShowModal()"], "all_classes": null, "length": 13676}
+{"pred": "", "answers": ["        self.assertListEqual(list(node_children(self.elem)), [])"], "all_classes": null, "length": 7250}
+{"pred": "nobody\tc\tc\tc\tc\t nobody\td\t\\\\\tds\tds\tds\td\tc\treturn\treturn\treturn\tc\tc\tc\tc\td\t\tc\tc\tc\td\td\td\td\td\td\treturn", "answers": ["\t\tNetworkCalls.setTesting(false);\r"], "all_classes": null, "length": 7911}
+{"pred": "", "answers": ["                    mushroom = new MushroomBlue(world, new Vector2(Mushroom.DEF_SIZE, Mushroom.DEF_SIZE), new Vector3(position));"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["            config=ConfigCommandProcessor("], "all_classes": null, "length": 10429}
+{"pred": "", "answers": ["  assert config == LowRateConfig"], "all_classes": null, "length": 22437}
+{"pred": "", "answers": ["        return RespostaConsultarUltimaSessaoFiscal.analisar(retorno)"], "all_classes": null, "length": 18555}
+{"pred": "\"\"\n{'{'{'{'\"\".\n\n\"\"\n\"\".\n\n\n\n.\nЉ\nЉ.\nЉЉЉЉЉЉЉ.\n.\n.\n.\n.\n.\n._\n._\n\nЉЉЉЉЉЉЉЉЉЉЉЉЉ", "answers": ["    sample_condition_dicts = _get_sample_condition_dicts(calculate_dict, subl_dof)"], "all_classes": null, "length": 6944}
+{"pred": "", "answers": ["    api.add_resource(ForcesResource, \"/fdm/forces\","], "all_classes": null, "length": 10947}
+{"pred": "", "answers": ["    def add_utterance(self, utterance: Utterance) -> None:"], "all_classes": null, "length": 20483}
+{"pred": "", "answers": ["    private CameraSource mCameraSource;"], "all_classes": null, "length": 29939}
+{"pred": "", "answers": ["\tpublic final NetUtil net = new NetUtil();"], "all_classes": null, "length": 17232}
+{"pred": "", "answers": ["        return MongoConfiguration.getInstance(project).getServerConfigurations();"], "all_classes": null, "length": 12551}
+{"pred": "", "answers": ["\t\tcontainer.header(\"header\", H1(null, \"todos\"), Input(\"new-todo\").att(Att.placeholder, \"What needs to be done?\")"], "all_classes": null, "length": 11249}
+{"pred": "", "answers": ["                final CropImageView imageCropper = new CropImageView(CameraActivity.this);"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["    private ID3TagEditorDialog.OnTagsEditionSuccessListener mOnTagsEditionSuccessListener = new ID3TagEditorDialog.OnTagsEditionSuccessListener() {"], "all_classes": null, "length": 21599}
+{"pred": "", "answers": ["    validate_key_condition(model, index, key)"], "all_classes": null, "length": 13125}
+{"pred": "", "answers": ["            GCActivitySet gcActivitySet,"], "all_classes": null, "length": 10518}
+{"pred": "", "answers": ["            '/propertys':                   RestAppPropertys"], "all_classes": null, "length": 10831}
+{"pred": "", "answers": ["        self._file_tree_model = FileTreeModel(root_dir=directory, parent=self.parent)"], "all_classes": null, "length": 15356}
+{"pred": "", "answers": ["            MIN_CORRUPTION_RATE, MAX_CORRUPTION_RATE"], "all_classes": null, "length": 13807}
+{"pred": "", "answers": ["    private GuiPanel tabList = new GuiPanel(new FlowLayout());"], "all_classes": null, "length": 16279}
+{"pred": "", "answers": ["        void dateClick(CalDate date);"], "all_classes": null, "length": 25855}
+{"pred": "", "answers": ["        if db_type in DB_TYPES:"], "all_classes": null, "length": 9048}
+{"pred": "", "answers": ["            SchedulerKey key = new SchedulerKey(SchedulerKey.Type.UPGRADE_TIMEOUT, client.getSessionId());"], "all_classes": null, "length": 11335}
+{"pred": "", "answers": ["    private List<StarItem> starItemList = new ArrayList<StarItem>();"], "all_classes": null, "length": 19364}
+{"pred": "", "answers": ["\t\tGenerator generator = setGenerator(pipeline.getInFormat(), pipeline.getOutFormat());"], "all_classes": null, "length": 25113}
+{"pred": "", "answers": ["    PCollection<GCPProject> allProjects ="], "all_classes": null, "length": 8385}
+{"pred": "", "answers": ["        expiry = Column(Timestamp)"], "all_classes": null, "length": 7649}
+{"pred": "", "answers": ["                self._def_reader = MeanPoolReadDefinitions(def_num_input_words, emb_def_dim,"], "all_classes": null, "length": 9803}
+{"pred": "", "answers": ["    private HiMuteStatus _muteStatusLeft = HiMuteStatus.UNDEFINED;"], "all_classes": null, "length": 8484}
+{"pred": "", "answers": ["    private int videoQuality = VideoQuality.HIGH_QUALITY.getQuality();"], "all_classes": null, "length": 10291}
+{"pred": "", "answers": ["    RotateInDownRight(RotateInDownRight.class),"], "all_classes": null, "length": 16888}
+{"pred": "c_c_c_c_c_c_c_c_c_c_c\nc_c_c_c_c_c_c_c\nc\nc\nc\nc\nc\nc_c_c_c_c_c_c_c_", "answers": ["            perfil_form = PerfilFormSet(instance=self.object)"], "all_classes": null, "length": 6095}
+{"pred": "", "answers": ["    public static Fog convert(FogDescriptor fogDescriptor) {"], "all_classes": null, "length": 12008}
+{"pred": "", "answers": ["\tpublic List<Metadata> listMetadata()"], "all_classes": null, "length": 32768}
+{"pred": "R\nR\nR\nR\nR\nR\nR\nR\n@@@@@R\nR.RR.R.R.R\nR\nR\nR\nR\nR\nR\n\n\n\n\n\n\nRRRRRRRR\n\nR\n", "answers": ["    ActorDetailsComponent plusActorDetailsComponent();"], "all_classes": null, "length": 5865}
+{"pred": "", "answers": ["\t\t} catch (final ClassNotFoundException | PerfidixMethodCheckException e2) {"], "all_classes": null, "length": 18344}
+{"pred": "", "answers": ["    ci_pipeline_manager = CIPipelineManager()"], "all_classes": null, "length": 13607}
+{"pred": "", "answers": ["\t\t\tEndpoint endpoint = serviceDiscoveryInfo"], "all_classes": null, "length": 11170}
+{"pred": "\n\n\n\nform_form_form_form_form_\n\n\ndire_dire_dire_dire_dire_dire_\n\n\n\ndire_dire_dire_dire_\n\n\n\ndire_dire_dire_dire_\n\n\nform_form_form_form_", "answers": ["        if request.user.perfil.rol == RELEVADOR:"], "all_classes": null, "length": 5424}
+{"pred": "_ \n_ \n_      \n_\n_\n_ _ _ _ _ _ _                  \n \n \n \n \n \n \n \n", "answers": ["      self._cstr = Comparator.fromKind(CMP_IMPLICIT_NOT_EMPTY)"], "all_classes": null, "length": 6239}
+{"pred": "", "answers": ["  private ActionSupportHandler<RedirectAction>       redirectActionSupportHandler       = new ActionSupportHandler<RedirectAction>(RedirectAction.class);"], "all_classes": null, "length": 8330}
+{"pred": "", "answers": ["\t\t\tthrows PlayerOfflineException, PlayerPresentException, RoundFullException {"], "all_classes": null, "length": 12340}
+{"pred": "ЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉ\nЉЉЉЉЉЉЉЉЉЉ\\\\ЉЉЉЉЉЉ\nЉ\nЉ\nЉ\nЉ\nЉ\nЉ\nЉЉЉЉЉ\nЉЉ\nЉ\nЉ\nЉ\nЉ", "answers": ["    assert_array_equal(fold([MIN_HASH_VALUE], 1024), [0])"], "all_classes": null, "length": 11715}
+{"pred": "", "answers": ["        elif DECIMAL_DIGIT_PATTERN.search(fmt_token) is None or ',,' in fmt_token:"], "all_classes": null, "length": 24188}
+{"pred": "", "answers": ["\t\t\tif isinstance(model_item.data, Geometry):"], "all_classes": null, "length": 31405}
+{"pred": "fi()fi\nfi\nfi\nfi\nfi\nf()\nf()\nf\nf.f.f.1.1.1_f.f+f?c?c?c?c?c?c?c?fi?fi?fi?fi?\\\\\\\\\\\\\\\\", "answers": ["        dynamic = ObjectDynamic()"], "all_classes": null, "length": 7391}
+{"pred": "", "answers": ["          TemplateCatalogConfig catalog = new TemplateCatalogConfig(catBytes); "], "all_classes": null, "length": 23718}
+{"pred": "", "answers": ["  to_map_and_back(AFO, AmplitudeSine(AmplitudeBase.UNITS_AMPLITUDE, 1., 2., 1.))"], "all_classes": null, "length": 14233}
+{"pred": "", "answers": ["                hasJsonPath(\"hits.total\", is(mappedRecords.size())));"], "all_classes": null, "length": 12989}
+{"pred": "", "answers": ["            (True, PubKeyAlgorithm.ECDSA): ECDSAPub,"], "all_classes": null, "length": 18314}
+{"pred": "", "answers": ["\t\tJPEParserManager.getInstance().registerJPEParser(new XMLJPEParser());"], "all_classes": null, "length": 24928}
+{"pred": "", "answers": ["                        Authorization authorization = new Authorization(context.get(Schema.InvokeKeys.DATA_SOURCE, DataSource.class));"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["    url(r'^settings/users/$', users_list, name='users-list'),"], "all_classes": null, "length": 6868}
+{"pred": "", "answers": ["                            Intent intent = new Intent(getActivity(), MixedActivity.class);"], "all_classes": null, "length": 29042}
+{"pred": "", "answers": ["    DropDownMenu dropDownMenu;"], "all_classes": null, "length": 13325}
+{"pred": "", "answers": ["        obj.plugTag = ConnectorTag(block.getPlug());"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["        for diff_type, der_type in zip([XorDiff, RXDiff], [XDA, RXDA]):"], "all_classes": null, "length": 15030}
+{"pred": "\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n\tpublicNode\n", "answers": ["\t\tpublic abstract Node transformMultiAlternation(MultiAlternationNode node, List<Node> newChildren);"], "all_classes": null, "length": 4527}
+{"pred": "", "answers": ["\t\tcommands.add(new CommandList());"], "all_classes": null, "length": 18479}
+{"pred": "", "answers": ["        processPacket(new Challenge(doc));"], "all_classes": null, "length": 9447}
+{"pred": "", "answers": ["Cham64 = cham.get_Cham_instance(cham.ChamInstance.cham_64_128)"], "all_classes": null, "length": 13773}
+{"pred": "", "answers": ["    private SongListAdapter mAdapter;"], "all_classes": null, "length": 21204}
+{"pred": "", "answers": ["            if(GLUtils.HAS_GPU_TEGRA) {"], "all_classes": null, "length": 25050}
+{"pred": "", "answers": ["        Int('TI', ReprName='Procedure Transaction ID', Pt=0, Type='uint8'),"], "all_classes": null, "length": 25797}
+{"pred": "", "answers": ["            ((MainActivity) getActivity()).refresh();"], "all_classes": null, "length": 21648}
+{"pred": "", "answers": ["                except TextGridParseError as e:"], "all_classes": null, "length": 26768}
+{"pred": "", "answers": ["\tpublic boolean addRemittUser(UserDTO user) {"], "all_classes": null, "length": 21026}
+{"pred": "\\\\ nobody\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\freturn\\\\freturn\\\\freturnfreturn\\\\ /**\\\\\\\\\\\\\\\\\\\\ \\\\return ==returnreturnreturnreturnReturn   \\\\ TagsReturn return //\\\\ \n\n\n\n\n\n\nfO", "answers": ["    Observable<ApiStatus> info(@Query(Constants.KEY) String apiKey);"], "all_classes": null, "length": 8061}
+{"pred": "\\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ \\\\ Ћ Ћ Ћ\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Ћ Ћ\\\\\\\\ \\\\ \\\\ Љ\\\\ Љ Љ ", "answers": ["    public void visit(FailureLogMessage logMessage) {"], "all_classes": null, "length": 10551}
+{"pred": "\\_ Tags_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    assert almost_eq.diff(erb[\"gm90\"](freq), bandwidth, max_diff=5e-4)"], "all_classes": null, "length": 7295}
+{"pred": "", "answers": ["    seq = Sequence(seq)"], "all_classes": null, "length": 19653}
+{"pred": "", "answers": ["    final Map<BigInteger, CommentWrapper> comments = CommentUtil.getComments(document);"], "all_classes": null, "length": 11130}
+{"pred": "", "answers": ["    protected AbstractRavelryGetRequest<PatternsResult> getRequest(int page) {"], "all_classes": null, "length": 10044}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    @flags.register(NotationDataFlags)"], "all_classes": null, "length": 5440}
+{"pred": "", "answers": ["            text = convertTags(serverMsg, \"ctag\")"], "all_classes": null, "length": 11382}
+{"pred": "1_\n\n\n\n\n\n1:\n_\n_re:\n_1.1.___\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1.\n1.1.1.1.1.\n\n\n\n\n\n\n\n\n\n\n", "answers": ["_MarkupLike = Union[_StringLike, Markup]"], "all_classes": null, "length": 6187}
+{"pred": "", "answers": ["    if isinstance(value, GregorianMonthDay):"], "all_classes": null, "length": 12857}
+{"pred": "", "answers": ["    if interaction_test(configuration):"], "all_classes": null, "length": 9403}
+{"pred": "", "answers": ["    private void pausePlayerAndSHowVpaid(PlayerUIController controller, PlayerAdLogicController componentController,"], "all_classes": null, "length": 12189}
+{"pred": "", "answers": ["            PressureSensorCollector.flushDBCache(deviceID);\r"], "all_classes": null, "length": 23042}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n000000000\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    Call<Suggestions> getSuggestions(@QueryMap Map<String, String> serviceIds,"], "all_classes": null, "length": 4905}
+{"pred": "", "answers": ["        stream = Stream(model=model, engine=self)"], "all_classes": null, "length": 14363}
+{"pred": "", "answers": ["        formatter = ConfusionMatrixFormatter()"], "all_classes": null, "length": 8986}
+{"pred": "", "answers": ["\tprivate BannedIpServices bannedIpServices;"], "all_classes": null, "length": 16856}
+{"pred": "", "answers": ["    def batch(self, isolation_level=Batch.READ_COMMITTED):"], "all_classes": null, "length": 13578}
+{"pred": "", "answers": ["    def decoder(self) -> FeedPreviousRNN:"], "all_classes": null, "length": 7884}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npt\npt\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nc.\nc.\nc.\n", "answers": ["all_platform_slugs.extend(TRANSIFEX_SLUGS)"], "all_classes": null, "length": 5786}
+{"pred": "", "answers": ["    public boolean add(ScopeNode node) {"], "all_classes": null, "length": 8897}
+{"pred": "", "answers": ["\tpublic static Frameset frameset(Attribute... attributes) {"], "all_classes": null, "length": 25914}
+{"pred": "", "answers": ["        NiceTable table = new NiceTable(numberOfColumns);"], "all_classes": null, "length": 14139}
+{"pred": "", "answers": ["      walker = Walker(self.graph, visitor, backwards=True)"], "all_classes": null, "length": 18751}
+{"pred": "hH//hHHHHHHHHHHHHHHHHHHHHHHHH\th\th\tPair\tPair\tPair\tPair\tPair\tPair\tPair\tPair\t//\t//\t//\tPair\tPair\tPair\tPair\tPair", "answers": ["\t\t\tcase HuffmanTree.name:"], "all_classes": null, "length": 7012}
+{"pred": "", "answers": ["register = XPath30Parser.register"], "all_classes": null, "length": 23517}
+{"pred": "", "answers": ["                    if (!ConsoleApplication.isAppInBackground()) {"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["\tprivate PoguesXmlInsertFilterLoopIntoQuestionTree poguesXmlFilterLoopIntoQuestionTree = new PoguesXmlInsertFilterLoopIntoQuestionTree();"], "all_classes": null, "length": 24281}
+{"pred": "", "answers": ["        DocumentDialog(self, ReleveSIEJModifications(site, annee)).ShowModal()"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["            H += middot(crossmat(c - p), m * H_trans) \\"], "all_classes": null, "length": 13458}
+{"pred": "", "answers": ["        QueuedProject queuedProject = queuedProjectResult.queuedProject;"], "all_classes": null, "length": 18905}
+{"pred": "", "answers": ["                new MigrateCommand(),"], "all_classes": null, "length": 31264}
+{"pred": "", "answers": ["        prior_specs = build_prior_specs(prior, params)"], "all_classes": null, "length": 8858}
+{"pred": "c_c_c_c_c_f_e_e_e_e_c_e_w_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_", "answers": ["      return Const.fromValue(arg)"], "all_classes": null, "length": 6834}
+{"pred": "", "answers": ["\tprivate final Physics physics;"], "all_classes": null, "length": 11871}
+{"pred": "", "answers": ["                    ((PresenceSensorPresenter) pview.getPresenter()).setSensor((PresenceSensor) sensor);"], "all_classes": null, "length": 22344}
+{"pred": "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\J8\\\\J\t\\\\\\\\\\\\\t\\\\J_d_d2J888888888J\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t", "answers": ["\tpublic Collection<AuthorWithBooks> findAuthorsWithBooksJdbc() {"], "all_classes": null, "length": 5886}
+{"pred": "", "answers": ["\tpublic ForestReader execute(SQLTranslation exp, ForestReader in) {"], "all_classes": null, "length": 7822}
+{"pred": "", "answers": ["        install_and_run(DYNAMIC_TOOL_DIR, app_info['apk_path'], app_info['packagename'], app_info['mainactivity'], True)"], "all_classes": null, "length": 7457}
+{"pred": "    */\n    Genotype parseGenotypes(InputStream inputStream);\n\n    /**\n     * Parse the specified input stream and return genomes.\n     *\n     * @param inputStream input stream, must not be null\n     * @return the specified input stream parsed into genomes\n", "answers": ["    Genotype parseGenotypes(InputStream inputStream);"], "all_classes": null, "length": 4080}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n_\n_\\\\ ______", "answers": ["                Symbol.typed(GET_TYPE, 'get'),"], "all_classes": null, "length": 6489}
+{"pred": "", "answers": ["        PreparedExecution pe = ds.getFirstPrepared();"], "all_classes": null, "length": 11320}
+{"pred": "", "answers": ["\t\t\tif type(selection[0]) is CalcTableAnalysis:"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["                            return new NotFoundException(cause);"], "all_classes": null, "length": 21641}
+{"pred": "\t.\t.\t.\t.\t.\t.\t}\t}\t}\t}\t.\t}\t}\t}\t}\t}\t}\t}\t}\t}\t}\t}\t}\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t", "answers": ["\t\tregisterRenderer(Iterable.class, new DefaultIterableRenderer());\r"], "all_classes": null, "length": 5836}
+{"pred": "", "answers": ["\t\t\tlabelFactory = new CapitalizingFacetLabelFactory(labelFactory);"], "all_classes": null, "length": 11792}
+{"pred": "", "answers": ["    url(r'^(?P<pipeline_id>[0-9a-f-]+)/details$', PipelineDetailView.as_view(), name=\"pipeline-details\"),"], "all_classes": null, "length": 21740}
+{"pred": "", "answers": ["                        ActivityTransitionLauncher.with((AppCompatActivity) mContext)\r"], "all_classes": null, "length": 31938}
+{"pred": "))\n))\n.\n.\n.\n.\n.\n.....\n.\n.\n. f. f.\n.\n.\n\n\n\n\n\n\n\n\n\n.\n.\n\n\n\n.\n.\n.\n.\n.\n.\n.\n", "answers": ["    userdata = call_vimeo('vimeo.test.login', token=access_token)"], "all_classes": null, "length": 7399}
+{"pred": "", "answers": ["                _, ra, dec, mag = xyToRaDecPP([jd2Date(J2000_JD.days)], [x_mean], [y_mean], [test_px_sum], \\"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["    grid = _gen_grid(data, options)"], "all_classes": null, "length": 13232}
+{"pred": "", "answers": ["            UIDialog.getDicesDialog(false);"], "all_classes": null, "length": 32768}
+{"pred": "", "answers": ["        items = list(etree_iter_paths(root))"], "all_classes": null, "length": 7208}
+{"pred": "h fi fi fi fi s s h.s.s.s.s.s.s.s.s.s.s.s\ns.\ns.\ns.\nh h h s s s h h", "answers": ["        self.runner.add(ContentSampling(), with_child=True)"], "all_classes": null, "length": 6455}
+{"pred": "", "answers": ["    cfe_canc = CFeCancelamento("], "all_classes": null, "length": 16823}
+{"pred": "    * @return the specified input stream parsed into user names\n     */\n    List<UserName> parseUserNames(InputStream inputStream);\n\n    /**\n     * Parse the specified input stream and return a profile.\n     *\n     * @param inputStream input stream, must not be null\n", "answers": ["    UserName parseNames(InputStream inputStream);"], "all_classes": null, "length": 3947}
+{"pred": "", "answers": ["            EtsiResponse resp = this.client.send(req);"], "all_classes": null, "length": 14951}
+{"pred": "", "answers": ["\t\telif type(obj) is CalcSheetAnalysis:"], "all_classes": null, "length": 31279}
+{"pred": "", "answers": ["            RotationVectorSensorCollector.flushDBCache(deviceID);\r"], "all_classes": null, "length": 23055}
+{"pred": "Љ.Љ.Љ.Љ.Љ.Љ.Љ.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n. \n. \n. \n. \n. \n. \n\n\n\n\n\n\n\n\n\n\n", "answers": ["\tprivate TeamLeaders teamLeaders;"], "all_classes": null, "length": 6316}
+{"pred": "", "answers": ["        AndroidDeviceDetailsInfo androidDeviceDetailsInfo = new AndroidDeviceDetailsInfo();"], "all_classes": null, "length": 10908}
+{"pred": "", "answers": ["            index = index_for(key)"], "all_classes": null, "length": 14220}
+{"pred": "", "answers": ["                print(draw_art(None, '1', fingerprint))"], "all_classes": null, "length": 13861}
+{"pred": "", "answers": ["admin.site.register(SectorType, SectorTypeAdmin)"], "all_classes": null, "length": 12576}
+{"pred": "", "answers": ["        return RespostaExtrairLogs.analisar(retorno)"], "all_classes": null, "length": 18518}
+{"pred": "", "answers": ["        self.assertIsNone(node_document_uri(self.elem))"], "all_classes": null, "length": 7242}
+{"pred": "", "answers": ["                    Arrays.sort(sorted, new StartDateComparator(true));"], "all_classes": null, "length": 26087}
+{"pred": "", "answers": ["            if isinstance(e, KaldiProcessingError):"], "all_classes": null, "length": 17459}
+{"pred": "", "answers": ["    private final OAuth2Requester requester;"], "all_classes": null, "length": 11474}
+{"pred": "  \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n", "answers": ["    private final Jobs jobs;"], "all_classes": null, "length": 4587}
+{"pred": "", "answers": ["    public HiMuteStatus getMuteStatus(HiSide side)"], "all_classes": null, "length": 13290}
+{"pred": "", "answers": ["        return new SvnJavaAddCommand();"], "all_classes": null, "length": 15034}
+{"pred": "Ъ /* /* /* /*\n\n\n\n\n\n\n\nЪ\nЪ\nЪ\nЋ Ћ Ћ\nЋ Ћ\nЋ\n\n\n\n\n\n\n\n\n\n\n  \n \n \n\n\n\n\n\n", "answers": ["    public void tryCommitSudoku(GuiMouseEvent event) {"], "all_classes": null, "length": 7561}
+{"pred": "", "answers": ["            DATA[looptest], EPSILON, FiniteDifferenceSchemes.FOURTH_ORDER);"], "all_classes": null, "length": 11539}
+{"pred": "", "answers": ["            VotingModule.class"], "all_classes": null, "length": 15717}
+{"pred": "", "answers": ["    public static DownloadQueue newDownloadQueue() {"], "all_classes": null, "length": 9778}
+{"pred": "\f\n\f\f\f\f<<\f\nЉЉЉЉЉЉЉЉЉ\n <.\n<<<<<<<<\n\n\n<<<<<<<<<<\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["  public void init(MutableConfig config) {"], "all_classes": null, "length": 6520}
+{"pred": "    */\n    private QuerySetConfig parseQuerySetConfig(Element element) {\n        Validate.notNull(element);\n        Validate.notNull(element);\n        Validate.notNull(element);\n        Validate.notNull(element);\n        Validate.notNull", "answers": ["    private QuerySetConfig parseQuerySetConfigTag(Element element) throws JMingoParserException {"], "all_classes": null, "length": 4269}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["                        ExeSQL(sql)"], "all_classes": null, "length": 5244}
+{"pred": "", "answers": ["            left_foot_task = PoseTask("], "all_classes": null, "length": 20301}
+{"pred": "", "answers": ["unary_op = {BvNeg, BvNot}"], "all_classes": null, "length": 19636}
+{"pred": "", "answers": ["\t\t\tnew APP2Segment(aJPEG).setType(APP2Segment.ICC_PROFILE).encode(aOutput);"], "all_classes": null, "length": 11901}
+{"pred": "", "answers": ["            HibiscusExporter exporter = new HibiscusExporter(conf,"], "all_classes": null, "length": 19234}
+{"pred": "", "answers": ["class PretrainedAligner(CorpusAligner, TopLevelMfaWorker):"], "all_classes": null, "length": 12648}
+{"pred": "\n\n\n\n\n\n\n\nЉ\nЉ\nЉ\nЉ\nЉ\nЉ\nЉ\nЉ\nЉ\n\nЉ. \n\n\n\nЉ\nЉ\nЉ\nЉ\nЉ\n\n\n\n\n\n\n\n\nЉ\n\n\nЉ\nЉ\nЉ\n\n\n", "answers": ["        ItemStack itemStack = new ItemStack(LoreExpansion.lorePage);"], "all_classes": null, "length": 6202}
+{"pred": "", "answers": ["    private final UserDAO userDAO;"], "all_classes": null, "length": 11438}
+{"pred": "", "answers": ["\tpublic final IOUtil io = new IOUtil();"], "all_classes": null, "length": 18748}
+{"pred": "", "answers": ["    FadeOutLeft(FadingOutLeft.class),"], "all_classes": null, "length": 16757}
+{"pred": "", "answers": ["        problem = SearchSkCh(ch, der_mode=der_mode)"], "all_classes": null, "length": 32768}
+{"pred": "\n(\n(\n(\n(\n(\n(\n\n(\n(\n\n\n\n\n\n\n\n\n(\n(\n(\n(\n\n\n\n\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n(\n", "answers": ["            h5 =  LocalHost5"], "all_classes": null, "length": 5133}
+{"pred": "Ћ\nЋ\nЋ\nЋ\nЋЋ\\\\Ћ\\\\\nЋ\\\\\nЋ\\\\\nЋ\\\\\\\\\\\\\\\\\nЋ\\\\Ћ\\\\\nЋ\\\\\nЋ\\\\Ћ\\\\\nЋ\nЋ\\\\Ћ\\\\Ћ\\\\Ћ\\\\\\\\\\\\Ћ\\\\ЋЋ\\\\Ћ\\\\Ћ\\\\ЋЋЋЋ", "answers": ["            if get_iptables_base_command():"], "all_classes": null, "length": 10775}
+{"pred": "", "answers": ["  assert isinstance(encoder, GLONASSL1TwoBitsEncoder)"], "all_classes": null, "length": 23387}
+{"pred": "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ //\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["    public List<Expense> getExpensesFromCreditPeriod(int periodId) {"], "all_classes": null, "length": 11793}
+{"pred": "", "answers": ["    private Calendar workingCalendar = DateUtils.getCalendarInstance();"], "all_classes": null, "length": 12803}
+{"pred": "", "answers": ["    my_stream = white_noise()"], "all_classes": null, "length": 7758}
+{"pred": "[[k.k.k.k.k.v.v.v.k\nv,_k,_k,_k\nk.k.k.__:__:k.k.__:__:__:k.k.____(k.k_k_", "answers": ["                not isinstance(t1.__instance__, TypingMeta) and"], "all_classes": null, "length": 6071}
+{"pred": "", "answers": ["        refresh_rate=DEFAULT_REFRESH,"], "all_classes": null, "length": 7705}
+{"pred": "", "answers": ["\t\t\tif isinstance(model_item.data, Edge):"], "all_classes": null, "length": 31409}
+{"pred": "", "answers": ["      msg = MethodReturnMessage(error=ex)"], "all_classes": null, "length": 9818}
+{"pred": "", "answers": ["        ThreadDumpRuntime reparsed = new ThreadDumpFactory().fromStream(new ByteArrayInputStream(out.toByteArray()));"], "all_classes": null, "length": 18686}
+{"pred": "", "answers": ["        data.setKey(DrumUtils.hash(data.getAuxiliary()));"], "all_classes": null, "length": 13887}
+{"pred": "Ћ /*\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\\\ \\\\ \\\\//\\\\\\\\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\\\\\\\\\\\\\\\\\\\\\\\//f//f//", "answers": ["        MediaLoader.getLoader().loadVideos(this, new OnVideoLoaderCallBack() {"], "all_classes": null, "length": 7739}
+{"pred": "\n\n\n\nЉ\nЉ\nЉ\nЉ\nЉ\nЉ.Љ.Љ.Љ\nЉ\nЉ\nЋ\nЋ(\"@\n.\nЉ.\nЉ.\nЉ\nЉ.Љ.Љ.Љ.\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        RoxanaPropertiesMockBuilder builder = new RoxanaPropertiesMockBuilder();"], "all_classes": null, "length": 6379}
+{"pred": "", "answers": ["    self._ping_ar = AsyncResult()"], "all_classes": null, "length": 8870}
+{"pred": "", "answers": ["      assert freq2lag(v) == lag2freq(v)"], "all_classes": null, "length": 7252}
+{"pred": "\n\n\n\n\n\n3.\n3.\n3\n3\n3\n3\n3\n3\n\\\n\\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3.\n3\n3\n3\n3\n3\n", "answers": ["            Proxy14Service.class,"], "all_classes": null, "length": 5799}
+{"pred": "", "answers": ["        self.global_config_cache = GlobalConfigCache(dbi=self.dbi, bot=bot)"], "all_classes": null, "length": 10710}
+{"pred": "", "answers": ["    elif any(isinstance(x, XPathFunction) for x in operands):"], "all_classes": null, "length": 18490}
+{"pred": "", "answers": ["        if (Utils.getPrefs(getActivity(), Constants.FACEBOOK_PROFILE_DATA) == null) {"], "all_classes": null, "length": 17209}
+{"pred": "", "answers": ["            if(classToNotify == UserDetailsFragment.class) {"], "all_classes": null, "length": 14458}
+{"pred": "", "answers": ["        UnifiedOrderResponse response = wxPayClient.execute(request);"], "all_classes": null, "length": 20000}
+{"pred": "   @Test\n    @translMessage\n    static\n   \n    static\n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n", "answers": ["        MessageMapper mapper = new MockedMessageMapper(KEY, INFO);"], "all_classes": null, "length": 4695}
+{"pred": "", "answers": ["    public Operand readOperand() throws IOException {"], "all_classes": null, "length": 32768}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nt,t,t,t,re,re_\n\n\n\\re_t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\n\n\n\nt\n\n", "answers": ["        self.quota = quota.Quotas(self)"], "all_classes": null, "length": 5120}
+{"pred": "", "answers": ["            MacOsPingParser,"], "all_classes": null, "length": 9131}
+{"pred": "", "answers": ["            Main.setDefaultVideoFrameRate(Integer.parseInt(m.videoSetFrameRate\r"], "all_classes": null, "length": 13628}
+{"pred": "->_._\\_ _\\_Ъ_->_._._._._._->_->_->_->_->_._(Љ. *.\nЉЉЉ.\\_Љ\n\n\n\n\n\n\nЋ_ЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЉЋ\\_Љ\\_ЉЋ\\_", "answers": ["            kwargs['probe_channels'] = _channels_per_group(probe)"], "all_classes": null, "length": 7257}
+{"pred": "", "answers": ["    public final Promise<PingResponse> ping(final TransportContext context) {"], "all_classes": null, "length": 7637}
+{"pred": "", "answers": ["      self._cdg = ControlDependence(self)"], "all_classes": null, "length": 18276}
+{"pred": "\n\n\n\n\n\n\nЋ\nЋ\nЋ\\\\\\\\ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["        FragmentObservable<QRCodeFragment,QRData> obs = ObservableRegistry.getObservable(QRCodeFragment.class);"], "all_classes": null, "length": 7286}
+{"pred": "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \r\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \r\\\\ \r\\\\ \r\\\\\\\\\\\\\\\\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["  public void visit(final ExpSeq expSeq) throws QueryException {"], "all_classes": null, "length": 9221}
+{"pred": "", "answers": ["\t\t\tPreprocessor[] preprocessors = {"], "all_classes": null, "length": 7898}
+{"pred": "", "answers": ["            DiscreteDistribution(np.ones(1), np.zeros(1)).draw(1)[0],"], "all_classes": null, "length": 9931}
+{"pred": "", "answers": ["        state = stateFactory.createState(VastAdInteractionSandBoxState.class);"], "all_classes": null, "length": 10987}
+{"pred": "", "answers": ["\tpublic void acceptBoolean(final BooleanTag tag, boolean value) {"], "all_classes": null, "length": 25790}
+{"pred": "\\\\+\n\\\\\n\\\\\n\\\\+\n\\\\\n\\\\ \\\\\n\\\\\n\\\\\n\\\\\n\\\\\n\\\\\n\\\\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n]]\n]]\n]]\n]]\n]]\n]]", "answers": ["        self.assertEqual(hindi_placeholder_name(), replace_blank_name(name=None, language=\"Hindi\"))"], "all_classes": null, "length": 9391}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["                        expectLastCall().andThrow(new ExpectedException(EXPECTED_ERROR_MESSAGE));"], "all_classes": null, "length": 4786}
+{"pred": "", "answers": ["        s = shtr(string) << done"], "all_classes": null, "length": 21237}
+{"pred": "", "answers": ["        concrete = set(filter(lambda m: not m.Meta.abstract, walk_subclasses(model)))"], "all_classes": null, "length": 13697}
+{"pred": "", "answers": ["        return RespostaExtrairLogs.analisar(conteudo.get('retorno'))"], "all_classes": null, "length": 18903}
+{"pred": "", "answers": ["    with pytest.raises(InvalidModel):"], "all_classes": null, "length": 17827}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n          ", "answers": ["    assert u6.dimensions == mass / length ** 3"], "all_classes": null, "length": 6089}
+{"pred": "", "answers": ["                 FAKEURL_STR + '/root/cimv2:TST_Lineage.InstanceID=\"MikeSofi\"',"], "all_classes": null, "length": 7475}
+{"pred": "", "answers": ["        List<Module> postInitModules = new ArrayList<>();"], "all_classes": null, "length": 30798}
+{"pred": "", "answers": ["        tag = TAG()"], "all_classes": null, "length": 8963}
+{"pred": "", "answers": ["                    public void startNewOrderActivity(Order order, @StringRes int stringId) {"], "all_classes": null, "length": 15325}
+{"pred": "", "answers": ["\tCall<ImgurResponseWrapper<List<Image>>> listAccountImages("], "all_classes": null, "length": 17017}
+{"pred": "", "answers": ["        resource = ThermometerResource(aircraft.sensors.thermometer)"], "all_classes": null, "length": 16782}
+{"pred": "", "answers": ["    column = Document.data[\"Description\"][\"Body\"]"], "all_classes": null, "length": 8091}
+{"pred": "", "answers": ["            DumpManager.addDump(new DebugDump(null, \"Process download action\", \"Request daemon to add queue\", \"(Method End)\", \"Unable to request daemon to add queue\", false, e));\r"], "all_classes": null, "length": 31939}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["            user_votes = VoteComment.objects.filter(user=request.user).filter(comment__post=post)"], "all_classes": null, "length": 5184}
+{"pred": "   Call<EmojiResponse> getEmoji(@QueryMap Map<String, String> serviceIds);\n\n    /**\n     * Retrieves a set of gifs to use in gif searching.\n     * Clicking on these gifs can perform searches with the gif itself as the", "answers": ["    Call<EmojiResponse> getEmojiTags(@QueryMap Map<String, String> serviceIds);"], "all_classes": null, "length": 3880}
+{"pred": "", "answers": ["            reenableAllHotspots(mWifiManager);"], "all_classes": null, "length": 9394}
+{"pred": "", "answers": ["            LightSensorCollector.flushDBCache(deviceID);\r"], "all_classes": null, "length": 23055}
+{"pred": "", "answers": ["        for (PlaySession playSession : stack.getPlaySessions()) {"], "all_classes": null, "length": 11421}
+{"pred": "", "answers": ["class Segmenter(VadConfigMixin, AcousticCorpusMixin, FileExporterMixin, TopLevelMfaWorker):"], "all_classes": null, "length": 25637}
+{"pred": "  \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n   \n", "answers": ["    private final Deployments deployments;"], "all_classes": null, "length": 4577}
+{"pred": "", "answers": ["        ckresult(_dll.FMOD_Sound_GetTag(self._ptr, name, index, byref(tag)))"], "all_classes": null, "length": 8940}
+{"pred": "", "answers": ["                section.get_metadata(BITPOS_START) + section.get_parameter_offset('length')"], "all_classes": null, "length": 15972}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(\n(\n\n\n\n\n\n\n\n\n\n", "answers": ["        form = ReportAbuseForm(request.POST)"], "all_classes": null, "length": 5361}
+{"pred": "", "answers": ["    public void visitBenchmark(final BenchmarkResult benchRes) {"], "all_classes": null, "length": 14111}
+{"pred": "", "answers": ["        ProtTestLogger logger = ProtTestLogger.getDefaultLogger();"], "all_classes": null, "length": 32768}
+{"pred": "\t\tTro.tro.servlet.tro.tro.tro.tro.tro.servlet.tro.tro.tro.servlet.tro.tro.tro.tro.tro.servlet.tro.tro.tro.", "answers": ["\t\ttropo.record(NAME(\"foo\"),URL(\"mailto:mperez@tropo.com\"),BEEP(true),SEND_TONES(false),EXIT_TONE(\"#\"));"], "all_classes": null, "length": 4388}
+{"pred": "", "answers": ["                !VerificadorDePrazos.estaNoPrazo(listaDeRespostas."], "all_classes": null, "length": 8143}
+{"pred": "", "answers": ["\t\t\tpublic void onResult(int code, DefaultDataConnector connector) {"], "all_classes": null, "length": 8222}
+{"pred": "", "answers": ["    AdRetriever retriever;"], "all_classes": null, "length": 14044}
+{"pred": "", "answers": ["\t\t\t\t\tif (Response.NO == MessageDialogs.showConfirmDialog(stage, \"Are you sure you want to close the application?\", \"Confirmation\")) {"], "all_classes": null, "length": 9550}
+{"pred": "", "answers": ["    TypeMirror supertype = getApplicationSupertype(type);"], "all_classes": null, "length": 11987}
+{"pred": "", "answers": ["            new EnableReceiveNotifyMsgApi().enableReceiveNotifyMsg(enable);\r"], "all_classes": null, "length": 14012}
+{"pred": "", "answers": ["  assert isinstance(args.gps_sv[0].getL1CAMessage(), ZeroOneMessage)"], "all_classes": null, "length": 23028}
+{"pred": "", "answers": ["    elif is_comment_node(elem) and context.parent_map.get(elem) is None:"], "all_classes": null, "length": 24089}
+{"pred": "[[[[[[[[[[[[[[[[[[.\n........\n[.\n[\n\n\n[\n[\n[\n[[[[[[[[[[[[[[[[[[[[[[", "answers": ["    def last_record(self, fill=False):"], "all_classes": null, "length": 7626}
+{"pred": "h Tagsdifxifif//d//d//dif//difxififififxififififififcifcifcifcifc\\\\e\\\\e\\\\e\\\\eifififififififififififififififcif", "answers": ["                TypingMessage m = (TypingMessage)message;"], "all_classes": null, "length": 9016}
+{"pred": "", "answers": ["\t\t_, _, _, _, _, _, _, _, _, tAMPLITUDE_A, _, _ = glm_cosinor(endog = dmy_mediator, "], "all_classes": null, "length": 19707}
+{"pred": "", "answers": ["        assertThat(main.getAcquiredLocks(), Matchers.<ThreadLock>empty());"], "all_classes": null, "length": 7122}
+{"pred": "", "answers": ["                DatePicker picker = new DatePicker(this, DatePicker.DATE_TIME);"], "all_classes": null, "length": 28718}
+{"pred": "", "answers": ["            GyroscopeSensorCollector.flushDBCache(deviceID);\r"], "all_classes": null, "length": 23052}
+{"pred": "", "answers": ["    private SetOtherFragment setOtherFragment;"], "all_classes": null, "length": 13368}
+{"pred": "", "answers": ["        self.tr = Tracerouter()"], "all_classes": null, "length": 20931}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1,\n1,\n1,\n1,\n1,\n1,\n1,\n1,\n\n\n\n\n\n\n\n\n1,\n\n\n\n\n\n\n\n", "answers": ["    assert isinstance(deltas.deltas[4].attributes, Thread)"], "all_classes": null, "length": 6169}
+{"pred": "", "answers": ["        return RestfulModelCollection(Webhook, self)"], "all_classes": null, "length": 14334}
+{"pred": "", "answers": ["        new NightModeable() {"], "all_classes": null, "length": 17358}
+{"pred": "", "answers": ["            non_eq_thermochemical_prob = calculate_non_equilibrium_thermochemical_probability(parameters=params, **non_equilibrium_thermochemical_kwargs)"], "all_classes": null, "length": 9170}
+{"pred": "", "answers": ["            Type4_LV('ID', V=ID())])\r"], "all_classes": null, "length": 24673}
+{"pred": "", "answers": ["        TcClassParser(self.__con).parse("], "all_classes": null, "length": 9967}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1.\n\n\n.\n.\n.\n.\n.\n.\n.\n", "answers": ["        result, index = apply_fast_eq(left.values, right.values,"], "all_classes": null, "length": 6854}
+{"pred": "\\_\"\"._py.\n\"\"\n\"\"\n\\_\"\"\n\\_\"\"\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Tags_py\n_py_py_py_\n_py_\n\n\n_pt:\n_pt:\npy\n:\n:\n:\n:\n\n", "answers": ["    @validation_error(RequestValidationError)"], "all_classes": null, "length": 6688}
