@@ -430,7 +430,7 @@ func = {
 }
 rows = 200
 out_path = '/users/PDS0352/wyang107/project/LCEG/longbench_pro/data'
-for length in tqdm([8, 16, 31,]): #64, 126
+for length in tqdm([64, 126]): #8, 16, 31,
     for key in func.keys():
         result = func[key](length, rows)
         with open(os.path.join(out_path, f'{key}_{length}.jsonl'), "w", encoding="utf-8") as f:

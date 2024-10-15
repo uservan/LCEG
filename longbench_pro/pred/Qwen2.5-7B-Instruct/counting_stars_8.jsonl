@@ -1,0 +1,200 @@
+{"pred": "4. The little penguin counted 34 ★\n\nThe little penguin counted 100 ★\n\nThe little penguin counted 36 ★", "answers": [4, "[100, 36, 21, 34]"], "length": 7803}
+{"pred": "1. [15, 40, 68, 82] The little penguin counted 15 ★\n\nThe little penguin", "answers": [1, "[15, 40, 68, 82]"], "length": 7561}
+{"pred": "1. [84, 67, 24, 38] The little penguin counted 84 ★\n\nThe little penguin", "answers": [6, "[84, 67, 38, 24]"], "length": 7469}
+{"pred": "1. [72, 33, 51, 66]\n\nThe little penguin counted 72 ★\n\nThe little penguin", "answers": [1, "[72, 33, 51, 66]"], "length": 7742}
+{"pred": "7. The little penguin counted 56 ★, 9 ★, 83 ★, and 59 ★. The correct order matches option", "answers": [2, "[56, 9, 59, 83]"], "length": 7770}
+{"pred": "4. The little penguin counted 79 ★\n\n\\section*{Dynamical Behaviour of $O$ in Lattice Gases}\n\nThe dynam", "answers": [3, "[79, 59, 48, 18]"], "length": 7519}
+{"pred": "4\n\nThe little penguin counted 44 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [4, "[4, 44, 62, 43]"], "length": 7394}
+{"pred": "7. The little penguin counted 23 ★\n\nThe little penguin counted 23 ★\n\nThe little penguin counted 23 ★\n\n", "answers": [7, "[17, 14, 23, 6]"], "length": 7252}
+{"pred": "6. The little penguin counted 74 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [6, "[16, 74, 56, 39]"], "length": 7521}
+{"pred": "4. The little penguin counted 96 ★\n\nBased on the passage, the correct sequence of the number of ★ counted by the little penguin is", "answers": [4, "[57, 96, 85, 11]"], "length": 7748}
+{"pred": "4. [84, 66, 100, 7] The little penguin counted 100 ★\n\n\\section*", "answers": [4, "[84, 66, 100, 7]"], "length": 7759}
+{"pred": "2. The little penguin counted 38 ★\n\nThe little penguin counted 38 ★\n\n\\section*{Dynamical Behaviour of $", "answers": [2, "[1, 38, 82, 48]"], "length": 7523}
+{"pred": "1. [76, 80, 90, 71] ★\n\nThe little penguin counted 76 ★\n\nPaper Info", "answers": [1, "[76, 80, 90, 71]"], "length": 7744}
+{"pred": "2. The little penguin counted 52 ★\n\nThe little penguin counted 52 ★\n\nThe little penguin counted 52 ★\n\n", "answers": [2, "[16, 52, 40, 94]"], "length": 7361}
+{"pred": "2. The little penguin counted 42 ★\n\nThe little penguin counted 42 ★\n\nThe little penguin counted 42 ★\n\n", "answers": [2, "[5, 42, 83, 74]"], "length": 7319}
+{"pred": "7. The little penguin counted 88 ★\n\nThe little penguin counted 88 ★\n\nThe little penguin counted 88 ★\n\n", "answers": [4, "[81, 91, 42, 88]"], "length": 7866}
+{"pred": "5. The little penguin counted 49 ★, 79 ★, 39 ★, and 64 ★. The sequence matches option", "answers": [5, "[49, 79, 39, 64]"], "length": 7862}
+{"pred": "3. The little penguin counted 11 ★\n\nThe little penguin counted 11 ★\n\nThe little penguin counted 11 ★\n\n", "answers": [3, "[2, 16, 11, 69]"], "length": 7331}
+{"pred": "6. [16, 83, 61, 44]\n\nThe little penguin counted 83 ★\n\n\\section*{", "answers": [6, "[16, 83, 61, 44]"], "length": 7777}
+{"pred": "4. The little penguin counted 72 ★, 27 ★, 24 ★, and 72 ★. Therefore, the correct", "answers": [4, "[72, 27, 24, 72]"], "length": 7670}
+{"pred": "1. The little penguin counted 94 ★, 20 ★, 80 ★, and 75 ★ in the given passages.", "answers": [2, "[94, 75, 80, 20]"], "length": 7852}
+{"pred": "3. The little penguin counted 59 ★. According to the passage, the counts provided are [16, 34, 59", "answers": [3, "[16, 34, 59, 27]"], "length": 7748}
+{"pred": "6. The little penguin counted 97 ★\n\nThe little penguin counted 97 ★\n\nThe little penguin counted 97 ★\n\n", "answers": [6, "[97, 6, 36, 94]"], "length": 7569}
+{"pred": "1. [78, 66, 46, 2] The little penguin counted 78 ★ in the first passage, ", "answers": [1, "[78, 66, 46, 2]"], "length": 7533}
+{"pred": "3. [19, 51, 93, 27]\n\n\\section*{Dynamical Behaviour of $O$ in L", "answers": [3, "[19, 51, 93, 27]"], "length": 7744}
+{"pred": "3. The little penguin counted 62 ★\n\nThe little penguin counted 44 ★\n\nThe little penguin counted 12 ★\n\n", "answers": [3, "[44, 12, 62, 51]"], "length": 7804}
+{"pred": "3.\n\nGiven the context of the problem, we need to determine the correct sequence of numbers representing the count of ★ symbols. The passage clearly states the counts as", "answers": [3, "[16, 85, 36, 3]"], "length": 7791}
+{"pred": "4. [99, 78, 70, 62] The little penguin counted 99 ★, 78 ★", "answers": [4, "[99, 78, 70, 62]"], "length": 7060}
+{"pred": "5. [47, 56, 71, 38]\n\nThe little penguin counted 71 ★\n\nThe little penguin", "answers": [5, "[47, 56, 71, 38]"], "length": 7572}
+{"pred": "1, 2, 5, 7. The little penguin counted 26, 76, 34, and 31", "answers": [7, "[26, 76, 31, 34]"], "length": 7788}
+{"pred": "3. The little penguin counted 27 ★\n\nThe little penguin counted 27 ★\n\nThe little penguin counted 27 ★\n\n", "answers": [3, "[33, 95, 27, 50]"], "length": 7877}
+{"pred": "3. [79, 7, 88, 8] The little penguin counted 79 ★ first, then 7, then", "answers": [2, "[79, 88, 7, 8]"], "length": 7442}
+{"pred": "6. The little penguin counted 42 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: In the", "answers": [6, "[36, 42, 20, 33]"], "length": 7617}
+{"pred": "2. The little penguin counted 42 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [7, "[90, 15, 86, 30]"], "length": 7370}
+{"pred": "5. [23, 63, 57, 73] The little penguin counted 73 ★\n\n\\section*{", "answers": [5, "[23, 63, 57, 73]"], "length": 7000}
+{"pred": "1. [71, 15, 13, 49] The little penguin counted 71 ★\n\nBased on the information", "answers": [2, "[49, 15, 13, 71]"], "length": 7321}
+{"pred": "3. The little penguin counted 19 ★, 80 ★, 48 ★, and 38 ★. Therefore, the correct", "answers": [3, "[19, 80, 48, 38]"], "length": 7520}
+{"pred": "3. [3, 63, 57, 83]\n\n\\section*{Dynamical Behaviour of $O$ in Lattice", "answers": [3, "[3, 63, 57, 83]"], "length": 7332}
+{"pred": "3. The little penguin counted 55 ★\n\nThe little penguin counted 55 ★\n\nThe little penguin counted 55 ★\n\n", "answers": [3, "[51, 80, 55, 91]"], "length": 7613}
+{"pred": "4. The little penguin counted 52 ★\n\nThe little penguin counted 52 ★\n\nThe little penguin counted 52 ★\n\n", "answers": [4, "[18, 16, 52, 53]"], "length": 7497}
+{"pred": "6. The little penguin counted 47 ★\n\n\\section*{Dynamical Behaviour of $O$ in Lattice Gases}\n\nThe dynam", "answers": [3, "[76, 68, 98, 47]"], "length": 7391}
+{"pred": "3.\n\nThe little penguin counted 91 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [3, "[91, 5, 11, 22]"], "length": 7648}
+{"pred": "6. [28, 75, 61, 58]\n\n\\section*{Dynamical Behaviour of $O$ in L", "answers": [6, "[28, 75, 61, 58]"], "length": 7401}
+{"pred": "2. The little penguin counted 53 ★\n\nThe little penguin counted 24 ★\n\nThe little penguin counted 81 ★\n\n", "answers": [2, "[24, 53, 81, 22]"], "length": 7387}
+{"pred": "3. The little penguin counted 73 ★ in the first passage, 51 ★ in the second passage, 100 ★ in the", "answers": [3, "[73, 51, 100, 38]"], "length": 7796}
+{"pred": "7. The little penguin counted 98 ★\n\nThe little penguin counted 98 ★\n\nThe little penguin counted 98 ★\n\n", "answers": [2, "[98, 38, 56, 51]"], "length": 7801}
+{"pred": "7. The little penguin counted 95 ★\n\nThe little penguin counted 95 ★\n\nThe little penguin counted 63 ★\n\n", "answers": [7, "[29, 63, 95, 31]"], "length": 7489}
+{"pred": "5. [84, 16, 6, 31] The little penguin counted 84 ★\n\nThe little penguin counted", "answers": [6, "[31, 16, 6, 84]"], "length": 7319}
+{"pred": "2. The little penguin counted 88 ★ three times and 69 ★ once. Therefore, the correct sequence is [88, 8", "answers": [4, "[69, 88, 88, 88]"], "length": 7686}
+{"pred": "1. [73, 68, 96, 65] The little penguin counted 65 ★\n\nThe little penguin", "answers": [1, "[73, 68, 96, 65]"], "length": 7722}
+{"pred": "3\n\n\\section*{Dynamical Behaviour of $O$ in Lattice Gases}\n\nThe dynamical behaviour of the anisotropic order parameter ", "answers": [5, "[15, 23, 16, 71]"], "length": 7687}
+{"pred": "4. The little penguin counted 99 ★\n\nThe little penguin counted 98 ★\n\nThe little penguin counted 95 ★\n\n", "answers": [5, "[99, 95, 98, 16]"], "length": 7877}
+{"pred": "6. [18, 57, 12, 57]\nThe little penguin counted 57 ★\n\nThe little penguin", "answers": [6, "[18, 57, 12, 57]"], "length": 7607}
+{"pred": "1. [20, 50, 100, 16] The little penguin counted 20 ★, 50", "answers": [1, "[20, 50, 100, 16]"], "length": 7691}
+{"pred": "7. [60, 44, 87, 83]\n\nThe little penguin counted 60 ★\n\n\\section*{", "answers": [7, "[60, 44, 87, 83]"], "length": 7803}
+{"pred": "5. [30, 3, 100, 90] The little penguin counted 30 ★, 3 ★,", "answers": [3, "[30, 100, 3, 90]"], "length": 7545}
+{"pred": "3.\n\nThe little penguin counted 26 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [3, "[27, 26, 81, 39]"], "length": 7521}
+{"pred": "1. [34, 60, 63, 67] The little penguin counted 67 ★\n\nThe little penguin", "answers": [1, "[34, 60, 63, 67]"], "length": 7796}
+{"pred": "3. The little penguin counted 101 ★\n\nThe little penguin counted 101 ★\n\nThe little penguin counted 10", "answers": [7, "[79, 91, 44, 10]"], "length": 7887}
+{"pred": "1. [98, 68, 15, 85] The little penguin counted 158 ★\n\n\\section*", "answers": [1, "[98, 68, 15, 85]"], "length": 7681}
+{"pred": "1. [79, 26, 20, 11] The little penguin counted 79 ★\n\nThe little penguin", "answers": [2, "[26, 79, 20, 11]"], "length": 7637}
+{"pred": "3. [29, 67, 34, 68] The little penguin counted 68 ★\n\nIntroduction\nThe recently", "answers": [3, "[29, 67, 34, 68]"], "length": 7706}
+{"pred": "3. The little penguin counted 59 ★, 80 ★, 5 ★, and 16 ★. Therefore, the correct option", "answers": [3, "[59, 80, 5, 16]"], "length": 7555}
+{"pred": "4. The little penguin counted 66 ★\n\nThe little penguin counted 66 ★\n\nThe little penguin counted 66 ★\n\n", "answers": [4, "[91, 37, 66, 13]"], "length": 7662}
+{"pred": "1. [92, 18, 54, 93]\n\nThe little penguin counted 92 ★\n\nFootball Club Urart", "answers": [2, "[92, 93, 54, 18]"], "length": 7618}
+{"pred": "3.\n\nThe little penguin counted 93 ★\n\n\\section*{Dynamical Behaviour of $O$ in Lattice Gases}\n\nThe dynam", "answers": [3, "[93, 77, 83, 11]"], "length": 7498}
+{"pred": "4. The little penguin counted 98 ★\n\nThe little penguin counted 6 ★\n\nThe little penguin counted 75 ★\n\nThe", "answers": [6, "[6, 75, 33, 98]"], "length": 7363}
+{"pred": "3. The little penguin counted 94 ★\n\nThe little penguin counted 94 ★\n\n\\section*{Dynamical Behaviour of $", "answers": [3, "[36, 79, 94, 47]"], "length": 7655}
+{"pred": "1\n\nOnly output the results without any explanation. Read the following question and select the correct answer: What is the correct procedure for replacing a driver's license or", "answers": [7, "[78, 1, 48, 59]"], "length": 7588}
+{"pred": "3. The little penguin counted 55 ★\n\nThe little penguin counted 55 ★\n\nOnly output the results without any explanation. Read the", "answers": [3, "[55, 5, 51, 25]"], "length": 7513}
+{"pred": "6. The little penguin counted 85 ★\n\nThe little penguin counted 85 ★\n\nThe little penguin counted 85 ★\n\n", "answers": [6, "[71, 85, 77, 41]"], "length": 7618}
+{"pred": "4. The little penguin counted 71 ★\n\nThe little penguin counted 71 ★\n\nOnly output the results without any explanation. Read the", "answers": [6, "[35, 61, 58, 71]"], "length": 7448}
+{"pred": "1. The little penguin counted 20 ★, 32 ★, 69 ★, and 59 ★. Therefore, the correct", "answers": [1, "[20, 32, 69, 59]"], "length": 7552}
+{"pred": "3. The little penguin counted 30 ★\n\nThe little penguin counted 30 ★\n\nThe little penguin counted 30 ★\n\n", "answers": [6, "[38, 52, 30, 23]"], "length": 7552}
+{"pred": "1\n\nThe little penguin counted 83 ★\n\n\\section*{Dynamical Behaviour of $O$ in Lattice Gases}\n\nThe dynam", "answers": [1, "[83, 83, 34, 97]"], "length": 7680}
+{"pred": "4. The little penguin counted 72 ★, 72 ★, 50 ★, and 72 ★. Therefore, the correct", "answers": [4, "[83, 72, 50, 72]"], "length": 7691}
+{"pred": "6. ★\n\nThe little penguin counted 87 ★\n\nThe little penguin counted 27 ★\n\nThe little penguin counted 64", "answers": [3, "[63, 87, 64, 27]"], "length": 7609}
+{"pred": "4. The little penguin counted 19 ★, 17 ★, 38 ★, and 7 ★. The sequence matches option ", "answers": [4, "[19, 17, 38, 7]"], "length": 7802}
+{"pred": "1. [25, 44, 42, 60]\n\nThe little penguin counted 42 ★\n\nThe little penguin", "answers": [7, "[44, 25, 42, 60]"], "length": 7367}
+{"pred": "7. The little penguin counted 22 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [7, "[9, 32, 18, 22]"], "length": 7842}
+{"pred": "6. The little penguin counted 63 ★\n\nThe little penguin counted 63 ★\n\nThe little penguin counted 63 ★\n\n", "answers": [6, "[45, 63, 3, 20]"], "length": 7821}
+{"pred": "4. The little penguin counted 80 ★, 8 ★, 41 ★, and 56 ★. Therefore, the correct sequence", "answers": [4, "[80, 8, 41, 56]"], "length": 7699}
+{"pred": "1\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this moonlit and misty night, the little p", "answers": [6, "[74, 21, 91, 39]"], "length": 7863}
+{"pred": "5. [30, 64, 26, 13] The little penguin counted 64 ★, 30 ★", "answers": [5, "[30, 64, 26, 13]"], "length": 7410}
+{"pred": "6. [24, 79, 88, 90]\n\nThe little penguin counted 90 ★\n\nThe 19", "answers": [6, "[24, 79, 88, 90]"], "length": 7371}
+{"pred": "5. [86, 72, 13, 41] The little penguin counted 86 ★. The little penguin", "answers": [5, "[86, 72, 13, 41]"], "length": 7390}
+{"pred": "5. The little penguin counted 96 ★\n\nThe little penguin counted 96 ★\n\nThe little penguin counted 96 ★\n\n", "answers": [2, "[63, 20, 42, 96]"], "length": 7670}
+{"pred": "6. [55, 27, 49, 16] The little penguin counted 49 ★, 27 ★", "answers": [6, "[55, 27, 49, 16]"], "length": 7708}
+{"pred": "5. The little penguin counted 37 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [5, "[2, 37, 26, 51]"], "length": 7633}
+{"pred": "6. [70, 5, 77, 78] The little penguin counted 77 ★\n\nThe little penguin counted", "answers": [6, "[70, 5, 77, 78]"], "length": 7743}
+{"pred": "2. [58, 28, 97, 90] The little penguin counted 58 ★, 28 ★", "answers": [2, "[58, 28, 97, 90]"], "length": 7511}
+{"pred": "5. The little penguin counted 62 ★ in the first passage, 90 ★ in the second and third passages, 53 ★ in", "answers": [5, "[62, 90, 53, 57]"], "length": 7682}
+{"pred": "4. The little penguin counted 35 ★\n\nThe little penguin counted 62 ★\n\nThe little penguin counted 91 ★\n\n", "answers": [4, "[39, 62, 91, 35]"], "length": 7745}
+{"pred": "1\n\nOnly output the results without any explanation. Read the following question and select the correct answer: According to the passage, what is the current name of the", "answers": [7, "[82, 42, 46, 3]"], "length": 7736}
+{"pred": "6. [30, 78, 97, 61] The little penguin counted 61 ★\n\nFootball Club Urart", "answers": [6, "[30, 78, 97, 61]"], "length": 7877}
+{"pred": "2. The little penguin counted 51 ★ on the second line, 72 ★ on the first line, 62 ★ on the third", "answers": [2, "[72, 51, 62, 15]"], "length": 7740}
+{"pred": "2. The little penguin counted 67 ★. Therefore, the correct answer is [2, 67, 41, 15", "answers": [2, "[2, 67, 41, 15]"], "length": 7502}
+{"pred": "1. [90, 41, 83, 57] The little penguin counted 90 ★\n\nBased on the information", "answers": [1, "[90, 41, 83, 57]"], "length": 7458}
+{"pred": "7. [23, 52, 17, 42] The little penguin counted 42 ★\n\nThe little penguin", "answers": [7, "[23, 52, 17, 42]"], "length": 7158}
+{"pred": "4. The little penguin counted 29 ★\n\nThe little penguin counted 29 ★\n\nThe little penguin counted 29 ★\n\n", "answers": [4, "[82, 2, 45, 29]"], "length": 7781}
+{"pred": "6.\n\nThe little penguin counted 74 ★\n\n\\section{Introduction}\nThe averaged quantities can be obtained in two different ways in\nmagnetoh", "answers": [6, "[77, 74, 67, 95]"], "length": 7502}
+{"pred": "3. [73, 99, 92, 38]\n\n\\section*{Dynamical Behaviour of $O$ in L", "answers": [3, "[73, 99, 92, 38]"], "length": 7370}
+{"pred": "1. The little penguin counted 70 ★ on the first line, 22 ★ on the third line, and 70 ★ on the", "answers": [5, "[70, 70, 22, 56]"], "length": 7404}
+{"pred": "2. The little penguin counted 80 ★\n\nBased on the information provided in the passages, the little penguin counted 80 ★. Therefore", "answers": [2, "[66, 65, 80, 71]"], "length": 7495}
+{"pred": "2. [6, 33, 55, 87] The little penguin counted 55 ★\n\nThe little penguin counted", "answers": [5, "[6, 55, 33, 87]"], "length": 7566}
+{"pred": "2. The little penguin counted 15 ★\n\nThe little penguin counted 62 ★\n\nThe little penguin counted 41 ★\n\n", "answers": [2, "[62, 15, 41, 46]"], "length": 7529}
+{"pred": "4. The little penguin counted 48 ★, 91 ★, 48 ★, and 57 ★. Therefore, the correct", "answers": [4, "[33, 48, 91, 57]"], "length": 7606}
+{"pred": "3. The little penguin counted 97 ★\n\nThe little penguin counted 97 ★\n\nThe little penguin counted 97 ★\n\n", "answers": [6, "[48, 97, 90, 94]"], "length": 7838}
+{"pred": "2. The little penguin counted 4 ★\n\nThe little penguin counted 4 ★\n\nThe little penguin counted 4 ★\n\nThe little p", "answers": [2, "[79, 4, 64, 51]"], "length": 7609}
+{"pred": "6. The little penguin counted 69 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [6, "[69, 11, 41, 6]"], "length": 7488}
+{"pred": "4. The little penguin counted 97 ★\n\nThe little penguin counted 97 ★\n\nThe little penguin counted 97 ★\n\n", "answers": [6, "[16, 62, 21, 97]"], "length": 7426}
+{"pred": "7. The little penguin counted 40 ★\n\nThe little penguin counted 40 ★\n\nOnly output the results without any explanation. Read the", "answers": [6, "[21, 14, 9, 40]"], "length": 7684}
+{"pred": "7. The little penguin counted 92 ★, then 36 ★, then 66 ★, and finally 85 ★. These", "answers": [7, "[92, 36, 66, 85]"], "length": 7579}
+{"pred": "2. The little penguin counted 95 ★\n\nThe little penguin counted 7 ★\n\nThe little penguin counted 51 ★\n\nThe", "answers": [2, "[95, 7, 51, 19]"], "length": 7672}
+{"pred": "4.\n\nThe little penguin counted 51 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [4, "[51, 27, 86, 1]"], "length": 7633}
+{"pred": "7. The little penguin counted 34 ★, 28 ★, 81 ★, and 99 ★. Therefore, the correct", "answers": [7, "[34, 28, 81, 99]"], "length": 7759}
+{"pred": "7. [60, 24, 19, 20] The little penguin counted 20 ★\n\nOnly output the results", "answers": [7, "[60, 24, 19, 20]"], "length": 7617}
+{"pred": "1. [22, 57, 56, 20] The little penguin counted 56 ★\n\nThe little penguin", "answers": [3, "[22, 57, 34, 20]"], "length": 7655}
+{"pred": "4. The little penguin collected [18, 90, 72, 94] stars. The little penguin counted 1", "answers": [4, "[18, 90, 72, 94]"], "length": 7768}
+{"pred": "1. The little penguin counted 4 ★, 12 ★, 70 ★, and 25 ★, which matches option 1", "answers": [1, "[4, 12, 70, 25]"], "length": 7739}
+{"pred": "5. The little penguin counted 71 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [5, "[7, 31, 31, 65]"], "length": 7685}
+{"pred": "5. [91, 30, 41, 32] The little penguin counted 91 ★\n\nThe little penguin", "answers": [6, "[30, 91, 41, 32]"], "length": 7723}
+{"pred": "3. The little penguin counted 97 ★\n\nThe little penguin counted 97 ★\n\nThe little penguin counted 97 ★\n\n", "answers": [4, "[17, 9, 97, 43]"], "length": 7428}
+{"pred": "4. [67, 41, 20, 54] The little penguin counted 67 ★ first, then 4", "answers": [4, "[67, 41, 20, 54]"], "length": 7423}
+{"pred": "5. The little penguin counted 42 ★\n\nThe little penguin counted 42 ★\n\nBased on the given reference text and the question,", "answers": [5, "[42, 75, 38, 8]"], "length": 7543}
+{"pred": "1. [44, 19, 61, 15]\n\nOnly output the results without any explanation. Read the following question and select", "answers": [1, "[44, 19, 61, 15]"], "length": 7688}
+{"pred": "6. [11, 13, 53, 89] The little penguin counted 11 ★, 13 ★", "answers": [6, "[11, 13, 53, 89]"], "length": 7366}
+{"pred": "3. The little penguin counted 73 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [3, "[80, 97, 73, 1]"], "length": 7688}
+{"pred": "7. [42, 36, 97, 50] is the correct number of ★ the little penguin collected. The little", "answers": [7, "[42, 36, 97, 50]"], "length": 7766}
+{"pred": "4. The little penguin counted 46 ★, 22 ★, 66 ★, and 70 ★. These numbers match the", "answers": [4, "[46, 22, 66, 70]"], "length": 7723}
+{"pred": "3. [55, 10, 34, 94]\n\nThe little penguin counted 55 ★\n\nWeep Not,", "answers": [3, "[55, 10, 34, 94]"], "length": 7796}
+{"pred": "5. [14, 32, 13, 69] The little penguin counted 69 ★\n\nOnly output the results", "answers": [5, "[14, 32, 13, 69]"], "length": 7550}
+{"pred": "6. The little penguin counted 95 ★\n\nThe little penguin counted 95 ★\n\nThe little penguin counted 95 ★\n\n", "answers": [6, "[95, 61, 94, 53]"], "length": 7748}
+{"pred": "1. [26, 94, 62, 45] The little penguin counted 26 ★ in the driving school section", "answers": [2, "[26, 45, 62, 94]"], "length": 7435}
+{"pred": "1. [82, 52, 7, 88] The little penguin counted 82 ★, 52 ★,", "answers": [1, "[82, 52, 7, 88]"], "length": 7652}
+{"pred": "4 ★\n\nThe little penguin counted 99 ★\n\nThe little penguin counted 99 ★\n\n\\section*{Dynamical Behaviour of", "answers": [4, "[75, 81, 39, 31]"], "length": 7523}
+{"pred": "3.\n\nThe little penguin counted 86 ★\n\nThe little penguin counted 15 ★\n\nThe little penguin counted 32 ★\n\n", "answers": [3, "[45, 32, 86, 15]"], "length": 6704}
+{"pred": "3. The little penguin counted 37 ★\n\nThe little penguin counted 37 ★\n\n\\section*{Dynamical Behaviour of $", "answers": [3, "[91, 37, 37, 54]"], "length": 7911}
+{"pred": "4. The little penguin counted 78 ★, 13 ★, 61 ★, and 97 ★. Therefore, the correct", "answers": [4, "[78, 13, 61, 97]"], "length": 7532}
+{"pred": "3. The little penguin counted 13 ★, 2 ★, 43 ★, and 77 ★. Therefore, the correct option", "answers": [3, "[13, 2, 43, 77]"], "length": 7276}
+{"pred": "4. The little penguin counted 80 ★, so the correct sequence is [6, 21, 82, 80].", "answers": [4, "[6, 21, 82, 80]"], "length": 7372}
+{"pred": "3. [51, 70, 8, 98] is the correct number of ★ the little penguin collected. The little p", "answers": [3, "[51, 70, 8, 98]"], "length": 7235}
+{"pred": "1. [95, 95, 35, 78] The little penguin counted 95 ★\n\nFootball Club Urart", "answers": [7, "[95, 35, 95, 78]"], "length": 7042}
+{"pred": "3. The little penguin counted 69 ★, which matches the third option [69, 60, 12, 28", "answers": [3, "[69, 60, 12, 28]"], "length": 7245}
+{"pred": "7. [45, 28, 2, 67] The little penguin counted 45 ★\n\nThe little penguin counted", "answers": [3, "[28, 45, 2, 67]"], "length": 7668}
+{"pred": "7. The little penguin counted 84 ★\n\nThe little penguin counted 46 ★\n\nThe little penguin counted 52 ★\n\n", "answers": [7, "[84, 46, 45, 52]"], "length": 7443}
+{"pred": "3. [49, 41, 69, 36]\n\nThe little penguin counted 69 ★\n\nOnly output the results", "answers": [3, "[49, 41, 69, 36]"], "length": 7864}
+{"pred": "2. The little penguin counted 98 ★\n\nThe little penguin counted 98 ★\n\n\\section*{Dynamical Behaviour of $", "answers": [2, "[38, 98, 46, 38]"], "length": 7539}
+{"pred": "2. The little penguin counted 69 ★\n\nThe little penguin counted 69 ★\n\nThe little penguin counted 21 ★\n\n", "answers": [2, "[37, 69, 21, 66]"], "length": 7804}
+{"pred": "5.\n\nThe little penguin counted 43 ★\n\nThe little penguin counted 24 ★\n\nThe little penguin counted 71 ★\n\n", "answers": [5, "[43, 24, 71, 87]"], "length": 7390}
+{"pred": "3\n\nGiven the passage about driving licenses and the BERT model's performance on syntactic tasks, let's analyze the questions and extract the relevant information:\n\n1", "answers": [3, "[90, 45, 12, 12]"], "length": 7678}
+{"pred": "3. The little penguin counted 88 ★\n\nThe little penguin counted 88 ★\n\nThe little penguin counted 88 ★\n\n", "answers": [3, "[4, 88, 46, 43]"], "length": 7742}
+{"pred": "6. The little penguin counted 50 ★\n\nThe little penguin counted 6 ★\n\nThe little penguin counted 21 ★\n\nThe", "answers": [6, "[84, 6, 21, 50]"], "length": 7483}
+{"pred": "5. [13, 36, 14, 40] The little penguin counted 13 ★, 36 ★", "answers": [5, "[13, 36, 14, 40]"], "length": 7519}
+{"pred": "5. [71, 38, 37, 46] The little penguin counted 71 ★ first, then 3", "answers": [5, "[71, 38, 37, 46]"], "length": 7550}
+{"pred": "2. The little penguin counted 76 ★\n\n\\section*{Dynamical Behaviour of $O$ in Lattice Gases}\n\nThe dynam", "answers": [2, "[21, 2, 73, 76]"], "length": 7458}
+{"pred": "4. The little penguin counted 85 ★\n\nFootball Club Urartu (, translated Futbolayin Akumb Urartu), commonly known", "answers": [4, "[28, 85, 20, 87]"], "length": 7750}
+{"pred": "3.\n\n\\section*{Dynamical Behaviour of $O$ in Lattice Gases}\n\nThe dynamical behaviour of the anisotropic order parameter ", "answers": [3, "[23, 71, 57, 94]"], "length": 7596}
+{"pred": "6. The little penguin counted 67 ★\n\nThe little penguin counted 67 ★\n\n\\section{Introduction}\nThe averaged quantities can be", "answers": [1, "[28, 47, 22, 90]"], "length": 7726}
+{"pred": "3. [46, 87, 7, 8]\n\n\\section*{Dynamical Behaviour of $O$ in Lattice G", "answers": [3, "[46, 87, 7, 8]"], "length": 7813}
+{"pred": "2. The little penguin counted 80 ★\n\nThe little penguin counted 80 ★\n\nThe little penguin counted 45 ★\n\n", "answers": [2, "[55, 80, 45, 39]"], "length": 7718}
+{"pred": "3. [32, 21, 9, 44] The little penguin counted 94 ★\n\nIt appears there was a", "answers": [3, "[32, 21, 9, 44]"], "length": 7705}
+{"pred": "1. [42, 25, 10, 93]\n\nOnly output the results without any explanation. Read the following question and select", "answers": [1, "[42, 25, 10, 93]"], "length": 7640}
+{"pred": "5. [17, 11, 25, 54]\n\nThe little penguin counted 17 ★\n\nWeep Not,", "answers": [4, "[17, 25, 11, 54]"], "length": 7313}
+{"pred": "7. [69, 24, 35, 93] The little penguin counted 69 ★\n\nThe little penguin", "answers": [7, "[69, 24, 35, 93]"], "length": 7532}
+{"pred": "7. The little penguin counted 40 ★, 70 ★, 32 ★, and 65 ★. Therefore, the correct", "answers": [7, "[40, 70, 32, 65]"], "length": 7681}
+{"pred": "5. The little penguin counted 73 ★\n\nThe little penguin counted 73 ★\n\nThe little penguin counted 73 ★\n\n", "answers": [5, "[66, 73, 30, 22]"], "length": 7489}
+{"pred": "3. The little penguin counted 82 ★\n\nThe little penguin counted 82 ★\n\nThe little penguin counted 82 ★\n\n", "answers": [7, "[46, 57, 16, 82]"], "length": 7370}
+{"pred": "6. [51, 31, 34, 27]\n\n\\section*{Dynamical Behaviour of $O$ in L", "answers": [6, "[51, 31, 34, 27]"], "length": 7489}
+{"pred": "5. The little penguin counted 39 ★, 4 ★, 77 ★, and 19 ★. Therefore, the correct answer", "answers": [4, "[4, 39, 77, 19]"], "length": 7507}
+{"pred": "4. The little penguin counted 73 ★\n\nThe little penguin counted 73 ★\n\nThe little penguin counted 73 ★\n\n", "answers": [4, "[31, 64, 96, 73]"], "length": 7410}
+{"pred": "7. The little penguin counted 100 ★\n\nThe little penguin counted 100 ★\n\nThe little penguin counted 10", "answers": [4, "[82, 19, 100, 69]"], "length": 7763}
+{"pred": "6. [3, 26, 18, 1] matches the count of ★ as described in the passage. The little penguin counted", "answers": [6, "[3, 26, 18, 1]"], "length": 7686}
+{"pred": "2. The little penguin counted 74 ★ first, then 49 ★, then 69 ★, and finally 6 ★. Therefore", "answers": [2, "[74, 49, 69, 6]"], "length": 7404}
+{"pred": "3. The little penguin counted 51 ★\n\nFootball Club Urartu (, translated Futbolayin Akumb Urartu), commonly known", "answers": [3, "[99, 45, 51, 46]"], "length": 7664}
+{"pred": "7. The little penguin counted 87 ★\n\nThe little penguin counted 87 ★\n\nThe little penguin counted 87 ★\n\n", "answers": [7, "[69, 43, 52, 87]"], "length": 7723}
+{"pred": "6. The little penguin counted 91 ★\n\nThe little penguin counted 74 ★\n\nThe little penguin counted 85 ★\n\n", "answers": [3, "[85, 74, 91, 49]"], "length": 7385}
+{"pred": "7. [41, 89, 29, 60] The little penguin counted 159 ★\n\nThe little p", "answers": [7, "[41, 89, 29, 60]"], "length": 7707}
+{"pred": "5. [37, 64, 75, 18] The little penguin counted 75 ★\n\nThe little penguin", "answers": [5, "[37, 64, 75, 18]"], "length": 7532}
+{"pred": "5. The little penguin counted 42 ★, 9 ★, 66 ★, and 27 ★. Therefore, the correct answer", "answers": [7, "[42, 27, 66, 9]"], "length": 7458}
+{"pred": "4. The little penguin counted 59 ★, 20 ★, 56 ★, and 92 ★. Therefore, the correct", "answers": [4, "[20, 59, 56, 92]"], "length": 7610}
+{"pred": "3. The little penguin counted 93 ★, 68 ★, 88 ★, and 61 ★. Therefore, the correct", "answers": [5, "[68, 93, 88, 61]"], "length": 7594}
+{"pred": "6. The little penguin counted 82 ★\n\nThe little penguin counted 82 ★\n\n\\section*{Dynamical Behaviour of $", "answers": [6, "[59, 82, 89, 39]"], "length": 7386}
+{"pred": "7. [34, 14, 23, 54]\n\nThe little penguin counted 54 ★\n\nOnly output the results", "answers": [7, "[34, 14, 23, 54]"], "length": 7551}
+{"pred": "5. [4, 99, 3, 45] The little penguin counted 99 ★\n\nThe little penguin counted ", "answers": [2, "[4, 3, 99, 45]"], "length": 7545}
+{"pred": "1.\n\nOnly output the results without any explanation. Read the following question and select the correct answer: In the passage, what is the main topic discussed?\n1", "answers": [2, "[1, 4, 33, 5]"], "length": 7425}
+{"pred": "4. The little penguin counted 82 ★. The correct sequence is [86, 3, 33, 82], which", "answers": [4, "[86, 3, 33, 82]"], "length": 7623}
+{"pred": "3. The little penguin counted 50 ★\n\nThe little penguin counted 50 ★\n\n\\section*{Dynamical Behaviour of $", "answers": [3, "[96, 75, 50, 7]"], "length": 7524}
+{"pred": "3. [68, 65, 46, 100] The little penguin counted 68 ★\n\nThe little p", "answers": [4, "[68, 65, 100, 46]"], "length": 7618}
+{"pred": "4. The little penguin counted 77 ★\n\nThe little penguin counted 77 ★\n\nThe little penguin counted 77 ★\n\n", "answers": [4, "[25, 15, 80, 77]"], "length": 7877}
+{"pred": "2. The little penguin counted 94 ★\n\nThe little penguin counted 94 ★\n\nOnly output the results without any explanation. Read the", "answers": [2, "[19, 94, 12, 25]"], "length": 7681}
+{"pred": "1. [20, 24, 22, 17] The little penguin counted 20 ★, 24 ★", "answers": [1, "[20, 24, 22, 17]"], "length": 7686}
+{"pred": "2. [71, 81, 35, 85] The little penguin counted 85 ★\n\nThe little penguin", "answers": [2, "[71, 81, 35, 85]"], "length": 7604}
+{"pred": "6. [11, 75, 78, 5] The little penguin counted 78 ★\n\nThe little penguin counted", "answers": [6, "[11, 75, 78, 5]"], "length": 7417}
+{"pred": "6. [8, 43, 14, 59] The little penguin counted 59 ★\n\nIntroduction\nBlogging gained", "answers": [6, "[8, 43, 14, 59]"], "length": 7677}
+{"pred": "4. The little penguin counted 42 ★, 79 ★, 31 ★, and 63 ★. Therefore, the correct", "answers": [4, "[42, 79, 31, 63]"], "length": 7529}
+{"pred": "4. The little penguin counted 62 ★\n\nThe little penguin counted 62 ★\n\nThe little penguin counted 62 ★\n\n", "answers": [4, "[8, 56, 32, 62]"], "length": 7868}
+{"pred": "7. The little penguin counted 63 ★, 87 ★, 96 ★, and 7 ★. Therefore, the correct sequence", "answers": [7, "[63, 87, 96, 7]"], "length": 7582}
+{"pred": "1. [15, 53, 42, 12] The little penguin counted 15 ★ on the first line,", "answers": [7, "[42, 53, 15, 12]"], "length": 7670}
+{"pred": "7. [40, 65, 95, 45] The little penguin counted 40 ★ first, then 6", "answers": [2, "[40, 45, 95, 65]"], "length": 7679}

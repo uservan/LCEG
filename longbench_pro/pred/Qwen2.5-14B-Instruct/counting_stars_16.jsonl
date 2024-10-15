@@ -1,0 +1,16 @@
+{"pred": "3. ★", "answers": [3, "[22, 100, 70, 15]"], "length": 14596}
+{"pred": "7. ★", "answers": [7, "[92, 32, 58, 64]"], "length": 13803}
+{"pred": "6. ★\n\nThe little penguin counted 29 ★\n\nThe little penguin counted 11 ★\n\nThe little penguin counted 77", "answers": [6, "[29, 11, 77, 41]"], "length": 14774}
+{"pred": "3. The little penguin counted 6 ★\n\nThe little penguin counted 6 ★\n\nFinal answer: 3 The little penguin counted 6", "answers": [4, "[69, 6, 2, 17]"], "length": 14222}
+{"pred": "6. ★\n\nThe little penguin counted 6 ★\n\nThe little penguin counted 6 ★\n\nThe little penguin counted 6 ★\n\nThe", "answers": [6, "[99, 50, 15, 28]"], "length": 14470}
+{"pred": "5. \n\nTherefore, the number to be returned is 5. ★\n\n5 ★\n\nThe final answer is 5. ★\n\n5 ★\n\nThe", "answers": [5, "[51, 19, 63, 56]"], "length": 14728}
+{"pred": "4. ★\n\nThe little penguin counted 70 ★\n\nThe little penguin counted 70 ★\n\nThe little penguin counted 70", "answers": [1, "[5, 54, 15, 70]"], "length": 14740}
+{"pred": "3. ★", "answers": [1, "[15, 79, 22, 37]"], "length": 14557}
+{"pred": "5. ★\n\nThe little penguin counted 5 ★\n\nThe correct answer is 5, as the passage mentions \"The little penguin counted 1", "answers": [1, "[100, 79, 46, 1]"], "length": 14851}
+{"pred": "2. ★\n\n", "answers": [2, "[24, 16, 47, 20]"], "length": 13849}
+{"pred": "6 ★\n\nThe little penguin counted 6 ★\n\nThe correct sequence of numbers collected by the little penguin is [4, 39, ", "answers": [6, "[4, 39, 68, 50, 61]"], "length": 14798}
+{"pred": "5. ★\n\nThe little penguin counted 5 ★\n\nThe final answer is 5. ★\n\nThe little penguin counted 5 ★\n\nThe", "answers": [1, "[2, 23, 54, 59]"], "length": 13921}
+{"pred": "6. ★", "answers": [6, "[28, 97, 65, 33]"], "length": 14124}
+{"pred": "5. ★\n\nThe little penguin counted 5 ★", "answers": [5, "[3, 45, 28, 71]"], "length": 14582}
+{"pred": "4 ★\n\nThe little penguin counted 46 ★\nThe little penguin counted 50 ★\nThe little penguin counted 39 ★", "answers": [4, "[46, 50, 39, 32]"], "length": 13973}
+{"pred": "3. ★\n\nThe little penguin counted 3 ★\n\nThe correct answer is 3. The numbers of stars counted in the provided passages are 3", "answers": [3, "[57, 93, 36, 94]"], "length": 14481}

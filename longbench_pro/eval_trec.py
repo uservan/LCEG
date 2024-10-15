@@ -3,7 +3,7 @@ import json
 import argparse
 import numpy as np
 from tqdm import tqdm
-import re
+
 
 def set_global_path(path):
     return os.path.join('/users/PDS0352/wyang107/project/LCEG/longbench_pro', path)
@@ -90,6 +90,8 @@ if __name__ == '__main__':
             for line in f:
                 data = json.loads(line)
                 predictions.append(data["pred"])
+                if type(data["answers"]) != list: 
+                    data["answers"] = [data["answers"]]
                 answers.append(data["answers"])
                 all_classes = filename
                 if "length" in data:
