@@ -228,7 +228,7 @@ def generate_dataset_multi_doc_sum(length=8, rows=100):
         for i, (text, flag) in enumerate(split_text):
             context = context + f'Passage {i+1}:\n' + text + '\n'
             if flag: num.append(f'Passage {i+1}')
-        instruction = 'Write a one-page summary of selected passages only including '+','.join(map(str, num))
+        instruction = 'Combine and summarize the main ideas from the selected relevant passages into one cohesive summary: '+','.join(map(str, num))
         results.append({'instruction':'' , 
                         "input": qa['input'], 
                         "input": [f'{instruction}: {inp}' if len(inp) > 0 else f'{instruction}.' for inp in qa['input']], 

@@ -54,7 +54,7 @@ dataset2metric = {
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='Qwen2.5-14B-Instruct')
+    parser.add_argument('--model', type=str, default='llama-3.2-1B-Instruct')
     return parser.parse_args(args)
 
 def scorer(dataset, predictions, answers, all_classes):

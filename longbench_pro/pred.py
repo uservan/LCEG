@@ -18,7 +18,7 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='Qwen2.5-14B-Instruct')
+    parser.add_argument('--model', type=str, default='Qwen2.5-7B-Instruct')
     parser.add_argument('--dataset_name', type=str, default="samsum")
     return parser.parse_args(args)
 
@@ -303,7 +303,7 @@ if __name__ == '__main__':
     # predict on each dataset
     if not os.path.exists(set_global_path("pred/")):
         os.makedirs(set_global_path("pred/"))
-    dataset_path = set_global_path("data2")
+    dataset_path = set_global_path("data")
     dataset = args.dataset_name
     file_names = [p.split('.')[0] for p in os.listdir(dataset_path)]
     for dataset in file_names:
