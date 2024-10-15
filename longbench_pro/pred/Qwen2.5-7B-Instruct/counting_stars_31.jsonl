@@ -125,3 +125,76 @@
 {"pred": "7. The little penguin counted 97 ★. The correct sequence is [73, 97, 34, 81,", "answers": [7, "[73, 97, 34, 81, 95, 81]"], "length": 28072}
 {"pred": "5. The little penguin counted 4 ★\n\nThe little penguin counted 87 ★\n\nThe little penguin counted 19 ★\n\nThe", "answers": [5, "[19, 87, 55, 63, 4, 42]"], "length": 28366}
 {"pred": "4. The little penguin counted 95 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [4, "[82, 62, 77, 95, 97, 50]"], "length": 28403}
+{"pred": "7. [100, 81, 6, 61] The little penguin counted 100 ★\n\nThe little p", "answers": [7, "[100, 81, 6, 61]"], "length": 28400}
+{"pred": "6. ★\n\nIntroduction\nThe study of the dynamical behavior of the anisotropic order parameter \\( m \\) in lattice gases following a quench to", "answers": [6, "[80, 50, 37, 98, 37, 4]"], "length": 28250}
+{"pred": "4. The little penguin counted 9 ★, and the correct sequence is [50, 64, 54, 9, ", "answers": [4, "[50, 64, 54, 9, 43, 72]"], "length": 28237}
+{"pred": "7. The little penguin counted 72 ★ in the first example, 54 ★ in the second, 30 ★ in the third,", "answers": [3, "[30, 72, 54, 18, 76, 7]"], "length": 29195}
+{"pred": "4. ★\n\nThe little penguin counted 78 ★\n\nThe little penguin counted 78 ★\n\nThe little penguin counted 78", "answers": [4, "[75, 73, 72, 78, 88]"], "length": 28669}
+{"pred": "4. The little penguin counted 13 ★\n\nPaper Info\n\nTitle: Is In-hospital Meta-information Useful for Abstractive Discharge Summary Generation", "answers": [4, "[38, 4, 27, 13]"], "length": 26976}
+{"pred": "5. The little penguin counted 97 ★, 45 ★, 40 ★, 12 ★, 52 ★,", "answers": [5, "[97, 45, 40, 12, 52, 58]"], "length": 27739}
+{"pred": "6. The little penguin counted 86 ★\n\nThe little penguin counted 86 ★\n\nThe little penguin counted 86 ★\n\n", "answers": [6, "[54, 86, 10, 20, 91, 75]"], "length": 28429}
+{"pred": "3. The little penguin counted 78 ★, which matches the sequence [77, 32, 44, 78,", "answers": [3, "[77, 32, 44, 78, 82]"], "length": 28841}
+{"pred": "3. [5, 80, 64, 16] The little penguin counted 80 ★\n\nThe little penguin counted", "answers": [3, "[5, 80, 64, 16]"], "length": 28694}
+{"pred": "6. ★\n\nIntroduction\nIn this paper, we present a novel approach for automatic text simplification using neural machine translation (NMT). Text simplification aims", "answers": [7, "[78, 81, 69, 69, 53, 77, 66]"], "length": 28647}
+{"pred": "7. The little penguin counted 84 ★\n\nProduced by David Widger\n\n\n\n\n\n\n\nTHE WITCH OF ATLAS\n\nBY PERCY BYSSHE", "answers": [7, "[42, 84, 13, 53, 48]"], "length": 27845}
+{"pred": "2. The little penguin counted 54 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: What is", "answers": [2, "[98, 54, 72, 52]"], "length": 27560}
+{"pred": "2.  The little penguin counted 88 ★, then 52 ★, then 13 ★, and then 45 ★.", "answers": [1, "[45, 88, 52, 13]"], "length": 27703}
+{"pred": "5. [14, 44, 91, 35] The little penguin counted 91 ★\n\nProduced by David", "answers": [1, "[14, 44, 35, 91]"], "length": 27490}
+{"pred": "2. [48, 20, 45, 54] The little penguin counted 45 ★\n\nThe little penguin", "answers": [2, "[48, 20, 45, 54]"], "length": 27650}
+{"pred": "4. The little penguin counted 65 ★\n\nThe little penguin counted 65 ★\n\nThe little penguin counted 65 ★\n\n", "answers": [4, "[44, 86, 29, 61, 66, 98, 65]"], "length": 26922}
+{"pred": "4. The little penguin counted 18 ★ in the second option. The little penguin counted 4 ★ in the third option. The little p", "answers": [4, "[44, 18, 4, 68, 23]"], "length": 27751}
+{"pred": "4. 84 ★\n\nThe little penguin counted 84 ★\n\nOnly output the results without any explanation. Read the following question and select the", "answers": [4, "[84, 10, 32, 16, 73]"], "length": 27351}
+{"pred": "5. The little penguin counted 50 ★ twice, once as 50 and once as 64, which matches option 5. ★", "answers": [5, "[61, 48, 50, 64, 45, 11, 23, 3]"], "length": 27661}
+{"pred": "6. The little penguin counted 15 ★\n\nThe little penguin counted 15 ★\n\n\\section{Introduction}\n\\label{sec:Int", "answers": [2, "[47, 15, 38, 98]"], "length": 27810}
+{"pred": "6. [5, 43, 73, 21, 32] The little penguin counted 73 ★\n\nThe", "answers": [6, "[5, 43, 73, 21, 32]"], "length": 28060}
+{"pred": "3. The little penguin counted 81 ★.\n\nThe little penguin counted 81 ★. The correct answer is 3. [81", "answers": [3, "[81, 87, 12, 45, 57]"], "length": 27662}
+{"pred": "4. The little penguin counted 68 ★.\nThe little penguin counted 8 ★\n\nIntroduction\nFrom a group of small users at the time", "answers": [4, "[6, 68, 14, 72, 36, 12, 8]"], "length": 28214}
+{"pred": "5. ★\n\nThe little penguin counted 97 ★\n\nIntroduction\nThe field of Natural Language Processing (NLP) has seen tremendous progress in recent", "answers": [5, "[92, 48, 45, 57, 48, 4, 97]"], "length": 27977}
+{"pred": "4 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: What is the main contribution of the paper \"Force Feedback", "answers": [4, "[22, 71, 32, 71, 26]"], "length": 28698}
+{"pred": "7. The little penguin counted 95 ★, which matches option 7. [65, 100, 75, ", "answers": [1, "[65, 100, 75, 100, 65, 58, 95]"], "length": 29029}
+{"pred": "7. The little penguin counted 78 ★. The correct sequence is [75, 57, 42, 62,", "answers": [7, "[75, 57, 42, 62, 78, 94]"], "length": 28478}
+{"pred": "1. The little penguin counted 30 ★\n\nSowing the Seeds of Future Research: Data Sharing, Citation and Reuse in Archaeobotany\n", "answers": [4, "[30, 58, 91, 98, 74]"], "length": 27902}
+{"pred": "7. The little penguin counted 80 ★\n\nThe little penguin counted 80 ★\n\nThe little penguin counted 80 ★\n\n", "answers": [3, "[22, 75, 67, 91, 80]"], "length": 28812}
+{"pred": "4. The little penguin counted 81 ★\n\nOnly output the results without any explanation. Read the following question and select the correct answer: On this", "answers": [4, "[68, 90, 91, 80]"], "length": 28513}
+{"pred": "2. The little penguin counted 72 ★. The correct sequence is [93, 72, 73, 98,", "answers": [2, "[93, 72, 73, 98, 41, 22]"], "length": 27474}
+{"pred": "6. The little penguin counted 86 ★. The correct sequence is [36, 20, 32, 95,", "answers": [6, "[36, 20, 32, 95, 18, 46, 86]"], "length": 28178}
+{"pred": "7. [35, 86, 4, 32] is the correct number of ★ the little penguin collected. The little p", "answers": [1, "[35, 60, 4, 32]"], "length": 28985}
+{"pred": "5. ★\n\nThe little penguin counted 53 ★\n\nThe little penguin counted 65 ★\n\nThe little penguin counted 64", "answers": [4, "[53, 65, 64, 92, 30]"], "length": 27950}
+{"pred": "2. The little penguin counted 44 ★\n\nIntroduction\nThis work is licenced under a Creative Commons Attribution 4.0 International License. License", "answers": [2, "[12, 44, 49, 11, 20]"], "length": 28284}
+{"pred": "3. The little penguin counted 91 ★.  The correct sequence is [66, 60, 91, 65", "answers": [2, "[66, 60, 86, 65, 37]"], "length": 27605}
+{"pred": "6. The little penguin counted 7 ★\n\nIntroduction\nThe recent advances in deep learning have enabled the development of powerful models for natural language processing (N", "answers": [6, "[24, 7, 80, 54, 87, 37]"], "length": 28747}
+{"pred": "7. The little penguin counted 33 ★, 37 ★, 97 ★, 98 ★, 70 ★,", "answers": [7, "[33, 37, 97, 98, 70, 38]"], "length": 28793}
+{"pred": "7. The little penguin counted 84 ★\n\n'Quectel_QuecPython_BC25 开发板使用说明 版本：", "answers": [2, "[37, 84, 62, 60]"], "length": 27811}
+{"pred": "3. [63, 5, 88, 1] The little penguin counted 88 ★\n\nAnn's Mega Dub: ", "answers": [3, "[63, 5, 88, 1]"], "length": 28520}
+{"pred": "4. The little penguin counted 41 ★, 83 ★, 91 ★, 85 ★, and 18 ★", "answers": [6, "[83, 41, 91, 85, 18]"], "length": 28556}
+{"pred": "6. The little penguin counted 28 ★\n\nIntroduction\nThere have been many implementations of the word2vec model in either of the two architectures it", "answers": [6, "[50, 21, 85, 28, 74]"], "length": 28311}
+{"pred": "2. The little penguin counted 55 ★ first, then 18 ★, then 80 ★, and finally 82 ★.", "answers": [2, "[55, 18, 80, 82]"], "length": 27957}
+{"pred": "4. The little penguin counted 18 ★, 59 ★, 57 ★, 13 ★, and 44 ★", "answers": [5, "[18, 44, 57, 13, 59]"], "length": 28590}
+{"pred": "1, 2, 3, 4, 5, 6, 7. ★\n\nThe little penguin counted 7 ★\n\nThe", "answers": [5, "[13, 68, 37, 58]"], "length": 28641}
+{"pred": "6. [12, 93, 2, 22, 82, 1] The little penguin counted 93", "answers": [6, "[12, 93, 2, 22, 82, 1]"], "length": 27934}
+{"pred": "3. The little penguin counted 32 ★. The little penguin counted 32 ★. According to the passage, the little penguin counted", "answers": [1, "[18, 97, 32, 5, 56, 73]"], "length": 27925}
+{"pred": "6. ★: [38, 88, 72, 73, 61] ★: [38, 8", "answers": [6, "[38, 88, 72, 73, 61]"], "length": 29368}
+{"pred": "2. The little penguin counted 79 ★. The little penguin counted 65 ★. The little penguin counted 52 ★.", "answers": [3, "[3, 23, 65, 52]"], "length": 28575}
+{"pred": "6. The little penguin counted 82 ★\n\nGiven the context of the passage, which of the following statements is true regarding the little penguin's", "answers": [6, "[26, 83, 64, 60, 33, 57, 76, 82, 77]"], "length": 27612}
+{"pred": "7. [63, 39, 13, 35] is the correct sequence. The little penguin counted 63 ★", "answers": [7, "[63, 39, 13, 35]"], "length": 27358}
+{"pred": "5. The little penguin counted 90 ★\n\nIntroduction\nText classification has become an indispensable task due to the rapid growth in the number of texts in", "answers": [2, "[83, 90, 3, 83, 88]"], "length": 29389}
+{"pred": "4. The little penguin counted 95 ★. The correct order matches option 4. [25, 17, 58,", "answers": [4, "[25, 17, 58, 94, 21, 95, 69]"], "length": 28485}
+{"pred": "1. [53, 58, 78, 81] The little penguin counted 53 ★ in the first instance,", "answers": [1, "[53, 58, 78, 81]"], "length": 27252}
+{"pred": "2\n\nPaper Info\n\nTitle: Two-stage Pipeline for Multilingual Dialect Detection\nPublish Date: Unkown\nAuthor List: Ankit Vaidya", "answers": [2, "[1, 44, 67, 51]"], "length": 27218}
+{"pred": "6. ★\n\nThe little penguin counted 75 ★\n\nThe little penguin counted 100 ★\n\nThe little penguin counted 4", "answers": [6, "[79, 100, 41, 98, 18, 75]"], "length": 27593}
+{"pred": "3. The little penguin counted 11 ★ three times, 10 ★ twice, and 2 ★ once. Therefore, the correct answer is", "answers": [1, "[2, 2, 11, 10, 15]"], "length": 28528}
+{"pred": "4. ★\n\nThe little penguin counted 83 ★\n\nIntroduction\nIn the field of natural language processing (NLP), the most prevalent neural approach", "answers": [5, "[2, 78, 13, 85, 47, 83, 97]"], "length": 28272}
+{"pred": "2. The little penguin counted 29 ★ first, then 18 ★, 73 ★, 56 ★, and finally ", "answers": [2, "[18, 29, 73, 56, 20]"], "length": 28148}
+{"pred": "1. [14, 9, 61, 27, 3] The little penguin counted 14 ★\n\nIntroduction\n", "answers": [1, "[14, 9, 61, 27, 3]"], "length": 28474}
+{"pred": "2. The little penguin counted 47 ★\n\nIntroduction\nThe irony is a kind of figurative language, which is widely used on social media B", "answers": [2, "[30, 47, 84, 11, 92, 29]"], "length": 28776}
+{"pred": "1. [28, 10, 7, 33] The little penguin counted 28 ★\n\nOnly output the results without", "answers": [1, "[28, 10, 7, 33]"], "length": 28591}
+{"pred": "5. The little penguin counted 59 ★\n\nIntroduction\nThe problem of detecting hate speech in social media has gained significant attention in recent years due to", "answers": [5, "[80, 58, 59, 47, 96]"], "length": 28565}
+{"pred": "5. [6, 56, 27, 64, 26] The little penguin counted 56 ★\n\nIntroduction", "answers": [7, "[27, 56, 6, 64, 26]"], "length": 26318}
+{"pred": "2. [50, 9, 4, 82, 44, 6] The little penguin counted 9 ★\n\n", "answers": [2, "[50, 9, 4, 82, 44, 6]"], "length": 28488}
+{"pred": "1. [88, 16, 59, 80, 56, 49] ★\n\nIntroduction\nThe field", "answers": [1, "[88, 16, 59, 80, 56, 49]"], "length": 27762}
+{"pred": "3. [51, 46, 1, 91] The little penguin counted 51 ★ first, then 46", "answers": [6, "[51, 91, 1, 46]"], "length": 28064}
+{"pred": "7. The little penguin counted 46 ★, which matches the sequence [4, 46, 24, 18, ", "answers": [7, "[4, 46, 24, 18, 62]"], "length": 28752}
+{"pred": "4 ★\n\nThe little penguin counted 24 ★\n\n\\section*{Dynamical Behaviour of $O$ in Lattice Gases}\n\nThe", "answers": [2, "[59, 60, 86, 67, 93, 93, 24]"], "length": 29239}
+{"pred": "3. The little penguin counted 59 ★\n\nIntroduction\nThe task of identifying the author of a document is known as authorship attribution (AA).", "answers": [3, "[12, 71, 59, 51, 33, 23]"], "length": 28797}
+{"pred": "5. The little penguin counted 38 ★\n\nIntroduction\nThe recent advances in deep learning have led to the development of powerful models for natural language processing", "answers": [5, "[38, 18, 35, 12]"], "length": 27799}
+{"pred": "2. The little penguin counted 51 ★\n\nThe little penguin counted 51 ★\n\nThe little penguin counted 22 ★\n\n", "answers": [6, "[67, 51, 94, 67, 22]"], "length": 28129}
