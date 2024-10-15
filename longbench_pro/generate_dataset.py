@@ -307,6 +307,10 @@ def generate_dataset_counting_stars(length=8, rows=100, test_type='Acquisition')
         new_datasets.append(choices)
     # collect
     results = []
+    def modify(my_list):
+        index1, star = random.sample(range(len(my_list)), 1), random.randint(1, 100)
+        my_list[index1[0]] = star
+        return my_list
     def exchange(my_list):
         index1, index2 = random.sample(range(len(my_list)), 2)
         my_list[index1], my_list[index2] = my_list[index2], my_list[index1]
@@ -325,12 +329,15 @@ def generate_dataset_counting_stars(length=8, rows=100, test_type='Acquisition')
             context = context+ single_star
             answers.append(a_stars)
         if test_type == 'Acquisition':
-            question = f"On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the number of ★, for example: [x, x, x,...]. The summation is not required, and the numbers in [x, x, x,...]. represent the counted number of ★ by the little penguin. "
+            question = f"On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the number of ★, for example: [x, x, x,...]. The summation is not required, and the numbers in [x, x, x,...]. represent the counted number of ★ by the little penguin.\n"
         if test_type == 'Reasoning':
-            question = f"On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the correct number of ★, for example: [x, x, x,...]. The summation is not required, and the numbers in [x, x, x,...]. represent the correctly counted number of ★ by the little penguin. "
-        question_key = [exchange(answers[:]) for i in range(3)]+[answers[:]]
+            question = f"On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the correct number of ★, for example: [x, x, x,...]. The summation is not required, and the numbers in [x, x, x,...]. represent the correctly counted number of ★ by the little penguin.\n"
+        question=question+'Question: Which of the following is the correct number of ★ the little penguin collect?\n'
+        question_key = [exchange(answers[:]) for i in range(3)]+[answers[:]]+[modify(answers[:]) for i in range(3)]
         random.shuffle(question_key)
-        question=question+f'\n1. {question_key[0]}\n2. {question_key[1]}\n3. {question_key[2]}\n4. {question_key[3]}\nPlease provide your answer as a single number (1, 2, 3, or 4) without any explanation.'
+        for q_i, q in enumerate(question_key):
+            question=question+f'{q_i+1}. {q}\n'
+        question = question +'Please provide your answer as a single number (1, 2, 3, 4 ...) without any explanation.'
         results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
                         'instruction': '',  "input": [question], "answers": [[question_key.index(answers)+1, f'{answers}']]})
     return results
@@ -412,18 +419,18 @@ def generate_dataset_passage_retrieval(length=8, rows=100):
     
 
 func = {
-        'single_doc_qa':generate_dataset_single_doc_qa,
-        'multi_doc_qa': generate_dataset_multi_doc_qa,
-        'single_doc_sum':generate_dataset_single_doc_sum,
-        'multi_doc_sum':generate_dataset_multi_doc_sum,
-        'kv_retrieval':generate_dataset_kv_retrieval,
-        'passage_retrieval':generate_dataset_passage_retrieval,
-        'passage_count':generate_dataset_passage_count,
+        # 'single_doc_qa':generate_dataset_single_doc_qa,
+        # 'multi_doc_qa': generate_dataset_multi_doc_qa,
+        # 'single_doc_sum':generate_dataset_single_doc_sum,
+        # 'multi_doc_sum':generate_dataset_multi_doc_sum,
+        # 'kv_retrieval':generate_dataset_kv_retrieval,
+        # 'passage_retrieval':generate_dataset_passage_retrieval,
+        # 'passage_count':generate_dataset_passage_count,
         'counting_stars':generate_dataset_counting_stars,
 }
 rows = 200
-out_path = '/users/PDS0352/wyang107/project/LCEG/longbench_pro/data2'
-for length in tqdm([64, 126]): #
+out_path = '/users/PDS0352/wyang107/project/LCEG/longbench_pro/data'
+for length in tqdm([8, 16, 31,]): #64, 126
     for key in func.keys():
         result = func[key](length, rows)
         with open(os.path.join(out_path, f'{key}_{length}.jsonl'), "w", encoding="utf-8") as f:
