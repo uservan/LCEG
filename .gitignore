@@ -5,6 +5,7 @@
 /models/llama_yarn/__pycache__
 /longbench_pro/data
 /longbench_pro/data2
+/longbench_pro/data3
 /longbench_pro/result
 /continuous_finetuning/models/llama_clex/llama/__pycache__
 /continuous_finetuning/models/llama_landmark/ltriton/__pycache__

@@ -126,3 +126,39 @@
 {"pred": "1. The little penguin counted 1 ★\n\nThe little penguin counted 1 ★\n\nThe little penguin counted 1 ★\n\nThe little p", "answers": [1, "[7, 97, 50, 41, 66, 1, 81, 72, 30]"], "length": 59533}
 {"pred": "3. The little penguin counted 3 ★. \nThe little penguin counted 3 ★. \nThe little penguin counted 3 ★. \n", "answers": [3, "[21, 6, 5, 87, 45, 53, 24, 55, 36]"], "length": 56061}
 {"pred": "1.", "answers": [1, "[86, 99, 17, 64]"], "length": 53291}
+{"pred": "1. The little penguin counted 84 ★\n\nThe little penguin counted 84 ★\n\nThe little penguin counted 84 ★\n\nThe little p", "answers": [2, "[38, 84, 84, 84, 6, 35]"], "length": 58095}
+{"pred": "1.", "answers": [2, "[33, 11, 70, 20, 85, 70, 63, 3, 86]"], "length": 57211}
+{"pred": "1. The little penguin counted 1 ★\n\nThe little penguin counted 2 ★\n\nThe little penguin counted 3 ★\n\nThe little p", "answers": [2, "[44, 69, 46, 4, 3, 25, 78, 29, 11, 20]"], "length": 55440}
+{"pred": "1.", "answers": [3, "[22, 19, 100, 69, 99]"], "length": 57943}
+{"pred": "1. The little penguin counted 100 ★. The little penguin counted 78 ★. The little penguin counted 25 ★. The little p", "answers": [4, "[100, 25, 78, 1]"], "length": 56712}
+{"pred": "1.", "answers": [2, "[11, 9, 8, 26, 57]"], "length": 54809}
+{"pred": "3.", "answers": [2, "[95, 22, 35, 9]"], "length": 57435}
+{"pred": "1.", "answers": [4, "[25, 51, 96, 64, 10, 55, 88, 35]"], "length": 55872}
+{"pred": "4.", "answers": [2, "[56, 96, 93, 8]"], "length": 58523}
+{"pred": "1. The little penguin counted 70 ★ The little penguin counted 15 ★ The little penguin counted 96 ★ The little penguin counted ", "answers": [1, "[70, 15, 96, 22, 92, 39, 51]"], "length": 57929}
+{"pred": "4.", "answers": [4, "[98, 40, 64, 7, 17, 49]"], "length": 58314}
+{"pred": "2.", "answers": [3, "[63, 46, 79, 34]"], "length": 56117}
+{"pred": "1. The little penguin counted 1 ★\n\nThe little penguin counted 1 ★\n\nThe little penguin counted 1 ★\n\nThe little p", "answers": [2, "[14, 95, 23, 19, 93]"], "length": 53310}
+{"pred": "1.", "answers": [2, "[54, 32, 4, 2, 13, 100]"], "length": 58456}
+{"pred": "4.", "answers": [2, "[69, 68, 56, 15, 5, 5, 100, 71, 49, 8, 27]"], "length": 56055}
+{"pred": "1.", "answers": [4, "[83, 2, 98, 91]"], "length": 56595}
+{"pred": "1. The little penguin counted 1 ★. The little penguin counted 2 ★. The little penguin counted 3 ★. The little p", "answers": [4, "[49, 77, 11, 84, 67, 96, 90, 69]"], "length": 55170}
+{"pred": "4. The little penguin counted 23 ★\n\nProduced by Greg Weeks, Stephen Blundell and the Online\nDistributed Proofreading Team at http", "answers": [1, "[23, 78, 15, 65]"], "length": 57680}
+{"pred": "1. The little penguin counted 1 ★", "answers": [3, "[84, 52, 91, 38, 92, 53, 2, 81, 8, 46, 41]"], "length": 55242}
+{"pred": "2. The little penguin counted 2 ★.", "answers": [1, "[93, 47, 92, 30, 25]"], "length": 54896}
+{"pred": "1. The little penguin counted 1 ★\n\n\\section{Introduction}\nThe problem of finding the minimum of a function $f(x)$ is a fundamental", "answers": [1, "[1, 75, 68, 100, 95]"], "length": 53325}
+{"pred": "4.", "answers": [4, "[41, 65, 86, 4, 6, 29, 79, 84]"], "length": 57613}
+{"pred": "1.", "answers": [3, "[69, 87, 26, 35, 58]"], "length": 56046}
+{"pred": "1.", "answers": [3, "[71, 80, 100, 68, 3]"], "length": 55321}
+{"pred": "1. The little penguin counted 88 ★. The little penguin counted 33 ★. The little penguin counted 26 ★. The little p", "answers": [3, "[88, 33, 26, 72]"], "length": 54247}
+{"pred": "1.", "answers": [2, "[42, 18, 73, 31, 24, 25]"], "length": 55226}
+{"pred": "1. The little penguin counted 66 ★\n\nOutdoors\nFebruary 19, 2017\nYou are here: Home / Archives for Departments /", "answers": [4, "[66, 80, 57, 78, 98, 60]"], "length": 54471}
+{"pred": "1. The little penguin counted 1 ★\n\nThe little penguin counted 1 ★\n\nThe little penguin counted 1 ★\n\nThe little p", "answers": [4, "[67, 33, 83, 32, 6]"], "length": 54161}
+{"pred": "1. The little penguin counted 17 ★. The little penguin counted 25 ★. The little penguin counted 91 ★. The little p", "answers": [2, "[17, 31, 91, 25, 79]"], "length": 55762}
+{"pred": "1. The little penguin counted 1 ★\n\nThe little penguin counted 1 ★\n\nThe little penguin counted 1 ★\n\nThe little p", "answers": [1, "[77, 85, 49, 93, 12, 26, 15, 12, 10]"], "length": 55816}
+{"pred": "1. The little penguin counted 1 ★. The little penguin counted 1 ★. The little penguin counted 1 ★. The little p", "answers": [4, "[52, 79, 68, 82, 39, 73, 44, 70, 43, 26, 99]"], "length": 56253}
+{"pred": "1.", "answers": [4, "[82, 28, 36, 82]"], "length": 53291}
+{"pred": "1.", "answers": [3, "[49, 88, 71, 9, 56, 43]"], "length": 56823}
+{"pred": "1.", "answers": [1, "[80, 62, 59, 8, 51, 76, 29, 5, 49, 72]"], "length": 56700}
+{"pred": "4. The little penguin counted 4 ★.", "answers": [4, "[10, 100, 38, 79, 4, 55, 25, 20]"], "length": 57210}
+{"pred": "4. The little penguin counted 4 ★\n\nThe Seventh Seal\n<b> \n</b>The night had brought little relief from the heat, and at", "answers": [1, "[14, 56, 32, 94, 94, 70, 10]"], "length": 52811}
