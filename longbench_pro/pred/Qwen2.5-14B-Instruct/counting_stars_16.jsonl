@@ -177,3 +177,24 @@
 {"pred": "4. ★", "answers": [4, "[10, 31, 70, 18, 53]"], "length": 15010}
 {"pred": "2. ★\n\nThe little penguin counted 37 ★ in the first passage, 18 ★ in the second passage, 92 ★ in", "answers": [2, "[37, 18, 92, 74]"], "length": 15352}
 {"pred": "2. ★\n\nThe little penguin counted 67 ★\n\nBased on the information provided, the correct sequence of numbers representing the counted stars is [6", "answers": [2, "[67, 57, 9, 39]"], "length": 14679}
+{"pred": "4. ★\n\nThe little penguin counted 4 ★\n\nThe correct sequence of numbers representing the counted number of ★ by the little penguin is [4", "answers": [4, "[47, 21, 51, 79]"], "length": 15036}
+{"pred": "6. ★\n\nThe little penguin counted 6 ★\n\nThe little penguin counted 6 ★\n\nThe little penguin counted 6 ★\n\nThe", "answers": [2, "[5, 3, 6, 61, 55]"], "length": 14504}
+{"pred": "4. ★", "answers": [4, "[67, 35, 22, 65, 46]"], "length": 14297}
+{"pred": "7. ★\n\nThe little penguin counted 55 ★ in the first passage, 74 ★ in the second passage, 26 ★ in", "answers": [7, "[55, 74, 63, 26]"], "length": 14148}
+{"pred": "4. ★\n\nThe little penguin counted 4 ★\n\nThe correct sequence of numbers representing the counted number of ★ by the little penguin is [2", "answers": [4, "[28, 67, 38, 92, 80]"], "length": 13880}
+{"pred": "2. ★\n\nThe little penguin counted 94 ★", "answers": [2, "[44, 52, 83, 94]"], "length": 15018}
+{"pred": "2. ★\n\nThe little penguin counted 28 ★ from the passage about KSTP (1500 AM; SKOR North), ", "answers": [1, "[28, 12, 44, 12]"], "length": 14668}
+{"pred": "4. ★\n\nThe little penguin counted 4 ★", "answers": [2, "[56, 8, 2, 79]"], "length": 14841}
+{"pred": "7. ★\n\nThe little penguin counted 7 ★\n\nThe final answer is 7. ★\n\nThe little penguin counted 7 ★\n\nThe", "answers": [1, "[66, 53, 75, 8]"], "length": 14554}
+{"pred": "7. ★\n\nThe little penguin counted 7 ★\n\nThe little penguin counted 7 ★\n\nThe little penguin counted 7 ★\n\nThe", "answers": [3, "[95, 68, 62, 67]"], "length": 14960}
+{"pred": "7. ★", "answers": [7, "[30, 96, 55, 45]"], "length": 14291}
+{"pred": "7. ★\n\nThe little penguin counted 7 ★\n\nThe little penguin counted 7 ★\n\nThe little penguin counted 7 ★\n\nThe", "answers": [7, "[19, 12, 55, 80]"], "length": 15139}
+{"pred": "4. ★", "answers": [4, "[26, 2, 12, 9]"], "length": 13636}
+{"pred": "7. ★\n\nThe little penguin counted 7 ★\n\nThe little penguin counted 7 ★\n\nThe little penguin counted 7 ★\n\nThe", "answers": [7, "[6, 2, 93, 52]"], "length": 14493}
+{"pred": "2. ★\n\nThe little penguin counted 2 ★", "answers": [2, "[86, 16, 11, 53]"], "length": 14280}
+{"pred": "5. ★\n\nThe little penguin counted 5 ★\n\nThe final answer is 5. ★\n\nThe little penguin counted 5 ★\n\nThe", "answers": [5, "[83, 53, 42, 73]"], "length": 14927}
+{"pred": "3. ★\n\nThe little penguin counted 3 ★", "answers": [5, "[14, 22, 83, 68]"], "length": 14662}
+{"pred": "7. ★\n\n\\section*{Dynamical Behaviour of $O$ in Lattice Gases}\n\nThe dynamical behaviour of the anisotropic order", "answers": [7, "[46, 66, 28, 75]"], "length": 14691}
+{"pred": "2. ★\n\nThe little penguin counted 2 ★\n\nThe correct answer is 2. The document contains the following counts of ★: 83", "answers": [2, "[83, 35, 76, 91, 44]"], "length": 15008}
+{"pred": "5. ★\n\nThe little penguin counted 32 ★\nThe little penguin counted 37 ★\nThe little penguin counted 20", "answers": [3, "[32, 37, 64, 20]"], "length": 14621}
+{"pred": "2. ★", "answers": [2, "[31, 3, 72, 7]"], "length": 14509}

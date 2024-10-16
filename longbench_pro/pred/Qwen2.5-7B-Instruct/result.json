@@ -1,7 +1,7 @@
 {
-    "counting_stars_16": 36.5,
-    "counting_stars_31": 45.5,
-    "counting_stars_8": 40.0,
+    "counting_stars_16": 63.5,
+    "counting_stars_31": 69.5,
+    "counting_stars_8": 74.0,
     "kv_retrieval_16": 20.0,
     "kv_retrieval_31": 19.5,
     "kv_retrieval_8": 11.0,
@@ -17,10 +17,10 @@
     "passage_retrieval_16": 88.5,
     "passage_retrieval_31": 83.5,
     "passage_retrieval_8": 95.5,
-    "single_doc_qa_16": 17.38,
-    "single_doc_qa_31": 12.73,
-    "single_doc_qa_8": 16.56,
-    "single_doc_sum_16": 19.38,
-    "single_doc_sum_31": 18.1,
-    "single_doc_sum_8": 22.62
+    "single_doc_qa_16": 32.45,
+    "single_doc_qa_31": 27.9,
+    "single_doc_qa_8": 35.29,
+    "single_doc_sum_16": 23.61,
+    "single_doc_sum_31": 23.49,
+    "single_doc_sum_8": 25.16
 }

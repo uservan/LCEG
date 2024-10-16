@@ -277,7 +277,7 @@ def generate_dataset_kv_retrieval(length=8, rows=100, kv_num=2):
                         'instruction': '', 
                          "input": [f'What is the pass value of the pass value of {keys[0]} ?'+
                                    f'\n1. {question_key[0]}\n2. {question_key[1]}\n3. {question_key[2]}\n4. {question_key[3]}\n'+
-                                   'Please provide your answer as a single number (1, 2, 3, or 4) without any explanation.']
+                                   'Please provide your answer as a single number (1, 2, 3, 4...) without any explanation.']
                                    ,"answers":[[question_key.index(keys[2])+1,keys[2]]]})
     return results
 

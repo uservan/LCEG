@@ -162,3 +162,39 @@
 {"pred": "2. The little penguin counted 32 ★, 9 ★, 21 ★, and 44 ★. The correct answer is 2. The", "answers": [3, "[32, 21, 9, 44]"], "length": 7075}
 {"pred": "1.  The little penguin counted 42, 25, 10, 93.  The final answer is 1.  The little p", "answers": [1, "[42, 25, 10, 93]"], "length": 7496}
 {"pred": "5. The little penguin counted 17 ★, 25 ★, 11 ★, 54 ★. The correct answer is 5. The little", "answers": [4, "[17, 25, 11, 54]"], "length": 7223}
+{"pred": "7.★\nThe little penguin counted 69 ★\nThe little penguin counted 24 ★\nThe little penguin counted 35 ★\nThe", "answers": [7, "[69, 24, 35, 93]"], "length": 6957}
+{"pred": "7.  The little penguin counted 65 ★.  The little penguin counted 70 ★.  The little penguin counted 32 ★.", "answers": [7, "[40, 70, 32, 65]"], "length": 7543}
+{"pred": "5. The little penguin counted 66 ★, Urartu FC were founded as FC Banants by Sarkis Israelyan on 21 January", "answers": [5, "[66, 73, 30, 22]"], "length": 7021}
+{"pred": "7.  The little penguin counted 57, 46, 16, 82.  The final answer is 7.  The little p", "answers": [7, "[46, 57, 16, 82]"], "length": 7008}
+{"pred": "6.  The little penguin counted 51 ★ The little penguin counted 31 ★ The little penguin counted 34 ★ The little penguin counted", "answers": [6, "[51, 31, 34, 27]"], "length": 7154}
+{"pred": "5.  The little penguin counted 5 ★.  The final answer is 5.  The little penguin counted 5 ★.  The", "answers": [4, "[4, 39, 77, 19]"], "length": 7317}
+{"pred": "4.  The final answer is 4.  The final answer is 4.  The final answer is 4.  The final answer is ", "answers": [4, "[31, 64, 96, 73]"], "length": 7240}
+{"pred": "7.", "answers": [4, "[82, 19, 100, 69]"], "length": 7480}
+{"pred": "6.  The little penguin counted 3, 26, 18, 1.  The final answer is 6.  The little p", "answers": [6, "[3, 26, 18, 1]"], "length": 7409}
+{"pred": "5.", "answers": [2, "[74, 49, 69, 6]"], "length": 7280}
+{"pred": "3.  The final answer is 3.  The final answer is 3.  The final answer is 3.  The final answer is ", "answers": [3, "[99, 45, 51, 46]"], "length": 7034}
+{"pred": "7.", "answers": [7, "[69, 43, 52, 87]"], "length": 7446}
+{"pred": "6.  The little penguin counted 91 ★. The little penguin counted 74 ★. The little penguin counted 85 ★. The little", "answers": [3, "[85, 74, 91, 49]"], "length": 7236}
+{"pred": "7.★\nThe little penguin counted 41 ★\nThe little penguin counted 89 ★\nThe little penguin counted 29 ★\nThe", "answers": [7, "[41, 89, 29, 60]"], "length": 7328}
+{"pred": "1.  The little penguin counted 75, 64, 37, 18.  The correct answer is 1.  The little p", "answers": [5, "[37, 64, 75, 18]"], "length": 7204}
+{"pred": "5.  The final answer is 5.  The final answer is 5.  The final answer is 5.  The final answer is ", "answers": [7, "[42, 27, 66, 9]"], "length": 7341}
+{"pred": "1.  The little penguin counted 59, 20, 56, 92.  The final answer is 1.  The little p", "answers": [4, "[20, 59, 56, 92]"], "length": 7408}
+{"pred": "3.", "answers": [5, "[68, 93, 88, 61]"], "length": 7435}
+{"pred": "6.  |  The little penguin counted 59 ★\nIntroduction\nText simplification aims to reduce the lexical and structural complexity of a text, while", "answers": [6, "[59, 82, 89, 39]"], "length": 7236}
+{"pred": "7. The little penguin counted 7 ★. The final answer is 7. The little penguin counted 7 ★. The final answer is ", "answers": [7, "[34, 14, 23, 54]"], "length": 7271}
+{"pred": "1.  The little penguin counted 4 ★. The little penguin counted 3 ★. The little penguin counted 99 ★. The little", "answers": [2, "[4, 3, 99, 45]"], "length": 7405}
+{"pred": "1.  The little penguin counted 1 ★. The little penguin counted 4 ★. The little penguin counted 33 ★. The little", "answers": [2, "[1, 4, 33, 5]"], "length": 7294}
+{"pred": "4.  The little penguin counted 82 ★. The final answer is 4.  The little penguin counted 82 ★. The final answer", "answers": [4, "[86, 3, 33, 82]"], "length": 7347}
+{"pred": "3.★\nThe little penguin counted 96 ★\nThe little penguin counted 75 ★\nThe little penguin counted 50 ★\nThe", "answers": [3, "[96, 75, 50, 7]"], "length": 6957}
+{"pred": "3.  The final answer is 3.  The final answer is 3.  The final answer is 3.  The final answer is ", "answers": [4, "[68, 65, 100, 46]"], "length": 7398}
+{"pred": "4.  The little penguin counted 25 ★\n\n\\section*{Dynamical Behaviour of $O$ in Lattice Gases}\n\nThe dynam", "answers": [4, "[25, 15, 80, 77]"], "length": 7350}
+{"pred": "6.", "answers": [2, "[19, 94, 12, 25]"], "length": 7530}
+{"pred": "1.", "answers": [1, "[20, 24, 22, 17]"], "length": 7363}
+{"pred": "4.", "answers": [2, "[71, 81, 35, 85]"], "length": 7115}
+{"pred": "6.", "answers": [6, "[11, 75, 78, 5]"], "length": 6665}
+{"pred": "6.", "answers": [6, "[8, 43, 14, 59]"], "length": 7183}
+{"pred": "4. The little penguin counted 42, 79, 31, 63. The correct answer is 4. The final answer is 4", "answers": [4, "[42, 79, 31, 63]"], "length": 7079}
+{"pred": "6.  The little penguin counted 8, 56, 62, 32.  The final answer is 6.  The little p", "answers": [4, "[8, 56, 32, 62]"], "length": 7533}
+{"pred": "7. The little penguin counted 7 ★. The final answer is 7. The little penguin counted 7 ★. The final answer is ", "answers": [7, "[63, 87, 96, 7]"], "length": 7236}
+{"pred": "6.", "answers": [7, "[42, 53, 15, 12]"], "length": 7420}
+{"pred": "7.", "answers": [2, "[40, 45, 95, 65]"], "length": 7560}
