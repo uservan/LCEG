@@ -18,7 +18,8 @@ from metrics import (
     retrieval_zh_score,
     count_score,
     code_sim_score,
-    acc_score
+    acc_score,
+    kv_retrieval_score
 )
 
 dataset2metric = {
@@ -27,7 +28,7 @@ dataset2metric = {
     "passage_count": acc_score,
     "passage_retrieval": acc_score,
     "counting_stars": acc_score,
-    "kv_retrieval": acc_score,
+    "kv_retrieval": kv_retrieval_score,
 
     "narrativeqa": qa_f1_score,
     "qasper": qa_f1_score,

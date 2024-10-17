@@ -262,26 +262,30 @@ def generate_dataset_kv_retrieval(length=8, rows=100, kv_num=2):
     # collect
     results = []
     for choices in new_datasets:
-        context, keys, position = '', [str(uuid.uuid4()) for _ in range(kv_num+2)], random.sample(range(len(choices)), kv_num)
+        context, keys, position = '', [str(uuid.uuid4()) for _ in range(4)], random.sample(range(len(choices)), kv_num)
         key_value = dict()
         for i, p in enumerate(position):
-            key_value[p] = f'The pass value of {keys[i]} is {keys[i+1]}.'
+            key_value[p] = f'\n\nThe value of {keys[i]} is {keys[i+1]}.'
         for i, c in enumerate(choices):
             context = context + f'Passage {i+1}:\n' + dataset_list[c[1]]['context']
             if i in key_value.keys():
                 context = context + key_value[i]
             context = context + '\n\n'
-        question_key = keys[:4]
-        random.shuffle(question_key)
+        # question_key = keys[:4]
+        # random.shuffle(question_key)
+        # results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
+        #                 'instruction': '', 
+        #                  "input": [f'Now, the key is {keys[0]}, and what is the value of this key?'+
+        #                            f'\n1. {question_key[0]}\n2. {question_key[1]}\n3. {question_key[2]}\n4. {question_key[3]}\n'+
+        #                            'Please provide your answer as a single number (1, 2, 3, or 4) without any explanation.']
+        #                            ,"answers":[[question_key.index(keys[4])+1,keys[4]]]})
         results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
                         'instruction': '', 
-                         "input": [f'What is the pass value of the pass value of {keys[0]} ?'+
-                                   f'\n1. {question_key[0]}\n2. {question_key[1]}\n3. {question_key[2]}\n4. {question_key[3]}\n'+
-                                   'Please provide your answer as a single number (1, 2, 3, 4...) without any explanation.']
-                                   ,"answers":[[question_key.index(keys[2])+1,keys[2]]]})
+                         "input": [f'Now, what is the value of {keys[1]} ?']
+                                   ,"answers":[keys[2]]})
     return results
 
-def generate_dataset_counting_stars(length=8, rows=100, test_type='Acquisition'):
+def generate_dataset_counting_stars(length=8, rows=100, test_type='Reasoning'):
     # single-doc-qa
     length = length *(2**10)
     # load raw datasets
@@ -317,29 +321,39 @@ def generate_dataset_counting_stars(length=8, rows=100, test_type='Acquisition')
         return my_list
     for choices in new_datasets:
         context, whole_stars = '', 0
-        answers = []
+        answers, noise_answer, positions = [],[],random.sample(range(len(choices)), 4)
         for i, c in enumerate(choices):
             context = context + '\n' + dataset_list[c[1]]['context']
-            a_stars, r_stars = random.randint(1, 100), random.randint(1, 100)
-            if test_type == 'Acquisition':
-                single_star = f"\nThe little penguin counted {a_stars} ★\n"
-            if test_type == 'Reasoning':
-                single_star = f"\nThe little penguin counted {r_stars} ★, but found that a mistake had been made, so the counting was done again, and this time {a_stars} ★ was counted correctly.\n"
-            whole_stars = whole_stars+a_stars
-            context = context+ single_star
-            answers.append(a_stars)
+            if i in positions:
+                a_stars, r_stars = random.randint(1, 100), random.randint(1, 100)
+                if test_type == 'Acquisition':
+                    single_star = f"\n\nThe little penguin counted {a_stars} ★\n\n"
+                if test_type == 'Reasoning':
+                    single_star = f"\n\nThe little penguin counted {r_stars} ★, but found that a mistake had been made, so the counting was done again, and this time {a_stars} ★ was counted correctly.\n\n"
+                whole_stars = whole_stars+a_stars
+                context = context + single_star
+                answers.append(a_stars)
+                noise_answer.append(r_stars)
         if test_type == 'Acquisition':
             question = f"On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the number of ★, for example: [x, x, x,...]. The summation is not required, and the numbers in [x, x, x,...]. represent the counted number of ★ by the little penguin.\n"
         if test_type == 'Reasoning':
             question = f"On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the correct number of ★, for example: [x, x, x,...]. The summation is not required, and the numbers in [x, x, x,...]. represent the correctly counted number of ★ by the little penguin.\n"
         question=question+'Question: Which of the following is the correct number of ★ the little penguin collect?\n'
-        question_key = [exchange(answers[:]) for i in range(3)]+[answers[:]]+[modify(answers[:]) for i in range(3)]
+        question_key = [exchange(answers[:]), modify(answers[:]), answers[:], noise_answer[:], exchange(noise_answer[:]), modify(noise_answer[:])]
         random.shuffle(question_key)
         for q_i, q in enumerate(question_key):
             question=question+f'{q_i+1}. {q}\n'
         question = question +'Please provide your answer as a single number (1, 2, 3, 4 ...) without any explanation.'
         results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
                         'instruction': '',  "input": [question], "answers": [[question_key.index(answers)+1, f'{answers}']]})
+        
+        # if test_type == 'Acquisition':
+        #     question = "On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the number of ★, for example: {\"little_penguin\": [x, x, x,...]}. The summation is not required, and the numbers in [x, x, x,...] represent the counted number of ★ by the little penguin."
+        # if test_type == 'Reasoning':
+        #     question = "On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the correct number of ★, for example: {\"little_penguin\": [x, x, x,...]}. The summation is not required, and the numbers in [x, x, x,...] represent the correctly counted number of ★ by the little penguin."
+        # question = question +'Only output the results in JSON format without any explanation.'
+        # results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
+        #                 'instruction': '',  "input": [question], "answers": [f'{answers}']})
     return results
 
 def generate_dataset_passage_count(length=8, rows=100):
@@ -423,14 +437,14 @@ func = {
         # 'multi_doc_qa': generate_dataset_multi_doc_qa,
         # 'single_doc_sum':generate_dataset_single_doc_sum,
         # 'multi_doc_sum':generate_dataset_multi_doc_sum,
-        # 'kv_retrieval':generate_dataset_kv_retrieval,
+        'kv_retrieval':generate_dataset_kv_retrieval,
         # 'passage_retrieval':generate_dataset_passage_retrieval,
         # 'passage_count':generate_dataset_passage_count,
-        'counting_stars':generate_dataset_counting_stars,
+        # 'counting_stars':generate_dataset_counting_stars,
 }
 rows = 200
 out_path = '/users/PDS0352/wyang107/project/LCEG/longbench_pro/data'
-for length in tqdm([64, 126]): #8, 16, 31,
+for length in tqdm([8, 16, 31, 64, 126]): #
     for key in func.keys():
         result = func[key](length, rows)
         with open(os.path.join(out_path, f'{key}_{length}.jsonl'), "w", encoding="utf-8") as f:

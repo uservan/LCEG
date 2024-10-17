@@ -60,6 +60,14 @@ def acc_score(prediction, ground_truth, **kwargs):
     if str(number) == str(ground_truth): return 1
     else: return 0
 
+def kv_retrieval_score(prediction, ground_truth, **kwargs):
+    pattern = r'\b[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}\b'
+    match = re.search(pattern, prediction)
+    if match: number = match.group()
+    else: number=''
+    if str(number) == str(ground_truth): return 1
+    else: return 0
+
 def retrieval_score(prediction, ground_truth, **kwargs):
     pattern = r'Paragraph (\d+)'
     matches = re.findall(pattern, ground_truth)

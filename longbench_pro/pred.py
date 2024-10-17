@@ -18,11 +18,11 @@ def set_global_path(path):
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default='llama-3.2-1B-Instruct')
+    parser.add_argument('--model', type=str, default='llama-3.2-3B-Instruct')
     parser.add_argument('--dataset_name', type=str, default="samsum")
     return parser.parse_args(args)
 
-def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds=[] ,out_path=''):
+def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds=[] ,out_path='',qa_filter=False,):
     data = data['test']
     k = 0
     for json_obj in tqdm(data):
@@ -36,49 +36,46 @@ def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset
                     if len(pred['answers']) != 0:
                         continue
                 else: k = k+1
+                def inner_pred(obj, prompt_format):
+                    prompt = prompt_format.format(**obj)
+                    # truncate to fit max_length (we suggest truncate in the middle, since the left and right side may contain crucial instructions)
+                    tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt").input_ids[0]
+                    if "chatglm3" in model_name:
+                        tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt", add_special_tokens=False).input_ids[0]
+                    if len(tokenized_prompt) > max_length:
+                        half = int(max_length/2)
+                        prompt = tokenizer.decode(tokenized_prompt[:half], skip_special_tokens=True)+tokenizer.decode(tokenized_prompt[-half:], skip_special_tokens=True)
+                    input = tokenizer(prompt, truncation=False, return_tensors="pt").to(device)
+                    context_length = input.input_ids.shape[-1]
+                    kwargs = {}
+                    kwargs['use_cache'] = True
+                    if model_name == "llama2-7b-hf-slimpajama-landmark" or model_name == "llama2-7b-hf-slimpajama-landmark-test4k":  
+                        kwargs['offload_cache_to_cpu'] = False
+                        kwargs['use_flash'] = False
+                        kwargs['cache_top_k'] = 5
+                    output = model.generate(
+                        **input,
+                        max_new_tokens=max_gen,
+                        num_beams=1,
+                        do_sample=False,
+                        temperature=1.0,
+                        **kwargs,
+                    )[0]
+                    pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
+                    return pred
                 obj = {'context':json_obj['new_context'], 'input':inp, "length":json_obj["length"],
                         'answers':json_obj['answers'][i], 'instruction':json_obj['instruction']}
-                prompt = prompt_format.format(**obj)
-                # truncate to fit max_length (we suggest truncate in the middle, since the left and right side may contain crucial instructions)
-                tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt").input_ids[0]
-                if "chatglm3" in model_name:
-                    tokenized_prompt = tokenizer(prompt, truncation=False, return_tensors="pt", add_special_tokens=False).input_ids[0]
-                if len(tokenized_prompt) > max_length:
-                    half = int(max_length/2)
-                    prompt = tokenizer.decode(tokenized_prompt[:half], skip_special_tokens=True)+tokenizer.decode(tokenized_prompt[-half:], skip_special_tokens=True)
-
-                input = tokenizer(prompt, truncation=False, return_tensors="pt").to(device)
-                context_length = input.input_ids.shape[-1]
-                kwargs = {}
-                kwargs['use_cache'] = True
-                if model_name == "llama2-7b-hf-slimpajama-landmark" or model_name == "llama2-7b-hf-slimpajama-landmark-test4k":  
-                    kwargs['offload_cache_to_cpu'] = False
-                    kwargs['use_flash'] = False
-                    kwargs['cache_top_k'] = 5
-                if dataset == "samsum": # prevent illegal output on samsum (model endlessly repeat "\nDialogue"), might be a prompting issue
-                    output = model.generate(
-                        **input,
-                        max_new_tokens=max_gen,
-                        num_beams=1,
-                        do_sample=False,
-                        temperature=1.0,
-                        min_length=context_length+1,
-                        eos_token_id=[tokenizer.eos_token_id, tokenizer.encode("\n", add_special_tokens=False)[-1]],
-                        **kwargs,
-                    )[0]
-                else:
-                    output = model.generate(
-                        **input,
-                        max_new_tokens=max_gen,
-                        num_beams=1,
-                        do_sample=False,
-                        temperature=1.0,
-                        **kwargs,
-                    )[0]
-                pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
-                # preds.append({"pred": pred, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": context_length})
-                if flag: preds[k-1] = {"pred": pred, "answers": obj["answers"], "length": context_length}
-                else: preds.append({"pred": pred, "answers": obj["answers"], "length": context_length})
+                pred = inner_pred(obj, prompt_format[0])
+                old_context_pred, null_context_pred = '', ''
+                if qa_filter and len(prompt_format)>1:
+                    obj = {'context':json_obj['old_context'], 'input':inp, "length":json_obj["length"],
+                        'answers':json_obj['answers'][i], 'instruction':json_obj['instruction']}
+                    old_context_pred = inner_pred(obj, prompt_format[1])
+                    obj = {'context':'\nThere are no passages.\n', 'input':inp, "length":json_obj["length"],
+                        'answers':json_obj['answers'][i], 'instruction':json_obj['instruction']}
+                    null_context_pred = inner_pred(obj, prompt_format[1])
+                if flag: preds[k-1] = {"pred": pred, "answers": obj["answers"], "length": context_length, 'old_pred':old_context_pred, 'null_pred':null_context_pred}
+                else: preds.append({"pred": pred, "answers": obj["answers"], "length": context_length, 'old_pred':old_context_pred, 'null_pred':null_context_pred})
         except Exception as e:
             print(f"Exception occurred: {e}")
             if flag: preds[k-1] = {"answers":'', "length": json_obj["length"]}
@@ -301,8 +298,7 @@ if __name__ == '__main__':
     dataset2prompt = json.load(open(set_global_path("./config/dataset2prompt.json"), "r"))
     dataset2maxlen = json.load(open(set_global_path("./config/dataset2maxlen.json"), "r"))
     # predict on each dataset
-    if not os.path.exists(set_global_path("pred/")):
-        os.makedirs(set_global_path("pred/"))
+    if not os.path.exists(set_global_path("pred/")): os.makedirs(set_global_path("pred/"))
     dataset_path = set_global_path("data")
     dataset = args.dataset_name
     file_names = [p.split('.')[0] for p in os.listdir(dataset_path)]
@@ -321,7 +317,8 @@ if __name__ == '__main__':
             os.makedirs(set_global_path(f"pred/{model_name}"))
         out_path = set_global_path(f"pred/{model_name}/{dataset}.jsonl")
         key = '_'.join(dataset.split('_')[:-1])
-        prompt_format = dataset2prompt[key]
+        if 'qa' in key: prompt_format = [dataset2prompt[key], dataset2prompt['qa_old']]
+        else: prompt_format = [dataset2prompt[key]]
         max_gen = dataset2maxlen[key]
         preds=[]
         if os.path.exists(out_path):
@@ -329,5 +326,5 @@ if __name__ == '__main__':
                 for line in f:
                     l = json.loads(line)
                     preds.append(l)
-        preds = get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds, out_path)
+        preds = get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset, device, model_name, preds, out_path, True)
         save_preds(out_path, preds)
