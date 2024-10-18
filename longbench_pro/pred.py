@@ -68,9 +68,9 @@ def get_pred(model, tokenizer, data, max_length, max_gen, prompt_format, dataset
                 pred = inner_pred(obj, prompt_format[0])
                 old_context_pred, null_context_pred = '', ''
                 if qa_filter and len(prompt_format)>1:
-                    obj = {'context':json_obj['old_context'], 'input':inp, "length":json_obj["length"],
-                        'answers':json_obj['answers'][i], 'instruction':json_obj['instruction']}
-                    old_context_pred = inner_pred(obj, prompt_format[1])
+                    # obj = {'context':json_obj['old_context'], 'input':inp, "length":json_obj["length"],
+                    #     'answers':json_obj['answers'][i], 'instruction':json_obj['instruction']}
+                    # old_context_pred = inner_pred(obj, prompt_format[1])
                     obj = {'context':'\nThere are no passages.\n', 'input':inp, "length":json_obj["length"],
                         'answers':json_obj['answers'][i], 'instruction':json_obj['instruction']}
                     null_context_pred = inner_pred(obj, prompt_format[1])
@@ -299,7 +299,7 @@ if __name__ == '__main__':
     dataset2maxlen = json.load(open(set_global_path("./config/dataset2maxlen.json"), "r"))
     # predict on each dataset
     if not os.path.exists(set_global_path("pred/")): os.makedirs(set_global_path("pred/"))
-    dataset_path = set_global_path("data2")
+    dataset_path = set_global_path("data")
     dataset = args.dataset_name
     file_names = [p.split('.')[0] for p in os.listdir(dataset_path)]
     for dataset in file_names:
