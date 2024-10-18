@@ -280,8 +280,8 @@ def generate_dataset_kv_retrieval(length=8, rows=100, kv_num=3):
         #                            ,"answers":[[question_key.index(keys[4])+1,keys[4]]]})
         results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
                         'instruction': '', 
-                         "input": [f'Now, the key is {keys[0]} and what is the value of this key\'s value?']
-                                   ,"answers":[keys[2]]})
+                         "input": [f'Now, what is the value of {keys[0]} ?']
+                                   ,"answers":[keys[1]]})
     return results
 
 def generate_dataset_counting_stars(length=8, rows=100, test_type='Acquisition'):
