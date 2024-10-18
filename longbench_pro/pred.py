@@ -299,7 +299,7 @@ if __name__ == '__main__':
     dataset2maxlen = json.load(open(set_global_path("./config/dataset2maxlen.json"), "r"))
     # predict on each dataset
     if not os.path.exists(set_global_path("pred/")): os.makedirs(set_global_path("pred/"))
-    dataset_path = set_global_path("data")
+    dataset_path = set_global_path("data2")
     dataset = args.dataset_name
     file_names = [p.split('.')[0] for p in os.listdir(dataset_path)]
     for dataset in file_names:

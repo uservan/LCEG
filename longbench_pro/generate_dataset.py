@@ -236,7 +236,7 @@ def generate_dataset_multi_doc_sum(length=8, rows=100):
                         "length": len(tokenizer.encode(context))})
     return results
 
-def generate_dataset_kv_retrieval(length=8, rows=100, kv_num=2):
+def generate_dataset_kv_retrieval(length=8, rows=100, kv_num=3):
     length = length *(2**10)
     # load raw datasets
     dataset_list, new_datasets=[], []
@@ -265,12 +265,11 @@ def generate_dataset_kv_retrieval(length=8, rows=100, kv_num=2):
         context, keys, position = '', [str(uuid.uuid4()) for _ in range(4)], random.sample(range(len(choices)), kv_num)
         key_value = dict()
         for i, p in enumerate(position):
-            key_value[p] = f'\n\nThe value of {keys[i]} is {keys[i+1]}.'
+            key_value[p] = f'\n\nThe value of {keys[i]} is {keys[i+1]}.\n\n'
         for i, c in enumerate(choices):
-            context = context + f'Passage {i+1}:\n' + dataset_list[c[1]]['context']
             if i in key_value.keys():
                 context = context + key_value[i]
-            context = context + '\n\n'
+            context = context + f'Passage {i+1}:\n' + dataset_list[c[1]]['context'] + '\n'
         # question_key = keys[:4]
         # random.shuffle(question_key)
         # results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
@@ -281,11 +280,11 @@ def generate_dataset_kv_retrieval(length=8, rows=100, kv_num=2):
         #                            ,"answers":[[question_key.index(keys[4])+1,keys[4]]]})
         results.append({ "length": len(tokenizer.encode(context)),  "new_context": context, 'old_context': '' , 
                         'instruction': '', 
-                         "input": [f'Now, what is the value of {keys[1]} ?']
+                         "input": [f'Now, the key is {keys[0]} and what is the value of this key\'s value?']
                                    ,"answers":[keys[2]]})
     return results
 
-def generate_dataset_counting_stars(length=8, rows=100, test_type='Reasoning'):
+def generate_dataset_counting_stars(length=8, rows=100, test_type='Acquisition'):
     # single-doc-qa
     length = length *(2**10)
     # load raw datasets
@@ -323,7 +322,6 @@ def generate_dataset_counting_stars(length=8, rows=100, test_type='Reasoning'):
         context, whole_stars = '', 0
         answers, noise_answer, positions = [],[],random.sample(range(len(choices)), 4)
         for i, c in enumerate(choices):
-            context = context + '\n' + dataset_list[c[1]]['context']
             if i in positions:
                 a_stars, r_stars = random.randint(1, 100), random.randint(1, 100)
                 if test_type == 'Acquisition':
@@ -334,13 +332,17 @@ def generate_dataset_counting_stars(length=8, rows=100, test_type='Reasoning'):
                 context = context + single_star
                 answers.append(a_stars)
                 noise_answer.append(r_stars)
+            context = context + '\n' + dataset_list[c[1]]['context']
+        question_key = []
         if test_type == 'Acquisition':
             question = f"On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the number of ★, for example: [x, x, x,...]. The summation is not required, and the numbers in [x, x, x,...]. represent the counted number of ★ by the little penguin.\n"
+            question_key = [exchange(answers[:]), modify(answers[:]), answers[:], exchange(answers[:])]
         if test_type == 'Reasoning':
             question = f"On this moonlit and misty night, the little penguin is looking up at the sky and concentrating on counting ★. Please help the little penguin collect the correct number of ★, for example: [x, x, x,...]. The summation is not required, and the numbers in [x, x, x,...]. represent the correctly counted number of ★ by the little penguin.\n"
+            question_key = [exchange(answers[:]), modify(answers[:]), answers[:], noise_answer[:], exchange(noise_answer[:]), modify(noise_answer[:])]
         question=question+'Question: Which of the following is the correct number of ★ the little penguin collect?\n'
-        question_key = [exchange(answers[:]), modify(answers[:]), answers[:], noise_answer[:], exchange(noise_answer[:]), modify(noise_answer[:])]
         random.shuffle(question_key)
+        question_key = ['unanswerable']+question_key
         for q_i, q in enumerate(question_key):
             question=question+f'{q_i+1}. {q}\n'
         question = question +'Please provide your answer as a single number (1, 2, 3, 4 ...) without any explanation.'
